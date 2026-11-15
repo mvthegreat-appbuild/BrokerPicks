@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Broker Picks</title>
+<style>
+body{margin:0;font-family:sans-serif;background:#0f172a;color:#e2e8f0}
+header{padding:14px;background:#1e293b;position:sticky;top:0}
+h1{margin:0;font-size:20px}
+#upd{font-size:12px;color:#94a3b8;margin-top:4px}
+#chips{display:flex;gap:6px;overflow-x:auto;padding:10px}
+.chip{padding:6px 12px;border-radius:16px;background:#334155;font-size:13px;white-space:nowrap}
+.chip.on{background:#22c55e;color:#000}
+.card{margin:8px 10px;padding:12px;background:#1e293b;border-radius:10px}
+.top{display:flex;justify-content:space-between;font-size:12px;color:#94a3b8}
+.t{margin:6px 0;font-size:15px}
+.tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:12px;margin-right:6px}
+.BUY{background:#166534}.SELL{background:#991b1b}.tg{background:#334155}
+a{color:#38bdf8;font-size:13px}
+button{margin:10px;padding:8px 14px;border:0;border-radius:8px;background:#38bdf8}
+.foot{padding:14px;font-size:11px;color:#94a3b8}
+</style></head><body>
+<header><h1>📈 Weekly Broker Picks</h1><div id="upd">Loading…</div></header>
+<div id="chips"></div>
+<div id="list"></div>
+<button onclick="load()">Refresh</button>
+<div class="foot">Headlines collected from news sources about broker views. Not investment advice. Always verify with the original report.</div>
+<script>
+const URL="https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/picks.json";
+let data=null,sel="All";
+function render(){
+  const brokers=["All",...new Set(data.items.map(i=>i.broker))];
+  document.getElementById("chips").innerHTML=brokers.map(b=>
+    `<div class="chip ${b==sel?"on":""}" onclick="sel='${b}';render()">${b}</div>`).join("");
+  document.getElementById("upd").textContent="Updated: "+data.updated;
+  const L=data.items.filter(i=>sel=="All"||i.broker==sel);
+  document.getElementById("list").innerHTML=L.length?L.map(i=>`
+   <div class="card"><div class="top"><span>${i.broker}</span><span>${i.date}</span></div>
+   <div class="t">${i.title}</div>
+   ${i.call?`<span class="tag ${i.call}">${i.call}</span>`:""}
+   ${i.target?`<span class="tag tg">Target ₹${i.target}</span>`:""}
+   <a href="${i.link}" target="_blank">${i.source||"Source"} ↗</a></div>`).join("")
+   :"<div class='card'>No picks found.</div>";
+}
+async function load(){
+  try{
+    const r=await fetch(URL+"?t="+Date.now());
+    data=await r.json();
+    localStorage.setItem("picks",JSON.stringify(data));
+  }catch(e){
+    const c=localStorage.getItem("picks");
+    if(c)data=JSON.parse(c);
+    else{document.getElementById("upd").textContent="No internet";return}
+  }
+  render();
+}
+load();
+</script></body></html>
