@@ -155,8 +155,10 @@ padding:10px;z-index:5
  <div class="nav" data-nav="brokers"><span>♧</span>Brokers</div>
 </nav>
 
-<script>
-const DATA_URL="https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/picks.json";
+<script>const DATA_URL="https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/picks.json";
+const NSE_URL="https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/nse_prices.json";
+
+let prices=null;
 
 let data=null;
 let tab="common";
