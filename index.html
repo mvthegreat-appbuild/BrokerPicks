@@ -245,8 +245,9 @@ function pool(){
 
 function priceCard(symbol,targets){
  const m=manual()[symbol]||{};
+ const nse=getNsePrice(symbol);
 
- const cmp=m.cmp||"";
+ const cmp=nse ? nse.cmp : (m.cmp||"");
  const target=m.target||targets[0]||"";
  const sl=m.sl||"";
  const target2=m.target2||targets[1]||"";
@@ -256,7 +257,7 @@ function priceCard(symbol,targets){
 
  return `
  <div class="prices">
-  <div class="price cmp"><label>CMP · Manual</label><strong>${cash(cmp)}</strong></div>
+  <div class="price cmp"><label>${nse ? "CMP · NSE" : "CMP · Manual"}</label><strong>${cash(cmp)}</strong></div>
   <div class="price target"><label>Target 1</label><strong>${cash(target)}</strong></div>
   <div class="price sl"><label>Stop Loss</label><strong>${cash(sl)}</strong></div>
  </div>
