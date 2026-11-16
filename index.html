@@ -4,51 +4,107 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Broker Picks</title>
 <style>
+*{box-sizing:border-box}
 body{margin:0;font-family:sans-serif;background:#0f172a;color:#e2e8f0}
-header{padding:14px;background:#1e293b;position:sticky;top:0}
-h1{margin:0;font-size:20px}
-#upd{font-size:12px;color:#94a3b8;margin-top:4px}
-#chips{display:flex;gap:6px;overflow-x:auto;padding:10px}
-.chip{padding:6px 12px;border-radius:16px;background:#334155;font-size:13px;white-space:nowrap}
-.chip.on{background:#22c55e;color:#000}
-.card{margin:8px 10px;padding:12px;background:#1e293b;border-radius:10px}
+header{padding:12px 14px 6px;background:#1e293b}
+h1{margin:0;font-size:19px}
+#upd{font-size:12px;color:#94a3b8;margin-top:3px}
+#tabs{display:flex;overflow-x:auto;background:#1e293b;position:sticky;top:0;border-bottom:1px solid #334155}
+.tab{padding:11px 14px;font-size:14px;white-space:nowrap;color:#94a3b8;border-bottom:3px solid transparent}
+.tab.on{color:#22c55e;border-bottom-color:#22c55e;font-weight:bold}
+.tab small{opacity:.7}
+#sub{display:flex;gap:8px;padding:10px}
+.pill{padding:6px 12px;border-radius:16px;background:#334155;font-size:13px}
+.pill.on{background:#22c55e;color:#000}
+.card{display:block;margin:8px 10px;padding:12px;background:#1e293b;border-radius:10px}
+.card>.it:first-child{border:0;margin:0;padding:0}
+summary{list-style:none}
+summary::-webkit-details-marker{display:none}
 .top{display:flex;justify-content:space-between;font-size:12px;color:#94a3b8}
 .t{margin:6px 0;font-size:15px}
-.tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:12px;margin-right:6px}
+.tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:12px;margin:2px 4px 2px 0}
 .BUY{background:#166534}.SELL{background:#991b1b}.tg{background:#334155}
+.stk{background:#1d4ed8}
+.sub{font-size:12px;color:#94a3b8;margin-top:6px}
+.it{border-top:1px solid #334155;margin-top:10px;padding-top:8px}
 a{color:#38bdf8;font-size:13px}
 button{margin:10px;padding:8px 14px;border:0;border-radius:8px;background:#38bdf8}
 .foot{padding:14px;font-size:11px;color:#94a3b8}
 </style></head><body>
 <header><h1>📈 Weekly Broker Picks</h1><div id="upd">Loading…</div></header>
-<div id="chips"></div>
+<div id="tabs"></div>
+<div id="sub"></div>
 <div id="list"></div>
-<button onclick="load()">Refresh</button>
-<div class="foot">Headlines collected from news sources about broker views. Not investment advice. Always verify with the original report.</div>
+<button id="ref">Refresh</button>
+<div class="foot">Headlines collected from news sources about Indian broker views. Not investment advice. Always verify with the original report.</div>
 <script>
 const URL="https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/picks.json";
-let data=null,sel="All";
-function render(){
-  const brokers=["All",...new Set(data.items.map(i=>i.broker))];
-  document.getElementById("chips").innerHTML=brokers.map(b=>
-    `<div class="chip ${b==sel?"on":""}" onclick="sel='${b}';render()">${b}</div>`).join("");
-  document.getElementById("upd").textContent="Updated: "+data.updated;
-  const L=data.items.filter(i=>sel=="All"||i.broker==sel);
-  document.getElementById("list").innerHTML=L.length?L.map(i=>`
-   <div class="card"><div class="top"><span>${i.broker}</span><span>${i.date}</span></div>
-   <div class="t">${i.title}</div>
-   ${i.call?`<span class="tag ${i.call}">${i.call}</span>`:""}
-   ${i.target?`<span class="tag tg">Target ₹${i.target}</span>`:""}
-   <a href="${i.link}" target="_blank">${i.source||"Source"} ↗</a></div>`).join("")
-   :"<div class='card'>No picks found.</div>";
+let data=null,tab="common",min=2;
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function item(i,showBroker){
+  return `<div class="it"><div class="top"><span>${showBroker?esc(i.broker):esc(i.source)}</span><span>${esc(i.date)}</span></div>
+  <div class="t">${esc(i.title)}</div>
+  ${i.call?`<span class="tag ${i.call}">${i.call}</span>`:""}
+  ${i.target?`<span class="tag tg">Target ₹${esc(i.target)}</span>`:""}
+  ${(i.stocks||[]).map(s=>`<span class="tag stk">${esc(s)}</span>`).join("")}
+  <br><a href="${esc(i.link)}" target="_blank">${esc(i.source||"Source")} ↗</a></div>`;
 }
+function pool(){
+  const m={};
+  data.items.forEach(i=>(i.stocks||[]).forEach(s=>{
+    const o=m[s]=m[s]||{s:s,b:{},items:[]};
+    o.items.push(i);
+    const x=o.b[i.broker]=o.b[i.broker]||{buy:0,sell:0};
+    if(i.call=="BUY")x.buy=1;
+    if(i.call=="SELL")x.sell=1;
+  }));
+  return Object.values(m).map(o=>{
+    const bs=Object.keys(o.b);
+    o.bs=bs;o.n=bs.length;
+    o.buy=bs.filter(k=>o.b[k].buy).length;
+    o.sell=bs.filter(k=>o.b[k].sell).length;
+    return o;
+  }).sort((a,b)=>b.n-a.n||(b.buy-b.sell)-(a.buy-a.sell)||b.items.length-a.items.length);
+}
+function render(){
+  document.getElementById("upd").textContent="Updated: "+data.updated;
+  const cnt={};
+  data.items.forEach(i=>cnt[i.broker]=(cnt[i.broker]||0)+1);
+  const P=pool();
+  const tabs=[["common","⭐ Common",P.filter(o=>o.n>=2).length],...data.brokers.map(b=>[b,b,cnt[b]||0])];
+  document.getElementById("tabs").innerHTML=tabs.map(t=>
+    `<div class="tab ${t[0]==tab?"on":""}" data-t="${esc(t[0])}">${esc(t[1])} <small>${t[2]}</small></div>`).join("");
+  const sub=document.getElementById("sub"),L=document.getElementById("list");
+  if(tab=="common"){
+    sub.innerHTML=`<div class="pill ${min==2?"on":""}" data-m="2">2+ firms</div><div class="pill ${min==1?"on":""}" data-m="1">All stocks</div>`;
+    const R=P.filter(o=>o.n>=min);
+    L.innerHTML=R.length?R.map(o=>`<details class="card"><summary><b style="font-size:16px">${esc(o.s)}</b>
+      <span class="tag tg">${o.n} firm${o.n>1?"s":""}</span>${o.buy?`<span class="tag BUY">BUY ${o.buy}</span>`:""}${o.sell?`<span class="tag SELL">SELL ${o.sell}</span>`:""}
+      <div class="sub">${o.bs.map(b=>esc(b)).join(" • ")}</div></summary>${o.items.map(i=>item(i,true)).join("")}</details>`).join("")
+      :"<div class='card'>No stock suggested by 2+ firms yet. Tap All stocks.</div>";
+  }else{
+    sub.innerHTML="";
+    const R=data.items.filter(i=>i.broker==tab);
+    L.innerHTML=R.length?R.map(i=>`<div class="card">${item(i,false)}</div>`).join("")
+      :"<div class='card'>No picks found this week for this firm.</div>";
+  }
+}
+document.getElementById("tabs").onclick=e=>{
+  const t=e.target.closest(".tab");
+  if(t){tab=t.dataset.t;render();window.scrollTo(0,0)}
+};
+document.getElementById("sub").onclick=e=>{
+  const p=e.target.closest(".pill");
+  if(p){min=+p.dataset.m;render()}
+};
+document.getElementById("ref").onclick=load;
 async function load(){
   try{
     const r=await fetch(URL+"?t="+Date.now());
     data=await r.json();
-    localStorage.setItem("picks",JSON.stringify(data));
+    localStorage.setItem("picks2",JSON.stringify(data));
   }catch(e){
-    const c=localStorage.getItem("picks");
+    const c=localStorage.getItem("picks2");
     if(c)data=JSON.parse(c);
     else{document.getElementById("upd").textContent="No internet";return}
   }
