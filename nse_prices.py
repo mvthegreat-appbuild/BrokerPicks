@@ -9,20 +9,48 @@ from mcp.client.streamable_http import streamable_http_client
 
 NSE_URL = "https://mcp.nseindia.in/cmmkt/mcp"
 
-async def main():
-    source = json.loads(Path("picks.json").read_text(encoding="utf-8"))
+SYMBOL_MAP = {
+    "Bajaj Finance": "BAJFINANCE",
+    "Tata Motors": "TMPV",
+    "ICICI Bank": "ICICIBANK",
+    "NMDC": "NMDC",
+    "Page Industries": "PAGEIND",
+    "Hindustan Aeronautics": "HAL",
+    "Tata Steel": "TATASTEEL",
+    "Siemens": "SIEMENS",
+    "DLF": "DLF",
+    "Vodafone Idea": "IDEA",
+    "Tata Power": "TATAPOWER",
+    "Divi's Laboratories": "DIVISLAB",
+    "Balkrishna": "BALKRISIND",
+    "Voltas": "VOLTAS",
+    "CDSL": "CDSL",
+    "Prestige Estates": "PRESTIGE",
+    "Sun TV": "SUNTV",
+    "Hindalco": "HINDALCO",
+    "Bank of Baroda": "BANKBARODA",
+    "Mahindra & Mahindra": "M&M",
+    "Bosch": "BOSCHLTD",
+    "Fortis Healthcare": "FORTIS",
+    "Mphasis": "MPHASIS"
+}
 
-    symbols = sorted({
-        str(symbol).strip().upper()
+async def main():
+    source = json.loads(
+        Path("picks.json").read_text(encoding="utf-8")
+    )
+
+    names = sorted({
+        str(name).strip()
         for item in source.get("items", [])
-        for symbol in item.get("stocks", [])
-        if symbol
+        for name in item.get("stocks", [])
+        if name
     })
 
     prices = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "source": "NSE CM Market MCP",
-        "delay_note": "NSE data may be delayed; informational use only.",
+        "delay_note": "NSE data may be delayed. Informational use only.",
         "stocks": {}
     }
 
@@ -34,7 +62,9 @@ async def main():
         async with ClientSession(read, write) as session:
             await session.initialize()
 
-            for symbol in symbols:
+            for name in names:
+                symbol = SYMBOL_MAP.get(name, name.upper())
+
                 try:
                     result = await session.call_tool(
                         "cm_get_stock_quote",
@@ -42,21 +72,25 @@ async def main():
                     )
 
                     if result.is_error:
-                        raise RuntimeError("NSE quote request failed")
+                        raise RuntimeError("NSE request failed")
 
                     content = next(
-                        (part.text for part in result.content if hasattr(part, "text")),
+                        (p.text for p in result.content
+                         if hasattr(p, "text")),
                         ""
                     )
 
                     data = json.loads(content)
                     stock = data.get("stock", {})
 
-                    if not stock.get("lastTradedPrice"):
+                    cmp = stock.get("lastTradedPrice")
+
+                    if cmp is None:
                         raise ValueError("CMP unavailable")
 
                     prices["stocks"][symbol] = {
-                        "cmp": stock.get("lastTradedPrice"),
+                        "name": name,
+                        "cmp": cmp,
                         "change": stock.get("change"),
                         "change_percent": stock.get("perChange"),
                         "open": stock.get("open"),
@@ -67,26 +101,31 @@ async def main():
                         "status": "success"
                     }
 
-                    print("SUCCESS:", symbol)
+                    print("SUCCESS:", name, symbol, cmp)
 
                 except Exception as error:
                     prices["stocks"][symbol] = {
+                        "name": name,
                         "status": "unavailable",
                         "error": str(error)
                     }
-                    print("FAILED:", symbol, error)
+                    print("FAILED:", name, symbol, error)
+
+                await asyncio.sleep(1)
 
     Path("nse_prices.json").write_text(
         json.dumps(prices, indent=2),
         encoding="utf-8"
     )
 
+    success = sum(
+        1 for item in prices["stocks"].values()
+        if item["status"] == "success"
+    )
+
     print("Saved nse_prices.json")
-    print("Stocks processed:", len(symbols))
-    print("Quotes received:", sum(
-        1 for x in prices["stocks"].values()
-        if x["status"] == "success"
-    ))
+    print("Total stocks:", len(names))
+    print("Successful quotes:", success)
 
 if __name__ == "__main__":
     asyncio.run(main())
