@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T20:29:56.817362+00:00",
+  "updated": "2026-11-16T21:19:09.579293+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -197,8 +197,15 @@
     },
     "SIEMENS": {
       "name": "Siemens",
-      "status": "unavailable",
-      "error": "Server returned an error response"
+      "cmp": 3580.9,
+      "change": -79.1,
+      "change_percent": -2.16,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 262374,
+      "timestamp": "2026-11-16 16:00:28",
+      "status": "success"
     },
     "SUNTV": {
       "name": "Sun TV",
