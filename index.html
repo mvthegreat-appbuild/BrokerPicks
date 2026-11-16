@@ -176,9 +176,19 @@ function cash(n){
  : "—";
 }
 
-function manual(){
- try{return JSON.parse(localStorage.getItem("brokerpicks_manual")||"{}")}
- catch(e){return {}}
+
+function getNsePrice(symbol){
+ if(!prices || !prices.stocks) return null;
+
+ const key=String(symbol||"").trim().toLowerCase();
+
+ const found=Object.values(prices.stocks).find(x=>
+  String(x.name||"").trim().toLowerCase()===key
+ );
+
+ return found && found.status==="success" ? found : null;
+}
+
 }
 
 function saveManual(symbol,values){
