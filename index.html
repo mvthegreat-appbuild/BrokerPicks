@@ -221,6 +221,17 @@ document.querySelector(".bottom").addEventListener("click",e=>{
  render();window.scrollTo(0,0);
 });
 load();
+
+// Auto-refresh every 5 minutes (only while the app is visible)
+const REFRESH_MS = 5 * 60 * 1000;
+setInterval(() => {
+  if (!document.hidden) load();
+}, REFRESH_MS);
+
+// Refresh right away when you come back to the app
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) load();
+});
 </script>
 </body>
 </html>
