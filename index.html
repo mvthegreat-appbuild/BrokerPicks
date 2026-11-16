@@ -1,114 +1,500 @@
+
 <!DOCTYPE html>
-<html><head>
-<meta charset="utf-8">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Broker Picks</title>
+<meta name="theme-color" content="#080f1e">
+<title>Broker Picks Pro</title>
 <style>
+:root{
+--bg:#080f1e;--panel:#142139;--panel2:#0e192c;
+--line:#293b56;--text:#edf4ff;--muted:#91a2bb;
+--green:#35dda2;--cyan:#55c8f5;--red:#ff7186;
+}
 *{box-sizing:border-box}
-body{margin:0;font-family:sans-serif;background:#0f172a;color:#e2e8f0}
-header{padding:12px 14px 6px;background:#1e293b}
-h1{margin:0;font-size:19px}
-#upd{font-size:12px;color:#94a3b8;margin-top:3px}
-#tabs{display:flex;overflow-x:auto;background:#1e293b;position:sticky;top:0;border-bottom:1px solid #334155}
-.tab{padding:11px 14px;font-size:14px;white-space:nowrap;color:#94a3b8;border-bottom:3px solid transparent}
-.tab.on{color:#22c55e;border-bottom-color:#22c55e;font-weight:bold}
-.tab small{opacity:.7}
-#sub{display:flex;gap:8px;padding:10px}
-.pill{padding:6px 12px;border-radius:16px;background:#334155;font-size:13px}
-.pill.on{background:#22c55e;color:#000}
-.card{display:block;margin:8px 10px;padding:12px;background:#1e293b;border-radius:10px}
-.card>.it:first-child{border:0;margin:0;padding:0}
-summary{list-style:none}
-summary::-webkit-details-marker{display:none}
-.top{display:flex;justify-content:space-between;font-size:12px;color:#94a3b8}
-.t{margin:6px 0;font-size:15px}
-.tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:12px;margin:2px 4px 2px 0}
-.BUY{background:#166534}.SELL{background:#991b1b}.tg{background:#334155}
-.stk{background:#1d4ed8}
-.sub{font-size:12px;color:#94a3b8;margin-top:6px}
-.it{border-top:1px solid #334155;margin-top:10px;padding-top:8px}
-a{color:#38bdf8;font-size:13px}
-button{margin:10px;padding:8px 14px;border:0;border-radius:8px;background:#38bdf8}
-.foot{padding:14px;font-size:11px;color:#94a3b8}
-</style></head><body>
-<header><h1>📈 Weekly Broker Picks</h1><div id="upd">Loading…</div></header>
-<div id="tabs"></div>
-<div id="sub"></div>
-<div id="list"></div>
-<button id="ref">Refresh</button>
-<div class="foot">Headlines collected from news sources about Indian broker views. Not investment advice. Always verify with the original report.</div>
+body{
+margin:0;background:radial-gradient(ellipse at 80% -10%,#173b60,transparent 45%),var(--bg);
+color:var(--text);font-family:system-ui,"Noto Sans Tamil",sans-serif;
+padding-bottom:75px
+}
+header{
+padding:22px 17px;background:linear-gradient(135deg,#142b48,#101a2d);
+border-bottom:1px solid var(--line)
+}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{
+width:44px;height:44px;border-radius:14px;
+display:grid;place-items:center;
+background:linear-gradient(135deg,#29d79b,#25a9e8);
+color:#06231e;font-size:25px;font-weight:900
+}
+h1{font-size:20px;margin:0}
+.subtitle{font-size:10px;color:#a8bad2;letter-spacing:1px;margin-top:4px}
+#upd{font-size:11px;color:var(--muted);margin-top:13px}
+main{max-width:850px;margin:auto;padding:14px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.stat{
+background:var(--panel);border:1px solid var(--line);
+padding:13px 10px;border-radius:14px
+}
+.stat b{display:block;font-size:21px}
+.stat span{font-size:10px;color:var(--muted);text-transform:uppercase}
+input{
+width:100%;background:var(--panel2);color:white;
+border:1px solid var(--line);border-radius:11px;
+padding:12px;margin:14px 0;font-size:14px
+}
+#tabs{display:flex;gap:7px;overflow-x:auto;padding-bottom:12px}
+.tab,.pill{
+white-space:nowrap;border:1px solid var(--line);
+border-radius:20px;padding:9px 13px;
+background:var(--panel);color:#b7c5d8;font-size:12px
+}
+.tab.on,.pill.on{background:#174c43;color:#68f0bd;border-color:#238c70}
+.sectionhead{display:flex;justify-content:space-between;align-items:center;margin:10px 2px}
+.sectionhead h2{font-size:14px}
+.hint{font-size:10px;color:var(--muted)}
+.card{
+background:linear-gradient(150deg,#172740,#101a2b);
+border:1px solid #293d59;border-radius:16px;
+margin:10px 0;padding:14px
+}
+.cardtop{display:flex;justify-content:space-between;gap:8px}
+.symbol{font-size:17px;font-weight:800}
+.brokerline{font-size:11px;color:var(--muted);margin-top:4px}
+.tag{
+display:inline-block;padding:5px 9px;border-radius:7px;
+font-size:10px;font-weight:800;margin:3px
+}
+.BUY{background:#124c3a;color:#65e8b4}
+.SELL{background:#542637;color:#ff91a1}
+.HOLD{background:#57431f;color:#ffd17d}
+.neutral{background:#263851;color:#b8c9df}
+.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:13px}
+.price{background:#0c1729;border:1px solid #263750;padding:10px 7px;border-radius:11px;min-width:0}
+.price label{display:block;font-size:9px;color:var(--muted);margin-bottom:6px}
+.price strong{font-size:15px;overflow-wrap:anywhere}
+.cmp strong{color:white}
+.target strong{color:var(--green)}
+.sl strong{color:var(--red)}
+.metrics{display:flex;gap:13px;flex-wrap:wrap;margin-top:11px;font-size:11px;color:var(--muted)}
+.metrics b{color:white}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.btn{
+border:1px solid #35506e;background:#1b304b;color:#dceaff;
+border-radius:9px;padding:9px 12px;font-size:11px;font-weight:700
+}
+.btn.primary{background:#12624d;border-color:#168565;color:#8af4c9}
+details{margin-top:12px;border-top:1px solid #293b56;padding-top:10px}
+summary{font-size:11px;color:#91cfff;cursor:pointer}
+.detailitem{border-top:1px solid #293b56;padding:11px 0;font-size:12px;line-height:1.5}
+.detailmeta{font-size:10px;color:var(--muted)}
+.detailtitle{margin:6px 0}
+a{color:#70d3ff;text-decoration:none}
+.empty{padding:25px;text-align:center;color:var(--muted);background:var(--panel);border-radius:14px}
+#sub{display:flex;gap:8px;margin:5px 0}
+.foot{max-width:850px;margin:auto;padding:14px;color:#71839c;font-size:10px;line-height:1.6}
+.bottom{
+position:fixed;bottom:0;left:0;right:0;background:#0c1729ee;
+border-top:1px solid #293a52;display:flex;justify-content:space-around;
+padding:10px;z-index:5
+}
+.nav{font-size:11px;color:#91a2bb;text-align:center;padding:4px}
+.nav span{display:block;font-size:18px;margin-bottom:3px}
+.nav.on{color:var(--green)}
+@media(min-width:600px){main{padding:20px}.card{padding:18px}}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="brand">
+  <div class="logo">↗</div>
+  <div>
+   <h1>Broker Picks Pro</h1>
+   <div class="subtitle">INDIAN EQUITY RESEARCH · WEEKLY BROKER VIEWS</div>
+  </div>
+ </div>
+ <div id="upd">Loading broker data...</div>
+</header>
+
+<main>
+ <div class="stats">
+  <div class="stat"><b id="stockCount">—</b><span>Stocks covered</span></div>
+  <div class="stat"><b id="buyCount">—</b><span>Buy calls</span></div>
+  <div class="stat"><b id="brokerCount">—</b><span>Broker houses</span></div>
+ </div>
+
+ <input id="search" placeholder="Search stock or broker...">
+
+ <div id="tabs"></div>
+ <div id="sub"></div>
+
+ <div class="sectionhead">
+  <h2 id="listTitle">Common stock ideas</h2>
+  <span class="hint">Tap for details</span>
+ </div>
+
+ <div id="list"><div class="empty">Loading...</div></div>
+ <div class="actions">
+  <button class="btn primary" id="ref">↻ Refresh data</button>
+ </div>
+</main>
+
+<div class="foot">
+ CMP is manually entered and is not a live market quote.
+ Broker targets are displayed when available in the source.
+ Stop Loss is user-entered, not an assumed broker recommendation.
+ Always verify prices and original reports before trading.
+</div>
+
+<nav class="bottom">
+ <div class="nav on" data-nav="common"><span>⌂</span>Overview</div>
+ <div class="nav" data-nav="all"><span>▤</span>All Stocks</div>
+ <div class="nav" data-nav="brokers"><span>♧</span>Brokers</div>
+</nav>
+
 <script>
-const URL="https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/picks.json";
-let data=null,tab="common",min=2;
-const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-function item(i,showBroker){
-  return `<div class="it"><div class="top"><span>${showBroker?esc(i.broker):esc(i.source)}</span><span>${esc(i.date)}</span></div>
-  <div class="t">${esc(i.title)}</div>
-  ${i.call?`<span class="tag ${i.call}">${i.call}</span>`:""}
-  ${i.target?`<span class="tag tg">Target ₹${esc(i.target)}</span>`:""}
-  ${(i.stocks||[]).map(s=>`<span class="tag stk">${esc(s)}</span>`).join("")}
-  <br><a href="${esc(i.link)}" target="_blank">${esc(i.source||"Source")} ↗</a></div>`;
+const DATA_URL="https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/picks.json";
+
+let data=null;
+let tab="common";
+let min=2;
+let query="";
+
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({
+ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+}[c]));
+
+function cash(n){
+ const x=Number(String(n??"").replace(/,/g,""));
+ return Number.isFinite(x)&&x>0
+ ? "₹"+x.toLocaleString("en-IN",{maximumFractionDigits:2})
+ : "—";
 }
+
+function manual(){
+ try{return JSON.parse(localStorage.getItem("brokerpicks_manual")||"{}")}
+ catch(e){return {}}
+}
+
+function saveManual(symbol,values){
+ const m=manual();
+ m[symbol]=values;
+ localStorage.setItem("brokerpicks_manual",JSON.stringify(m));
+}
+
+function calc(cmp,target,sl){
+ cmp=Number(cmp);target=Number(target);sl=Number(sl);
+
+ if(!(cmp>0))return {up:"—",risk:"—",rr:"—"};
+
+ const up=target>0?(target-cmp)/cmp*100:null;
+ const risk=sl>0?(cmp-sl)/cmp*100:null;
+ const rr=target>cmp&&sl<cmp?(target-cmp)/(cmp-sl):null;
+
+ return {
+  up:up===null?"—":up.toFixed(2)+"%",
+  risk:risk===null?"—":risk.toFixed(2)+"%",
+  rr:rr===null?"—":"1 : "+rr.toFixed(2)
+ };
+}
+
 function pool(){
-  const m={};
-  data.items.forEach(i=>(i.stocks||[]).forEach(s=>{
-    const o=m[s]=m[s]||{s:s,b:{},items:[]};
-    o.items.push(i);
-    const x=o.b[i.broker]=o.b[i.broker]||{buy:0,sell:0};
-    if(i.call=="BUY")x.buy=1;
-    if(i.call=="SELL")x.sell=1;
-  }));
-  return Object.values(m).map(o=>{
-    const bs=Object.keys(o.b);
-    o.bs=bs;o.n=bs.length;
-    o.buy=bs.filter(k=>o.b[k].buy).length;
-    o.sell=bs.filter(k=>o.b[k].sell).length;
-    return o;
-  }).sort((a,b)=>b.n-a.n||(b.buy-b.sell)-(a.buy-a.sell)||b.items.length-a.items.length);
+ const m={};
+
+ (data.items||[]).forEach(i=>{
+  (i.stocks||[]).forEach(s=>{
+   const o=m[s]=m[s]||{s,b:{},items:[]};
+   o.items.push(i);
+
+   const x=o.b[i.broker]=o.b[i.broker]||{buy:0,sell:0};
+
+   if(i.call==="BUY")x.buy=1;
+   if(i.call==="SELL")x.sell=1;
+  });
+ });
+
+ return Object.values(m).map(o=>{
+  o.bs=Object.keys(o.b);
+  o.n=o.bs.length;
+  o.buy=o.bs.filter(k=>o.b[k].buy).length;
+  o.sell=o.bs.filter(k=>o.b[k].sell).length;
+
+  o.targets=[...new Set(
+   o.items.map(i=>Number(String(i.target||"").replace(/,/g,"")))
+   .filter(n=>n>0)
+  )].sort((a,b)=>a-b);
+
+  return o;
+ }).sort((a,b)=>b.n-a.n);
 }
+
+function priceCard(symbol,targets){
+ const m=manual()[symbol]||{};
+
+ const cmp=m.cmp||"";
+ const target=m.target||targets[0]||"";
+ const sl=m.sl||"";
+ const target2=m.target2||targets[1]||"";
+ const target3=m.target3||targets[2]||"";
+
+ const v=calc(cmp,target,sl);
+
+ return `
+ <div class="prices">
+  <div class="price cmp"><label>CMP · Manual</label><strong>${cash(cmp)}</strong></div>
+  <div class="price target"><label>Target 1</label><strong>${cash(target)}</strong></div>
+  <div class="price sl"><label>Stop Loss</label><strong>${cash(sl)}</strong></div>
+ </div>
+
+ <div class="metrics">
+  <span>Upside <b style="color:var(--green)">${v.up}</b></span>
+  <span>Downside <b style="color:var(--red)">${v.risk}</b></span>
+  <span>Risk / Reward <b>${v.rr}</b></span>
+ </div>
+
+ <div class="actions">
+  <button class="btn primary" data-edit="${esc(symbol)}">✎ Enter / Edit Prices</button>
+ </div>
+
+ <details>
+  <summary>Additional targets</summary>
+  <div class="prices">
+   <div class="price target"><label>Target 2</label><strong>${cash(target2)}</strong></div>
+   <div class="price target"><label>Target 3</label><strong>${cash(target3)}</strong></div>
+   <div class="price"><label>Price entry</label><strong style="font-size:11px">Manual</strong></div>
+  </div>
+ </details>`;
+}
+
+function brokerDetails(items){
+ return `
+ <details>
+  <summary>Broker recommendations (${items.length})</summary>
+  ${items.map(i=>`
+   <div class="detailitem">
+    <div class="detailmeta">${esc(i.broker)} · ${esc(i.date||"")} · ${esc(i.source||"")}</div>
+    <div class="detailtitle">${esc(i.title)}</div>
+    ${i.call?`<span class="tag ${esc(i.call)}">${esc(i.call)}</span>`:""}
+    ${i.target?`<span class="tag neutral">Target ${cash(i.target)}</span>`:""}
+    <div style="margin-top:7px">
+     <a href="${esc(i.link||"#")}" target="_blank" rel="noopener">Open original report ↗</a>
+    </div>
+   </div>
+  `).join("")}
+ </details>`;
+}
+
+function stockCard(o){
+ const action=o.buy>o.sell?"BUY":o.sell>o.buy?"SELL":"HOLD";
+
+ return `
+ <article class="card">
+  <div class="cardtop">
+   <div>
+    <div class="symbol">${esc(o.s)}</div>
+    <div class="brokerline">${o.n} broker firms · ${o.items.length} articles</div>
+   </div>
+   <span class="tag ${action}">${action}</span>
+  </div>
+
+  <div style="margin-top:9px">
+   ${o.bs.map(b=>`<span class="tag neutral">${esc(b)}</span>`).join("")}
+  </div>
+
+  ${priceCard(o.s,o.targets)}
+  ${brokerDetails(o.items)}
+ </article>`;
+}
+
+function articleCard(i){
+ const symbol=(i.stocks||[])[0]||"Stock not extracted";
+ const target=Number(String(i.target||"").replace(/,/g,""));
+ const targets=target>0?[target]:[];
+
+ return `
+ <article class="card">
+  <div class="cardtop">
+   <div>
+    <div class="symbol">${esc(symbol)}</div>
+    <div class="brokerline">${esc(i.broker)} · ${esc(i.date||"")}</div>
+   </div>
+   <span class="tag ${esc(i.call||"neutral")}">${esc(i.call||"NEWS")}</span>
+  </div>
+
+  <div class="detailtitle">${esc(i.title)}</div>
+  ${priceCard(symbol,targets)}
+  <a href="${esc(i.link||"#")}" target="_blank" rel="noopener">Read source ↗</a>
+ </article>`;
+}
+
 function render(){
-  document.getElementById("upd").textContent="Updated: "+data.updated;
-  const cnt={};
-  data.items.forEach(i=>cnt[i.broker]=(cnt[i.broker]||0)+1);
-  const P=pool();
-  const tabs=[["common","⭐ Common",P.filter(o=>o.n>=2).length],...data.brokers.map(b=>[b,b,cnt[b]||0])];
-  document.getElementById("tabs").innerHTML=tabs.map(t=>
-    `<div class="tab ${t[0]==tab?"on":""}" data-t="${esc(t[0])}">${esc(t[1])} <small>${t[2]}</small></div>`).join("");
-  const sub=document.getElementById("sub"),L=document.getElementById("list");
-  if(tab=="common"){
-    sub.innerHTML=`<div class="pill ${min==2?"on":""}" data-m="2">2+ firms</div><div class="pill ${min==1?"on":""}" data-m="1">All stocks</div>`;
-    const R=P.filter(o=>o.n>=min);
-    L.innerHTML=R.length?R.map(o=>`<details class="card"><summary><b style="font-size:16px">${esc(o.s)}</b>
-      <span class="tag tg">${o.n} firm${o.n>1?"s":""}</span>${o.buy?`<span class="tag BUY">BUY ${o.buy}</span>`:""}${o.sell?`<span class="tag SELL">SELL ${o.sell}</span>`:""}
-      <div class="sub">${o.bs.map(b=>esc(b)).join(" • ")}</div></summary>${o.items.map(i=>item(i,true)).join("")}</details>`).join("")
-      :"<div class='card'>No stock suggested by 2+ firms yet. Tap All stocks.</div>";
-  }else{
-    sub.innerHTML="";
-    const R=data.items.filter(i=>i.broker==tab);
-    L.innerHTML=R.length?R.map(i=>`<div class="card">${item(i,false)}</div>`).join("")
-      :"<div class='card'>No picks found this week for this firm.</div>";
-  }
+ const P=pool();
+ const cnt={};
+
+ (data.items||[]).forEach(i=>{
+  cnt[i.broker]=(cnt[i.broker]||0)+1;
+ });
+
+ document.getElementById("stockCount").textContent=P.length;
+ document.getElementById("buyCount").textContent=
+ (data.items||[]).filter(i=>i.call==="BUY").length;
+ document.getElementById("brokerCount").textContent=
+ (data.brokers||[]).length;
+
+ document.getElementById("upd").textContent=
+ "Last update: "+(data.updated||"Not specified");
+
+ const tabs=[
+  ["common","⭐ Common",P.filter(o=>o.n>=2).length],
+  ["all","All Stocks",P.length],
+  ...(data.brokers||[]).map(b=>[b,b,cnt[b]||0])
+ ];
+
+ document.getElementById("tabs").innerHTML=tabs.map(t=>`
+  <button class="tab ${t[0]===tab?"on":""}" data-t="${esc(t[0])}">
+   ${esc(t[1])} <small>${t[2]}</small>
+  </button>
+ `).join("");
+
+ const L=document.getElementById("list");
+ const q=query.toLowerCase();
+
+ if(tab==="common"||tab==="all"){
+  document.getElementById("listTitle").textContent=
+  tab==="common"?"Common Stock Ideas":"All Extracted Stocks";
+
+  document.getElementById("sub").innerHTML=
+  tab==="common"?`
+   <button class="pill ${min===2?"on":""}" data-m="2">2+ Firms</button>
+   <button class="pill ${min===1?"on":""}" data-m="1">All Stocks</button>
+  `:"";
+
+  const R=P.filter(o=>
+   (tab==="all"||o.n>=min)&&
+   (!q||(o.s+" "+o.bs.join(" ")+" "+o.items.map(i=>i.title).join(" ")).toLowerCase().includes(q))
+  );
+
+  L.innerHTML=R.length?R.map(stockCard).join(""):
+  '<div class="empty">No matching stocks found.</div>';
+
+ }else{
+  document.getElementById("listTitle").textContent=tab+" Recommendations";
+  document.getElementById("sub").innerHTML="";
+
+  const R=(data.items||[]).filter(i=>
+   i.broker===tab&&
+   (!q||((i.title||"")+" "+(i.stocks||[]).join(" ")).toLowerCase().includes(q))
+  );
+
+  L.innerHTML=R.length?R.map(articleCard).join(""):
+  '<div class="empty">No recommendations found.</div>';
+ }
 }
-document.getElementById("tabs").onclick=e=>{
-  const t=e.target.closest(".tab");
-  if(t){tab=t.dataset.t;render();window.scrollTo(0,0)}
-};
-document.getElementById("sub").onclick=e=>{
-  const p=e.target.closest(".pill");
-  if(p){min=+p.dataset.m;render()}
-};
-document.getElementById("ref").onclick=load;
+
 async function load(){
-  try{
-    const r=await fetch(URL+"?t="+Date.now());
-    data=await r.json();
-    localStorage.setItem("picks2",JSON.stringify(data));
-  }catch(e){
-    const c=localStorage.getItem("picks2");
-    if(c)data=JSON.parse(c);
-    else{document.getElementById("upd").textContent="No internet";return}
-  }
+ const u=document.getElementById("upd");
+
+ try{
+  const r=await fetch(DATA_URL+"?t="+Date.now());
+  if(!r.ok)throw Error("Network error");
+
+  data=await r.json();
+  localStorage.setItem("brokerpicks_cache",JSON.stringify(data));
   render();
+
+ }catch(e){
+  try{
+   data=JSON.parse(localStorage.getItem("brokerpicks_cache")||"null");
+  }catch(x){}
+
+  if(data){
+   render();
+   u.textContent="Showing saved data · Refresh unavailable";
+  }else{
+   u.textContent="Unable to load data. Check internet.";
+   document.getElementById("list").innerHTML=
+   '<div class="empty">Check your internet and tap Refresh.</div>';
+  }
+ }
 }
+
+document.getElementById("tabs").addEventListener("click",e=>{
+ const b=e.target.closest("[data-t]");
+ if(b){
+  tab=b.dataset.t;
+  render();
+  window.scrollTo(0,0);
+ }
+});
+
+document.getElementById("sub").addEventListener("click",e=>{
+ const b=e.target.closest("[data-m]");
+ if(b){
+  min=Number(b.dataset.m);
+  render();
+ }
+});
+
+document.getElementById("search").addEventListener("input",e=>{
+ query=e.target.value;
+ render();
+});
+
+document.getElementById("ref").addEventListener("click",load);
+
+document.getElementById("list").addEventListener("click",e=>{
+ const b=e.target.closest("[data-edit]");
+ if(!b)return;
+
+ const symbol=b.dataset.edit;
+ const old=manual()[symbol]||{};
+
+ const ask=(label,value)=>{
+  const v=prompt(label,value||"");
+  return v===null?null:v.trim();
+ };
+
+ const cmp=ask("Enter CMP for "+symbol+" (₹)",old.cmp);
+ if(cmp===null)return;
+
+ const target=ask("Target 1 (₹)",old.target);
+ if(target===null)return;
+
+ const sl=ask("Stop Loss (₹)",old.sl);
+ if(sl===null)return;
+
+ const target2=ask("Target 2 (₹)",old.target2);
+ if(target2===null)return;
+
+ const target3=ask("Target 3 (₹)",old.target3);
+ if(target3===null)return;
+
+ saveManual(symbol,{cmp,target,sl,target2,target3});
+ render();
+});
+
+document.querySelector(".bottom").addEventListener("click",e=>{
+ const n=e.target.closest("[data-nav]");
+ if(!n)return;
+
+ document.querySelectorAll(".nav").forEach(x=>
+  x.classList.toggle("on",x===n)
+ );
+
+ if(n.dataset.nav==="brokers"){
+  tab=(data.brokers||[])[0]||"common";
+ }else{
+  tab=n.dataset.nav;
+ }
+
+ render();
+ window.scrollTo(0,0);
+});
+
 load();
-</script></body></html>
+</script>
+</body>
+</html>
