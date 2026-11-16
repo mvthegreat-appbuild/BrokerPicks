@@ -1,20 +1,16 @@
 
-name: NSE Market Connection Test
+name: Update NSE Stock Prices
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'nse_test.py'
-      - '.github/workflows/nse-test.yml'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  test-nse:
+  update-prices:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
@@ -30,5 +26,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install mcp
 
-      - name: Test NSE connection
-        run: python -u nse_test.py
+      - name: Fetch NSE prices
+        run: python -u nse_prices.py
+
+      - name: Save prices to GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add nse_prices.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update NSE stock prices"
+            git push
+          else
+            echo "No price changes to save"
+          fi
