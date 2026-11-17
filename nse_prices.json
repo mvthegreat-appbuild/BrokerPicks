@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T12:19:01.757135+00:00",
+  "updated": "2026-11-17T13:33:26.635817+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -99,15 +99,8 @@
     },
     "M&M": {
       "name": "Mahindra & Mahindra",
-      "cmp": 3399.0,
-      "change": 60.0,
-      "change_percent": 1.8,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 2572772,
-      "timestamp": "2026-11-17 16:00:29",
-      "status": "success"
+      "status": "unavailable",
+      "error": "Server returned an error response"
     },
     "NMDC": {
       "name": "NMDC",
