@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T06:00:01.562207+00:00",
+  "updated": "2026-11-17T06:10:42.229701+00:00",
   "sources": [
     "Moneycontrol",
     "Business Today",
@@ -10,9 +10,17 @@
     "CNBC-TV18",
     "ET NOW"
   ],
-  "errors": {
-    "LiveMint": "HTTP Error 429: Too Many Requests"
+  "source_counts": {
+    "Moneycontrol": 0,
+    "Business Today": 0,
+    "Economic Times": 0,
+    "Zee Business": 0,
+    "LiveMint": 0,
+    "NDTV Profit": 0,
+    "CNBC-TV18": 0,
+    "ET NOW": 0
   },
-  "method_note": "Only explicitly swing/positional headlines with a recognised stock name are included. Missing entry, targets and stop loss are not guessed. Headlines are not verified trade advice.",
+  "errors": {},
+  "method_note": "RSS-based media headline collection. Only explicit swing or positional trade keywords and recognised stock names are included. Article descriptions are also checked. Entry prices, stop losses and missing targets are not guessed. Recommendations are not independently verified investment advice.",
   "items": []
 }
