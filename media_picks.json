@@ -1,6 +1,5 @@
-
 {
-  "updated": null,
+  "updated": "2026-11-17T06:00:01.562207+00:00",
   "sources": [
     "Moneycontrol",
     "Business Today",
@@ -11,7 +10,9 @@
     "CNBC-TV18",
     "ET NOW"
   ],
-  "errors": {},
-  "method_note": "Only explicitly swing/positional headlines with a recognised stock name are included. Missing prices are not inferred.",
+  "errors": {
+    "LiveMint": "HTTP Error 429: Too Many Requests"
+  },
+  "method_note": "Only explicitly swing/positional headlines with a recognised stock name are included. Missing entry, targets and stop loss are not guessed. Headlines are not verified trade advice.",
   "items": []
 }
