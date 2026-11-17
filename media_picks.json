@@ -1,0 +1,17 @@
+
+{
+  "updated": null,
+  "sources": [
+    "Moneycontrol",
+    "Business Today",
+    "Economic Times",
+    "Zee Business",
+    "LiveMint",
+    "NDTV Profit",
+    "CNBC-TV18",
+    "ET NOW"
+  ],
+  "errors": {},
+  "method_note": "Only explicitly swing/positional headlines with a recognised stock name are included. Missing prices are not inferred.",
+  "items": []
+}
