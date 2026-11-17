@@ -3,6 +3,7 @@
 """Moneycontrol-only trade recommendation collector."""
 
 import datetime as dt
+import email.utils
 import html
 import json
 import re
@@ -16,9 +17,13 @@ from pathlib import Path
 OUTPUT = Path("media_picks.json")
 SOURCE = "Moneycontrol"
 DOMAIN = "moneycontrol.com"
+MAX_ARTICLE_AGE_DAYS = 10
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 Chrome/120 Safari/537.36"
+    )
 }
 
 SEARCHES = [
@@ -122,13 +127,18 @@ TRADE_PATTERNS = [
     r"\bshort[- ]term\s+(?:trading\s+)?(?:ideas?|trades?|calls?|picks?)\b",
 ]
 
+
 def fetch(url, attempts=3):
     error = None
     for attempt in range(attempts):
         try:
-            req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, timeout=25) as response:
-                return response.read(), response.geturl(), response.headers.get_content_charset() or "utf-8"
+            request = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(request, timeout=25) as response:
+                return (
+                    response.read(),
+                    response.geturl(),
+                    response.headers.get_content_charset() or "utf-8",
+                )
         except Exception as exc:
             error = exc
             time.sleep(2 * (attempt + 1))
@@ -184,22 +194,29 @@ def meta_description(raw):
         r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:name|property)=["\'](?:description|og:description)["\']',
     ]
     for pattern in patterns:
-        m = re.search(pattern, raw, re.I)
-        if m:
-            return html.unescape(m.group(1))
+        match = re.search(pattern, raw, re.I)
+        if match:
+            return html.unescape(match.group(1))
     return ""
 
 
 def rss_items(data):
     root = ET.fromstring(data)
     result = []
+
     for item in root.findall(".//item"):
         title = item.findtext("title", "").strip()
         link = item.findtext("link", "").strip()
         desc = item.findtext("description", "").strip()
         date = item.findtext("pubDate", "").strip()
+
         source_node = item.find("source")
-        source_text = source_node.text.strip() if source_node is not None and source_node.text else ""
+        source_text = (
+            source_node.text.strip()
+            if source_node is not None and source_node.text
+            else ""
+        )
+
         if title and link:
             result.append({
                 "title": html.unescape(title),
@@ -208,15 +225,16 @@ def rss_items(data):
                 "pub_date": date,
                 "feed_source": source_text,
             })
+
     return result
 
 
 def parse_date(value):
     if not value:
         return ""
+
     try:
-        from email.utils import parsedate_to_datetime
-        parsed = parsedate_to_datetime(value)
+        parsed = email.utils.parsedate_to_datetime(value)
         if parsed.tzinfo is None:
             parsed = parsed.replace(tzinfo=dt.timezone.utc)
         return parsed.astimezone(dt.timezone.utc).isoformat()
@@ -224,32 +242,60 @@ def parse_date(value):
         return ""
 
 
+def is_within_last_10_days(value, now):
+    """Accept only valid publication dates in the rolling 10-day window."""
+    published = parse_date(value)
+
+    if not published:
+        return ""
+
+    published_dt = dt.datetime.fromisoformat(published)
+
+    if published_dt > now:
+        return ""
+
+    cutoff = now - dt.timedelta(days=MAX_ARTICLE_AGE_DAYS)
+
+    if published_dt < cutoff:
+        return ""
+
+    return published
+
+
 def has_trade_label(text):
-    return any(re.search(p, text, re.I) for p in TRADE_PATTERNS)
+    return any(re.search(pattern, text, re.I) for pattern in TRADE_PATTERNS)
 
 
 def identify_stocks(text):
     found = {}
+
     for name, symbol, aliases in STOCKS:
         for alias in sorted(aliases, key=len, reverse=True):
-            pattern = r"(?<![A-Za-z0-9])" + re.escape(alias) + r"(?![A-Za-z0-9])"
+            pattern = (
+                r"(?<![A-Za-z0-9])"
+                + re.escape(alias)
+                + r"(?![A-Za-z0-9])"
+            )
             if re.search(pattern, text, re.I):
                 found[symbol] = (name, symbol)
                 break
+
     return list(found.values())
 
 
 def stock_section(text, stock_name, symbol):
-    """Return text belonging to one stock, ending at the next stock heading."""
+    """Return the section for a stock when a labelled CMP heading exists."""
     headings = []
     own = []
 
     for name, other_symbol, aliases in STOCKS:
         for alias in aliases:
             pattern = (
-                r"(?<![A-Za-z0-9])" + re.escape(alias) +
-                r"(?:\s+Futures)?\s*\|\s*CMP\s*:"
+                r"(?<![A-Za-z0-9])"
+                + re.escape(alias)
+                + r"(?:\s+Futures)?\s*\|\s*CMP\s*:"
             )
+
             for match in re.finditer(pattern, text, re.I):
                 headings.append(match.start())
                 if other_symbol == symbol:
@@ -257,30 +303,36 @@ def stock_section(text, stock_name, symbol):
 
     if own:
         start = min(own)
-        later = [p for p in set(headings) if p > start]
+        later = [pos for pos in set(headings) if pos > start]
         end = min(later) if later else min(len(text), start + 8000)
         return text[start:end]
 
-    # Fallback: take a limited area after the first stock mention.
-    aliases = next((a for n, s, a in STOCKS if s == symbol), [stock_name])
+    aliases = next(
+        (aliases for name, sym, aliases in STOCKS if sym == symbol),
+        [stock_name],
+    )
+
     positions = []
     for alias in aliases:
-        positions.extend(m.start() for m in re.finditer(re.escape(alias), text, re.I))
+        positions.extend(
+            match.start()
+            for match in re.finditer(re.escape(alias), text, re.I)
+        )
 
     if not positions:
         return ""
+
     start = min(positions)
     return text[start:min(len(text), start + 3000)]
 
 
 def extract_levels(section):
-    """Extract only explicitly labelled values; never calculate or guess."""
+    """Extract explicitly labelled values only. Never calculate or guess."""
     section = section.replace("₹", "Rs ")
 
     def clean(value):
         return value.replace(",", "").strip() if value else ""
 
-    # Entry / buy range
     entry = ""
     entry_patterns = [
         r"\bentry(?:\s+price|\s+range)?\s*[:\-]?\s*(?:Rs\.?\s*)?([0-9,]+(?:\.\d+)?)\s*(?:to|[-–])\s*(?:Rs\.?\s*)?([0-9,]+(?:\.\d+)?)",
@@ -288,6 +340,7 @@ def extract_levels(section):
         r"\bbuy\s+(?:above|at)\s+(?:Rs\.?\s*)?([0-9,]+(?:\.\d+)?)",
         r"\b(?:long\s+)?positions?\s+in\s+(?:the\s+)?(?:Rs\.?\s*)?([0-9,]+(?:\.\d+)?)\s*(?:to|[-–])\s*(?:Rs\.?\s*)?([0-9,]+(?:\.\d+)?)",
     ]
+
     for pattern in entry_patterns:
         match = re.search(pattern, section, re.I)
         if match:
@@ -296,38 +349,38 @@ def extract_levels(section):
                 entry += "-" + clean(match.group(2))
             break
 
-    # Target can be a single price or a stated range / multiple targets.
     target = ""
     target_patterns = [
         r"\btargets?\s*[:\-]?\s*(?:of\s*)?(?:Rs\.?\s*)?([0-9,]+(?:\.\d+)?(?:\s*(?:,|/|and|to|[-–])\s*(?:Rs\.?\s*)?[0-9,]+(?:\.\d+)?)*)",
         r"\btarget\s+price\s*(?:of|at|:)?\s*(?:Rs\.?\s*)?([0-9,]+(?:\.\d+)?)",
     ]
+
     for pattern in target_patterns:
         match = re.search(pattern, section, re.I)
         if match:
             target = re.sub(r"\s+", " ", match.group(1)).strip()
             break
 
-    # Stop loss
     stop = ""
     stop_patterns = [
         r"\bstop[- ]loss(?:\s+level)?\s*(?:at|of|:|-)?\s*(?:Rs\.?\s*)?([0-9,]+(?:\.\d+)?)",
         r"\bstoploss\s*(?:at|of|:|-)?\s*(?:Rs\.?\s*)?([0-9,]+(?:\.\d+)?)",
         r"\bSL\s*[:\-]?\s*(?:Rs\.?\s*)?([0-9,]+(?:\.\d+)?)",
     ]
+
     for pattern in stop_patterns:
         match = re.search(pattern, section, re.I)
         if match:
             stop = clean(match.group(1))
             break
 
-    # Explicit holding period only
     holding = ""
     holding_patterns = [
         r"\bholding\s+period\s*(?:of|:)?\s*(\d+\s*(?:days?|weeks?|months?))",
         r"\bfor\s+the\s+next\s+(\d+\s*(?:days?|weeks?|months?))",
         r"\b(?:time|investment)\s+horizon\s*(?:of|:)?\s*(\d+\s*(?:days?|weeks?|months?))",
     ]
+
     for pattern in holding_patterns:
         match = re.search(pattern, section, re.I)
         if match:
@@ -353,25 +406,48 @@ def google_rss(query):
 
 
 def collect():
-    updated = dt.datetime.now(dt.timezone.utc).isoformat()
+    now = dt.datetime.now(dt.timezone.utc)
+    updated = now.isoformat()
+
     errors = {}
     articles = {}
+    excluded_old_or_undated = 0
 
     # Discover articles through Google News RSS.
     for query in SEARCHES:
         try:
             data, _, charset = fetch(google_rss(query))
+
             for item in rss_items(data):
+                # Strict publication-date filter: last 10 days only.
+                published_iso = is_within_last_10_days(
+                    item.get("pub_date", ""),
+                    now,
+                )
+
+                if not published_iso:
+                    excluded_old_or_undated += 1
+                    continue
+
+                item["published_at"] = published_iso
+
                 combined = (
-                    item["title"] + " " +
-                    item["description"] + " " +
-                    item["feed_source"]
+                    item["title"]
+                    + " "
+                    + item["description"]
+                    + " "
+                    + item["feed_source"]
                 ).lower()
 
                 if "moneycontrol" not in combined:
                     continue
 
-                key = re.sub(r"\W+", " ", item["title"].lower()).strip()
+                key = re.sub(
+                    r"\W+",
+                    " ",
+                    item["title"].lower(),
+                ).strip()
+
                 articles[key] = item
 
         except Exception as exc:
@@ -385,26 +461,32 @@ def collect():
     for item in articles.values():
         title = item["title"]
         article_url = item["link"]
+
         text = title + "\n" + item["description"]
         final_url = article_url
         article_error = ""
 
-        # Follow Google News redirect and fetch the actual publisher page.
+        # Fetch the full publisher article where accessible.
         try:
-            raw_bytes, final_url, charset = fetch(article_url, attempts=2)
+            raw_bytes, final_url, charset = fetch(
+                article_url,
+                attempts=2,
+            )
             raw = raw_bytes.decode(charset, errors="replace")
+
             text = "\n".join([
                 title,
                 meta_description(raw),
                 item["description"],
                 page_text(raw),
             ])
+
         except Exception as exc:
             article_error = str(exc)[:200]
 
         final_host = urllib.parse.urlparse(final_url).netloc.lower()
 
-        # Do not accidentally include another publisher's page.
+        # Do not include another publisher's page.
         if DOMAIN not in final_host and "moneycontrol" not in title.lower():
             continue
 
@@ -412,13 +494,16 @@ def collect():
             continue
 
         stocks = identify_stocks(text)
+
         if not stocks:
             continue
 
         for stock_name, symbol in stocks:
             unique_key = (symbol, title.lower())
+
             if unique_key in seen:
                 continue
+
             seen.add(unique_key)
 
             section = stock_section(text, stock_name, symbol)
@@ -428,7 +513,11 @@ def collect():
                 trade_type = "Trade Spotlight - verify holding period"
             elif re.search(r"swing\s+trad", text, re.I):
                 trade_type = "Swing"
-            elif re.search(r"positional\s+(?:trade|call|pick)", text, re.I):
+            elif re.search(
+                r"positional\s+(?:trade|call|pick)",
+                text,
+                re.I,
+            ):
                 trade_type = "Positional"
             else:
                 trade_type = "Short-term"
@@ -439,7 +528,7 @@ def collect():
                 "symbol": symbol,
                 "title": title,
                 "link": final_url,
-                "date": parse_date(item["pub_date"]),
+                "date": item["published_at"],
                 "trade_type": trade_type,
                 "entry": levels["entry"],
                 "target": levels["target"],
@@ -450,14 +539,18 @@ def collect():
             if article_error:
                 record["extraction_note"] = (
                     "Article page could not be fetched. "
-                    "Only RSS information was available; verify missing levels."
+                    "Only RSS information was available; "
+                    "verify missing levels."
                 )
             elif not any([
-                levels["entry"], levels["target"],
-                levels["stop_loss"], levels["holding_period"]
+                levels["entry"],
+                levels["target"],
+                levels["stop_loss"],
+                levels["holding_period"],
             ]):
                 record["extraction_note"] = (
-                    "No labelled trade levels were detected in the extracted stock section."
+                    "No labelled trade levels were detected "
+                    "in the extracted stock section."
                 )
 
             output.append(record)
@@ -465,22 +558,31 @@ def collect():
         time.sleep(0.7)
 
     output.sort(
-        key=lambda x: (x.get("date", ""), x.get("stock", "")),
+        key=lambda x: (
+            x.get("date", ""),
+            x.get("stock", ""),
+        ),
         reverse=True,
     )
 
     result = {
         "updated": updated,
         "sources": [SOURCE],
-        "source_counts": {SOURCE: len(output)},
+        "source_counts": {
+            SOURCE: len(output),
+        },
         "errors": errors,
         "method_note": (
-            "Moneycontrol-only pilot. Google News RSS is used for article discovery. "
-            "The collector attempts to open each publisher article and extract "
-            "stock-specific entry, target, stop loss and holding period. "
-            "Missing values remain blank and are never estimated. "
-            "Trade Spotlight is labelled for verification and is not automatically "
-            "confirmed as a swing trade. Publisher access and article formatting "
+            "Moneycontrol-only pilot. Only articles with valid "
+            "publication dates within the rolling last 10 days "
+            "are included. Older, undated and future-dated articles "
+            "are excluded. Google News RSS is used for discovery. "
+            "The collector attempts to open publisher articles and "
+            "extract stock-specific entry, target, stop loss and "
+            "holding period. Missing values remain blank and are "
+            "never estimated. Trade Spotlight is labelled for "
+            "verification and is not automatically confirmed as "
+            "a swing trade. Publisher access and article formatting "
             "may limit extraction."
         ),
         "items": output,
@@ -493,6 +595,10 @@ def collect():
 
     print("Moneycontrol articles discovered:", len(articles))
     print("Moneycontrol stock records:", len(output))
+    print(
+        "Old, undated or future-dated articles excluded:",
+        excluded_old_or_undated,
+    )
     print("Errors:", json.dumps(errors, ensure_ascii=False))
     print("Saved:", OUTPUT)
 
