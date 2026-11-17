@@ -1,12 +1,14 @@
 {
-  "updated": "2026-11-17T06:44:47.781694+00:00",
+  "updated": "2026-11-17T07:02:44.331181+00:00",
   "sources": [
     "Moneycontrol"
   ],
   "source_counts": {
-    "Moneycontrol": 87
+    "Moneycontrol": 68
   },
-  "errors": {},
+  "errors": {
+    "site:moneycontrol.com \"Trade Spotlight\"": "HTTP Error 429: Too Many Requests"
+  },
   "method_note": "Moneycontrol-only pilot. Includes only articles whose headline or article text explicitly identifies Trade Spotlight, swing, positional, or short-term trading. Generic stocks-to-buy/watchlist articles are excluded. Missing entry, target, and stop-loss values are left blank; article-level duplicate stock records are removed. RSS/article coverage depends on publisher and Google News availability.",
   "items": [
     {
@@ -194,39 +196,36 @@
       "stock": "Paytm",
       "symbol": "PAYTM",
       "title": "Trade Spotlight: How should you trade Tanla Platforms, Ather Energy, Eicher Motors, Coforge, DLF, Paytm,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYTlhdzJoa0EzZlpJcWRTcDBneDdjaTRLcjVib1p5YjU1SHQtbWluMDlPWWRLZmtpdktpYkFFSThCYU1NeUhnT2NKQUJBMGQ4SWZJSWJfSHJBZ1VlVkRsX0pPQm9zTHRYWlFpakg4d0RZWWFCRlB1NXFlWjBLdnhmcnBjR3A2S0pWTEc2ZVVvQWk5eFdRTEFXbUJ3cWNZRUZCeml1dERPVnZRcDdfWWEyQzJOWFhDaUQ5MGZQLVliR3dHa2VjY2pDRmJWRGM0THQ0djl5SnB2ZjV3QU92SEVkck9JbEM1QjJ1dFRadW41WHROWlFLV3VtZ0g5Njl5dlRIaXFUNk1FRnlsSmJXZTBLS0hYYWV1Z9IBmwJBVV95cUxOWDJuV3E3WFFNSWpnLWJnN0J0OFI3WmRMQ2Y5SnB4Zk1tRE5mV2g4dmF6aUg4eVhRaVNKTUVHZUxBSHlXNmhLWmNEaDRjX0pUZXhjRVA1WDExTklUeWlLY2htTGd4M3hxWlNIQU1OTEFkUG5HQ2piSms4eUpkN1NzTlFJQ29MZHhGbFlSMGU2aGhOZFcyenNTcjlzdEZHUGtaVUR3aXBfTHg2Rndfa2hTSmpaRWRGZWtkZU1iUVdkM1BoU0s1YnBTZ09YQ240ZUtreWNzbmRBU3lQTWJOSTRjRmI3bzNvWkl1cXRBZnhCbjMwX1oxUnNwN2ptbUNQblYyem5WWEcta0F2YjRZeXh5dFQ1eER5cTRhUjVv?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYTlhdzJoa0EzZlpJcWRTcDBneDdjaTRLcjVib1p5YjU1SHQtbWluMDlPWWRLZmtpdktpYkFFSThCYU1NeUhnT2NKQUJBMGQ4SWZJSWJfSHJBZ1VlVkRsX0pPQm9zTHRYWlFpakg4d0RZWWFCRlB1NXFlWjBLdnhmcnBjR3A2S0pWTEc2ZVVvQWk5eFdRTEFXbUJ3cWNZRUZCeml1dERPVnZRcDdfWWEyQzJOWFhDaUQ5MGZQLVliR3dHa2VjY2pDRmJWRGM0THQ0djl5SnB2ZjV3QU92SEVkck9JbEM1QjJ1dFRadW41WHROWlFLV3VtZ0g5Njl5dlRIaXFUNk1FRnlsSmJXZTBLS0hYYWV1Z9IBmwJBVV95cUxOWDJuV3E3WFFNSWpnLWJnN0J0OFI3WmRMQ2Y5SnB4Zk1tRE5mV2g4dmF6aUg4eVhRaVNKTUVHZUxBSHlXNmhLWmNEaDRjX0pUZXhjRVA1WDExTklUeWlLY2htTGd4M3hxWlNIQU1OTEFkUG5HQ2piSms4eUpkN1NzTlFJQ29MZHhGbFlSMGU2aGhOZFcyenNTcjlzdEZHUGtaVUR3aXBfTHg2Rndfa2hTSmpaRWRGZWtkZU1iUVdkM1BoU0s1YnBTZ09YQ240ZUtreWNzbmRBU3lQTWJOSTRjRmI3bzNvWkl1cXRBZnhCbjMwX1oxUnNwN2ptbUNQblYyem5WWEcta0F2YjRZeXh5dFQ1eER5cTRhUjVv?oc=5&hl=en-US&gl=US&ceid=US:en",
       "date": "2026-11-04T08:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": "",
-      "extraction_note": "Article page could not be fully read; verify missing trade details."
+      "stop_loss": ""
     },
     {
       "source": "Moneycontrol",
       "stock": "Eicher Motors",
       "symbol": "EICHERMOT",
       "title": "Trade Spotlight: How should you trade Tanla Platforms, Ather Energy, Eicher Motors, Coforge, DLF, Paytm,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYTlhdzJoa0EzZlpJcWRTcDBneDdjaTRLcjVib1p5YjU1SHQtbWluMDlPWWRLZmtpdktpYkFFSThCYU1NeUhnT2NKQUJBMGQ4SWZJSWJfSHJBZ1VlVkRsX0pPQm9zTHRYWlFpakg4d0RZWWFCRlB1NXFlWjBLdnhmcnBjR3A2S0pWTEc2ZVVvQWk5eFdRTEFXbUJ3cWNZRUZCeml1dERPVnZRcDdfWWEyQzJOWFhDaUQ5MGZQLVliR3dHa2VjY2pDRmJWRGM0THQ0djl5SnB2ZjV3QU92SEVkck9JbEM1QjJ1dFRadW41WHROWlFLV3VtZ0g5Njl5dlRIaXFUNk1FRnlsSmJXZTBLS0hYYWV1Z9IBmwJBVV95cUxOWDJuV3E3WFFNSWpnLWJnN0J0OFI3WmRMQ2Y5SnB4Zk1tRE5mV2g4dmF6aUg4eVhRaVNKTUVHZUxBSHlXNmhLWmNEaDRjX0pUZXhjRVA1WDExTklUeWlLY2htTGd4M3hxWlNIQU1OTEFkUG5HQ2piSms4eUpkN1NzTlFJQ29MZHhGbFlSMGU2aGhOZFcyenNTcjlzdEZHUGtaVUR3aXBfTHg2Rndfa2hTSmpaRWRGZWtkZU1iUVdkM1BoU0s1YnBTZ09YQ240ZUtreWNzbmRBU3lQTWJOSTRjRmI3bzNvWkl1cXRBZnhCbjMwX1oxUnNwN2ptbUNQblYyem5WWEcta0F2YjRZeXh5dFQ1eER5cTRhUjVv?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYTlhdzJoa0EzZlpJcWRTcDBneDdjaTRLcjVib1p5YjU1SHQtbWluMDlPWWRLZmtpdktpYkFFSThCYU1NeUhnT2NKQUJBMGQ4SWZJSWJfSHJBZ1VlVkRsX0pPQm9zTHRYWlFpakg4d0RZWWFCRlB1NXFlWjBLdnhmcnBjR3A2S0pWTEc2ZVVvQWk5eFdRTEFXbUJ3cWNZRUZCeml1dERPVnZRcDdfWWEyQzJOWFhDaUQ5MGZQLVliR3dHa2VjY2pDRmJWRGM0THQ0djl5SnB2ZjV3QU92SEVkck9JbEM1QjJ1dFRadW41WHROWlFLV3VtZ0g5Njl5dlRIaXFUNk1FRnlsSmJXZTBLS0hYYWV1Z9IBmwJBVV95cUxOWDJuV3E3WFFNSWpnLWJnN0J0OFI3WmRMQ2Y5SnB4Zk1tRE5mV2g4dmF6aUg4eVhRaVNKTUVHZUxBSHlXNmhLWmNEaDRjX0pUZXhjRVA1WDExTklUeWlLY2htTGd4M3hxWlNIQU1OTEFkUG5HQ2piSms4eUpkN1NzTlFJQ29MZHhGbFlSMGU2aGhOZFcyenNTcjlzdEZHUGtaVUR3aXBfTHg2Rndfa2hTSmpaRWRGZWtkZU1iUVdkM1BoU0s1YnBTZ09YQ240ZUtreWNzbmRBU3lQTWJOSTRjRmI3bzNvWkl1cXRBZnhCbjMwX1oxUnNwN2ptbUNQblYyem5WWEcta0F2YjRZeXh5dFQ1eER5cTRhUjVv?oc=5&hl=en-US&gl=US&ceid=US:en",
       "date": "2026-11-04T08:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": "",
-      "extraction_note": "Article page could not be fully read; verify missing trade details."
+      "stop_loss": ""
     },
     {
       "source": "Moneycontrol",
       "stock": "DLF",
       "symbol": "DLF",
       "title": "Trade Spotlight: How should you trade Tanla Platforms, Ather Energy, Eicher Motors, Coforge, DLF, Paytm,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYTlhdzJoa0EzZlpJcWRTcDBneDdjaTRLcjVib1p5YjU1SHQtbWluMDlPWWRLZmtpdktpYkFFSThCYU1NeUhnT2NKQUJBMGQ4SWZJSWJfSHJBZ1VlVkRsX0pPQm9zTHRYWlFpakg4d0RZWWFCRlB1NXFlWjBLdnhmcnBjR3A2S0pWTEc2ZVVvQWk5eFdRTEFXbUJ3cWNZRUZCeml1dERPVnZRcDdfWWEyQzJOWFhDaUQ5MGZQLVliR3dHa2VjY2pDRmJWRGM0THQ0djl5SnB2ZjV3QU92SEVkck9JbEM1QjJ1dFRadW41WHROWlFLV3VtZ0g5Njl5dlRIaXFUNk1FRnlsSmJXZTBLS0hYYWV1Z9IBmwJBVV95cUxOWDJuV3E3WFFNSWpnLWJnN0J0OFI3WmRMQ2Y5SnB4Zk1tRE5mV2g4dmF6aUg4eVhRaVNKTUVHZUxBSHlXNmhLWmNEaDRjX0pUZXhjRVA1WDExTklUeWlLY2htTGd4M3hxWlNIQU1OTEFkUG5HQ2piSms4eUpkN1NzTlFJQ29MZHhGbFlSMGU2aGhOZFcyenNTcjlzdEZHUGtaVUR3aXBfTHg2Rndfa2hTSmpaRWRGZWtkZU1iUVdkM1BoU0s1YnBTZ09YQ240ZUtreWNzbmRBU3lQTWJOSTRjRmI3bzNvWkl1cXRBZnhCbjMwX1oxUnNwN2ptbUNQblYyem5WWEcta0F2YjRZeXh5dFQ1eER5cTRhUjVv?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYTlhdzJoa0EzZlpJcWRTcDBneDdjaTRLcjVib1p5YjU1SHQtbWluMDlPWWRLZmtpdktpYkFFSThCYU1NeUhnT2NKQUJBMGQ4SWZJSWJfSHJBZ1VlVkRsX0pPQm9zTHRYWlFpakg4d0RZWWFCRlB1NXFlWjBLdnhmcnBjR3A2S0pWTEc2ZVVvQWk5eFdRTEFXbUJ3cWNZRUZCeml1dERPVnZRcDdfWWEyQzJOWFhDaUQ5MGZQLVliR3dHa2VjY2pDRmJWRGM0THQ0djl5SnB2ZjV3QU92SEVkck9JbEM1QjJ1dFRadW41WHROWlFLV3VtZ0g5Njl5dlRIaXFUNk1FRnlsSmJXZTBLS0hYYWV1Z9IBmwJBVV95cUxOWDJuV3E3WFFNSWpnLWJnN0J0OFI3WmRMQ2Y5SnB4Zk1tRE5mV2g4dmF6aUg4eVhRaVNKTUVHZUxBSHlXNmhLWmNEaDRjX0pUZXhjRVA1WDExTklUeWlLY2htTGd4M3hxWlNIQU1OTEFkUG5HQ2piSms4eUpkN1NzTlFJQ29MZHhGbFlSMGU2aGhOZFcyenNTcjlzdEZHUGtaVUR3aXBfTHg2Rndfa2hTSmpaRWRGZWtkZU1iUVdkM1BoU0s1YnBTZ09YQ240ZUtreWNzbmRBU3lQTWJOSTRjRmI3bzNvWkl1cXRBZnhCbjMwX1oxUnNwN2ptbUNQblYyem5WWEcta0F2YjRZeXh5dFQ1eER5cTRhUjVv?oc=5&hl=en-US&gl=US&ceid=US:en",
       "date": "2026-11-04T08:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": "",
-      "extraction_note": "Article page could not be fully read; verify missing trade details."
+      "stop_loss": ""
     },
     {
       "source": "Moneycontrol",
@@ -269,64 +268,16 @@
     },
     {
       "source": "Moneycontrol",
-      "stock": "Punjab National Bank",
-      "symbol": "PNB",
-      "title": "Trade Spotlight: How should you trade Balrampur Chini Mills, Canara Bank, PNB Housing Finance, Meesho,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNOGhwQm5DY0lQTXNJcEIwLVVMY29ZMUU4WHlReE1CWDlycmlPZkRYSXpqUEpEQms5ZXdMSWdpM2xZZjFhMWc3T2Fpaml1NnA2NE10Sy1CYmVTLVJwbnhycUktejFuamJXUWp2cFVTWldPVEpmZUdfUFd2Z3BWWEVvRGI2TXI4UDhZMDF0VnlZdHdLMGFRYkJqSElSZXR2bWctc3Q3RWZCdkhoeFEzZllNanNEWDBRUmg4cmFTbEcycVJyTmVZNEhCcHRZTXR0WGlnT0pPMWdWVjVydGVRT1FmQjZuOXhIaVNCRzk1Y1BYMWtKaVh5ci1UMzNoYWwyTjJ0T1Nqd2U5dGdHWmdGeXk4ejZaWFh0d0FrQWRHaWw2UkbSAaYCQVVfeXFMUGE5MXUxcVp0czFVOENFdU13WXB6dGYzaWtEV1pNamVmUEFueGNXVkx0NTZ2emNIQk9IU1ZGNTlYcHdFWi0zd3MyTGlmWE5IclhwMzloc3I5YlJqWXh4alV1ZzNVdGd6Rjgzc3NweWhYbVotckl1WUNFaW01eC1vR0w2eU44OWRIdm0wTlYzTXdKc0dsdUdzenh0aEFnSVlmN09CcW50VEo2NHdiZ3l1YmxETy15ZS1pQlVmVXBVZWJoRzBPTWttTEVSVVo0RFJoaGE3bW9CY3JPcUpheHBQaWNyRW9kY3hxSjNaUmZiQmJ2cW9XWHBuTzFXc1lCdkZHclFONkZSM1FfWFREUWhDbVhnTVp5djRWdHllU3NnNkppc3NGUFd3?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "2026-10-14T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": ""
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Canara Bank",
-      "symbol": "CANBK",
-      "title": "Trade Spotlight: How should you trade Balrampur Chini Mills, Canara Bank, PNB Housing Finance, Meesho,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNOGhwQm5DY0lQTXNJcEIwLVVMY29ZMUU4WHlReE1CWDlycmlPZkRYSXpqUEpEQms5ZXdMSWdpM2xZZjFhMWc3T2Fpaml1NnA2NE10Sy1CYmVTLVJwbnhycUktejFuamJXUWp2cFVTWldPVEpmZUdfUFd2Z3BWWEVvRGI2TXI4UDhZMDF0VnlZdHdLMGFRYkJqSElSZXR2bWctc3Q3RWZCdkhoeFEzZllNanNEWDBRUmg4cmFTbEcycVJyTmVZNEhCcHRZTXR0WGlnT0pPMWdWVjVydGVRT1FmQjZuOXhIaVNCRzk1Y1BYMWtKaVh5ci1UMzNoYWwyTjJ0T1Nqd2U5dGdHWmdGeXk4ejZaWFh0d0FrQWRHaWw2UkbSAaYCQVVfeXFMUGE5MXUxcVp0czFVOENFdU13WXB6dGYzaWtEV1pNamVmUEFueGNXVkx0NTZ2emNIQk9IU1ZGNTlYcHdFWi0zd3MyTGlmWE5IclhwMzloc3I5YlJqWXh4alV1ZzNVdGd6Rjgzc3NweWhYbVotckl1WUNFaW01eC1vR0w2eU44OWRIdm0wTlYzTXdKc0dsdUdzenh0aEFnSVlmN09CcW50VEo2NHdiZ3l1YmxETy15ZS1pQlVmVXBVZWJoRzBPTWttTEVSVVo0RFJoaGE3bW9CY3JPcUpheHBQaWNyRW9kY3hxSjNaUmZiQmJ2cW9XWHBuTzFXc1lCdkZHclFONkZSM1FfWFREUWhDbVhnTVp5djRWdHllU3NnNkppc3NGUFd3?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "2026-10-14T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": ""
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "NTPC",
-      "symbol": "NTPC",
-      "title": "Trade Spotlight: How should you trade City Union Bank, NTPC Green Energy, Cyient, Persistent Systems,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPQ21TeWdSOXgtQ0pvdjFHT1VfMzhDRlMzX3VhUWZEaVJTdVVHVmE5ZnZ5YnJkdGJvc2I0UDdybDlTX2FuRHpHMzhFQWhWdmZabUM3MGRwWkxyRjF5cEczZzc4X0d0OEgxazJIbXRPSzJsNW5IUzRDcVpSd3ZJZ28wa2VQR0RLb0J1MXNMUGQ1cEJqZXhVbEJIb04tNy1iMlVKSndvdFJYdW5HVWxveVZweHpHbFlQbjNaaUZSV3lEdWlpNjZidmdSUnZneE9HYXRERl95ZXhRUWNLNk82OUZGbkd2R2ZOMHhFVkVRNVc3RlYyTWRmWWpadTZSNzRxcEtuTVlReUxabjViRW50OG1hQVlsQV9YSnpyM3lPSdIBogJBVV95cUxPZEhxajZ5MVZwRzJBdGcwei1PVEJmYW4yQW5xdHMxRnkxQ0xoSm5HTVNnMWoyUVRXVTZsZkctcmFQcGF2LWNNOU5jb19WZjdaenN1THBQWnBnYzlzUWNmTU1QTW5vdFR0c3RRTHhDSGNSSUpKTi13VmVlUGFvVnNtTFp0eTcwOUVoZkFMc3ladGRYUUlGYmlIdHNZSEI1dlZhWkwyTGxBaWdxeGdDQnRDWWpqQm1NQndndlFmRE1rUXRJemFLaUhKM3hjb25ZRTJqaU1aTV90ODhoTXRUZWpaRlgwemx1MW1qN3poV2ZFajkyaC1lbzB4VzhVRm54NTlrLTU4WWpYcndNUzQyQW56blhKTmU1ZXNWMVB1SURtVS0yQQ?oc=5",
-      "date": "2026-10-12T07:00:00+00:00",
+      "stock": "Infosys",
+      "symbol": "INFY",
+      "title": "Trade Spotlight: How should you trade Capillary Technologies, Cyient, JSW Infrastructure, Infosys,... - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNTGlXZ0VJa3NFR0ZrVnpjSHRaVHoyMGRoQ2Z3TGlIdE84eV9QQlJiWTcwNnZ4YmExX3pnZWdoYnJZcG1HTVYyTHoya2c2QUdBLVBwaXZ0ejZ2cGYzRlA4aWJLeGpPcHVnWDlPakJfUUg5QzFCZVh0bWltU3c5aFVFNEVXMkVZeU5WYjk5WnhnZmoyNUNwSGhMeHlVazFnallQMUphRTRKVUcyTS1xbm1HSUJqZ2hGVnU1Q05QUkVyS3BnSGVuYWNnbmNyQjBULV9BVXdqY1hDM1pfX3piWHoyYllsMW1LdExDaTFab2hyalRVWWYyMExpRmowLUh3U3pWOHc0Z1R5SU9xSi1hMmVfUklzZ1p4MVVpdURhWDF5U2FQR25zdjRCS9IBrgJBVV95cUxPaXlCalhlLVJRZ0pfUy1PeHJkcncwdkFUdzVRTHdhSHg4N2ZtTVk4d2NDYXdLUEZ2Qi0wdWdLcG5YcHo2SFI0SndnVExxQy1Jb1dTaWJuTnJ4R2VJUS1STzktWmt3MjdVcHpTMzV2X1IzNHVkc0wxel9oMTc3aTB2c1hCQTBoV0RpX3VQUjVlbGd6VUstQnhBeFJEWVV3SkRtUWZBZHV2eTBNNF9VTGdGVXBrVFNDeHRSTmhIdFAtSFpoM0x6djE1U2taSzVpVXZMY1hhMmVrUEUzRXV6MHRxTWVsTzdnSGx2Umk3ZmtwcGg5bTJJVE5oNDVnNUtyT0VJVWl4VXRJM1YzT2ljc2FOYmI3bDJWRnJpSllEaGJmYmwxN2p2OTh0ZEZMQng1UQ?oc=5",
+      "date": "2026-10-05T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
       "stop_loss": "",
       "extraction_note": "Article page could not be fully read; verify missing trade details."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "NTPC",
-      "symbol": "NTPC",
-      "title": "Trade Spotlight: How should you trade Bharti Hexacom, NTPC Green Energy, Lemon Tree Hotels, Hexaware,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPMFhBTVpqMDI1WUN6eUVSZlVsdHRpVWRBdVFsejhjYkFXQnFZMVI2eUZNMW1LSnlqNnJXdkpqdDhDMXpCSndXaGYwTkdkU01meGJPakpBNkNhU01DaTZsamVUX05GQ3Q4dEw1TlpxV1VtYnZRSjktb3VxQ2NqTm1WeE4wRGJZVVY3ZTE1ZFBhd3RtbkYwZHhCWGJOMWo4Ml9nMU9kU1FrNVI2UFRTajhJWEhMMVFQM0JwVlVmV21wUVJQU2NnWFdoeFF4SGNGMHBYOXl4S3hjc3MzVGIwcUx2QkFUMUQwbjQ4Ym43RDU5bHJ0TlRSMmRkSkxVcmlLNjJkS1hsXzlvSmJadmg3ZmtIbl9rZDg3ZmFKdUh4dkVDaXpMMDAtaHfSAasCQVVfeXFMT2FicWdHWVFvcENiMTQtTWo3NGFxTExDTzZ3dS11bVROZE5UOWp4eUFDSDBlcnJWSy1fWjVhRVRlN2h6UTFfbk9KaWNDQ3BhVENMWGk1dGd5dDJ6bUs5M2RoSnplSzVHbkU1UDlBM2s0ZzY3Mm1qT2VyaHdIWHh0Q2R4bU8xaW5IYnVuMXJyMVAwZUgyWHNwcURWZjVDVm96Tnl2cW9VNzRWanV1MGdnWXo0Z0hFd2VSa0lZSUtpYkdJWUstSVhSYlh6ZDBObmFTeGZhTEJhdW1Dd3hyYUV5V2hyQ1ZRamNwWDBXcmFpUlBfYmttel9maGYyQjNVd2lzWHpNUEw2dnZmZWtzRlJyQV9QNTdfUUR4eHR6NUNpRWRROGgzRGxEWjJuS1k?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "2026-10-09T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": ""
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Infosys",
-      "symbol": "INFY",
-      "title": "Trade Spotlight: How should you trade Capillary Technologies, Cyient, JSW Infrastructure, Infosys,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNTGlXZ0VJa3NFR0ZrVnpjSHRaVHoyMGRoQ2Z3TGlIdE84eV9QQlJiWTcwNnZ4YmExX3pnZWdoYnJZcG1HTVYyTHoya2c2QUdBLVBwaXZ0ejZ2cGYzRlA4aWJLeGpPcHVnWDlPakJfUUg5QzFCZVh0bWltU3c5aFVFNEVXMkVZeU5WYjk5WnhnZmoyNUNwSGhMeHlVazFnallQMUphRTRKVUcyTS1xbm1HSUJqZ2hGVnU1Q05QUkVyS3BnSGVuYWNnbmNyQjBULV9BVXdqY1hDM1pfX3piWHoyYllsMW1LdExDaTFab2hyalRVWWYyMExpRmowLUh3U3pWOHc0Z1R5SU9xSi1hMmVfUklzZ1p4MVVpdURhWDF5U2FQR25zdjRCS9IBrgJBVV95cUxPaXlCalhlLVJRZ0pfUy1PeHJkcncwdkFUdzVRTHdhSHg4N2ZtTVk4d2NDYXdLUEZ2Qi0wdWdLcG5YcHo2SFI0SndnVExxQy1Jb1dTaWJuTnJ4R2VJUS1STzktWmt3MjdVcHpTMzV2X1IzNHVkc0wxel9oMTc3aTB2c1hCQTBoV0RpX3VQUjVlbGd6VUstQnhBeFJEWVV3SkRtUWZBZHV2eTBNNF9VTGdGVXBrVFNDeHRSTmhIdFAtSFpoM0x6djE1U2taSzVpVXZMY1hhMmVrUEUzRXV6MHRxTWVsTzdnSGx2Umk3ZmtwcGg5bTJJVE5oNDVnNUtyT0VJVWl4VXRJM1YzT2ljc2FOYmI3bDJWRnJpSllEaGJmYmwxN2p2OTh0ZEZMQng1UQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "2026-10-05T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": ""
     },
     {
       "source": "Moneycontrol",
@@ -366,45 +317,6 @@
     },
     {
       "source": "Moneycontrol",
-      "stock": "ICICI Bank",
-      "symbol": "ICICIBANK",
-      "title": "Trade Spotlight: How should you trade Adani Enterprises, CRISIL, ICICI Bank, Tata Capital, Delhivery, and... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPemtWbVpCWDg1Y05HOXZvcmprekR4SXFoUG9TRDF5X2dzVHRaSURYUkpVS2N4RnNsSlgtd3ktazVWOEV3NUhzUnFYaTNlNG80cDFPX1BNelFnMGNwMkVjTy1majR5VlJFV0RDWTFRaHlQS21LNDg3QzkyMU9OV2g2T0sxSVZyY0JUdG9lUmRPTC1QenBfbG93Q1U3X0wwemVpdU5tT2RMQkIzT0FwSTFncmRBR1pSZG5fcHdwQkFmNzFWdlFqOWJmaWtUYkVuZEtwQUc5WGJOREtUNldZLUZ6RU9GeUota29PYVRJNjJQYVo5TWJPLWM3WFJ6U3NVUHBIRzdiMFBuQVl3aUwzNXlqSkZB0gGXAkFVX3lxTE9oazJHcTdsNER2dVp6LWw2WnZPQmJpcHF0X3V3NC1PZGRPQnZxVC1lV216X3h3d0FqcFBvMWx6SFprN2kwVm9FMHZ6dGgyWmllME9ja0Z5c2U2NFV6STFmVUdINXZ2ODJpYzlDLTFuSWVnTG4xdVBJV01LQ0UxRmxhYUtKN1ZFUVQwdWVZaXFZMXRKNm9vZWk5WXdodDVZVERpT0tBeGQzWE13SG56VnpKMGlsSERXY09qcUgwY0RCeng3LWZPWVFWNnNtMUw2T3ptbmE1OUp3OWlVOWdvZFBYNUdsOENtUFBLRFF4dGI1RU9ldUY1Y1FlUWc5MWJvUXNacGVYM2cxaFVnZUx6ZnUwQnlPcUZFOA?oc=5",
-      "date": "2026-08-28T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "extraction_note": "Article page could not be fully read; verify missing trade details."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Adani Enterprises",
-      "symbol": "ADANIENT",
-      "title": "Trade Spotlight: How should you trade Adani Enterprises, CRISIL, ICICI Bank, Tata Capital, Delhivery, and... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPemtWbVpCWDg1Y05HOXZvcmprekR4SXFoUG9TRDF5X2dzVHRaSURYUkpVS2N4RnNsSlgtd3ktazVWOEV3NUhzUnFYaTNlNG80cDFPX1BNelFnMGNwMkVjTy1majR5VlJFV0RDWTFRaHlQS21LNDg3QzkyMU9OV2g2T0sxSVZyY0JUdG9lUmRPTC1QenBfbG93Q1U3X0wwemVpdU5tT2RMQkIzT0FwSTFncmRBR1pSZG5fcHdwQkFmNzFWdlFqOWJmaWtUYkVuZEtwQUc5WGJOREtUNldZLUZ6RU9GeUota29PYVRJNjJQYVo5TWJPLWM3WFJ6U3NVUHBIRzdiMFBuQVl3aUwzNXlqSkZB0gGXAkFVX3lxTE9oazJHcTdsNER2dVp6LWw2WnZPQmJpcHF0X3V3NC1PZGRPQnZxVC1lV216X3h3d0FqcFBvMWx6SFprN2kwVm9FMHZ6dGgyWmllME9ja0Z5c2U2NFV6STFmVUdINXZ2ODJpYzlDLTFuSWVnTG4xdVBJV01LQ0UxRmxhYUtKN1ZFUVQwdWVZaXFZMXRKNm9vZWk5WXdodDVZVERpT0tBeGQzWE13SG56VnpKMGlsSERXY09qcUgwY0RCeng3LWZPWVFWNnNtMUw2T3ptbmE1OUp3OWlVOWdvZFBYNUdsOENtUFBLRFF4dGI1RU9ldUY1Y1FlUWc5MWJvUXNacGVYM2cxaFVnZUx6ZnUwQnlPcUZFOA?oc=5",
-      "date": "2026-08-28T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "extraction_note": "Article page could not be fully read; verify missing trade details."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Tech Mahindra",
-      "symbol": "TECHM",
-      "title": "Trade Spotlight: How should you trade Tech Mahindra, Chalet Hotels, Lodha Developers, BPCL, Mahindra and... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOZmZsd0J6YmhvaXFJb0hzZ0FHckw4QVV5d3pqdkZTQVloVWx0NGFTS0E4WnRqaFItX0ZPcnROMHlWX0VJVnQwMEtSVUJXTEdIRE0yLWFYakZYeTBZTWJxandsMElBamE3VDJoMDA4dmlVM3FCbUtxcmpXVFh2N3NqTms1WlE1eE1UTUhFbXRRQm12ejVwMFFzbDZqZXZ4WUEybWFmU21OZnVvZE1xOHNVUk1ZQVlqRUU0NEctVnJ3cDVxVVNiX3RUeldkSWlaQkxpUUd5UFRSejRqbWdiSnVoMU1VejJ1WUJ5THFfUGh3QmN6dDhqQnR1cWVVc0NtOU8teXJJdHNPTEZzMDNEQVVCMjNBemJtek9rVjNYNjBrUEh6ck3SAagCQVVfeXFMT01UOUNhQl9TaEwyNWVpRE1tZTJtdWduTDJSd2lMcVlQRldPNEdDdmJfUXpzclV2OVJWcDlvaXhXZ2JleUIzY213YVBFQlNDZ1JhWTh6T3ZPZ1RrX2ZtZm9DS21VT3ExVTlEc3R0d3hfbWloN282TWVMN1QyU0dHZEF2NjJETEctdGtISGYyMXVSbzR5bS1SU25sNnNUb0hVRWVKWUFkd1Bia3BIcl9NRS01RnQ3dXZUajV4Qms2RXFJVUs2aTBNN1IydklkNWt4bHVIX3E0N0x0QVcxUmE3U2RJaURSQVJoZjQzLVdjMVlEZVhQcEdUU2Zma1hGX3g5RXRTczF0TVB2TUNyNFF5NkJpOExJUHBtYWRjUTZCWHh4azJGeGNkV1U?oc=5",
-      "date": "2026-08-26T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "extraction_note": "Article page could not be fully read; verify missing trade details."
-    },
-    {
-      "source": "Moneycontrol",
       "stock": "Havells India",
       "symbol": "HAVELLS",
       "title": "Trade Spotlight: How should you trade Sumitomo Chemical, Eicher Motors, KFin Technologies, Havells India,... - Moneycontrol.com",
@@ -429,77 +341,42 @@
     },
     {
       "source": "Moneycontrol",
-      "stock": "MCX",
-      "symbol": "MCX",
-      "title": "Trade Spotlight: How should you trade JSW Energy, Hindustan Aeronautics, Mphasis, GMDC, MCX India, Mazagon... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPSWgxMXZnMTBBOTBER3RKd1Zvb255ZkxvYVNIUll2aTgzb1NqT29vNmhDNk5LNkdwSEhfOFR6d01uNU5mblRlUUlFRjA4WjZQMXU1VDM5Q1BfNnlvd1UzM0xfX0ZMVmpsYjdueTlLNktVQ21JWXdMOXFKNzQ4LS1JekY0ZkZNTVE0MFk0QmxjeURYeF9QSWFGZjNaY3ptWGZrNmU4MWZtQ0x6U0NzX2k3NW9BZmtQb0tSSDJ5YlZHUjlfSmd2VHl6Q04zeVdnekVRSlkwUFh4andOR0NTTlRxV1VyS0drUG9kQ3Y5REFUSF9Pa0o3a2FpRGZMX1B2LUx4enF0WW9EZ1E0NGFCa0U4Ty0wcUhzMzJkN2tyQXB5Y9IBpAJBVV95cUxQOURpcXhlX3paekhOMW9hVXB0OWZtcGZQVjQ2Z3YwdGpOUXhGM3dCbUxZeWxUaGFodTE1U2d3TTdpTEM1S0FhMEgzbEl3UVdfQ2Q0bS15S25sRTk2TU1xakpObTJrRnJQNDdDSHpGQ2p4aV9yMDdWSThNZlJ5elI5LXVZMGU1MHhLbGxjaDdBYS1pV1FsclRSdE5BYzB1Wjc0WlNhanlrVkM5Zk9XS0dSWUpVZVk3aTBmMG4wbzNPbFVOcndGQ1NCWEd0eEQ3SWkzNVVmcnVFOTljbDF0NTVPMWpGYWtXX0ZYblZRMkhWbUlsdy1mUTlDWTJNTm5FRjMwOXhINUpldXluVEpsSVowT0dNanhTSFdkdzhUcWFYaEJ3aTI5?oc=5",
-      "date": "2026-08-11T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "extraction_note": "Article page could not be fully read; verify missing trade details."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Hindustan Aeronautics",
-      "symbol": "HAL",
-      "title": "Trade Spotlight: How should you trade JSW Energy, Hindustan Aeronautics, Mphasis, GMDC, MCX India, Mazagon... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPSWgxMXZnMTBBOTBER3RKd1Zvb255ZkxvYVNIUll2aTgzb1NqT29vNmhDNk5LNkdwSEhfOFR6d01uNU5mblRlUUlFRjA4WjZQMXU1VDM5Q1BfNnlvd1UzM0xfX0ZMVmpsYjdueTlLNktVQ21JWXdMOXFKNzQ4LS1JekY0ZkZNTVE0MFk0QmxjeURYeF9QSWFGZjNaY3ptWGZrNmU4MWZtQ0x6U0NzX2k3NW9BZmtQb0tSSDJ5YlZHUjlfSmd2VHl6Q04zeVdnekVRSlkwUFh4andOR0NTTlRxV1VyS0drUG9kQ3Y5REFUSF9Pa0o3a2FpRGZMX1B2LUx4enF0WW9EZ1E0NGFCa0U4Ty0wcUhzMzJkN2tyQXB5Y9IBpAJBVV95cUxQOURpcXhlX3paekhOMW9hVXB0OWZtcGZQVjQ2Z3YwdGpOUXhGM3dCbUxZeWxUaGFodTE1U2d3TTdpTEM1S0FhMEgzbEl3UVdfQ2Q0bS15S25sRTk2TU1xakpObTJrRnJQNDdDSHpGQ2p4aV9yMDdWSThNZlJ5elI5LXVZMGU1MHhLbGxjaDdBYS1pV1FsclRSdE5BYzB1Wjc0WlNhanlrVkM5Zk9XS0dSWUpVZVk3aTBmMG4wbzNPbFVOcndGQ1NCWEd0eEQ3SWkzNVVmcnVFOTljbDF0NTVPMWpGYWtXX0ZYblZRMkhWbUlsdy1mUTlDWTJNTm5FRjMwOXhINUpldXluVEpsSVowT0dNanhTSFdkdzhUcWFYaEJ3aTI5?oc=5",
-      "date": "2026-08-11T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "extraction_note": "Article page could not be fully read; verify missing trade details."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Hero MotoCorp",
-      "symbol": "HEROMOTOCO",
-      "title": "Trade Spotlight: How should you trade Hero MotoCorp, Anant Raj, Anthem Biosciences, KEI Industries,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOUnlzdFl3WE1GUC16NXotQnRhTVZ5NmZhbDU3RnNXc1BFb2RIQ1NlM2dYQ2cySWxpZG1RSjRxV2ZhNkdwbF9VQ09rd1pXamF6M09wc1JralR2YmF1MUotQ0JGVVVkdk54Smp1ZHlCM2FZSjlFT0tUUnI5VXZmR1hOMW84LXlxME95eHZ3SXVibjZnN3NyaV9nWmlhaWZ6UWhUcXZXVS02aWliX2l6Ul9sYzRzeGJVRG8tSm9GUm9CNE02dThaQUc2QzFsdXlPSnVUYjg3U3MxZEk4S2Fjc2dTWndnUU1mN3ZCc1pHLVk5QUpCOXJhdHU0RkpSZUpJVkpyUk1vcDhHX3RRaU9URjlqS2c3eE5SR3A4RXV5dFpKRGp5YXpFelFIVnBJTDVDd9IBswJBVV95cUxNazNrVTNOdDJKNzRHUGJqamVlYjE5SkpUN1RPbzhfRlFxdHdOaXBzRkpJcjNYNndOTkxFZ3M0eTRlY0YzbFBjVWJwTnNSS1ZMdHMyRVl5WUJRaHlfemZQdVBlaHdMY2lNT1N5UFA3UTRQRjBjWUlWekN6R1pPYmdrSjE0bHNSaUl6U0o5V0hwdzBaUVB1UFcyYWVqSUxWcW50UDRVMjRpYXQ1Nk1WQlZqVHVlTmJ3TGFVQjhmb1FlRTU4WHBVZGRrR2s3eVI1SXp1dldaVURvYV9BUVFPeHM4b1BveFlrM1NSR0UwVjhxaTJPZllzbkxnbkxHUl9sZHdLSGFNYkp6X0VKWTBTankybWhEZkdoMUxvXzhvOUNJay1HaHVlY1NLYS1lNl9RU29aUXpZ?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "2026-08-03T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": ""
-    },
-    {
-      "source": "Moneycontrol",
       "stock": "Infosys",
       "symbol": "INFY",
       "title": "Trade Spotlight: How should you trade Infosys, DLF, Jubilant Foodworks, Hero MotoCorp, Indian Energy... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQbGk5YmVqamNyNTh6b1lLRGh1a1Zsc0xISmZxZ3d1MDFIbkhoLTR4S3ZHUEhNRWkxQlI3MmFxOTVNYm42TGNKRGhfNlVBb21NaFNLb1RsbUNVNmpNUGhZQTY3bUdYX004V2lOYUtpa25sQkN1ZXMxejBGQy0zQkhkWlkzQVZMYmJyUUNMWVBzQzlWZ1REbkhmVDFKMlI0UWJJLU1oeDd5REJHU3EzVVc0aGVXLXBzVDhTWGJMNXgxRG1xNEFIV0hjVV9NMWlIdGdHV2xXNFZqalhiek44MDg4U3B4MVA3cEJZTzVfZkNIQjJ2d2s3TndCN216MEM3d2FjNkNxZVVJWlZfUFREaEtBUWtrbmYxUjVIR0w00gGgAkFVX3lxTE5XSDdDMW1lRFd5WV9NVkVSS19Td210TFNFT0k1cmVXUnIxLUt2LVliME5XbU5lSnFZcGFpVENvVjZ4WUN5SWQwejljcU9iWjYyX1dfU3dlakFzNW9Zbno5dUdIYU9oQnFmZXlTeUFqLTJNMlhJenJVSlRkODlWRFJ5LVgteWxlbmd2OGExR05uZzkyS0NrR3JZR2tJaTZzc0xPZVV2enZnT01iZWZ5N0VoZGtWcTBQVUlNNEY0Uzh1dkFlaEMtdERzODFVSU04RkRRNUxua0hOTnZZSDlReVVNcmpIT3l3eFgzLVUwUFdoTEJmWURFRUp5UGdrT0JzVzh4R0U4UjJ0aEJGWUN3TW4xRHp3MlNmQkhPUVo5T3A4bw?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQbGk5YmVqamNyNTh6b1lLRGh1a1Zsc0xISmZxZ3d1MDFIbkhoLTR4S3ZHUEhNRWkxQlI3MmFxOTVNYm42TGNKRGhfNlVBb21NaFNLb1RsbUNVNmpNUGhZQTY3bUdYX004V2lOYUtpa25sQkN1ZXMxejBGQy0zQkhkWlkzQVZMYmJyUUNMWVBzQzlWZ1REbkhmVDFKMlI0UWJJLU1oeDd5REJHU3EzVVc0aGVXLXBzVDhTWGJMNXgxRG1xNEFIV0hjVV9NMWlIdGdHV2xXNFZqalhiek44MDg4U3B4MVA3cEJZTzVfZkNIQjJ2d2s3TndCN216MEM3d2FjNkNxZVVJWlZfUFREaEtBUWtrbmYxUjVIR0w00gGgAkFVX3lxTE5XSDdDMW1lRFd5WV9NVkVSS19Td210TFNFT0k1cmVXUnIxLUt2LVliME5XbU5lSnFZcGFpVENvVjZ4WUN5SWQwejljcU9iWjYyX1dfU3dlakFzNW9Zbno5dUdIYU9oQnFmZXlTeUFqLTJNMlhJenJVSlRkODlWRFJ5LVgteWxlbmd2OGExR05uZzkyS0NrR3JZR2tJaTZzc0xPZVV2enZnT01iZWZ5N0VoZGtWcTBQVUlNNEY0Uzh1dkFlaEMtdERzODFVSU04RkRRNUxua0hOTnZZSDlReVVNcmpIT3l3eFgzLVUwUFdoTEJmWURFRUp5UGdrT0JzVzh4R0U4UjJ0aEJGWUN3TW4xRHp3MlNmQkhPUVo5T3A4bw?oc=5",
       "date": "2026-07-29T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
       "stock": "Hero MotoCorp",
       "symbol": "HEROMOTOCO",
       "title": "Trade Spotlight: How should you trade Infosys, DLF, Jubilant Foodworks, Hero MotoCorp, Indian Energy... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQbGk5YmVqamNyNTh6b1lLRGh1a1Zsc0xISmZxZ3d1MDFIbkhoLTR4S3ZHUEhNRWkxQlI3MmFxOTVNYm42TGNKRGhfNlVBb21NaFNLb1RsbUNVNmpNUGhZQTY3bUdYX004V2lOYUtpa25sQkN1ZXMxejBGQy0zQkhkWlkzQVZMYmJyUUNMWVBzQzlWZ1REbkhmVDFKMlI0UWJJLU1oeDd5REJHU3EzVVc0aGVXLXBzVDhTWGJMNXgxRG1xNEFIV0hjVV9NMWlIdGdHV2xXNFZqalhiek44MDg4U3B4MVA3cEJZTzVfZkNIQjJ2d2s3TndCN216MEM3d2FjNkNxZVVJWlZfUFREaEtBUWtrbmYxUjVIR0w00gGgAkFVX3lxTE5XSDdDMW1lRFd5WV9NVkVSS19Td210TFNFT0k1cmVXUnIxLUt2LVliME5XbU5lSnFZcGFpVENvVjZ4WUN5SWQwejljcU9iWjYyX1dfU3dlakFzNW9Zbno5dUdIYU9oQnFmZXlTeUFqLTJNMlhJenJVSlRkODlWRFJ5LVgteWxlbmd2OGExR05uZzkyS0NrR3JZR2tJaTZzc0xPZVV2enZnT01iZWZ5N0VoZGtWcTBQVUlNNEY0Uzh1dkFlaEMtdERzODFVSU04RkRRNUxua0hOTnZZSDlReVVNcmpIT3l3eFgzLVUwUFdoTEJmWURFRUp5UGdrT0JzVzh4R0U4UjJ0aEJGWUN3TW4xRHp3MlNmQkhPUVo5T3A4bw?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQbGk5YmVqamNyNTh6b1lLRGh1a1Zsc0xISmZxZ3d1MDFIbkhoLTR4S3ZHUEhNRWkxQlI3MmFxOTVNYm42TGNKRGhfNlVBb21NaFNLb1RsbUNVNmpNUGhZQTY3bUdYX004V2lOYUtpa25sQkN1ZXMxejBGQy0zQkhkWlkzQVZMYmJyUUNMWVBzQzlWZ1REbkhmVDFKMlI0UWJJLU1oeDd5REJHU3EzVVc0aGVXLXBzVDhTWGJMNXgxRG1xNEFIV0hjVV9NMWlIdGdHV2xXNFZqalhiek44MDg4U3B4MVA3cEJZTzVfZkNIQjJ2d2s3TndCN216MEM3d2FjNkNxZVVJWlZfUFREaEtBUWtrbmYxUjVIR0w00gGgAkFVX3lxTE5XSDdDMW1lRFd5WV9NVkVSS19Td210TFNFT0k1cmVXUnIxLUt2LVliME5XbU5lSnFZcGFpVENvVjZ4WUN5SWQwejljcU9iWjYyX1dfU3dlakFzNW9Zbno5dUdIYU9oQnFmZXlTeUFqLTJNMlhJenJVSlRkODlWRFJ5LVgteWxlbmd2OGExR05uZzkyS0NrR3JZR2tJaTZzc0xPZVV2enZnT01iZWZ5N0VoZGtWcTBQVUlNNEY0Uzh1dkFlaEMtdERzODFVSU04RkRRNUxua0hOTnZZSDlReVVNcmpIT3l3eFgzLVUwUFdoTEJmWURFRUp5UGdrT0JzVzh4R0U4UjJ0aEJGWUN3TW4xRHp3MlNmQkhPUVo5T3A4bw?oc=5",
       "date": "2026-07-29T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
       "stock": "DLF",
       "symbol": "DLF",
       "title": "Trade Spotlight: How should you trade Infosys, DLF, Jubilant Foodworks, Hero MotoCorp, Indian Energy... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQbGk5YmVqamNyNTh6b1lLRGh1a1Zsc0xISmZxZ3d1MDFIbkhoLTR4S3ZHUEhNRWkxQlI3MmFxOTVNYm42TGNKRGhfNlVBb21NaFNLb1RsbUNVNmpNUGhZQTY3bUdYX004V2lOYUtpa25sQkN1ZXMxejBGQy0zQkhkWlkzQVZMYmJyUUNMWVBzQzlWZ1REbkhmVDFKMlI0UWJJLU1oeDd5REJHU3EzVVc0aGVXLXBzVDhTWGJMNXgxRG1xNEFIV0hjVV9NMWlIdGdHV2xXNFZqalhiek44MDg4U3B4MVA3cEJZTzVfZkNIQjJ2d2s3TndCN216MEM3d2FjNkNxZVVJWlZfUFREaEtBUWtrbmYxUjVIR0w00gGgAkFVX3lxTE5XSDdDMW1lRFd5WV9NVkVSS19Td210TFNFT0k1cmVXUnIxLUt2LVliME5XbU5lSnFZcGFpVENvVjZ4WUN5SWQwejljcU9iWjYyX1dfU3dlakFzNW9Zbno5dUdIYU9oQnFmZXlTeUFqLTJNMlhJenJVSlRkODlWRFJ5LVgteWxlbmd2OGExR05uZzkyS0NrR3JZR2tJaTZzc0xPZVV2enZnT01iZWZ5N0VoZGtWcTBQVUlNNEY0Uzh1dkFlaEMtdERzODFVSU04RkRRNUxua0hOTnZZSDlReVVNcmpIT3l3eFgzLVUwUFdoTEJmWURFRUp5UGdrT0JzVzh4R0U4UjJ0aEJGWUN3TW4xRHp3MlNmQkhPUVo5T3A4bw?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQbGk5YmVqamNyNTh6b1lLRGh1a1Zsc0xISmZxZ3d1MDFIbkhoLTR4S3ZHUEhNRWkxQlI3MmFxOTVNYm42TGNKRGhfNlVBb21NaFNLb1RsbUNVNmpNUGhZQTY3bUdYX004V2lOYUtpa25sQkN1ZXMxejBGQy0zQkhkWlkzQVZMYmJyUUNMWVBzQzlWZ1REbkhmVDFKMlI0UWJJLU1oeDd5REJHU3EzVVc0aGVXLXBzVDhTWGJMNXgxRG1xNEFIV0hjVV9NMWlIdGdHV2xXNFZqalhiek44MDg4U3B4MVA3cEJZTzVfZkNIQjJ2d2s3TndCN216MEM3d2FjNkNxZVVJWlZfUFREaEtBUWtrbmYxUjVIR0w00gGgAkFVX3lxTE5XSDdDMW1lRFd5WV9NVkVSS19Td210TFNFT0k1cmVXUnIxLUt2LVliME5XbU5lSnFZcGFpVENvVjZ4WUN5SWQwejljcU9iWjYyX1dfU3dlakFzNW9Zbno5dUdIYU9oQnFmZXlTeUFqLTJNMlhJenJVSlRkODlWRFJ5LVgteWxlbmd2OGExR05uZzkyS0NrR3JZR2tJaTZzc0xPZVV2enZnT01iZWZ5N0VoZGtWcTBQVUlNNEY0Uzh1dkFlaEMtdERzODFVSU04RkRRNUxua0hOTnZZSDlReVVNcmpIT3l3eFgzLVUwUFdoTEJmWURFRUp5UGdrT0JzVzh4R0U4UjJ0aEJGWUN3TW4xRHp3MlNmQkhPUVo5T3A4bw?oc=5",
       "date": "2026-07-29T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
@@ -563,39 +440,29 @@
     },
     {
       "source": "Moneycontrol",
-      "stock": "State Bank of India",
-      "symbol": "SBIN",
-      "title": "Trade Spotlight: How should you trade Gravita India, Equitas Small Finance Bank, Ion Exchange, Grasim, SBI... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPd3d4TjJ0a3pGcDVqVDhlX2ZiUlh2UFFQSTJKb1RMeFVwS3JHUU1tczF4MzVEZWZtbWFyQi1xTzhzZkNTdDN2eDRfQlVhR2MxbnJMeDByTlJTQkZZUFVMbUQ3TGdCYU51dHJNZTVPSkc0S2FNSlpoOGV4LW5IclBGYksyeFJxWFozVGtON0UxZTNDZEJWdE5OZXdpc0lPSFB0YnJnMjRCemNleWJsM1ZHS3lWeHFkSnFYMWZKVnJPS21HdTRjV2hYdGFxcE04dkNFMDM1b3JIUHlET0lCVDAtSFhSZ3g0b2d4WXBKNTNTRThkNWNGVVNSMVpOR1hVVlppYTY1MmNsWktoT1lIcDFPaE9XQVpDcHVqQ1BBNVltTU8yOWU1dTdYUzdiVdIBsAJBVV95cUxNNzhuUVdDVHFnYWgybFBnUVpVZm1vYktQNXVYVGRQNnQ3N19uNDIzZzdnTFhIZ0NhUWV0T0VGT1g5dDkzeUJ3UVdVVkFMbWlhLUw5a01qcGE5clNPZ24weUwxM3JBVHY0R1JzUEd1S0pVV1N6S185VjBVVDNjUVBhb05mVGlDOUg5M19adjMtMWJBQTltRnJlR0ZyM0poemJjQ1VXYnB2QXRyaUpTemNkNXN6Z3RsdzRwWnZvSVM0UWZSbWFCM1NWY01OZmFzLXhraFdoMFNTQlJvZmRiZzgyUUpmbW9uZ05LcHl0MnVNV0I2VVZNTS1QXzlxQU5QNUFXWTFwQmFHZVVYQy15MGpaVkd3bHhIeTJfQThJYkxpcTlCQVFITktVRGFNSjNock85?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "2026-07-13T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": ""
-    },
-    {
-      "source": "Moneycontrol",
       "stock": "Maruti Suzuki",
       "symbol": "MARUTI",
       "title": "Trade Spotlight: How should you trade Maruti Suzuki, Hindalco, Jubilant Foodworks, Gravita India, Karur... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPX2ltS2JjQzJMUU9QSm9kdEp6US1FTDVGU3JTSjduMU0yM3RhcUFUdWV0Y0RhTEFVTzdrV043Ui1XNUVuVzJvdkpBUFVRQW5wdWVNdmMzYlNPSERhdERlQW1leklDck1hNVg4ejBvOVhObzV2cWNfQ2FTSlVnT2hNUFE4SzlPN3pRdlZvaktMM04wNldPQmhGa00wYTlObFJFU0JMY1hjaldYMWd0Y0VxTTJyT19qQnllNldQdEVTam1UdjNiOEZ3MFdNRk5CUHZDX2t6UFpDWHBpcWdmUHZtcnhaVlphTXpoTlplS0pXODJhN3J1Y0pBeW1YVzBFWEo4eXY1TDRjNG9MYmJ1LWdlbnNTUFdXUkVhYmtLMDNtRXnSAaYCQVVfeXFMT2pMeGxfMml3TVE1a01RNDBoYUJoN3hfQ2xlb01tYjJDbnUxS0M2QlVvZGxFVEM2R3JnZjZZQTJwd2lzSnlSRUhzSW1FMUYwM29BX1NWbWtKVDlZM04xQWRnZHRsSkdUY0gySXVBamRkY3JtUnUwUzdiZDNvZExENHR0a19vcTNOS1pmZ2w1M0lsSlBMU2hPczJvOERkbmp1QWZhNndQeXVWZUdUZUZzaW1lWHZJc2Y3VHhNMjcxal8zS2xKclptOUp1RHByUzQydmFOd3BHb3BVT1ZfSGV0d1ZaRFdIdDlDUG9jVU50eDl6bGtqOTNHQkFCS3hZUVFKQjBUTERzM1NESmFGM1g1WmhmbkNxNm5UN0VqeHFrUjF3b1czMHF3?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPX2ltS2JjQzJMUU9QSm9kdEp6US1FTDVGU3JTSjduMU0yM3RhcUFUdWV0Y0RhTEFVTzdrV043Ui1XNUVuVzJvdkpBUFVRQW5wdWVNdmMzYlNPSERhdERlQW1leklDck1hNVg4ejBvOVhObzV2cWNfQ2FTSlVnT2hNUFE4SzlPN3pRdlZvaktMM04wNldPQmhGa00wYTlObFJFU0JMY1hjaldYMWd0Y0VxTTJyT19qQnllNldQdEVTam1UdjNiOEZ3MFdNRk5CUHZDX2t6UFpDWHBpcWdmUHZtcnhaVlphTXpoTlplS0pXODJhN3J1Y0pBeW1YVzBFWEo4eXY1TDRjNG9MYmJ1LWdlbnNTUFdXUkVhYmtLMDNtRXnSAaYCQVVfeXFMT2pMeGxfMml3TVE1a01RNDBoYUJoN3hfQ2xlb01tYjJDbnUxS0M2QlVvZGxFVEM2R3JnZjZZQTJwd2lzSnlSRUhzSW1FMUYwM29BX1NWbWtKVDlZM04xQWRnZHRsSkdUY0gySXVBamRkY3JtUnUwUzdiZDNvZExENHR0a19vcTNOS1pmZ2w1M0lsSlBMU2hPczJvOERkbmp1QWZhNndQeXVWZUdUZUZzaW1lWHZJc2Y3VHhNMjcxal8zS2xKclptOUp1RHByUzQydmFOd3BHb3BVT1ZfSGV0d1ZaRFdIdDlDUG9jVU50eDl6bGtqOTNHQkFCS3hZUVFKQjBUTERzM1NESmFGM1g1WmhmbkNxNm5UN0VqeHFrUjF3b1czMHF3?oc=5",
       "date": "2026-07-08T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
       "stock": "Hindalco Industries",
       "symbol": "HINDALCO",
       "title": "Trade Spotlight: How should you trade Maruti Suzuki, Hindalco, Jubilant Foodworks, Gravita India, Karur... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPX2ltS2JjQzJMUU9QSm9kdEp6US1FTDVGU3JTSjduMU0yM3RhcUFUdWV0Y0RhTEFVTzdrV043Ui1XNUVuVzJvdkpBUFVRQW5wdWVNdmMzYlNPSERhdERlQW1leklDck1hNVg4ejBvOVhObzV2cWNfQ2FTSlVnT2hNUFE4SzlPN3pRdlZvaktMM04wNldPQmhGa00wYTlObFJFU0JMY1hjaldYMWd0Y0VxTTJyT19qQnllNldQdEVTam1UdjNiOEZ3MFdNRk5CUHZDX2t6UFpDWHBpcWdmUHZtcnhaVlphTXpoTlplS0pXODJhN3J1Y0pBeW1YVzBFWEo4eXY1TDRjNG9MYmJ1LWdlbnNTUFdXUkVhYmtLMDNtRXnSAaYCQVVfeXFMT2pMeGxfMml3TVE1a01RNDBoYUJoN3hfQ2xlb01tYjJDbnUxS0M2QlVvZGxFVEM2R3JnZjZZQTJwd2lzSnlSRUhzSW1FMUYwM29BX1NWbWtKVDlZM04xQWRnZHRsSkdUY0gySXVBamRkY3JtUnUwUzdiZDNvZExENHR0a19vcTNOS1pmZ2w1M0lsSlBMU2hPczJvOERkbmp1QWZhNndQeXVWZUdUZUZzaW1lWHZJc2Y3VHhNMjcxal8zS2xKclptOUp1RHByUzQydmFOd3BHb3BVT1ZfSGV0d1ZaRFdIdDlDUG9jVU50eDl6bGtqOTNHQkFCS3hZUVFKQjBUTERzM1NESmFGM1g1WmhmbkNxNm5UN0VqeHFrUjF3b1czMHF3?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPX2ltS2JjQzJMUU9QSm9kdEp6US1FTDVGU3JTSjduMU0yM3RhcUFUdWV0Y0RhTEFVTzdrV043Ui1XNUVuVzJvdkpBUFVRQW5wdWVNdmMzYlNPSERhdERlQW1leklDck1hNVg4ejBvOVhObzV2cWNfQ2FTSlVnT2hNUFE4SzlPN3pRdlZvaktMM04wNldPQmhGa00wYTlObFJFU0JMY1hjaldYMWd0Y0VxTTJyT19qQnllNldQdEVTam1UdjNiOEZ3MFdNRk5CUHZDX2t6UFpDWHBpcWdmUHZtcnhaVlphTXpoTlplS0pXODJhN3J1Y0pBeW1YVzBFWEo4eXY1TDRjNG9MYmJ1LWdlbnNTUFdXUkVhYmtLMDNtRXnSAaYCQVVfeXFMT2pMeGxfMml3TVE1a01RNDBoYUJoN3hfQ2xlb01tYjJDbnUxS0M2QlVvZGxFVEM2R3JnZjZZQTJwd2lzSnlSRUhzSW1FMUYwM29BX1NWbWtKVDlZM04xQWRnZHRsSkdUY0gySXVBamRkY3JtUnUwUzdiZDNvZExENHR0a19vcTNOS1pmZ2w1M0lsSlBMU2hPczJvOERkbmp1QWZhNndQeXVWZUdUZUZzaW1lWHZJc2Y3VHhNMjcxal8zS2xKclptOUp1RHByUzQydmFOd3BHb3BVT1ZfSGV0d1ZaRFdIdDlDUG9jVU50eDl6bGtqOTNHQkFCS3hZUVFKQjBUTERzM1NESmFGM1g1WmhmbkNxNm5UN0VqeHFrUjF3b1czMHF3?oc=5",
       "date": "2026-07-08T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
@@ -612,150 +479,81 @@
     },
     {
       "source": "Moneycontrol",
-      "stock": "Sun Pharmaceutical",
-      "symbol": "SUNPHARMA",
-      "title": "Trade Spotlight: How should you trade Torrent Power, Bajaj Auto, Hindustan Aeronautics, Sun Pharma, PFC,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNNV9LNUdUVnktMjd0ZkxLNzZkRmxIY0NiV3k2QURuZVdfRTRzc0s3MjBmS0g1X2p1cWcyclJ0WFV3dXUyNWtsdVd1T3pHeVdmNE5tWjBpVkh3OVhzUFlWMkJCOGZPUTI4UFpKQTQtOTZobkNjbUVpMnZ2QVdJOV84U3FQeU1IX0pyN1VROWNzZEFqSkh6anNwT2lBT0ZaaEh0RnRyNDFEM3ViMElua1A3bFdlTVZ0WFRneWNCRDh6M3VrLXlLOHV1YW94R3I0dzlNZm9JSUhadG5JSnE1aTBNR0lQdFQ1RjhZVFlrYWhuNTIxbnhLbThBc1RnUmZkRENjd096dE1PWS1kamY2V1RWbDY5TEhDby0wSGVzU2xpYTMxWmRJN3E1Mk1OdkFUd0HSAbQCQVVfeXFMUF9zb09hYnRGSFF3WjlVbURWOThvSFZ3eUpTOHZ2aUl0SzNHLTRDRTJZckdyVkRQdjlUX1hQV18zZTVQMU5xakl0blNUZFFvZ0Q0ZzlyRi13VGREeG9KQV9MZTFOZFZncXlfeTBpZERYTzEtUnBTY0dGZGpSLVpXLVNleGRKM3NGU0t4MVRHTVN3alFudHNWd0NTTkJTSG11MVdUVU1oam9neDdZRmd5ZzkxZlpfUktuckFsOVliSVBueWZjRFVYOUNvZGd1VzQyb2hQclU5SzBYTGp2MnBNeFNlQ1Y3Tl93eFUtbTg4d2NpRmRkdjQ5Q0dSckpmZHU5VXpRcDl0blA5am0zeUZhazlRWFhDdWQ0NkhZaEl3MHQzZ3l0UVhNVVJseVdJXzNmejdGdEc?oc=5",
-      "date": "2026-06-23T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "extraction_note": "Article page could not be fully read; verify missing trade details."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Power Finance Corporation",
-      "symbol": "PFC",
-      "title": "Trade Spotlight: How should you trade Torrent Power, Bajaj Auto, Hindustan Aeronautics, Sun Pharma, PFC,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNNV9LNUdUVnktMjd0ZkxLNzZkRmxIY0NiV3k2QURuZVdfRTRzc0s3MjBmS0g1X2p1cWcyclJ0WFV3dXUyNWtsdVd1T3pHeVdmNE5tWjBpVkh3OVhzUFlWMkJCOGZPUTI4UFpKQTQtOTZobkNjbUVpMnZ2QVdJOV84U3FQeU1IX0pyN1VROWNzZEFqSkh6anNwT2lBT0ZaaEh0RnRyNDFEM3ViMElua1A3bFdlTVZ0WFRneWNCRDh6M3VrLXlLOHV1YW94R3I0dzlNZm9JSUhadG5JSnE1aTBNR0lQdFQ1RjhZVFlrYWhuNTIxbnhLbThBc1RnUmZkRENjd096dE1PWS1kamY2V1RWbDY5TEhDby0wSGVzU2xpYTMxWmRJN3E1Mk1OdkFUd0HSAbQCQVVfeXFMUF9zb09hYnRGSFF3WjlVbURWOThvSFZ3eUpTOHZ2aUl0SzNHLTRDRTJZckdyVkRQdjlUX1hQV18zZTVQMU5xakl0blNUZFFvZ0Q0ZzlyRi13VGREeG9KQV9MZTFOZFZncXlfeTBpZERYTzEtUnBTY0dGZGpSLVpXLVNleGRKM3NGU0t4MVRHTVN3alFudHNWd0NTTkJTSG11MVdUVU1oam9neDdZRmd5ZzkxZlpfUktuckFsOVliSVBueWZjRFVYOUNvZGd1VzQyb2hQclU5SzBYTGp2MnBNeFNlQ1Y3Tl93eFUtbTg4d2NpRmRkdjQ5Q0dSckpmZHU5VXpRcDl0blA5am0zeUZhazlRWFhDdWQ0NkhZaEl3MHQzZ3l0UVhNVVJseVdJXzNmejdGdEc?oc=5",
-      "date": "2026-06-23T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "extraction_note": "Article page could not be fully read; verify missing trade details."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Hindustan Aeronautics",
-      "symbol": "HAL",
-      "title": "Trade Spotlight: How should you trade Torrent Power, Bajaj Auto, Hindustan Aeronautics, Sun Pharma, PFC,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNNV9LNUdUVnktMjd0ZkxLNzZkRmxIY0NiV3k2QURuZVdfRTRzc0s3MjBmS0g1X2p1cWcyclJ0WFV3dXUyNWtsdVd1T3pHeVdmNE5tWjBpVkh3OVhzUFlWMkJCOGZPUTI4UFpKQTQtOTZobkNjbUVpMnZ2QVdJOV84U3FQeU1IX0pyN1VROWNzZEFqSkh6anNwT2lBT0ZaaEh0RnRyNDFEM3ViMElua1A3bFdlTVZ0WFRneWNCRDh6M3VrLXlLOHV1YW94R3I0dzlNZm9JSUhadG5JSnE1aTBNR0lQdFQ1RjhZVFlrYWhuNTIxbnhLbThBc1RnUmZkRENjd096dE1PWS1kamY2V1RWbDY5TEhDby0wSGVzU2xpYTMxWmRJN3E1Mk1OdkFUd0HSAbQCQVVfeXFMUF9zb09hYnRGSFF3WjlVbURWOThvSFZ3eUpTOHZ2aUl0SzNHLTRDRTJZckdyVkRQdjlUX1hQV18zZTVQMU5xakl0blNUZFFvZ0Q0ZzlyRi13VGREeG9KQV9MZTFOZFZncXlfeTBpZERYTzEtUnBTY0dGZGpSLVpXLVNleGRKM3NGU0t4MVRHTVN3alFudHNWd0NTTkJTSG11MVdUVU1oam9neDdZRmd5ZzkxZlpfUktuckFsOVliSVBueWZjRFVYOUNvZGd1VzQyb2hQclU5SzBYTGp2MnBNeFNlQ1Y3Tl93eFUtbTg4d2NpRmRkdjQ5Q0dSckpmZHU5VXpRcDl0blA5am0zeUZhazlRWFhDdWQ0NkhZaEl3MHQzZ3l0UVhNVVJseVdJXzNmejdGdEc?oc=5",
-      "date": "2026-06-23T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "extraction_note": "Article page could not be fully read; verify missing trade details."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "ITC",
-      "symbol": "ITC",
-      "title": "Trade Spotlight: How should you trade GAIL, Action Construction Equipment, Niva Bupa Health, ITC Hotels,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPQ1NFaW8tbjlnUGFqRTRoSDRhblJ2Z0VDTVkxNnd0YWl5YzVSa1RzYld4MG4wTUV6cXNDb2RRbFVoaFRxbHZSb0RQQTVyaFlaVjlSanVoWmV5dzBMWWFIaWk1a3ZPMkpOcWZPdWhoVGZfaTVGdGJrNlJRb20yNHRINXA5azlEZ01CbEZ1OVlNQURvR2FBYmxnczhHM1hkZDVMYWZoR3NVZWMxU1F5WjVaVUs4QzVMZlR0UnhqXzNoak1yVXF0bG1mcUFwMG56N3RaMjZmb3lacTZyS1NISjJlTnJZbXBTWF9aMGY1T3FXa3c1VnRvd0R2Y2hNTXgzbnlFMV9PVm9Xakd4UXVRRkVqNV9vZDJ4M1VkQVo3NXdxUF9yMkdOczMySEdBZ19DOG1WRm1RM9IBugJBVV95cUxPUnVGYmg3QzRHR3gxdkszZWNMenBCbDNDdEZQRzFIUS1PWGExdWZuNGJxUFVZSHRCZU8ydlRjbkNocldXVEU3YjhIR052OUJRRnY1X3RILUhhWXVQLVRrM0EyWnc2ZDktcDRUcDV4WlVNNG52Wno5RDFCX29kd3FfR2Nzbk5vUi1WSE8xOWJVNXBsWlB5QVJiOGx3LVJDUU5SbUltQ3lpak9HdEgzY1ZfSW1OWjNIUWNsRTFHVThpQk9lWGlhdUhqOGl2c0xmM1ZNbEhwcUpJc1pKdXdsS1VfX01Ub0tiREw3S0J2cFE5cFJ1NnY5VTZKaFBjUnBJbDF2Sm96c0dSX3F0SUp6NVIwUDEtdzBCaEFYeW1wVmpWU09hdWlDTzd3RzVsUFJCaUNjU0RLdjFEUm9XUQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "2026-06-19T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": ""
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Trent",
-      "symbol": "TRENT",
-      "title": "Trade Spotlight: How should you trade GAIL, Aegis Vopak Terminals, Eicher Motors, Trent, Motilal Oswal,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQWEhtRXJpTzV5RFdxRENtekVKdmVGd0FNUDZKcGJ3THA4YV9xN0h0QldmR2hmLUtWZEFpMEJGcHVBUHc1U1pwZXpiY2M5MndtazRyRHdzVnl4RGtwR2RGUC05cTY5czRUVEoyN1YyZFRlWkRlbTBnbWF1czdfOHZQOXVveEdYMkFQNm4xX1VIeGFYRjBEYkRmRk95azloMEk1VGFyZjEzT0FLOTl5QTlRc3pkQjQ4WGk5S2NpMjF3UHQ0ZUgzYU92UTl1dFlqUWgxaHRUbVFWMm56d1YxcE1aV3dOT1NjYmRyUExyS1NmenVMZFVnQjFUc3VWbkJJTGlCNm1lME9NcUlmOTk0M3U3eEVhYkt1cmNoUERwUFAzS1ZINy1kQ3gzVVFR0gGvAkFVX3lxTE5qWEdLNVpUTWZ6RHRZWkZkcFR6N0VTcGZKQmJaRzc0Uy16SFpiMWFZWE5hNXJHZ0FBeEN0N3NXTFE5dENJZU0wcmR5NkxWQjRHcXNma3FMNnFjcjFRamttV3JUVG5IVkdhbnc4YWdGVzJRS3VnUWt4REFMRTdOamFfa29sTXo3N1RoUzZDVDAtblZQQ1daajE5LXlVbVNxTHU0S1lYdVpjUVlYd2pLWFFieUtPamJ3LV9rOXhPMHNPOU40RE1mWTRUaERmNWVfODlZZVBiQXJBQ2xNQllXeWRpbjZuWXRqWi00eXN0QzhUX0JDam5UMXBmVi0yZUVDb3g2a0VCcmdVM1hLUzctV3RWM1lxYWJaVm02LXkyakhtMEhtQ1R6bzdwdFdtR3ZuYw?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "2026-06-16T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": ""
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Eicher Motors",
-      "symbol": "EICHERMOT",
-      "title": "Trade Spotlight: How should you trade GAIL, Aegis Vopak Terminals, Eicher Motors, Trent, Motilal Oswal,... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQWEhtRXJpTzV5RFdxRENtekVKdmVGd0FNUDZKcGJ3THA4YV9xN0h0QldmR2hmLUtWZEFpMEJGcHVBUHc1U1pwZXpiY2M5MndtazRyRHdzVnl4RGtwR2RGUC05cTY5czRUVEoyN1YyZFRlWkRlbTBnbWF1czdfOHZQOXVveEdYMkFQNm4xX1VIeGFYRjBEYkRmRk95azloMEk1VGFyZjEzT0FLOTl5QTlRc3pkQjQ4WGk5S2NpMjF3UHQ0ZUgzYU92UTl1dFlqUWgxaHRUbVFWMm56d1YxcE1aV3dOT1NjYmRyUExyS1NmenVMZFVnQjFUc3VWbkJJTGlCNm1lME9NcUlmOTk0M3U3eEVhYkt1cmNoUERwUFAzS1ZINy1kQ3gzVVFR0gGvAkFVX3lxTE5qWEdLNVpUTWZ6RHRZWkZkcFR6N0VTcGZKQmJaRzc0Uy16SFpiMWFZWE5hNXJHZ0FBeEN0N3NXTFE5dENJZU0wcmR5NkxWQjRHcXNma3FMNnFjcjFRamttV3JUVG5IVkdhbnc4YWdGVzJRS3VnUWt4REFMRTdOamFfa29sTXo3N1RoUzZDVDAtblZQQ1daajE5LXlVbVNxTHU0S1lYdVpjUVlYd2pLWFFieUtPamJ3LV9rOXhPMHNPOU40RE1mWTRUaERmNWVfODlZZVBiQXJBQ2xNQllXeWRpbjZuWXRqWi00eXN0QzhUX0JDam5UMXBmVi0yZUVDb3g2a0VCcmdVM1hLUzctV3RWM1lxYWJaVm02LXkyakhtMEhtQ1R6bzdwdFdtR3ZuYw?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "2026-06-16T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": ""
-    },
-    {
-      "source": "Moneycontrol",
       "stock": "Federal Bank",
       "symbol": "FEDERALBNK",
       "title": "Trade Spotlight: How should you trade Federal Bank, KPIT Technologies, Parag Milk Foods, Route Mobile, PTC... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNdnphSU5rZnRMNWJfdTBrR3YxQnNSTWwzWnlZcTBzSjlqLVB6WWRXSWR3SVZ3bUppeTJMVkM4WXVFRmVKZGVoejNmRWNETElGenhiZ1FIX0htTG9aUVRhRWxjRXM3RjZVVUY2TnBWOUxoTkJtVk9aajVEMHA1MnpXMmVYenlHYnNNR0F1XzFQLTFOZnNDMXg1WVpiWWRzM0VCSm5uRGNFN3JST0FQbU0tVHhVU3JfVGJiamZYNmxjeWlwU3JnMnp3SWd5WGNnVFlSWUxWVlA0clkwYlBEWU1XaEpPTXV4SnBoMklSei1QNDREQXBXblBvNmNKdFI5aV9iVnJObHFKT2pNTXU2ZUV4WjlPaXFuVVY0UlNyUkhFcHpWcGdv0gGqAkFVX3lxTFAxbXV3SUlQQUtYbzAxUzN3cExqM2s1VGNRWEZIdG1oRFRNcXZNYkRPUUtieUFrTlVkbFNkaE9CbGRqU3Q0ZzloQ2tQS05ybkxkbkU0d0JhWUNIOUxmbnhzMnotZnd3OEpRY05pRTF4UllPZzcyUWZYVjVCazlYcUVLRU5zTzVpcTZDUi0zVXpWbjNCZnhkRUY0SjlDRUxzQ3NZaVRyX0c3WjNWeEZiODVQTUZvcUs1QVFjTzNDT2YzelpnZmlXU0VPdUJXbEQ4VlFsOUxlR1l6c29nemlZZmxlOFJrNHBXMm83VzlYLV9uN19rZVVQbElRV1ZMSkRDRHQyajZ4NmpRQm1adEhMM2JpV2NySkl4bmNBQjY5VjZYOWlWeG11SzJNYlE?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNdnphSU5rZnRMNWJfdTBrR3YxQnNSTWwzWnlZcTBzSjlqLVB6WWRXSWR3SVZ3bUppeTJMVkM4WXVFRmVKZGVoejNmRWNETElGenhiZ1FIX0htTG9aUVRhRWxjRXM3RjZVVUY2TnBWOUxoTkJtVk9aajVEMHA1MnpXMmVYenlHYnNNR0F1XzFQLTFOZnNDMXg1WVpiWWRzM0VCSm5uRGNFN3JST0FQbU0tVHhVU3JfVGJiamZYNmxjeWlwU3JnMnp3SWd5WGNnVFlSWUxWVlA0clkwYlBEWU1XaEpPTXV4SnBoMklSei1QNDREQXBXblBvNmNKdFI5aV9iVnJObHFKT2pNTXU2ZUV4WjlPaXFuVVY0UlNyUkhFcHpWcGdv0gGqAkFVX3lxTFAxbXV3SUlQQUtYbzAxUzN3cExqM2s1VGNRWEZIdG1oRFRNcXZNYkRPUUtieUFrTlVkbFNkaE9CbGRqU3Q0ZzloQ2tQS05ybkxkbkU0d0JhWUNIOUxmbnhzMnotZnd3OEpRY05pRTF4UllPZzcyUWZYVjVCazlYcUVLRU5zTzVpcTZDUi0zVXpWbjNCZnhkRUY0SjlDRUxzQ3NZaVRyX0c3WjNWeEZiODVQTUZvcUs1QVFjTzNDT2YzelpnZmlXU0VPdUJXbEQ4VlFsOUxlR1l6c29nemlZZmxlOFJrNHBXMm83VzlYLV9uN19rZVVQbElRV1ZMSkRDRHQyajZ4NmpRQm1adEhMM2JpV2NySkl4bmNBQjY5VjZYOWlWeG11SzJNYlE?oc=5",
       "date": "2026-06-03T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
       "stock": "Tata Power",
       "symbol": "TATAPOWER",
       "title": "Trade Spotlight: How should you trade Samvardhana Motherson, Siemens, NALCO, RBL Bank, Tata Power, Usha... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQT2RDZ3JiSDZ1NUNTbXl6QjFhaUxkSDR5S0Q2SEE5N0Uzb1RueFNLc19aaExqcXBtMzFvNWJXSUFmZm4zMU5XSnFFcFBqQW5UTHpZR1VaZEFkR1hmS0dPdVI1U21MZ21Tb01ueVludEFacmg2dXhsS3YweF9iM0Fkd3Q1UzgzTkNEZllabWx6SDM4TmdnR2hjemtxMnJicVVlZUlqWVBxZUJEbWRkV1pCLUpqQk5UUUZCSDJ4SzktWlBhXzZfM3E4UEIzR0tNTG84X2xPLU1FUFprQjFKcnBNUGp3WGdiRnlheG55eTU1LUh1dmV2cjkxVElZQWQ5S0RvRjRPV2t5U0pjRVhKZXVaVWltcFJ3WTM1d2fSAZ8CQVVfeXFMTkhfWTdpWjVQMXRjdFlXa19kdURtVmJQeGRUZHpiN3BDdllXZUpITVpFNFprYWE3QjFvMjUwTHJva1JSTXVhbFB6NDRMMFN0SHV5d0ZBajFqSHhDa2piNUsybVZXNHZMSWE5ZUgzSV9JYW9KbTRuamhoQmt6MTBIeHAySmpUVlNWRDZTZnh6RUt2U1BDd1A5am96M3d5SjA5SjQwMm9Xck9lWEFEdUQxSXVPWXRhMXFybXdlSEc1RmRiVllwNkpKYjlEWDhUQ3J0Y3FmM3huM3V1VVQycVBYUTZ2MjZSUFVkWHdUVkh1LWZRV1djalYyVmV6aXdjamtHTjAydXRXUjc0YnhiNXZ1S3pKdFhlU1JVR0lxLVB5cFk?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQT2RDZ3JiSDZ1NUNTbXl6QjFhaUxkSDR5S0Q2SEE5N0Uzb1RueFNLc19aaExqcXBtMzFvNWJXSUFmZm4zMU5XSnFFcFBqQW5UTHpZR1VaZEFkR1hmS0dPdVI1U21MZ21Tb01ueVludEFacmg2dXhsS3YweF9iM0Fkd3Q1UzgzTkNEZllabWx6SDM4TmdnR2hjemtxMnJicVVlZUlqWVBxZUJEbWRkV1pCLUpqQk5UUUZCSDJ4SzktWlBhXzZfM3E4UEIzR0tNTG84X2xPLU1FUFprQjFKcnBNUGp3WGdiRnlheG55eTU1LUh1dmV2cjkxVElZQWQ5S0RvRjRPV2t5U0pjRVhKZXVaVWltcFJ3WTM1d2fSAZ8CQVVfeXFMTkhfWTdpWjVQMXRjdFlXa19kdURtVmJQeGRUZHpiN3BDdllXZUpITVpFNFprYWE3QjFvMjUwTHJva1JSTXVhbFB6NDRMMFN0SHV5d0ZBajFqSHhDa2piNUsybVZXNHZMSWE5ZUgzSV9JYW9KbTRuamhoQmt6MTBIeHAySmpUVlNWRDZTZnh6RUt2U1BDd1A5am96M3d5SjA5SjQwMm9Xck9lWEFEdUQxSXVPWXRhMXFybXdlSEc1RmRiVllwNkpKYjlEWDhUQ3J0Y3FmM3huM3V1VVQycVBYUTZ2MjZSUFVkWHdUVkh1LWZRV1djalYyVmV6aXdjamtHTjAydXRXUjc0YnhiNXZ1S3pKdFhlU1JVR0lxLVB5cFk?oc=5",
       "date": "2026-05-29T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
       "stock": "Motherson",
       "symbol": "MOTHERSON",
       "title": "Trade Spotlight: How should you trade Samvardhana Motherson, Siemens, NALCO, RBL Bank, Tata Power, Usha... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQT2RDZ3JiSDZ1NUNTbXl6QjFhaUxkSDR5S0Q2SEE5N0Uzb1RueFNLc19aaExqcXBtMzFvNWJXSUFmZm4zMU5XSnFFcFBqQW5UTHpZR1VaZEFkR1hmS0dPdVI1U21MZ21Tb01ueVludEFacmg2dXhsS3YweF9iM0Fkd3Q1UzgzTkNEZllabWx6SDM4TmdnR2hjemtxMnJicVVlZUlqWVBxZUJEbWRkV1pCLUpqQk5UUUZCSDJ4SzktWlBhXzZfM3E4UEIzR0tNTG84X2xPLU1FUFprQjFKcnBNUGp3WGdiRnlheG55eTU1LUh1dmV2cjkxVElZQWQ5S0RvRjRPV2t5U0pjRVhKZXVaVWltcFJ3WTM1d2fSAZ8CQVVfeXFMTkhfWTdpWjVQMXRjdFlXa19kdURtVmJQeGRUZHpiN3BDdllXZUpITVpFNFprYWE3QjFvMjUwTHJva1JSTXVhbFB6NDRMMFN0SHV5d0ZBajFqSHhDa2piNUsybVZXNHZMSWE5ZUgzSV9JYW9KbTRuamhoQmt6MTBIeHAySmpUVlNWRDZTZnh6RUt2U1BDd1A5am96M3d5SjA5SjQwMm9Xck9lWEFEdUQxSXVPWXRhMXFybXdlSEc1RmRiVllwNkpKYjlEWDhUQ3J0Y3FmM3huM3V1VVQycVBYUTZ2MjZSUFVkWHdUVkh1LWZRV1djalYyVmV6aXdjamtHTjAydXRXUjc0YnhiNXZ1S3pKdFhlU1JVR0lxLVB5cFk?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQT2RDZ3JiSDZ1NUNTbXl6QjFhaUxkSDR5S0Q2SEE5N0Uzb1RueFNLc19aaExqcXBtMzFvNWJXSUFmZm4zMU5XSnFFcFBqQW5UTHpZR1VaZEFkR1hmS0dPdVI1U21MZ21Tb01ueVludEFacmg2dXhsS3YweF9iM0Fkd3Q1UzgzTkNEZllabWx6SDM4TmdnR2hjemtxMnJicVVlZUlqWVBxZUJEbWRkV1pCLUpqQk5UUUZCSDJ4SzktWlBhXzZfM3E4UEIzR0tNTG84X2xPLU1FUFprQjFKcnBNUGp3WGdiRnlheG55eTU1LUh1dmV2cjkxVElZQWQ5S0RvRjRPV2t5U0pjRVhKZXVaVWltcFJ3WTM1d2fSAZ8CQVVfeXFMTkhfWTdpWjVQMXRjdFlXa19kdURtVmJQeGRUZHpiN3BDdllXZUpITVpFNFprYWE3QjFvMjUwTHJva1JSTXVhbFB6NDRMMFN0SHV5d0ZBajFqSHhDa2piNUsybVZXNHZMSWE5ZUgzSV9JYW9KbTRuamhoQmt6MTBIeHAySmpUVlNWRDZTZnh6RUt2U1BDd1A5am96M3d5SjA5SjQwMm9Xck9lWEFEdUQxSXVPWXRhMXFybXdlSEc1RmRiVllwNkpKYjlEWDhUQ3J0Y3FmM3huM3V1VVQycVBYUTZ2MjZSUFVkWHdUVkh1LWZRV1djalYyVmV6aXdjamtHTjAydXRXUjc0YnhiNXZ1S3pKdFhlU1JVR0lxLVB5cFk?oc=5",
       "date": "2026-05-29T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
       "stock": "Tech Mahindra",
       "symbol": "TECHM",
       "title": "Trade Spotlight: How should you trade Kotak Mahindra Bank, Dr Reddys Labs, Tech Mahindra, Infosys, GE... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNMWVTaS1tZUozQklDNjl0bHZQT1hKXzYxOXk1VzZNNkxEd0Z6LTNpTkx5MHB5UU5ZUm9YeW5GSlBfeE5VelJPVDRLOWI1RzJoeE85dUVoTTh5SE9CQjVxd1d1WEhZWGlXRVgwaDJoNmx0cEZkaS1nUEdBMkpMbW1VWEV6bUkwV2hwYkdEY3FXeVE2ZVh2M0ZUdllueXBTTFN6Sjlyc1RQajFKSmpCZzBnSklBRzdINGExTWhlMFVVTTZBcmkxLXp3N2J0MGY2bUZZMk4tLU1rWWVXaG1VOTFmRElDOXRhaE9kT3ZhdE1yWjFOMmVGSkxGRkNUT1VQaGJ1c0NUQnhpTnFSMGdzaVFXTzk1VmdUOE9adkpZ0gGgAkFVX3lxTE1wTGU4MTRiQ1IzSHNNQ3FibURZS0lZRXJrRUU3X0tCbzlLdXV4WEYxLVNFek9IbW9Wa2w3MnBYeU9iTmxJODFCaFpYZGZsVlJHbVFGTlREcDk1UUhFbFY1XzhfM25mWVRqcmM3Z2ROZDJ2enF0R01NeHN2c2FDQUU5YjJucTBmZkxtWnc3ZVZGY0VWU3hQT2xETFF6a296VUdaVm1DblpSeTU3T05UWUkzOWZQTjVpbGtFWTk3YjNoYkFWVDdYYWU3Z01JUzliZHVLNWpNRUNDd3hEd2d1SVFPNDFuYm9mbVpRSmJMeVlLc0NXOE9lSEprWi1qSlVMQ3k0M2IxY2cybGZQQXdyRTlmNjhCY2hnS0ZaREx5OEpmUg?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNMWVTaS1tZUozQklDNjl0bHZQT1hKXzYxOXk1VzZNNkxEd0Z6LTNpTkx5MHB5UU5ZUm9YeW5GSlBfeE5VelJPVDRLOWI1RzJoeE85dUVoTTh5SE9CQjVxd1d1WEhZWGlXRVgwaDJoNmx0cEZkaS1nUEdBMkpMbW1VWEV6bUkwV2hwYkdEY3FXeVE2ZVh2M0ZUdllueXBTTFN6Sjlyc1RQajFKSmpCZzBnSklBRzdINGExTWhlMFVVTTZBcmkxLXp3N2J0MGY2bUZZMk4tLU1rWWVXaG1VOTFmRElDOXRhaE9kT3ZhdE1yWjFOMmVGSkxGRkNUT1VQaGJ1c0NUQnhpTnFSMGdzaVFXTzk1VmdUOE9adkpZ0gGgAkFVX3lxTE1wTGU4MTRiQ1IzSHNNQ3FibURZS0lZRXJrRUU3X0tCbzlLdXV4WEYxLVNFek9IbW9Wa2w3MnBYeU9iTmxJODFCaFpYZGZsVlJHbVFGTlREcDk1UUhFbFY1XzhfM25mWVRqcmM3Z2ROZDJ2enF0R01NeHN2c2FDQUU5YjJucTBmZkxtWnc3ZVZGY0VWU3hQT2xETFF6a296VUdaVm1DblpSeTU3T05UWUkzOWZQTjVpbGtFWTk3YjNoYkFWVDdYYWU3Z01JUzliZHVLNWpNRUNDd3hEd2d1SVFPNDFuYm9mbVpRSmJMeVlLc0NXOE9lSEprWi1qSlVMQ3k0M2IxY2cybGZQQXdyRTlmNjhCY2hnS0ZaREx5OEpmUg?oc=5",
       "date": "2026-05-19T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
       "stock": "Kotak Mahindra Bank",
       "symbol": "KOTAKBANK",
       "title": "Trade Spotlight: How should you trade Kotak Mahindra Bank, Dr Reddys Labs, Tech Mahindra, Infosys, GE... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNMWVTaS1tZUozQklDNjl0bHZQT1hKXzYxOXk1VzZNNkxEd0Z6LTNpTkx5MHB5UU5ZUm9YeW5GSlBfeE5VelJPVDRLOWI1RzJoeE85dUVoTTh5SE9CQjVxd1d1WEhZWGlXRVgwaDJoNmx0cEZkaS1nUEdBMkpMbW1VWEV6bUkwV2hwYkdEY3FXeVE2ZVh2M0ZUdllueXBTTFN6Sjlyc1RQajFKSmpCZzBnSklBRzdINGExTWhlMFVVTTZBcmkxLXp3N2J0MGY2bUZZMk4tLU1rWWVXaG1VOTFmRElDOXRhaE9kT3ZhdE1yWjFOMmVGSkxGRkNUT1VQaGJ1c0NUQnhpTnFSMGdzaVFXTzk1VmdUOE9adkpZ0gGgAkFVX3lxTE1wTGU4MTRiQ1IzSHNNQ3FibURZS0lZRXJrRUU3X0tCbzlLdXV4WEYxLVNFek9IbW9Wa2w3MnBYeU9iTmxJODFCaFpYZGZsVlJHbVFGTlREcDk1UUhFbFY1XzhfM25mWVRqcmM3Z2ROZDJ2enF0R01NeHN2c2FDQUU5YjJucTBmZkxtWnc3ZVZGY0VWU3hQT2xETFF6a296VUdaVm1DblpSeTU3T05UWUkzOWZQTjVpbGtFWTk3YjNoYkFWVDdYYWU3Z01JUzliZHVLNWpNRUNDd3hEd2d1SVFPNDFuYm9mbVpRSmJMeVlLc0NXOE9lSEprWi1qSlVMQ3k0M2IxY2cybGZQQXdyRTlmNjhCY2hnS0ZaREx5OEpmUg?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNMWVTaS1tZUozQklDNjl0bHZQT1hKXzYxOXk1VzZNNkxEd0Z6LTNpTkx5MHB5UU5ZUm9YeW5GSlBfeE5VelJPVDRLOWI1RzJoeE85dUVoTTh5SE9CQjVxd1d1WEhZWGlXRVgwaDJoNmx0cEZkaS1nUEdBMkpMbW1VWEV6bUkwV2hwYkdEY3FXeVE2ZVh2M0ZUdllueXBTTFN6Sjlyc1RQajFKSmpCZzBnSklBRzdINGExTWhlMFVVTTZBcmkxLXp3N2J0MGY2bUZZMk4tLU1rWWVXaG1VOTFmRElDOXRhaE9kT3ZhdE1yWjFOMmVGSkxGRkNUT1VQaGJ1c0NUQnhpTnFSMGdzaVFXTzk1VmdUOE9adkpZ0gGgAkFVX3lxTE1wTGU4MTRiQ1IzSHNNQ3FibURZS0lZRXJrRUU3X0tCbzlLdXV4WEYxLVNFek9IbW9Wa2w3MnBYeU9iTmxJODFCaFpYZGZsVlJHbVFGTlREcDk1UUhFbFY1XzhfM25mWVRqcmM3Z2ROZDJ2enF0R01NeHN2c2FDQUU5YjJucTBmZkxtWnc3ZVZGY0VWU3hQT2xETFF6a296VUdaVm1DblpSeTU3T05UWUkzOWZQTjVpbGtFWTk3YjNoYkFWVDdYYWU3Z01JUzliZHVLNWpNRUNDd3hEd2d1SVFPNDFuYm9mbVpRSmJMeVlLc0NXOE9lSEprWi1qSlVMQ3k0M2IxY2cybGZQQXdyRTlmNjhCY2hnS0ZaREx5OEpmUg?oc=5",
       "date": "2026-05-19T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
       "stock": "Infosys",
       "symbol": "INFY",
       "title": "Trade Spotlight: How should you trade Kotak Mahindra Bank, Dr Reddys Labs, Tech Mahindra, Infosys, GE... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNMWVTaS1tZUozQklDNjl0bHZQT1hKXzYxOXk1VzZNNkxEd0Z6LTNpTkx5MHB5UU5ZUm9YeW5GSlBfeE5VelJPVDRLOWI1RzJoeE85dUVoTTh5SE9CQjVxd1d1WEhZWGlXRVgwaDJoNmx0cEZkaS1nUEdBMkpMbW1VWEV6bUkwV2hwYkdEY3FXeVE2ZVh2M0ZUdllueXBTTFN6Sjlyc1RQajFKSmpCZzBnSklBRzdINGExTWhlMFVVTTZBcmkxLXp3N2J0MGY2bUZZMk4tLU1rWWVXaG1VOTFmRElDOXRhaE9kT3ZhdE1yWjFOMmVGSkxGRkNUT1VQaGJ1c0NUQnhpTnFSMGdzaVFXTzk1VmdUOE9adkpZ0gGgAkFVX3lxTE1wTGU4MTRiQ1IzSHNNQ3FibURZS0lZRXJrRUU3X0tCbzlLdXV4WEYxLVNFek9IbW9Wa2w3MnBYeU9iTmxJODFCaFpYZGZsVlJHbVFGTlREcDk1UUhFbFY1XzhfM25mWVRqcmM3Z2ROZDJ2enF0R01NeHN2c2FDQUU5YjJucTBmZkxtWnc3ZVZGY0VWU3hQT2xETFF6a296VUdaVm1DblpSeTU3T05UWUkzOWZQTjVpbGtFWTk3YjNoYkFWVDdYYWU3Z01JUzliZHVLNWpNRUNDd3hEd2d1SVFPNDFuYm9mbVpRSmJMeVlLc0NXOE9lSEprWi1qSlVMQ3k0M2IxY2cybGZQQXdyRTlmNjhCY2hnS0ZaREx5OEpmUg?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNMWVTaS1tZUozQklDNjl0bHZQT1hKXzYxOXk1VzZNNkxEd0Z6LTNpTkx5MHB5UU5ZUm9YeW5GSlBfeE5VelJPVDRLOWI1RzJoeE85dUVoTTh5SE9CQjVxd1d1WEhZWGlXRVgwaDJoNmx0cEZkaS1nUEdBMkpMbW1VWEV6bUkwV2hwYkdEY3FXeVE2ZVh2M0ZUdllueXBTTFN6Sjlyc1RQajFKSmpCZzBnSklBRzdINGExTWhlMFVVTTZBcmkxLXp3N2J0MGY2bUZZMk4tLU1rWWVXaG1VOTFmRElDOXRhaE9kT3ZhdE1yWjFOMmVGSkxGRkNUT1VQaGJ1c0NUQnhpTnFSMGdzaVFXTzk1VmdUOE9adkpZ0gGgAkFVX3lxTE1wTGU4MTRiQ1IzSHNNQ3FibURZS0lZRXJrRUU3X0tCbzlLdXV4WEYxLVNFek9IbW9Wa2w3MnBYeU9iTmxJODFCaFpYZGZsVlJHbVFGTlREcDk1UUhFbFY1XzhfM25mWVRqcmM3Z2ROZDJ2enF0R01NeHN2c2FDQUU5YjJucTBmZkxtWnc3ZVZGY0VWU3hQT2xETFF6a296VUdaVm1DblpSeTU3T05UWUkzOWZQTjVpbGtFWTk3YjNoYkFWVDdYYWU3Z01JUzliZHVLNWpNRUNDd3hEd2d1SVFPNDFuYm9mbVpRSmJMeVlLc0NXOE9lSEprWi1qSlVMQ3k0M2IxY2cybGZQQXdyRTlmNjhCY2hnS0ZaREx5OEpmUg?oc=5",
       "date": "2026-05-19T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
@@ -811,24 +609,26 @@
       "stock": "Voltas",
       "symbol": "VOLTAS",
       "title": "Trade Spotlight: How should you trade HFCL, Delhivery, Voltas, National Aluminium Company, Hindalco, and... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYURCU1NqUTdjYTYweE5razBkSzJnVG41M2tQTG1VUnc1RXlXV2VmRHlSS3g5NE5EMjRhOGVYdXllUUlERENQRk9HM0N4TzBnck1yMnRkcHZ5aXBsaFYzSTFaWE1NYVpQZ3hTdjMySmJKVHItaEFJT2VrbkJzbUNYZ1FnX1BsUDBMQ0dmMGlkZUp2M2NlQkZ4QVF5QTVVUExZWVdxd1U3c2ZWSDk3TXlibTg1U2VaSi02NHg3b3dEMGQ4OFRUWkNzV2dwWVljQmpUc3ZKU0RXSXVNN0ZvQmxLS2ZRT0FyVnA5SUZkTHR5Wk9URlFrdWZ0TFd4cWRkTFJSNzR5dDNuTGJYNFhJMjhR0gGUAkFVX3lxTFB2MVRDQmU4eUh4M0hZWmRCNDRpRkVld3c0YUt2WnZzZlRxa2dzZ1Q2WmxOUllfQjJOVHJZNFlxRzg5VlFlUUIwczNYc2ZZNFp3M0k5VzhaU1J0LUw2dUxOSFJGV0JJekUzcFF1dU5EdnZ5dmlzd05IejVoNDRDR1JzaG9rcjVIZkdyX0xyUm1XY1RrNXAtajl2R3NlTmtranNHcE94UUI2Qmlhemd3UGdWTHZUZFRLa250S1dYUHM5MG1zMVNtejRDWkNKb1YtcjRFQi1DTDZnekFES0J4YnR1Z1Q3TENDRndObTlrbWtDUWdQV21DRlp2QU16VEVySHNQUzN4eEdlX01ZbE12R2ZKVVR3QQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYURCU1NqUTdjYTYweE5razBkSzJnVG41M2tQTG1VUnc1RXlXV2VmRHlSS3g5NE5EMjRhOGVYdXllUUlERENQRk9HM0N4TzBnck1yMnRkcHZ5aXBsaFYzSTFaWE1NYVpQZ3hTdjMySmJKVHItaEFJT2VrbkJzbUNYZ1FnX1BsUDBMQ0dmMGlkZUp2M2NlQkZ4QVF5QTVVUExZWVdxd1U3c2ZWSDk3TXlibTg1U2VaSi02NHg3b3dEMGQ4OFRUWkNzV2dwWVljQmpUc3ZKU0RXSXVNN0ZvQmxLS2ZRT0FyVnA5SUZkTHR5Wk9URlFrdWZ0TFd4cWRkTFJSNzR5dDNuTGJYNFhJMjhR0gGUAkFVX3lxTFB2MVRDQmU4eUh4M0hZWmRCNDRpRkVld3c0YUt2WnZzZlRxa2dzZ1Q2WmxOUllfQjJOVHJZNFlxRzg5VlFlUUIwczNYc2ZZNFp3M0k5VzhaU1J0LUw2dUxOSFJGV0JJekUzcFF1dU5EdnZ5dmlzd05IejVoNDRDR1JzaG9rcjVIZkdyX0xyUm1XY1RrNXAtajl2R3NlTmtranNHcE94UUI2Qmlhemd3UGdWTHZUZFRLa250S1dYUHM5MG1zMVNtejRDWkNKb1YtcjRFQi1DTDZnekFES0J4YnR1Z1Q3TENDRndObTlrbWtDUWdQV21DRlp2QU16VEVySHNQUzN4eEdlX01ZbE12R2ZKVVR3QQ?oc=5",
       "date": "2026-04-10T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
       "stock": "Hindalco Industries",
       "symbol": "HINDALCO",
       "title": "Trade Spotlight: How should you trade HFCL, Delhivery, Voltas, National Aluminium Company, Hindalco, and... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYURCU1NqUTdjYTYweE5razBkSzJnVG41M2tQTG1VUnc1RXlXV2VmRHlSS3g5NE5EMjRhOGVYdXllUUlERENQRk9HM0N4TzBnck1yMnRkcHZ5aXBsaFYzSTFaWE1NYVpQZ3hTdjMySmJKVHItaEFJT2VrbkJzbUNYZ1FnX1BsUDBMQ0dmMGlkZUp2M2NlQkZ4QVF5QTVVUExZWVdxd1U3c2ZWSDk3TXlibTg1U2VaSi02NHg3b3dEMGQ4OFRUWkNzV2dwWVljQmpUc3ZKU0RXSXVNN0ZvQmxLS2ZRT0FyVnA5SUZkTHR5Wk9URlFrdWZ0TFd4cWRkTFJSNzR5dDNuTGJYNFhJMjhR0gGUAkFVX3lxTFB2MVRDQmU4eUh4M0hZWmRCNDRpRkVld3c0YUt2WnZzZlRxa2dzZ1Q2WmxOUllfQjJOVHJZNFlxRzg5VlFlUUIwczNYc2ZZNFp3M0k5VzhaU1J0LUw2dUxOSFJGV0JJekUzcFF1dU5EdnZ5dmlzd05IejVoNDRDR1JzaG9rcjVIZkdyX0xyUm1XY1RrNXAtajl2R3NlTmtranNHcE94UUI2Qmlhemd3UGdWTHZUZFRLa250S1dYUHM5MG1zMVNtejRDWkNKb1YtcjRFQi1DTDZnekFES0J4YnR1Z1Q3TENDRndObTlrbWtDUWdQV21DRlp2QU16VEVySHNQUzN4eEdlX01ZbE12R2ZKVVR3QQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYURCU1NqUTdjYTYweE5razBkSzJnVG41M2tQTG1VUnc1RXlXV2VmRHlSS3g5NE5EMjRhOGVYdXllUUlERENQRk9HM0N4TzBnck1yMnRkcHZ5aXBsaFYzSTFaWE1NYVpQZ3hTdjMySmJKVHItaEFJT2VrbkJzbUNYZ1FnX1BsUDBMQ0dmMGlkZUp2M2NlQkZ4QVF5QTVVUExZWVdxd1U3c2ZWSDk3TXlibTg1U2VaSi02NHg3b3dEMGQ4OFRUWkNzV2dwWVljQmpUc3ZKU0RXSXVNN0ZvQmxLS2ZRT0FyVnA5SUZkTHR5Wk9URlFrdWZ0TFd4cWRkTFJSNzR5dDNuTGJYNFhJMjhR0gGUAkFVX3lxTFB2MVRDQmU4eUh4M0hZWmRCNDRpRkVld3c0YUt2WnZzZlRxa2dzZ1Q2WmxOUllfQjJOVHJZNFlxRzg5VlFlUUIwczNYc2ZZNFp3M0k5VzhaU1J0LUw2dUxOSFJGV0JJekUzcFF1dU5EdnZ5dmlzd05IejVoNDRDR1JzaG9rcjVIZkdyX0xyUm1XY1RrNXAtajl2R3NlTmtranNHcE94UUI2Qmlhemd3UGdWTHZUZFRLa250S1dYUHM5MG1zMVNtejRDWkNKb1YtcjRFQi1DTDZnekFES0J4YnR1Z1Q3TENDRndObTlrbWtDUWdQV21DRlp2QU16VEVySHNQUzN4eEdlX01ZbE12R2ZKVVR3QQ?oc=5",
       "date": "2026-04-10T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
@@ -856,39 +656,29 @@
     },
     {
       "source": "Moneycontrol",
-      "stock": "NTPC",
-      "symbol": "NTPC",
-      "title": "Trade Spotlight: How should you trade ACME Solar Holdings, Thermax, Sun TV Network, NTPC Green Energy, GE... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQQTNrZGJXMHo2aGNHSWE1THAxa0xIQkZhWnJIQ2NJdDFiRGFlT3NCczR5TWhwOHlSOXFxR01qd00ydV9WYmZZcHZxcGxUaXNTVUlvYS16c3d1Ql9Yd3hjUGJmeFpUM2RpU0tSRGZsNWNuSlFreU1KYTBXbzJMUW8zbzd6bmlaQ0MxemdVMzg4ZkItT1kzUGNDa0dJRG84RDR2bVRzQU8wRjJqWVNoSXREay1tX01oTFoycGVhVVN3ZlA1eDlIZFNubE9CU002Yi1UbGxKOXpody1qX2ZEaU5sN1hoeGlDbGxQYVhfWm10TjVxb2FDOEZMd2J2ZnZvbGVyT0t0Wm9NRkpJdmx6a0hzRWtrX1UwNjdjUGdSVUhlUnZWa1E4ZS1v0gGsAkFVX3lxTE5BbkFSWUVVbzhWcDNNWm1Ra2tzMnBmZUpjdkZPMzhvS3F4d0ZsdTYxdlpBWUhOMmVlTVFMUDU1SlFjMFQ1bzFLOGp4RXRJOFpvRmgyNjY1RmY3NGNtQjdYa2taNEMyWWRJOGZHX3Q3bklXbEhFVUIyZGpyTmxNQWNlOXBycEtqTTVaWmVSMEpWRjA4aDhSdGRlMmdHbmg3ZENweGRkVW5YWk5YbFRhb1FNblh6ckNIbEJtUGliS3FZemhheXkxdktvSkJvbzJfY3hWdzlSZmF2ZklDQUFWclZEZHZGRHJPbXhlSXdIci1DMEZiWDNCLVVKc0Vfc2JvNlVsR0NPU0UxcUZ5QUtFUXhvMGx2NklpbnpXdzdxZHEyUU8xWlBMZkRIeFJ6eg?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "date": "2026-03-20T07:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": ""
-    },
-    {
-      "source": "Moneycontrol",
       "stock": "Power Finance Corporation",
       "symbol": "PFC",
       "title": "Trade Spotlight: How should you trade PFC, GE Vernova, Bharat Forge, APL Apollo Tubes, DLF, and others on... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNT056Q3JDRDFKNVJ3dWRtSEw1NUtyYnllZVZadlRDM2d2aWRHZnZZTU1LSGNEejREc1VlcXRtRmxmN0gzT2V2OGFLNl9TWVJmV1NhRURNand6bHlLNm1PTDd5bUtuX2N2R3REVmFiVi0yM3JSZWU2UnNKQXlXRGVlX0dlX2l6OWwxNEJ6YVd1dmR0dmx3UndoUWlyaHEzZTF5dnRCRkVrcU4wbklVai1zNXczLTFlVUZ3dDZPMkF5M0o0REdJckhSMlNIN19Mbmd6enA2UnFRSGJrSk9jaEx6WERjd0xxLUFoOWlucmlVcHRrQnAyN3JqVE9XMks1NjY3Ujhn0gGIAkFVX3lxTE90eDl3d3NEYmpTU1c0QmVVdUM2R2EyZV8zLWJsNzgwak9Fc2NZS3owaEh1elVKSG5hN3RsYVMtd1JfNlFFcmh2OFhHbUpZREw5NXktdG0yc1NmbWlfaEpxRWREYjRGU0tubV8wMmxibEtWYk1IY0RFTkgyWEtockRyR29nSEwwM3ZWTVNRQ2pUSjhDZnJzZzMtWjBpdjlCdmZIVnNrNThiVHd6TmRRbEFCQU43ZVh0UDFCSmRfNmJKWWs1ZUw2cVFBb19MeGV4Wk0weEtKRnpXajBhMlp3cVJRSXprSFNabTRzSHpMbjBvT1BTRjJva3EwMGRxbllycVZXa1ZPZm5yaQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNT056Q3JDRDFKNVJ3dWRtSEw1NUtyYnllZVZadlRDM2d2aWRHZnZZTU1LSGNEejREc1VlcXRtRmxmN0gzT2V2OGFLNl9TWVJmV1NhRURNand6bHlLNm1PTDd5bUtuX2N2R3REVmFiVi0yM3JSZWU2UnNKQXlXRGVlX0dlX2l6OWwxNEJ6YVd1dmR0dmx3UndoUWlyaHEzZTF5dnRCRkVrcU4wbklVai1zNXczLTFlVUZ3dDZPMkF5M0o0REdJckhSMlNIN19Mbmd6enA2UnFRSGJrSk9jaEx6WERjd0xxLUFoOWlucmlVcHRrQnAyN3JqVE9XMks1NjY3Ujhn0gGIAkFVX3lxTE90eDl3d3NEYmpTU1c0QmVVdUM2R2EyZV8zLWJsNzgwak9Fc2NZS3owaEh1elVKSG5hN3RsYVMtd1JfNlFFcmh2OFhHbUpZREw5NXktdG0yc1NmbWlfaEpxRWREYjRGU0tubV8wMmxibEtWYk1IY0RFTkgyWEtockRyR29nSEwwM3ZWTVNRQ2pUSjhDZnJzZzMtWjBpdjlCdmZIVnNrNThiVHd6TmRRbEFCQU43ZVh0UDFCSmRfNmJKWWs1ZUw2cVFBb19MeGV4Wk0weEtKRnpXajBhMlp3cVJRSXprSFNabTRzSHpMbjBvT1BTRjJva3EwMGRxbllycVZXa1ZPZm5yaQ?oc=5",
       "date": "2026-03-19T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
       "stock": "DLF",
       "symbol": "DLF",
       "title": "Trade Spotlight: How should you trade PFC, GE Vernova, Bharat Forge, APL Apollo Tubes, DLF, and others on... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNT056Q3JDRDFKNVJ3dWRtSEw1NUtyYnllZVZadlRDM2d2aWRHZnZZTU1LSGNEejREc1VlcXRtRmxmN0gzT2V2OGFLNl9TWVJmV1NhRURNand6bHlLNm1PTDd5bUtuX2N2R3REVmFiVi0yM3JSZWU2UnNKQXlXRGVlX0dlX2l6OWwxNEJ6YVd1dmR0dmx3UndoUWlyaHEzZTF5dnRCRkVrcU4wbklVai1zNXczLTFlVUZ3dDZPMkF5M0o0REdJckhSMlNIN19Mbmd6enA2UnFRSGJrSk9jaEx6WERjd0xxLUFoOWlucmlVcHRrQnAyN3JqVE9XMks1NjY3Ujhn0gGIAkFVX3lxTE90eDl3d3NEYmpTU1c0QmVVdUM2R2EyZV8zLWJsNzgwak9Fc2NZS3owaEh1elVKSG5hN3RsYVMtd1JfNlFFcmh2OFhHbUpZREw5NXktdG0yc1NmbWlfaEpxRWREYjRGU0tubV8wMmxibEtWYk1IY0RFTkgyWEtockRyR29nSEwwM3ZWTVNRQ2pUSjhDZnJzZzMtWjBpdjlCdmZIVnNrNThiVHd6TmRRbEFCQU43ZVh0UDFCSmRfNmJKWWs1ZUw2cVFBb19MeGV4Wk0weEtKRnpXajBhMlp3cVJRSXprSFNabTRzSHpMbjBvT1BTRjJva3EwMGRxbllycVZXa1ZPZm5yaQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNT056Q3JDRDFKNVJ3dWRtSEw1NUtyYnllZVZadlRDM2d2aWRHZnZZTU1LSGNEejREc1VlcXRtRmxmN0gzT2V2OGFLNl9TWVJmV1NhRURNand6bHlLNm1PTDd5bUtuX2N2R3REVmFiVi0yM3JSZWU2UnNKQXlXRGVlX0dlX2l6OWwxNEJ6YVd1dmR0dmx3UndoUWlyaHEzZTF5dnRCRkVrcU4wbklVai1zNXczLTFlVUZ3dDZPMkF5M0o0REdJckhSMlNIN19Mbmd6enA2UnFRSGJrSk9jaEx6WERjd0xxLUFoOWlucmlVcHRrQnAyN3JqVE9XMks1NjY3Ujhn0gGIAkFVX3lxTE90eDl3d3NEYmpTU1c0QmVVdUM2R2EyZV8zLWJsNzgwak9Fc2NZS3owaEh1elVKSG5hN3RsYVMtd1JfNlFFcmh2OFhHbUpZREw5NXktdG0yc1NmbWlfaEpxRWREYjRGU0tubV8wMmxibEtWYk1IY0RFTkgyWEtockRyR29nSEwwM3ZWTVNRQ2pUSjhDZnJzZzMtWjBpdjlCdmZIVnNrNThiVHd6TmRRbEFCQU43ZVh0UDFCSmRfNmJKWWs1ZUw2cVFBb19MeGV4Wk0weEtKRnpXajBhMlp3cVJRSXprSFNabTRzSHpMbjBvT1BTRjJva3EwMGRxbllycVZXa1ZPZm5yaQ?oc=5",
       "date": "2026-03-19T07:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
-      "stop_loss": ""
+      "stop_loss": "",
+      "extraction_note": "Article page could not be fully read; verify missing trade details."
     },
     {
       "source": "Moneycontrol",
@@ -1032,19 +822,6 @@
       "title": "Trade Spotlight: How should you trade Hindustan Zinc, Punjab National Bank, Tata Steel, MCX India, Laurus... - Moneycontrol.com",
       "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNamw5NmVIS2k2b3NmREdTdTd1N3FzVk1lQTdmMmJPZzhlcFRZU0RtaU1QLUJIZDNITFNzeDhaVVMyTHNPRHRnLV90ZUFrOWJlQkVqRGpJSlR1bXdObHduVXJTdmktbEhrekNLekNoNUVjcVBDY3ZOcmFZb0JxS0kyZy1FNGpZc1M3WEZzZnZwZFlzSnEzUEhoYzdxT3FyMkhwQjh0MWtBU3hIR2F5NjIxeThHS1NCWFhULVN5VWdRLVBEOFN0ZGgzN3lEX2tvRFN4aU4zaXlBV0tHOU9nMnNZem9XcmJVcmx2R0NHMGdmV1hwcjc4T1pUOFNtVkVYYm1FODF6TVFMMzIyOXZfN1pzWk41LUhmUzh0QWcwS0VTcjjSAaYCQVVfeXFMTUhsckowSElnY3lsZHVZTjhWcV84MS1RRGlwdFVjN1dtSXM5N2xZTkdfOV9QOHJJckZ4dWg0aG5ycjc0eDRwYkFFTmEzalBTY1lqTmU4WHRibElyNmNRWldMVFlXMUp1WDR1cXpnbzYzQzJHNGMtX1NJdHFUUEFqdE4yQlNyZ1lnblJxVW1zTXhDbVk4LU1sRDF6ZlI1YWtUaVJORDF4dGtLQV84dzljcV95aFBaMEl0RVpCV3RDSUkxUTlpUWVaWGgzeTBKeEk2X0kycFpMdTNKZWFva0QyNjBsSVZZRWVhZE04N1kzTS1uLXRNbXVZaTdRNzlqNjJLbVFwZy1zVUN6czB1bDVnTERub0V1c1U1M3NGc20tRENRQnQ3ZmpB?oc=5",
       "date": "2026-01-15T08:00:00+00:00",
-      "trade_type": "Trade Spotlight",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "extraction_note": "Article page could not be fully read; verify missing trade details."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "State Bank of India",
-      "symbol": "SBIN",
-      "title": "Trade Spotlight: How should you trade JSW Energy, SJVN, Alkem Labs, BSE, State Bank of India, and others... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTDhLbG9zekFqTGwwcXZmLVZ4Z1ZYTmlKUXBNV29xZXFlRk5tdVM0MWs5bFBBVDQ1UFNiaHJaWGE5RU5pRURLQ21kU3A2cDNtdC1YeEcxb3A0Nm5veTJUaEJYUWJyZG1EY2hWOTd4cV9ka3BfR1Rad2laWjZ1Vl9OUGlrdFVqTlQzWk5hZ2FQQzQ1Sm1oa2xfZGhaTWMxc05IaGNxQlJxY1VwLXo5djM2NmkxelZMQWEyU1hJTktWcVExcGwxV1daMjNleU5hV2hSQmVsMGJ1amR0UUxmTVBpNWVtdndobm80Qk05blN5Mjc5bktvQzNaZ19DUGJoeDZvRXlCUHhTc2LSAY4CQVVfeXFMUE1hbUZMZktoUXNzM2FCSGZoVlVzWG1hR05rRlZjdFIwM3Q1MWFJU19Ca3pubEU5UHUwVWVkUDliZzZ4OFpRNmhzSU1RcS1xMjJCa2N4NkpSazU1MmdhNVpNUEFnSnBFXzZ1aFNVUUEwTTBKVVd3dWNBQko1Q3hMWVo3bGpIU19tRGRoNWpRTTQ3Z2ZPaUppVEtFa3FCODBmWmFtcHNTYTVnZjRPMmQxcG80Z3gzOFg0SURnbVJrdEo1Qng5QkEwSk00Wkd0cklPVkVIb1k0d3A4RUJWY2RWM21pZkNtbjl3NjZSTXBEVnZVcUU1Y2Q4M2MwWERrcm5EbWQxaS1FbkVhMTdQSjJR?oc=5",
-      "date": "2026-01-13T08:00:00+00:00",
       "trade_type": "Trade Spotlight",
       "entry": "",
       "target": "",
