@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T22:44:09.196556+00:00",
+  "updated": "2026-11-17T23:40:45.473466+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -12,14 +12,11 @@
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-alicon-castalloy-ramkrishna-forgings-kwality-walls-indus-towers-ge-vernova-t-d-and-others-on-november-16-14080744.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-devyani-international-fact-federal-bank-mcx-india-samvardhana-motherson-and-others-on-november-12-14077767.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-phoenix-mills-paytm-radico-khaitan-jk-tyre-marksans-pharma-and-others-on-november-13-14078916.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-16-top-15-things-to-know-before-the-opening-bell-14080355.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-12-top-15-things-to-know-before-the-opening-bell-14077386.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/three-forces-behind-november-s-market-turnaround-ai-correction-rs-54-000-crore-fii-comeback-and-earnings-resilience-14077031.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-17-top-15-things-to-know-before-the-opening-bell-14081635.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/sensex-gains-450-pts-nifty-above-25-250-strong-fii-inflows-among-key-factors-behind-market-rise-14080817.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/technical-view-further-upward-momentum-possible-for-nifty-only-above-25-500-say-analysts-14078375.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-13-top-15-things-to-know-before-the-opening-bell-14078549.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/technical-view-bulls-remain-in-control-but-nifty-50-faces-consolidation-and-profit-booking-risks-below-25-400-stick-to-buy-on-dips-strategy-14077231.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/india-has-been-a-victim-of-its-own-success-says-clsa-s-alexandra-redman-14081558.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/india-doesn-t-need-its-own-avengers-it-needs-the-world-to-want-its-ramayana-bernstein-on-prime-focus-14082007.html": "Article fetch failed: HTTP Error 403: Forbidden"
@@ -27,9 +24,9 @@
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
     "rss_unique_recent_articles": 15,
-    "decoded_moneycontrol_urls": 15,
-    "unresolved_google_links": 0,
-    "article_fetch_failures": 15,
+    "decoded_moneycontrol_urls": 12,
+    "unresolved_google_links": 3,
+    "article_fetch_failures": 12,
     "excluded_old": 96,
     "excluded_undated": 0,
     "excluded_future": 0
