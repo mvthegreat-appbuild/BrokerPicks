@@ -13,9 +13,9 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 
-# --------------------------------------------------
-# 1. MEDIA SOURCES
-# --------------------------------------------------
+# ==================================================
+# 1. EIGHT MEDIA SOURCES
+# ==================================================
 
 SOURCES = {
     "Moneycontrol": "moneycontrol.com",
@@ -29,12 +29,23 @@ SOURCES = {
 }
 
 
-# --------------------------------------------------
-# 2. STOCK NAMES AND NSE SYMBOLS
-# --------------------------------------------------
+# ==================================================
+# 2. SEARCH PHRASES
+# ==================================================
+
+SEARCH_GROUPS = [
+    '"trade spotlight" OR "stocks to buy" OR "stock picks"',
+    '"swing trade" OR "positional trade" OR "trading ideas"',
+    '"short-term gains" OR "short term gains" OR "buy recommendations"'
+]
+
+
+# ==================================================
+# 3. STOCK DATABASE
+# ==================================================
 
 STOCKS = {
-    "Reliance Industries": ("RELIANCE", ["Reliance Industries"]),
+    "Reliance Industries": ("RELIANCE", ["Reliance Industries", "Reliance Industries Ltd"]),
     "HDFC Bank": ("HDFCBANK", ["HDFC Bank"]),
     "ICICI Bank": ("ICICIBANK", ["ICICI Bank"]),
     "State Bank of India": ("SBIN", ["State Bank of India", "SBI"]),
@@ -47,7 +58,7 @@ STOCKS = {
     "Axis Bank": ("AXISBANK", ["Axis Bank"]),
     "Kotak Mahindra Bank": ("KOTAKBANK", ["Kotak Mahindra Bank"]),
     "Larsen & Toubro": ("LT", ["Larsen & Toubro", "L&T"]),
-    "Hindustan Aeronautics": ("HAL", ["Hindustan Aeronautics", "HAL"]),
+    "Hindustan Aeronautics": ("HAL", ["Hindustan Aeronautics"]),
     "ITC": ("ITC", ["ITC"]),
     "Tata Steel": ("TATASTEEL", ["Tata Steel"]),
     "JSW Steel": ("JSWSTEEL", ["JSW Steel"]),
@@ -58,22 +69,24 @@ STOCKS = {
     "Power Grid": ("POWERGRID", ["Power Grid"]),
     "Tata Power": ("TATAPOWER", ["Tata Power"]),
     "Adani Ports": ("ADANIPORTS", ["Adani Ports"]),
+    "Adani Green Energy": ("ADANIGREEN", ["Adani Green Energy"]),
+    "Adani Enterprises": ("ADANIENT", ["Adani Enterprises"]),
     "Maruti Suzuki": ("MARUTI", ["Maruti Suzuki"]),
     "Mahindra & Mahindra": ("M&M", ["Mahindra & Mahindra"]),
     "Sun Pharma": ("SUNPHARMA", ["Sun Pharma"]),
     "Cipla": ("CIPLA", ["Cipla"]),
-    "Bharti Airtel": ("BHARTIARTL", ["Bharti Airtel"]),
-    "Titan": ("TITAN", ["Titan"]),
+    "Bharti Airtel": ("BHARTIARTL", ["Bharti Airtel", "Airtel"]),
+    "Titan": ("TITAN", ["Titan Company", "Titan"]),
     "Trent": ("TRENT", ["Trent"]),
     "DLF": ("DLF", ["DLF"]),
-    "Zomato": ("ETERNAL", ["Zomato", "Eternal"]),
-    "BSE": ("BSE", ["BSE"]),
+    "Eternal": ("ETERNAL", ["Eternal", "Zomato"]),
+    "BSE": ("BSE", ["BSE Limited"]),
     "CDSL": ("CDSL", ["CDSL"]),
     "IRCTC": ("IRCTC", ["IRCTC"]),
-    "BEL": ("BEL", ["Bharat Electronics", "BEL"]),
+    "Bharat Electronics": ("BEL", ["Bharat Electronics"]),
     "Tata Consumer Products": ("TATACONSUM", ["Tata Consumer"]),
     "Asian Paints": ("ASIANPAINT", ["Asian Paints"]),
-    "Hindustan Unilever": ("HINDUNILVR", ["Hindustan Unilever", "HUL"]),
+    "Hindustan Unilever": ("HINDUNILVR", ["Hindustan Unilever"]),
     "Eicher Motors": ("EICHERMOT", ["Eicher Motors"]),
     "TVS Motor": ("TVSMOTOR", ["TVS Motor"]),
     "Hero MotoCorp": ("HEROMOTOCO", ["Hero MotoCorp"]),
@@ -81,44 +94,112 @@ STOCKS = {
     "Federal Bank": ("FEDERALBNK", ["Federal Bank"]),
     "Bank of Baroda": ("BANKBARODA", ["Bank of Baroda"]),
     "Canara Bank": ("CANBK", ["Canara Bank"]),
-    "PFC": ("PFC", ["Power Finance Corporation", "PFC"]),
-    "REC": ("RECLTD", ["REC Limited"]),
+    "Power Finance Corporation": ("PFC", ["Power Finance Corporation"]),
+    "REC Limited": ("RECLTD", ["REC Limited"]),
     "Voltas": ("VOLTAS", ["Voltas"]),
     "Polycab": ("POLYCAB", ["Polycab"]),
-    "Dixon Technologies": ("DIXON", ["Dixon Technologies"])
+    "Dixon Technologies": ("DIXON", ["Dixon Technologies"]),
+    "General Insurance Corporation": ("GICRE", ["General Insurance Corporation", "GIC Re"]),
+    "Aditya Birla Real Estate": ("ABREL", ["Aditya Birla Real Estate"]),
+    "Godrej Consumer Products": ("GODREJCP", ["Godrej Consumer"]),
+    "Fortis Healthcare": ("FORTIS", ["Fortis Healthcare"]),
+    "KPR Mill": ("KPRMILL", ["KPR Mill"]),
+    "Alicon Castalloy": ("ALICON", ["Alicon Castalloy"]),
+    "Ramkrishna Forgings": ("RKFORGE", ["Ramkrishna Forgings"]),
+    "Kwality Wall's": ("KWIL", ["Kwality Walls", "Kwality Wall's"]),
+    "Indus Towers": ("INDUSTOWER", ["Indus Towers"]),
+    "GE Vernova T&D India": ("GVT&D", ["GE Vernova T&D", "GE Vernova"]),
+    "Lloyds Engineering Works": ("LLOYDSENGG", ["Lloyds Engineering Works"]),
+    "Acutaas Chemicals": ("ACUTAAS", ["Acutaas Chemicals", "Acutaas"]),
+    "NOCIL": ("NOCIL", ["NOCIL"]),
+    "Heritage Foods": ("HERITGFOOD", ["Heritage Foods"]),
+    "BEML": ("BEML", ["BEML"]),
+    "Venky's India": ("VENKEYS", ["Venky's India", "Venkys India"]),
+    "Supreme Petrochem": ("SUPPETRO", ["Supreme Petrochem"]),
+    "Jubilant Pharmova": ("JUBLPHARMA", ["Jubilant Pharmova"]),
+    "Groww": ("GROWW", ["Groww"]),
+    "Force Motors": ("FORCEMOT", ["Force Motors"]),
+    "Mankind Pharma": ("MANKIND", ["Mankind Pharma"]),
+    "Havells India": ("HAVELLS", ["Havells"]),
+    "MCX": ("MCX", ["MCX India"]),
+    "Devyani International": ("DEVYANI", ["Devyani International"]),
+    "Samvardhana Motherson": ("MOTHERSON", ["Samvardhana Motherson", "Motherson"]),
+    "FACT": ("FACT", ["FACT Limited"]),
+    "Hindustan Zinc": ("HINDZINC", ["Hindustan Zinc"]),
+    "Bharat Dynamics": ("BDL", ["Bharat Dynamics"]),
+    "J K Tyre": ("JKTYRE", ["JK Tyre"]),
+    "Marksans Pharma": ("MARKSANS", ["Marksans Pharma"]),
+    "Paytm": ("PAYTM", ["Paytm"]),
+    "Radico Khaitan": ("RADICO", ["Radico Khaitan"]),
+    "Nifty": ("NIFTY", ["Nifty 50"]),
+    "Bank Nifty": ("BANKNIFTY", ["Bank Nifty"])
 }
 
 
-# --------------------------------------------------
-# 3. EXPLICIT SWING / POSITIONAL KEYWORDS
-# --------------------------------------------------
+# ==================================================
+# 4. RECOMMENDATION FILTERS
+# ==================================================
 
-KEYWORDS = (
+TRADE_PATTERNS = [
+    "trade spotlight",
     "swing trade",
     "swing trading",
-    "swing trader",
     "positional trade",
-    "positional trading",
     "positional pick",
     "positional call",
-    "short-term trade",
-    "short term trade",
-    "short-term pick",
-    "short term pick",
-    "short-term call",
-    "short term call"
-)
+    "short-term",
+    "short term",
+    "stocks to buy",
+    "stock picks",
+    "trading ideas",
+    "trading recommendation",
+    "buy recommendations",
+    "top stocks to buy",
+    "short-term gains",
+    "short term gains"
+]
+
+RECOMMENDATION_PATTERNS = [
+    "strategy: buy",
+    "buying recommended",
+    "recommended to buy",
+    "buy recommendation",
+    "buy call",
+    "target price",
+    "stop-loss",
+    "stop loss",
+    "stocks to buy",
+    "stock picks",
+    "trading ideas",
+    "trade spotlight",
+    "short-term gains",
+    "short term gains",
+    "recommends buying"
+]
 
 
-# --------------------------------------------------
-# 4. STOCK IDENTIFICATION
-# --------------------------------------------------
+# ==================================================
+# 5. TEXT CLEANING
+# ==================================================
+
+def clean_text(value):
+    value = html.unescape(value or "")
+    value = re.sub(r"<[^>]+>", " ", value)
+    value = re.sub(r"\s+", " ", value)
+    return value.strip()
+
+
+# ==================================================
+# 6. STOCK IDENTIFICATION
+# ==================================================
 
 def find_stocks(text):
-    found = []
+    found = {}
 
     for name, (symbol, aliases) in STOCKS.items():
+
         for alias in aliases:
+
             pattern = (
                 r"(?<![A-Za-z0-9])"
                 + re.escape(alias)
@@ -126,19 +207,63 @@ def find_stocks(text):
             )
 
             if re.search(pattern, text, re.I):
-                found.append((name, symbol))
+                found[symbol] = (name, symbol)
                 break
 
-    return found
+    return list(found.values())
 
 
-# --------------------------------------------------
-# 5. TARGET PRICE EXTRACTION
-# --------------------------------------------------
+# ==================================================
+# 7. RECOMMENDATION VALIDATION
+# ==================================================
 
-def get_target(text):
+def is_trade_recommendation(text):
+
+    lower = text.lower()
+
+    has_trade_style = any(
+        phrase in lower for phrase in TRADE_PATTERNS
+    )
+
+    has_recommendation = any(
+        phrase in lower for phrase in RECOMMENDATION_PATTERNS
+    )
+
+    return has_trade_style and has_recommendation
+
+
+# ==================================================
+# 8. TARGET EXTRACTION
+# ==================================================
+
+def get_targets(text):
+
+    patterns = [
+        r"(?:target|tgt)\s*(?:price)?\s*(?:of|at|:)?\s*(?:Rs\.?|INR|₹)?\s*([0-9,]+(?:\.\d+)?)",
+        r"target\s*(?:of|at)\s*(?:Rs\.?|₹)?\s*([0-9,]+(?:\.\d+)?)"
+    ]
+
+    for pattern in patterns:
+
+        matches = re.findall(pattern, text, re.I)
+
+        if matches:
+            return [
+                value.replace(",", "")
+                for value in matches[:3]
+            ]
+
+    return []
+
+
+# ==================================================
+# 9. STOP LOSS EXTRACTION
+# ==================================================
+
+def get_stop_loss(text):
+
     match = re.search(
-        r"(?:target|tgt)\s*(?:of|at|:)?\s*"
+        r"(?:stop[\s-]*loss|SL)\s*[:\-]?\s*"
         r"(?:Rs\.?|INR|₹)?\s*([0-9,]+(?:\.\d+)?)",
         text,
         re.I
@@ -150,41 +275,59 @@ def get_target(text):
     return ""
 
 
-# --------------------------------------------------
-# 6. CLEAN ARTICLE DESCRIPTION
-# --------------------------------------------------
+# ==================================================
+# 10. ENTRY PRICE EXTRACTION
+# ==================================================
 
-def clean_description(description):
-    description = html.unescape(description or "")
-    description = re.sub(r"<[^>]+>", " ", description)
-    description = re.sub(r"\s+", " ", description)
+def get_entry(text):
 
-    return description.strip()
+    patterns = [
+        r"(?:buying recommended|buy around|buy at|entry)\s*"
+        r"(?:Rs\.?|₹)?\s*([0-9,]+(?:\.\d+)?)"
+        r"\s*(?:to|-|–)\s*"
+        r"(?:Rs\.?|₹)?\s*([0-9,]+(?:\.\d+)?)",
+
+        r"(?:buying recommended|buy around|buy at|entry)\s*"
+        r"(?:Rs\.?|₹)?\s*([0-9,]+(?:\.\d+)?)"
+    ]
+
+    for pattern in patterns:
+
+        match = re.search(pattern, text, re.I)
+
+        if match:
+
+            values = [
+                value.replace(",", "")
+                for value in match.groups()
+                if value
+            ]
+
+            return "-".join(values)
+
+    return ""
 
 
-# --------------------------------------------------
-# 7. CHECK EXPLICIT TRADE KEYWORDS
-# --------------------------------------------------
+# ==================================================
+# 11. DATE CONVERSION
+# ==================================================
 
-def has_trade_keyword(text):
-    text = text.lower()
+def get_date(pubdate):
 
-    return any(keyword in text for keyword in KEYWORDS)
+    try:
+        return parsedate_to_datetime(
+            pubdate
+        ).astimezone(timezone.utc).isoformat()
+
+    except Exception:
+        return pubdate
 
 
-# --------------------------------------------------
-# 8. READ ONE MEDIA SOURCE
-# --------------------------------------------------
+# ==================================================
+# 12. FETCH ONE RSS SEARCH
+# ==================================================
 
-def read_source(source, domain):
-
-    query = (
-        f'site:{domain} '
-        '("swing trade" OR "swing trading" OR '
-        '"positional trade" OR "positional trading" OR '
-        '"positional pick" OR "short-term trade" OR '
-        '"short term trade" OR "short-term pick")'
-    )
+def fetch_rss(query):
 
     url = (
         "https://news.google.com/rss/search?"
@@ -199,27 +342,22 @@ def read_source(source, domain):
     request = urllib.request.Request(
         url,
         headers={
-            "User-Agent": (
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 Chrome/120.0 Safari/537.36"
-            )
+            "User-Agent": "Mozilla/5.0"
         }
     )
 
-    root = None
-
-    # Retry temporary failures and rate limits.
     for attempt in range(3):
 
         try:
+
             with urllib.request.urlopen(
                 request,
-                timeout=30
+                timeout=25
             ) as response:
 
                 root = ET.fromstring(response.read())
 
-            break
+            return root.findall("./channel/item")
 
         except urllib.error.HTTPError as error:
 
@@ -229,11 +367,17 @@ def read_source(source, domain):
             if attempt == 2:
                 raise
 
-            wait_time = 5 * (attempt + 1)
-            print(source, "HTTP", error.code,
-                  "- retrying in", wait_time, "seconds")
+            wait = 5 * (attempt + 1)
 
-            time.sleep(wait_time)
+            print(
+                "Temporary HTTP error",
+                error.code,
+                "- waiting",
+                wait,
+                "seconds"
+            )
+
+            time.sleep(wait)
 
         except Exception:
 
@@ -242,34 +386,75 @@ def read_source(source, domain):
 
             time.sleep(5 * (attempt + 1))
 
-    if root is None:
-        return []
+    return []
+
+
+# ==================================================
+# 13. COLLECT ONE PUBLISHER
+# ==================================================
+
+def read_source(source, domain):
+
+    articles = {}
+
+    for phrase_group in SEARCH_GROUPS:
+
+        query = (
+            f'site:{domain} ({phrase_group})'
+        )
+
+        try:
+
+            found = fetch_rss(query)
+
+            for article in found:
+
+                title = clean_text(
+                    article.findtext("title") or ""
+                )
+
+                description = clean_text(
+                    article.findtext("description") or ""
+                )
+
+                link = (
+                    article.findtext("link") or ""
+                ).strip()
+
+                pubdate = (
+                    article.findtext("pubDate") or ""
+                )
+
+                key = link or title
+
+                if key:
+                    articles[key] = {
+                        "title": title,
+                        "description": description,
+                        "link": link,
+                        "date": get_date(pubdate)
+                    }
+
+        except Exception as error:
+
+            print(
+                source,
+                "search warning:",
+                str(error)
+            )
+
+        time.sleep(1)
 
     results = []
 
-    for article in root.findall("./channel/item"):
+    for article in articles.values():
 
-        title = (
-            article.findtext("title") or ""
-        ).strip()
+        title = article["title"]
+        description = article["description"]
 
-        description = clean_description(
-            article.findtext("description") or ""
-        )
-
-        link = (
-            article.findtext("link") or ""
-        ).strip()
-
-        pubdate = (
-            article.findtext("pubDate") or ""
-        )
-
-        # Check both headline and article description.
         content = title + " " + description
 
-        # Include only explicitly labelled trade ideas.
-        if not has_trade_keyword(content):
+        if not is_trade_recommendation(content):
             continue
 
         stocks_found = find_stocks(content)
@@ -277,15 +462,7 @@ def read_source(source, domain):
         if not stocks_found:
             continue
 
-        try:
-            date = parsedate_to_datetime(
-                pubdate
-            ).astimezone(timezone.utc).isoformat()
-
-        except Exception:
-            date = pubdate
-
-        target = get_target(content)
+        targets = get_targets(content)
 
         for stock, symbol in stocks_found:
 
@@ -294,13 +471,13 @@ def read_source(source, domain):
                 "stock": stock,
                 "symbol": symbol,
                 "title": title,
-                "link": link,
-                "date": date,
-                "entry": "",
-                "target1": target,
-                "target2": "",
-                "target3": "",
-                "stop_loss": "",
+                "link": article["link"],
+                "date": article["date"],
+                "entry": get_entry(content),
+                "target1": targets[0] if len(targets) > 0 else "",
+                "target2": targets[1] if len(targets) > 1 else "",
+                "target3": targets[2] if len(targets) > 2 else "",
+                "stop_loss": get_stop_loss(content),
                 "holding_period": "",
                 "analyst": ""
             })
@@ -308,29 +485,33 @@ def read_source(source, domain):
     return results
 
 
-# --------------------------------------------------
-# 9. COLLECT ALL EIGHT SOURCES
-# --------------------------------------------------
+# ==================================================
+# 14. MAIN COLLECTION
+# ==================================================
 
 def main():
 
-    items = []
+    all_items = []
     errors = {}
     source_counts = {}
+
+    print("Starting media recommendation collection")
 
     for source, domain in SOURCES.items():
 
         try:
-            found = read_source(source, domain)
 
-            items.extend(found)
-            source_counts[source] = len(found)
+            records = read_source(source, domain)
+
+            all_items.extend(records)
+
+            source_counts[source] = len(records)
 
             print(
                 source,
                 ":",
-                len(found),
-                "records"
+                len(records),
+                "recommendations"
             )
 
         except Exception as error:
@@ -339,22 +520,21 @@ def main():
             source_counts[source] = 0
 
             print(
-                "Error:",
+                "ERROR:",
                 source,
-                error
+                str(error)
             )
 
-        # Avoid sending requests too quickly.
-        time.sleep(3)
+        time.sleep(2)
 
-    # Remove duplicate records from the same source.
+    # Remove duplicate articles for the same publisher and stock.
     unique = {}
 
-    for item in items:
+    for item in all_items:
 
         key = (
             item["source"],
-            item["stock"],
+            item["symbol"],
             item["link"]
         )
 
@@ -366,9 +546,9 @@ def main():
         reverse=True
     )
 
-    # --------------------------------------------------
-    # 10. SAVE JSON FILE
-    # --------------------------------------------------
+    # ==================================================
+    # 15. SAVE JSON
+    # ==================================================
 
     output = {
         "updated": datetime.now(timezone.utc).isoformat(),
@@ -380,13 +560,14 @@ def main():
         "errors": errors,
 
         "method_note": (
-            "RSS-based media headline collection. "
-            "Only explicit swing or positional trade "
-            "keywords and recognised stock names are included. "
-            "Article descriptions are also checked. "
-            "Entry prices, stop losses and missing targets "
-            "are not guessed. Recommendations are not "
-            "independently verified investment advice."
+            "Google News RSS searches across eight publishers. "
+            "Multiple search phrases are used. Headlines and RSS "
+            "descriptions are checked. Only explicit trade-style "
+            "and recommendation wording with recognised stock "
+            "names is included. Entry, target and stop-loss values "
+            "are extracted only when visible in the available text. "
+            "Missing values are not guessed. RSS coverage is not "
+            "complete and every recommendation requires verification."
         ),
 
         "items": final_items
@@ -401,13 +582,11 @@ def main():
         encoding="utf-8"
     )
 
-    print("--------------------------------")
-    print(
-        "Saved media_picks.json:",
-        len(final_items),
-        "records"
-    )
-    print("--------------------------------")
+    print("------------------------------------")
+    print("MEDIA COLLECTION COMPLETED")
+    print("Total records:", len(final_items))
+    print("Publisher errors:", len(errors))
+    print("------------------------------------")
 
 
 if __name__ == "__main__":
