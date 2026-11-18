@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T20:52:16.467547+00:00",
+  "updated": "2026-11-18T21:39:52.484589+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -44,8 +44,15 @@
     },
     "BANKBARODA": {
       "name": "Bank of Baroda",
-      "status": "unavailable",
-      "error": "Server returned an error response"
+      "cmp": 274.5,
+      "change": -0.39,
+      "change_percent": -0.14,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 9383300,
+      "timestamp": "2026-11-18 16:00:28",
+      "status": "success"
     },
     "CDSL": {
       "name": "CDSL",
