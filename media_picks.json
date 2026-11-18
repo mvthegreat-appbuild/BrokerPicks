@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T20:44:29.756858+00:00",
+  "updated": "2026-11-18T21:43:16.697009+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -8,17 +8,17 @@
   },
   "collection_window_days": 10,
   "errors": {
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-alicon-castalloy-ramkrishna-forgings-kwality-walls-indus-towers-ge-vernova-t-d-and-others-on-november-16-14080744.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-deepak-fertilisers-adani-energy-honasa-consumer-international-gemological-institute-hyundai-motor-and-others-on-november-18-14082995.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-general-insurance-corp-aditya-birla-real-estate-godrej-consumer-fortis-healthcare-kpr-mill-and-others-on-november-17-14081798.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-18-top-15-things-to-know-before-the-opening-bell-14082855.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/technical-view-further-upward-momentum-possible-for-nifty-only-above-25-500-say-analysts-14078375.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-17-top-15-things-to-know-before-the-opening-bell-14081635.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/technical-view-sustained-move-above-25-500-key-to-further-nifty-50-upside-consolidation-likely-as-momentum-indicators-near-overbought-zone-14082501.html": "Article fetch failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-alicon-castalloy-ramkrishna-forgings-kwality-walls-indus-towers-ge-vernova-t-d-and-others-on-november-16-14080744.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-16-top-15-things-to-know-before-the-opening-bell-14080355.html": "Article fetch failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-18-top-15-things-to-know-before-the-opening-bell-14082855.html": "Article fetch failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-17-top-15-things-to-know-before-the-opening-bell-14081635.html": "Article fetch failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/technical-view-further-upward-momentum-possible-for-nifty-only-above-25-500-say-analysts-14078375.html": "Article fetch failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-13-top-15-things-to-know-before-the-opening-bell-14078549.html": "Article fetch failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/technical-view-sustained-move-above-25-500-key-to-further-nifty-50-upside-consolidation-likely-as-momentum-indicators-near-overbought-zone-14082501.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/india-doesn-t-need-its-own-avengers-it-needs-the-world-to-want-its-ramayana-bernstein-on-prime-focus-14082007.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/india-has-been-a-victim-of-its-own-success-says-clsa-s-alexandra-redman-14081558.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-13-top-15-things-to-know-before-the-opening-bell-14078549.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html": "Article fetch failed: HTTP Error 403: Forbidden"
   },
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
