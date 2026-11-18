@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T14:33:21.182557+00:00",
+  "updated": "2026-11-18T15:27:56.112594+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -32,8 +32,15 @@
     },
     "BALKRISIND": {
       "name": "Balkrishna",
-      "status": "unavailable",
-      "error": "Server returned an error response"
+      "cmp": 2283.0,
+      "change": -43.4,
+      "change_percent": -1.87,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 65263,
+      "timestamp": "2026-11-18 16:00:28",
+      "status": "success"
     },
     "BANKBARODA": {
       "name": "Bank of Baroda",
