@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T21:43:16.697009+00:00",
+  "updated": "2026-11-18T22:42:45.980020+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -14,6 +14,7 @@
     "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-16-top-15-things-to-know-before-the-opening-bell-14080355.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-18-top-15-things-to-know-before-the-opening-bell-14082855.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-17-top-15-things-to-know-before-the-opening-bell-14081635.html": "Article fetch failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/alkem-laboratories-gallantt-ispat-promoters-sell-shares-investors-raise-stake-in-green-asia-impex-14082833.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/technical-view-further-upward-momentum-possible-for-nifty-only-above-25-500-say-analysts-14078375.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-13-top-15-things-to-know-before-the-opening-bell-14078549.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/technical-view-sustained-move-above-25-500-key-to-further-nifty-50-upside-consolidation-likely-as-momentum-indicators-near-overbought-zone-14082501.html": "Article fetch failed: HTTP Error 403: Forbidden",
@@ -23,11 +24,11 @@
   },
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
-    "rss_unique_recent_articles": 12,
-    "decoded_moneycontrol_urls": 12,
+    "rss_unique_recent_articles": 13,
+    "decoded_moneycontrol_urls": 13,
     "unresolved_google_links": 0,
-    "article_fetch_failures": 12,
-    "excluded_old": 98,
+    "article_fetch_failures": 13,
+    "excluded_old": 97,
     "excluded_undated": 0,
     "excluded_future": 0
   },
