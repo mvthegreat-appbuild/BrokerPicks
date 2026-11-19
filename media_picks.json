@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-19T11:48:51.222197+00:00",
+  "updated": "2026-11-19T12:56:13.641874+00:00",
   "sources": [
     "Moneycontrol"
   ],
   "source_counts": {
-    "Moneycontrol": 31
+    "Moneycontrol": 28
   },
   "collection_window_days": 10,
   "errors": {},
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
-    "rss_unique_recent_articles": 20,
-    "decoded_moneycontrol_urls": 20,
-    "unresolved_google_links": 0,
+    "rss_unique_recent_articles": 18,
+    "decoded_moneycontrol_urls": 16,
+    "unresolved_google_links": 2,
     "article_fetch_failures": 0,
-    "excluded_old": 89,
+    "excluded_old": 91,
     "excluded_undated": 0,
     "excluded_future": 0
   },
@@ -236,51 +236,6 @@
       "published_at": "2026-11-16T02:37:58+00:00",
       "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-alicon-castalloy-ramkrishna-forgings-kwality-walls-indus-towers-ge-vernova-t-d-and-others-on-november-16-14080744.html",
       "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-alicon-castalloy-ramkrishna-forgings-kwality-walls-indus-towers-ge-vernova-t-d-and-others-on-november-16-14080744.html",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Paytm",
-      "title": "Technical View: Further upward momentum possible for Nifty only above 25,500, say analysts - Moneycontrol.com",
-      "published_at": "2026-11-12T11:58:23+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/technical-view-further-upward-momentum-possible-for-nifty-only-above-25-500-say-analysts-14078375.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/technical-view-further-upward-momentum-possible-for-nifty-only-above-25-500-say-analysts-14078375.html",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "State Bank of India",
-      "title": "Technical View: Further upward momentum possible for Nifty only above 25,500, say analysts - Moneycontrol.com",
-      "published_at": "2026-11-12T11:58:23+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/technical-view-further-upward-momentum-possible-for-nifty-only-above-25-500-say-analysts-14078375.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/technical-view-further-upward-momentum-possible-for-nifty-only-above-25-500-say-analysts-14078375.html",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Tata Motors",
-      "title": "Technical View: Further upward momentum possible for Nifty only above 25,500, say analysts - Moneycontrol.com",
-      "published_at": "2026-11-12T11:58:23+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/technical-view-further-upward-momentum-possible-for-nifty-only-above-25-500-say-analysts-14078375.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/technical-view-further-upward-momentum-possible-for-nifty-only-above-25-500-say-analysts-14078375.html",
       "entry": "",
       "target": "",
       "stop_loss": "",
