@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T20:25:47.110697+00:00",
+  "updated": "2026-11-19T21:16:53.405883+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -22,16 +22,15 @@
     "https://www.moneycontrol.com/news/business/india-doesn-t-need-its-own-avengers-it-needs-the-world-to-want-its-ramayana-bernstein-on-prime-focus-14082007.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/india-has-been-a-victim-of-its-own-success-says-clsa-s-alexandra-redman-14081558.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/technical-view-sustained-move-above-25-500-key-to-further-nifty-50-upside-consolidation-likely-as-momentum-indicators-near-overbought-zone-14082501.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-devyani-international-fact-federal-bank-mcx-india-samvardhana-motherson-and-others-on-november-12-14077767.html": "Article fetch failed: HTTP Error 403: Forbidden"
+    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html": "Article fetch failed: HTTP Error 403: Forbidden"
   },
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
-    "rss_unique_recent_articles": 16,
-    "decoded_moneycontrol_urls": 16,
+    "rss_unique_recent_articles": 15,
+    "decoded_moneycontrol_urls": 15,
     "unresolved_google_links": 0,
-    "article_fetch_failures": 16,
-    "excluded_old": 95,
+    "article_fetch_failures": 15,
+    "excluded_old": 96,
     "excluded_undated": 0,
     "excluded_future": 0
   },
