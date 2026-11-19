@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T10:30:31.041011+00:00",
+  "updated": "2026-11-19T11:24:48.359874+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -32,7 +32,7 @@
       "high": null,
       "low": null,
       "volume": 7748148,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "BALKRISIND": {
@@ -44,7 +44,7 @@
       "high": null,
       "low": null,
       "volume": 93796,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "CDSL": {
@@ -56,7 +56,7 @@
       "high": null,
       "low": null,
       "volume": 1110118,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "CUMMINS": {
@@ -73,7 +73,7 @@
       "high": null,
       "low": null,
       "volume": 1690643,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "EICHER MOTORS": {
@@ -95,7 +95,7 @@
       "high": null,
       "low": null,
       "volume": 697259,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "HAL": {
@@ -106,8 +106,8 @@
       "open": null,
       "high": null,
       "low": null,
-      "volume": 576120,
-      "timestamp": "2026-11-19 15:59:52",
+      "volume": 576125,
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "KAYNES": {
@@ -119,7 +119,7 @@
       "high": null,
       "low": null,
       "volume": 902091,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "NMDC": {
@@ -131,7 +131,7 @@
       "high": null,
       "low": null,
       "volume": 16109354,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "PAGEIND": {
@@ -143,7 +143,7 @@
       "high": null,
       "low": null,
       "volume": 37720,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "PRESTIGE": {
@@ -155,7 +155,7 @@
       "high": null,
       "low": null,
       "volume": 319044,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "SBI LIFE": {
@@ -172,20 +172,13 @@
       "high": null,
       "low": null,
       "volume": 153995,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "TMPV": {
       "name": "Tata Motors",
-      "cmp": 263.5,
-      "change": 10.95,
-      "change_percent": 4.34,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 22086029,
-      "timestamp": "2026-11-19 15:59:52",
-      "status": "success"
+      "status": "unavailable",
+      "error": "Server returned an error response"
     },
     "TATAPOWER": {
       "name": "Tata Power",
@@ -196,7 +189,7 @@
       "high": null,
       "low": null,
       "volume": 18924224,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "TATASTEEL": {
@@ -208,7 +201,7 @@
       "high": null,
       "low": null,
       "volume": 13367958,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
     "VOLTAS": {
@@ -220,7 +213,7 @@
       "high": null,
       "low": null,
       "volume": 6235827,
-      "timestamp": "2026-11-19 15:59:52",
+      "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     }
   }
