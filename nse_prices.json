@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T21:10:04.002781+00:00",
+  "updated": "2026-11-19T21:55:34.364946+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -49,8 +49,15 @@
     },
     "CDSL": {
       "name": "CDSL",
-      "status": "unavailable",
-      "error": "Server returned an error response"
+      "cmp": 1423.4,
+      "change": 6.8,
+      "change_percent": 0.48,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 1110118,
+      "timestamp": "2026-11-19 16:00:28",
+      "status": "success"
     },
     "CUMMINS": {
       "name": "Cummins",
