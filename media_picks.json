@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-19T03:19:52.424552+00:00",
+  "updated": "2026-11-19T04:28:36.079546+00:00",
   "sources": [
     "Moneycontrol"
   ],
   "source_counts": {
-    "Moneycontrol": 16
+    "Moneycontrol": 17
   },
   "collection_window_days": 10,
   "errors": {},
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
-    "rss_unique_recent_articles": 15,
-    "decoded_moneycontrol_urls": 15,
+    "rss_unique_recent_articles": 14,
+    "decoded_moneycontrol_urls": 14,
     "unresolved_google_links": 0,
     "article_fetch_failures": 0,
-    "excluded_old": 95,
+    "excluded_old": 96,
     "excluded_undated": 0,
     "excluded_future": 0
   },
@@ -86,6 +86,21 @@
       "published_at": "2026-11-18T02:49:39+00:00",
       "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-deepak-fertilisers-adani-energy-honasa-consumer-international-gemological-institute-hyundai-motor-and-others-on-november-18-14082995.html",
       "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-deepak-fertilisers-adani-energy-honasa-consumer-international-gemological-institute-hyundai-motor-and-others-on-november-18-14082995.html",
+      "entry": "",
+      "target": "",
+      "stop_loss": "",
+      "holding_period": "",
+      "recommendation_status": "Trade section detected - verify holding period",
+      "section_verified": true,
+      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
+    },
+    {
+      "source": "Moneycontrol",
+      "stock": "State Bank of India",
+      "title": "Alkem Laboratories, Gallantt Ispat promoters sell shares; investors raise stake in Green Asia Impex - Moneycontrol.com",
+      "published_at": "2026-11-17T16:21:50+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/markets/alkem-laboratories-gallantt-ispat-promoters-sell-shares-investors-raise-stake-in-green-asia-impex-14082833.html",
+      "link": "https://www.moneycontrol.com/news/business/markets/alkem-laboratories-gallantt-ispat-promoters-sell-shares-investors-raise-stake-in-green-asia-impex-14082833.html",
       "entry": "",
       "target": "",
       "stop_loss": "",
