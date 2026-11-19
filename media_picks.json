@@ -1,24 +1,84 @@
 {
-  "updated": "2026-11-19T02:07:15.579366+00:00",
+  "updated": "2026-11-19T03:19:52.424552+00:00",
   "sources": [
     "Moneycontrol"
   ],
   "source_counts": {
-    "Moneycontrol": 11
+    "Moneycontrol": 16
   },
   "collection_window_days": 10,
   "errors": {},
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
-    "rss_unique_recent_articles": 13,
-    "decoded_moneycontrol_urls": 13,
+    "rss_unique_recent_articles": 15,
+    "decoded_moneycontrol_urls": 15,
     "unresolved_google_links": 0,
     "article_fetch_failures": 0,
-    "excluded_old": 97,
+    "excluded_old": 95,
     "excluded_undated": 0,
     "excluded_future": 0
   },
   "items": [
+    {
+      "source": "Moneycontrol",
+      "stock": "Godrej Consumer Products",
+      "title": "Trade Spotlight: How should you trade State Bank of India, Indraprastha Gas, Bank of Baroda, Vijaya... - Moneycontrol.com",
+      "published_at": "2026-11-19T02:34:26+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
+      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
+      "entry": "",
+      "target": "940",
+      "stop_loss": "874",
+      "holding_period": "",
+      "recommendation_status": "Trade section detected - verify holding period",
+      "section_verified": true,
+      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
+    },
+    {
+      "source": "Moneycontrol",
+      "stock": "State Bank of India",
+      "title": "Trade Spotlight: How should you trade State Bank of India, Indraprastha Gas, Bank of Baroda, Vijaya... - Moneycontrol.com",
+      "published_at": "2026-11-19T02:34:26+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
+      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
+      "entry": "",
+      "target": "",
+      "stop_loss": "",
+      "holding_period": "",
+      "recommendation_status": "Trade section detected - verify holding period",
+      "section_verified": true,
+      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
+    },
+    {
+      "source": "Moneycontrol",
+      "stock": "Tata Motors",
+      "title": "Trade Spotlight: How should you trade State Bank of India, Indraprastha Gas, Bank of Baroda, Vijaya... - Moneycontrol.com",
+      "published_at": "2026-11-19T02:34:26+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
+      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
+      "entry": "",
+      "target": "",
+      "stop_loss": "",
+      "holding_period": "",
+      "recommendation_status": "Trade section detected - verify holding period",
+      "section_verified": true,
+      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
+    },
+    {
+      "source": "Moneycontrol",
+      "stock": "Canara Bank",
+      "title": "Trade Spotlight: How should you trade Deepak Fertilisers, Adani Energy, Honasa Consumer, International... - Moneycontrol.com",
+      "published_at": "2026-11-18T02:49:39+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-deepak-fertilisers-adani-energy-honasa-consumer-international-gemological-institute-hyundai-motor-and-others-on-november-18-14082995.html",
+      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-deepak-fertilisers-adani-energy-honasa-consumer-international-gemological-institute-hyundai-motor-and-others-on-november-18-14082995.html",
+      "entry": "",
+      "target": "144",
+      "stop_loss": "130",
+      "holding_period": "",
+      "recommendation_status": "Trade section detected - verify holding period",
+      "section_verified": true,
+      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
+    },
     {
       "source": "Moneycontrol",
       "stock": "Tata Motors",
@@ -149,6 +209,21 @@
       "entry": "",
       "target": "",
       "stop_loss": "",
+      "holding_period": "",
+      "recommendation_status": "Trade section detected - verify holding period",
+      "section_verified": true,
+      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
+    },
+    {
+      "source": "Moneycontrol",
+      "stock": "Larsen & Toubro",
+      "title": "Trade Spotlight: How should you trade Canara Bank, Mankind Pharma, Amara Raja Energy, Bharat Dynamics,... - Moneycontrol.com",
+      "published_at": "2026-11-11T02:50:47+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html",
+      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html",
+      "entry": "",
+      "target": "4,570",
+      "stop_loss": "4,020",
       "holding_period": "",
       "recommendation_status": "Trade section detected - verify holding period",
       "section_verified": true,
