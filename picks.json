@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 03:10 UTC",
+ "updated": "2026-11-20 04:46 UTC",
  "brokers": [
   "Motilal Oswal",
   "ICICI Direct",
@@ -34,16 +34,48 @@
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWE5XVlBkeC13dW1saVRDWWs0VXNYZnNXVjRfNVNFSkpEdmNMM1RuUlZQVzdONHNfa3p4TEZLR1FoR213bk1ZQ3lsMVEtU2VTVndvaWZDcmQzNElWdXVlMWZfbUNKWFhSenJkdFdGWU0tc0xUTHQwMWY1YzVtMEloV2Q4RnFWS2pLS0VsNTg3dzlNeEJzUWhzMEdkNy1VVnFBWTFsSXVGLUhSQTFfcTV4QmFsejNTek1OSUxlclljaF9TLUFEV0FBUtIB0AFBVV95cUxPSi1sMUhrckNBNUpmN3AyNFgyRmwzcktJbUpMeVBHVi1Zel80aGlRSzM0OC1CUGVaUkdwTXRLekowSmRpdlZlMk9ETDRhU1hiX0ZvQWQtcU5fNjhQRmZmMG9yNHpqUDVLdUVvTXgzejRqdWFTNGlJelpZVlg5cXlCTG9oSUFGbjZSVDRyNkhpSnp6N0FzX01KRG5JQjlxenE3ZlVXdWVTLTFPd21NWDJpMTJfeHdCalFNQUVVTEYzVGtuQmZCeFpMWjZ6aDNpN1hE?oc=5",
    "date": "2026-11-20",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
   {
-   "broker": "IIFL Capital",
-   "title": "Fairfax arm gets controlling 44% stake in IIFL Capital",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQmdMYjhNOXdVVmVocXNSVGdmcHIwY0xUNkVRYkdLLUY4SEFCV3I5RXhRd2VwSU0ySEVtUkRHUmVLMGZLQkZJd01TYXhUczdYOHJ2b2FRR0dFeVR1eXM0UTNkN2RLWVVPTldVczdfSGdXQzNjWXQ4QzVtRWItd19vMHF5UlgySVlOREJZZklyN3ljRUpUbVUzd09NUER3VzhjWnRyMFNpYlJFYVNKWGVz?oc=5",
+   "broker": "Axis Direct",
+   "title": "Real Estate - Axis Direct names 35 top stocks to buy; ICICI Bank, HUL and Maruti Suzuki feature in list",
+   "source": "The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOWGUyeGYzQ3NOOEhOUl9nYTR2bTJJQmFXMkdDVHQ1YVowcXh1cGFaalVsV3ItNmptZmp3Mzg1dDFMbFN4bzhBRFlDaGtxZklkR1ZPblRza0pZSWZySlZ6TjZvWGdLWHR0Sm1ITm1jNk85TGdHZEZDLThpQ2VVMzJhcFJjM1hFRXRzWUJxaXNvdGNMLWs1TkJmcURvR2xpbE1zOHdYRTVidF9ETGV6UnNsV1ZPY2dDOTNpVmFjYkN0YmRvUjVfcmNIMDVhcElqSWdsR2J5SVpnOTQ5NlJfUWhub05UR3NQSHZQd1lqSTQzQjRxdUViR1VOMEh1Smg5UVVJRjM2LTFPMmQ0V3NF?oc=5",
    "date": "2026-11-20",
    "target": "",
+   "stop_loss": "",
+   "period": "",
+   "call": "BUY",
+   "stocks": [
+    "Maruti Suzuki",
+    "ICICI Bank",
+    "Hindustan Unilever"
+   ]
+  },
+  {
+   "broker": "IIFL Capital",
+   "title": "Fairfax Acquires 44.08% Stake in IIFL Capital",
+   "source": "HDFC Sky",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ0F1SEVTaTFnRzRnOUhDMS1HN0pNa0FDRmpnYldIZXdxc0xpRlBIQ0lHUG10NmVBTGk1YUZ6Vk5oZktQdVpkUVJBUi1YSVh5clRFSE5TM190QkJpeDdxX3lmalhSeXQzeTJ2UlgtMjczaFJzekk0elVKSlFmelhFbzM0eDFkZDFyUFlZ?oc=5",
+   "date": "2026-11-20",
+   "target": "",
+   "stop_loss": "",
+   "period": "",
+   "call": "",
+   "stocks": []
+  },
+  {
+   "broker": "IIFL Capital",
+   "title": "Fairfax raises stake in IIFL Capital to 44.06%",
+   "source": "The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUzhTeGdfV2ZYWUtrQkVwXzNlMEhRYUxSdlR0OXVESUo0VW8xMUE2aGRRWXYzUWRDTk10dVYyZm05LUFYc3UzeF9XZUtaSDE4eFlLczRDMk91MG9HVDRhajdzQ0xoS0RFdlJXcS1RR28wQk44M3YtT1N0aXVRQ1puWXYxVmsyZlZTRGNZbFhsTkFfRjlISllNaUktVGhFVFppQTQ4S0FpMHNGZ2d1VWFkNDVfbDJoUEN3c18xVFFBN2HSAcABQVVfeXFMUFM4U3hnX1dmWFlLa0JFcF8zZTBIUWFMUnZUdDl1RElKNFVvMTFBNmhkUVl2M1FkQ05NdHVWMmZtOS1BWHN1M3hfV2VLWkgxOHhZS3M0QzJPdTBvR1Q0YWo3c0NMaEtERXZSV3EtUUdvMEJOODN2LU9TdGl1UUNabll2MVZrMmZWU0RjWWxYbE5BX0Y5SEpZTWlJLVRoRVRaaUE0OEtBaTBzRmdndVVhZDQ1X2wyaFBDd3NfMVRRQTdh?oc=5",
+   "date": "2026-11-20",
+   "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -54,6 +86,8 @@
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdHFHdFRNclFzX1lmODBWT3RmcUY5aUljcmVmLUtROU9sTE15Y1NRMjBnNEQtRmd3SlJqWkU4ckR6c1BaZk55TTFLa29lVG9kN3FlQ3RLVVJ2dGZqbEFIekdZcXotTDBEZW5wUXJFdmZCT1djaDMxdkljSDZaS1RmQXE0RTM5c0x4WXBZY3V2QnNZXzg3aWQyM3ROZHphNENob09Da1hYVHd0Mk5YSFBadW56V1BSWWNwVmsxUWRWN1EzNkZjYmfSAcsBQVVfeXFMUGxCZUx3X1VSQkRrWVUtWmoyODFTT2dMeUFVQjJrN1R6X2tGNHgzVW1MNmRzcXhTX0ZRWjI3MVFVcnNyWnVPbnBpc01aUnJUU05pVml1YWstaVZGRFNPR3dLTHI2dkU0a0gtQktKS01nY2xkR0E1Z1lUME0tbVM2UmczNTJZZkNZTW1tNm4yWEg2Y195MzZiOGstR3FHdXNkUGNPQ0RjYjUxRnU2R3Nnc0hLOWcxWFRrVTdoQUlXWVF3aWRlUWFHcl9ZSVE?oc=5",
    "date": "2026-11-20",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -64,6 +98,8 @@
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZWNhdFVUTXFZV2xuREpFbDRCZmo1OXBjbHdOWDV1dmZrcjlhenlTWHl1b1pITHlpLUtsYVJjYzR1LXgyRmJYRlFYczBEQXRsSkRNdGpQdzVyWU0yakozcHZUNGlHeTdFNkd2WFZXZzJWdUVRb2E5SndIWENrT3pEcWxoWHJsbEY3cF9sdmdZNlk2U3l3U2lUY29rXzNBdjhUUk8tMFlzX1hZMU43X2lJbnlqdFHSAboBQVVfeXFMUG92WWEwbnNxa0s0MzNfQ0Q3TVo0bDlpdUFFUkZxRDh0d0FYSmJyU1NDTzRETnpBTUNDdlNZME1kYVRMYnJ5a3ZPWkdDZEFvMHFHaXhjNmhIbXRidXNFbUFrVmRzYmR1QUdubk92TzFnRXJ2dktuOHFVNzRid2NsWWZMdVMyZEMyOXZlYTl4ZGZaeDFNMmQ1V1dDWloyaThpZ1NrdGJCdTlyY1djUm1ZNUxvbHBFeDJkeHNR?oc=5",
    "date": "2026-11-19",
    "target": "200",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -74,6 +110,8 @@
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNDRtdUhUbmNJaTVjZlhOdkdzSWRpZ1BUVy1zSFlyclg2cmJ6eXVIcGJwTjhnYWFSZXFfS2xhbXJBQ0d6ellkeVlINDRocWM1TFhRZkNiTTJYRV9Kb1VtUzZWa3MzdFJ2RE5NeWQ4NXpOc3lLYlE1SXRFNDY3UlFHVzBUZlF3SFpl?oc=5",
    "date": "2026-11-19",
    "target": "251",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -84,6 +122,8 @@
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY0lTamRSNktfMzB4WnBLR2loVUlXMkZLbTFqeEctQzJoVHhRX3hmQ3ZPcDh3QkJlM1BLRzVTelRmMU1oVmliY3dTanZlcG9rZVlnaDNZQkV2V09RcFBmdXM5YVJTM1QzTUZCZzFIa2tXUGFqMFNDSUYyMU50amVmVXpxWDFZVW1hQ190OTZnQ3pIakdYcHdSVEVkRTJBRTNCb2JDNXdKcS1nalJsSFNYVFptQmFqUzI5UEE?oc=5",
    "date": "2026-11-19",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -94,6 +134,8 @@
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTXZHOXVxaWRnQWpTUmE4cEM0MVJnNmJJQXFJU1BVRmd2RlQ2N3FUVmlQMV8xdENnck1WQUQyaXB6aXRyMkZJVVAzVnhFZi15RDducjNEZTFRcXlwWncybDlFM0Y5Nk1qX040ZWlfY1EtaWtvYnpIREVKWHV4ZUJnLUV5VkxiWXJ6aDVOSGZqc2FsU3BtRGc?oc=5",
    "date": "2026-11-19",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -104,6 +146,8 @@
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ3I5YU9ZMEhXWllRajFGbGx1U1MxTXBCN3ZlbGgtVm0zLXE4M3JqZm9UX0lDMzFucXVTVkF6SVNrcTZ6Q0pjUEN2elBTb0pyYnRxT0kyYVNkeG0tVXc0YXZOMGVvSmExYi1OOU5CMzRiZUo3M1pWX1lpdkNlQ2w4RHdtenQ2bXhVRnRKbmpiaEQteGJZZlhhWlJnbXY3M1lycXc0M2dTWVExbTdKQ2Q0UHFONW5uNEU?oc=5",
    "date": "2026-11-19",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -113,7 +157,9 @@
    "source": "The Economic Times",
    "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQWUdvdHBva190TjdDdi1jUXVDSncxU1c2ZWg4R0MzRVh0MGNyaGVTVl9zbFN5VXBQUWZZNnEyMkZ0WVFCWGNWQW9vNzB2RHJrVjdreW5uWUZMZFc2Tl9CWnVUM2MwdE9reGFJZW4tZ1hiWlQtN0hoTnMwbFE0cm1NV19yWGhxNWFlaG83RzJpMUQ5QlU4RVJxbDdEWFhzTFcxWWhteEpCN0ppaEpzRTNYYzdlbk5RYmlycWx2cXVyOW1ReTdUdXNBNlJNa014TjNlaWx4N19VMk05Z1c1SUJMQkZqeDM5MnA4ZzEtQVFmS2tKTlgtZ291TlRaV0hQZS1HYklzWDdtMnpBYmc4MjljUzVSa9IBmAJBVV95cUxQeFUzMHpQNGxuUEMxbHlsRGdsNndTVThFbFZFOUEzRTZacFVxZ2JuY0Q5bW9VeDlCTUdKeTVCMEczSGs2Q0RhVW14ZXhnWUkybWlkSDNvSFA5d0tFU3VKdTJMd0xZMV84VHN4azh0RVVnMmZkX3M5akp0VjFIM3QwZG80aHpxNGotaHgybDJvM19xLWVGel9XbWJuSTlfSlVLUWpUSFFRSV80MWV4TzhIQU1ieXU1YTFLaU5Xc242NTBQaHhYS09XNDktWm9tcDdDSmRKY0VIQ3JmWlNuRm8xZlRHNlNrMTV0Wm4wdFZrWHhpbjRuZjdqQlltMzA5WlJBRFJwLUd0YzVpOXdZWTlTVUlXb0hLRi1y?oc=5",
    "date": "2026-11-19",
-   "target": "1,540",
+   "target": "1540",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -124,6 +170,20 @@
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0M2ZE43TDczTi0wdVRDRlhlbHBLTU9KRnFYVFpNUk5PUy1EYlF0dWJoeW5vVjRkclNCSkFJVm9GaWM3YW9pejJZb2EzaGEzd2VqdHBjX0xIUWplQ3o1MGpqQmNKVmw2WWtYeFlNVVVveVJVRHdVR3M5dkVYRm8yVXMzcGp2QXJxUHIxZkFuYVhKaGtfLUNBQmZfT0htTi02ZGNjVWQzMXMwUTJxWmpMTkhacmhJV1VyaVHSAb8BQVVfeXFMT25EcGJabnNmME44YlNXZkVIQVFLaTlFRndQNG5uamw3azBZRmg5a25lLXNxdVZQaXpxMFR2a1JublhRZDhYeDBfa0Nqb25GSFJCWEg4N0JjX0Y5ZjlQZXQwa1VrTFhXb1VaYkhGWXo3aklGTzlNT3p0WUxSNHlZaDVwWjBYQjAtLTZ6UzhIZ3NCWWhfcUtKU2QzWTRNd0dSdWVndVBuSGN0WlBjSkJjMFFMRHNGM1k2V0txWHdMWkU?oc=5",
    "date": "2026-11-19",
    "target": "699",
+   "stop_loss": "",
+   "period": "",
+   "call": "BUY",
+   "stocks": []
+  },
+  {
+   "broker": "Geojit",
+   "title": "SAMIL rises 4% on volume surge, Korea unit liquidation; Geojit keeps 'Buy'",
+   "source": "Business Standard",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVm1wZHg5cGJ0cGItd0ZwS3lRN19fRWtGYko2MnlDZEpreTBERmdDTUdaMkFPWkgyR2s0YVhRX1FzaTlnNHpqYXl1dHVhRFEwY2xrU2FHYmxrMUpfUXNPLURmbTFKUmM2enB1UXZfRm1URnlNaEM5N2F6NzZhSFBnRUE4UzYzSlVpUkQ0YXZkOUpqYzAxVHcxclNxdmxyT0RtWHpVbkFhY2Z0cXptTVVoUTJabk5PSUhRRHhLdkVrRmUydEJXaXNVX3NqRG5DUHg2eVHSAdcBQVVfeXFMT3RFN3FzX3AyRmpCa3dPQUMzZ0EyN2pTMnZCdk5MNGczS0hsNF8yV2ZZbzZ4MzdHSkpxQVNUZkhEWjNVLW9nd0tocUg1Y3ZUT252T3lGQXZYMlpIS3hIVV93VXlGWTVKbllGNnl1TUhYVG5TYTlIbVloa2p0ZWkzYVlQblJwUXl1Zk5sS190bDc3VGNCYmxDMkJQdk03QW5FMjNhMFRPaVF4OU5IQ0dXckhlT2pQcUdDcE9CczFJUVo0eDBTM3FyZDdzV0JzNEYwSklncmV1T1k?oc=5",
+   "date": "2026-11-19",
+   "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -134,20 +194,12 @@
    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS0xmR0xnWjdYcmh5VkFKQXpVLVF6MTYzQ2dhNnJMMmpmSXJRbjltbVFpNUhZWU9LWjlDaUZaaUl4cF8wb2RYWkxrcmlxdG5OcDNqTkVwX2FhbHdlei1BZ2hnZUEyMnJqaUdsMjB2Q1Z3Qnh3TVRpVlg1M2VxNzIyQkNCSl9vd0pCSi1iQl83Y19oM2tRaU9CbkZ5Sk9RejFRaEo2OEJpZ1VOODNMazVBSWN3U20yY2xxdmc0ZmRrb3pQUmhsZGVuOXhFZ3dUWUhxWkk3S0hVSko0UkljXzVj0gHkAUFVX3lxTE5XTlo1U2VwTl9sOFRCM3M0QWdISEVwNnUyNVh3UThmd3k3cFJoaXg3WHRaNXdIRnBGUkRnWU1xX0laY1ZvNzhsRTNtcTE1WGt1UEhkb2JaUk9Db2R4RlZBUzBtcHZKNXVYNG94ejFhaWk5bTlhTzRRa1V1eU1vNnp4S0pDY0FMMnNiOVJPdTRSSHRtZ2lvaU9YdUJKeGlBUVRqYjBKVlQzNHhudllKcllfRkN2YXdEcE9JSGVzREg0cWhoRXpaT0RyQ3ptM0NESzFCa29YWU5sVDBRRGpoZEtkLXdiUg?oc=5",
    "date": "2026-11-19",
    "target": "190",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Motherson"
    ]
-  },
-  {
-   "broker": "Geojit",
-   "title": "SAMIL rises 4% on volume surge, Korea unit liquidation; Geojit keeps 'Buy'",
-   "source": "Business Standard",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVm1wZHg5cGJ0cGItd0ZwS3lRN19fRWtGYko2MnlDZEpreTBERmdDTUdaMkFPWkgyR2s0YVhRX1FzaTlnNHpqYXl1dHVhRFEwY2xrU2FHYmxrMUpfUXNPLURmbTFKUmM2enB1UXZfRm1URnlNaEM5N2F6NzZhSFBnRUE4UzYzSlVpUkQ0YXZkOUpqYzAxVHcxclNxdmxyT0RtWHpVbkFhY2Z0cXptTVVoUTJabk5PSUhRRHhLdkVrRmUydEJXaXNVX3NqRG5DUHg2eVHSAdcBQVVfeXFMT3RFN3FzX3AyRmpCa3dPQUMzZ0EyN2pTMnZCdk5MNGczS0hsNF8yV2ZZbzZ4MzdHSkpxQVNUZkhEWjNVLW9nd0tocUg1Y3ZUT252T3lGQXZYMlpIS3hIVV93VXlGWTVKbllGNnl1TUhYVG5TYTlIbVloa2p0ZWkzYVlQblJwUXl1Zk5sS190bDc3VGNCYmxDMkJQdk03QW5FMjNhMFRPaVF4OU5IQ0dXckhlT2pQcUdDcE9CczFJUVo0eDBTM3FyZDdzV0JzNEYwSklncmV1T1k?oc=5",
-   "date": "2026-11-19",
-   "target": "",
-   "call": "BUY",
-   "stocks": []
   },
   {
    "broker": "Edelweiss",
@@ -156,6 +208,8 @@
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaGt3Wmh3ZW9SQk5hRVNCZ0JRemVqYk1MY3ZDVzFYWEVERm9OMDRmT25JSW1jVmJONzUyQkRGTWNDaG94am0yeTZLYTdFVV9vT0RPc3A2cXR3dDIwTVdGZmtrYkRVbHBGLTdycU5wWk1OZHJyNHlXTXVzcTdhV2ZfWUdfeHVzVXl0U1NfQV9KdkVveGotZVlPM0h1LWo?oc=5",
    "date": "2026-11-19",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -166,6 +220,8 @@
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR0hoNEt1UGtZTHowVzdnVFVUZ09tU3BSaGMzX3p6cmFiRHFPUGNfY012ZVd2b2lmX253WXVJaVZZd2hNZTdxbnFjUE1rMWhlQU5rdHlpem5SMzFqVXRaT1lVaHhKb3NyVDhfcm4xWGFlVG53ZjZNSTlua2ZoWERSWTg4VGhQaEYzU29YTGFvVHE5cWVPWVNsVS1fMW9ZN1NiazR6STllbndzcmwzTGxDUl9VV0LSAbQBQVVfeXFMTUdIaDRLdVBrWUx6MFc3Z1RVVGdPbVNwUmhjM196enJhYkRxT1BjX2NNdmVXdm9pZl9ud1l1SWlWWXdoTWU3cW5xY1BNazFoZUFOa3R5aXpuUjMxalV0Wk9ZVWh4Sm9zclQ4X3JuMVhhZVRud2Y2TUk5bmtmaFhEUlk4OFRoUGhGM1NvWExhb1RxOXFlT1lTbFUtXzFvWTdTYms0ekk5ZW53c3JsM0xsQ1JfVVdC?oc=5",
    "date": "2026-11-19",
    "target": "662",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "IRCTC"
@@ -178,6 +234,8 @@
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVnh3YlNQeU1ZaVZyOXBoc283aExwRjlxUVVORXkyWk0wa3hkS3dBOHFyWjlXMjdHSWFCZTE4Y1g1OUxXOG02dXd1N0lfNUhxS2pSWk1aVHpiOWg1YzBPTWlBMUZmTk9rRjlCMzcxa2hzSGQ4cHhTY0NkMkFuSVprRGNvXzc0UDdxR196c283aEtWWHkzcXJmQ0pwR01IU3J1aTQ2UWxtcGhnWnfSAbABQVVfeXFMT2N3OXVMNWVNNTEtdGowOWVkeF8zQy1naWNoRzU3bXM3UHpXWjBGU2ducnVJZWFLS0ZXa3NRcnVLWUNZaDF6TGdsOW5rZ2xaUVNiVVVBdjJQeEFDOFp6d01wS3YxMnU5ZUphQU9GSEdLcU9ybm84ZEowSlF4akJPWjk1SUNsR0pMR2F1ZEdmS1pPUVdFYzhjOXFJYmhhZEM5NENRUE5tT2xIWVI1SEk5SEw?oc=5",
    "date": "2026-11-18",
    "target": "1912",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -188,6 +246,8 @@
    "link": "https://news.google.com/rss/articles/CBMizARBVV95cUxOMVY4RDl4bnhwSWRUZXh4RGtVODAycUtuWnppbG1qaEt5bXBvXzZIM1JMaEZrR2RSbktjMEZqcElyd19TOG84b3lBRW5iVmVuZ0lyaGdIenBNa2JjelpVR1FiVjg5OERaWWJlekVsa0JUbDhsQmpCLW81NTU5c1Y1VGpYbGZKRDdyTEVlNG1XWFFRMXhzSzRKb2x6TGliWmlVZm9wWTFFR3hGQlMxcEpIU1Q5OXNmeV92bWxXYUZPVVJVaXZMQ1V2cThQRVVLS21qekpHV3dlOHh2eXpVY25rWXNyMlRGTWd4MTAxaVRWR1lQcnRoS1NwYWhSNGRCRWxzci1CUjJHeDh6SFFIY3JZUTV3eUpQdVZPZ3FqOE5sVUdFdms1SEZOYjhWWVJBZWhVSVoyT2VBYU5vcGxoSk9VVEoxalNxYXd0ZVNKbVBWMzEwREJvcWxqVHNTMjBoZ1V6NTBjMGdwM2NWME1HTHNVZWZwVHlmQXNOOVEyMUY3QUNHMUFZbE9oMkplZnFDZ0NHa3dFWkxPdkdreGZya1R2WmlBZTZvRHBSRU9Oa3hJMXlHZGhSRGpralVBQ1BDYnlVMmh2dW1rTDh2M3BIOExiQkVXZWFlXzJNUjAySEwtSVJ6MWZfdjJYUjJkOVgzdHFVcGVRMTRjWWswVWtzdWhhQmVwcE1wY0NfMDlDVkhvQ28tWWczd0pjNlpxLVpLWWZ1dFRKVmFvb1VJdDBQcXVXbzdjVmdTclNJQzR2ZU1mVE10M2dTWXd2NVphOFA?oc=5",
    "date": "2026-11-18",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": [
     "Amara Raja"
@@ -200,6 +260,8 @@
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWGtDN1ltZEJZWTM4Q2NHWVZHbmNHSjVPVTlyWVRnQ2E2QVpDVXVsV2xjYnRfY3N2bTUtOVdPaHRaVmhqUmZtM0NtUTd4VjZiNV9EQXBZREgzSnJWN2xLZjdfbDA2d2ZpZXdJODl3TEJqTXJWc1ZTazBsSHlnRmQwZzFLSjREdw?oc=5",
    "date": "2026-11-18",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -210,6 +272,8 @@
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdjRXMDZDcUJSczh4UG5kNjJkZ3lQMFRrNGJzNlU0aXJ0Wkt4clplWG9pdGNjd0g2NjBxclpXdFpfcEhFN21PSjJVRU9KNk1RRTVDdlBrSWk0Yy1xTDNJcGkwWHZXNm1zZ3kycHdUZ1lRNmVCVU5oWkNMUHlCVFlfenV4VFJqSkJDQWdpVEg4c0tiQWVYYS02WldhcE5tdUdZcjV5b0dzd2lRRzlFSzVmVjRqdnlOQTgyVXViN3FjUU42SWNLLVNSeHBBVXkxSHN4T0E?oc=5",
    "date": "2026-11-18",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -220,6 +284,8 @@
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb3kweFdGVjJBVXdwUEN0a1gyYlhTejBacERydlJMSUNMN0RRR29LLTg4dlducU5PeTZJcUMxbjFLX1FtSGtBbDlBX3VNbkh0Z3VUdzdUZnNfZ1c0Y09vRVZyS0dUeDkwcVpFSGcxM195aHpoN3NMRUdhQUxpMmN6Rzh6Ty1ueHpuNVRSQ2VWQmYzZWVYbWh4UG1QMjg0amwyQ0NzZUliSXlPRlBZNjR4Q0NyQ0MyNkpkdkE4ctIBwwFBVV95cUxOUm1hMkM2YXZ5V2RxaFJVUzhTVUdwdl9INUZXdW1NOUZCVEJ6VUVqd3o1NjVYS1R3ZHVaQzJqcFdyeHlxUUFmb24xYmFIeEpYS1RnZG9razJ2YmRDSld3MWg5WFlUd3RFd2hpSG1YQllTbUo5VjJpOW1vUHdrWDZwZGtpdDhwMDFuWi1OeFBCQ01GWldZVW1ZREYtN3NtZEpqY3FDVjdrOTdLdldGUU54RG1SU3A5WXdlZ3UwUlo5T0xickk?oc=5",
    "date": "2026-11-18",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": [
     "NTPC"
@@ -232,6 +298,8 @@
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NaTZpc0xheS1OdEk4VXo4WjBkSDcxdjJ6UFJWNXJzZHZfa2kwOWdxNlROYm5PT3BrZ01COUZVOV9jWFZoWklYbEdaRUxRMk1oLTJJNXZYWl90S0FIMEZDc1lRSmZxajEtc2c?oc=5",
    "date": "2026-11-18",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "SELL",
    "stocks": []
   },
@@ -242,6 +310,8 @@
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQblp2ak1uWkU2VjFVaDRuN3k3cml0cmx6bDFqMzJPbUVNWWtydWRNV2RNLV9JSlVVT2RlOGxKZEV4VDZRcmtIbmhIRGY2V3ctSnZxNWhzQ3NiRENIN2F0WmpjalVnaHZKYkJkVUJlaEV4SWhucFA0Y0FZSS01b20xY1dhbHVzbFkwS2ZOLWJPekFjY3BZV0lWSElFLVFZOTFtNDZNcmEyc05MRDl0V0VMSGRVWF9nVUxEQUkyNWdfRdIBxwFBVV95cUxPWkw4R0xTelg4Tk01cWtfdVB1SmttWjFqejVTdGhIRExJTUNxcl9NRWlzRXpqcmp0NmxoZ3QteDg5MjJRVkoxM1VFLUpjMnJvSWRzM0NhdmNEYjdWN1RDeWR2NHFUQzJ6UDA2aUsxTzhaNVF2Nm13T0dkcUJCd0RSQXdIdGVheU50Z0JmUG1xUE5pRW9qREl6SHBpbFphcEs5TDV3aWFEcDhUN29rV0tzMVNzUENVUHNSMWd0MmEyV2tkSXVDemxN?oc=5",
    "date": "2026-11-18",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -252,6 +322,20 @@
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOFlQMG44Z21nMkRCSS1tU2dNVGZzZzJnQnlxTUp3TGhJbjJlSFlhaVlGRjdybWZkbVVSdWJ1em1XdW5DakRjOUhLeDkzbkJjd3FDX2lqdWtTM25QVXpBM2RlT0hkVnRkNWt4Qlc4Z3A1NjQ2NHRxVWJQYTIyZmx0ZjNtSlRnNC1ZVVVoZkI0bXVteWRLQnduMTZoaU9KM0haQy1lZ0xYVkhfbEluR3djc2NZUm1sbGVqM2FZeVhoVXNLcG5hYTBnbnNKNm51VTTSAc8BQVVfeXFMTjhZUDBuOGdtZzJEQkktbVNnTVRmc2cyZ0J5cU1Kd0xoSW4yZUhZYWlZRkY3cm1mZG1VUnVidXptV3VuQ2pEYzlIS3g5M25CY3dxQ19panVrUzNuUFV6QTNkZU9IZFZ0ZDVreEJXOGdwNTY0NjR0cVViUGEyMmZsdGYzbUpUZzQtWVVVaGZCNG11bXlkS0J3bjE2aGlPSjNIWkMtZWdMWFZIX2xJbkd3Y3NjWVJtbGxlajNhWXlYaFVzS3BuYWEwZ25zSjZudVU0?oc=5",
    "date": "2026-11-18",
    "target": "",
+   "stop_loss": "",
+   "period": "",
+   "call": "",
+   "stocks": []
+  },
+  {
+   "broker": "IDBI Capital",
+   "title": "Relaxo Footwears Share Price Target at Rs 316: IDBI Capital",
+   "source": "TopNews",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNblVCQXctaDl1Um9pemJ5Qk82WVc1R2FiMVUtT284TjZwUThZWm9oR01kamdudkdkT2JNdksyMkJnd3RTakZIMWw4R2NUYmt5MVJmazc3ajRvTmdKWnRUcVRoY3lrTHY4WE93YUJIa19SQjY1QVpvN3dmNFliZjVDeUpjTWpRZHJUN1E?oc=5",
+   "date": "2026-11-18",
+   "target": "316",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -262,6 +346,8 @@
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZjZtMEVvZXR2TTc2YUdEYWRNbFJEcnEzVHM3b3p4dVNFakZBa0tzVjJ6TWZ1RC1jcjBOZWRocGJzOUgySTlYajdqSTZXWXB4VXV0cm96T1hud0V1T3R4cFYxTF9hWkhYU2tsM3NZWU4yb0ZXejJFMTJSeXRuWkV3MXBJd1dCQm1uT0NZTDNyYw?oc=5",
    "date": "2026-11-18",
    "target": "190",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": [
     "Ashok Leyland"
@@ -274,6 +360,8 @@
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQ1BzcGJkNlJwQjFRdGtGV2J2VGJMNF9HWDJkWVVVTmRjMlE4dGtERy1OYlFLcXF4M1lDUi0yQ1F5UFBFM3hJejlyU2hjQV8xZUZBTmJ2bHF3VmZzMUg3Nmd0Yk40eEN4dnVBS2k5cDlwQWJhazFGYV9oVmZOYU13RTA4MHhrU2lLT2FiNXFqaEQ2MGV4Rm1F?oc=5",
    "date": "2026-11-18",
    "target": "312",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -284,6 +372,8 @@
    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNcUNTY2FHZkRNTm5BSTRRSU9wZ0dDTnl5ai1oSWJpZ2x5cFlOV01BOGw1Smw0eW1qT2M0NktRZEJRZTJmdEVTUXFlN1dKLXhrSU10MDZyWGQ4SEE4MVdrQzJsdldWX0tTMVRMMjBLcE9md1N2OTVib1hWNWg2dXVGTi1TMUxNVTF5bzdZWlFZUy05bTl0QWJ4aW12VWFuOWlpbUpHQzFwa1d6bXBON0hNakZVOTk2dkI4aVBZUUEwWjdwcXpsdVNhbTZNQWNsVGpnX1dTX0diUTVHT1BDTTUzbTgwdDEtRFNvamVTV3VmV1VFcE9ROG5XVG9ZTHRKWTA?oc=5",
    "date": "2026-11-18",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -294,20 +384,12 @@
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOHkzaTFYZlh4N2pqUnVZaWZldTZVc2gyVWNOQVJEOUZxVjBPRVRaUVV0dFJQdDZLVjQxUW9XazhVelRMYld3eFBrdUZlUktlQW9UUmtNT2YxRXpWQ2JRQXBrTHQwODZCY1FyaUU3bnVxMzR2ZVlKZnFRTGY2NnZfSkxpN2FMdWZ6a3Z1Zno1cFNZN2NRSzZGblVnWDVtVEd5ekFBRWRUYndlQ0wwc1IzR05R0gG3AUFVX3lxTE5waWFtX2RISDdiM2JoMlhYd2FwSnA2UmFEVndqS1lxS3IybjNJT1pFd1o0QWVsLWJBWVZhYzB4RDBDbzQ0b25tYTNhcXZ1emRRM3NIV1Jwbk9ZMHpDbjVwaE5DdHdmMUZ0UVdsWnNabUtkSmFpY0NMWkpyZ1duSlFaa1RpdmxfVkZZUHZNay1kNkxhOFNzSk80eld4bENuODJXenVHVVpGdGpHVUlwdXNMSDI4UjdGaw?oc=5",
    "date": "2026-11-17",
    "target": "195",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Ashok Leyland"
    ]
-  },
-  {
-   "broker": "Motilal Oswal",
-   "title": "PNB shares rally 5% to hit near 9-year high, stock up 29% in a month; should you buy? What Motilal Oswal...",
-   "source": "Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNdFk3MEN5czNmNlFOaTE3V1UwLWhrbXVZRjFmNGZKakYxZHV2dHk2YmhManFYMXV4S01qMEh6US02dHg3M3NabF9ENll2YXVaa3dybThSeTJaTEJId0l0eVhHa3N1aFprSkJ2b3UzWEpoTFF2WUZLRWJyVng0U0h0bWZfclNYa1dqZktaVmhCQ0dkMlI2dlBoTTRNOHY1dU16V3gyTS1fSWtvVkp4VG5Bdmd6Sm9UX25sVTFuMWlzX0Z4WXJWVFdoa21WRHNnaXI2Y0lPdHl6SzczRkhzMGZVNFhhNE4wb3JuN1h3SS1NQTkxMnhfUTZ3bnBQclExUdIBgwJBVV95cUxOTl9XaW5xc2xKMDg0UlFLUXFqLS1PY29qckcxQnZMUXVHYy1NZXFsb2JXb2FUaXlFUmtHQTExWnZTb2xmRkFWQVNEc0VnMUFvS1QtbnJFeWc0R1ZYSmJQOG1ncUdTLXZOcDdfQkwzbl9oc3VHLUJpWkEtcXNURzA1c0M0OEVYU1hJeG1zTWQwNkpkMmdRdXZFU1R0Y0hORHdGdEFvOW1TcDd6eFZjM05xRE9yOU9YdUJ5MDZ1bmhTNjB6X0tXSlVuNWVnbmxWWTlIV2V5T213WktNa3JlLS1vbGpVQnZmamRXNy1Zb0hhdHRWWlQ0M0tvZXFabkl0ODhxUXBz?oc=5",
-   "date": "2026-11-17",
-   "target": "",
-   "call": "BUY",
-   "stocks": []
   },
   {
    "broker": "Motilal Oswal",
@@ -316,6 +398,8 @@
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN3hPVGdHbW9LRXpBUHdURHlEd3M2ZXJEcTIxTXZyMk56QTh6LWVTNzdPZHpUWnBQNXJMNDMzUHdhRk1vLXZDRmJ4NG9qQ05JTjFmVVNVSmt4c3h2Tl8yM3ZydzhzNHJfb0ZpX0ZNOFhkQnRvRjR1eGFCb3lqYUQxRE05elRYQkFFYkpsQ1VRcEpVRnpDcl9PRGY3TVluNDZIZHJ6STItalg4VlRLQ1NrLTFjTVpyZHdQWDAw0gHAAUFVX3lxTE9JUXcwT3Q3SGNYcXRoN29jejl2QUMtcFpNeXRWeExBSURHeER5ZVh5UUxXV1h5dFpPMVZfTlktYTZ3M0xjZUJ6VWNRS2xmbjM4TlBlQXFLc1B6eVEzdTFkYzVQMXpVVFFFTnJtMWJtSlBwUHJRbmRzS2psTnNvUUdhaDFyOFFGMXV6TGRyRGFDQ0ljcTkyeXB6bHRrbWxUcXNwQnBCRDBQcDdxWF9oWm9qa2V2S09Icm1DWS1SelFNZA?oc=5",
    "date": "2026-11-17",
    "target": "3820",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Kaynes"
@@ -327,7 +411,9 @@
    "source": "Moneycontrol.com",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMlV5V2l3RnlfTWcwMkZabWRjXy1XX3c2UVhwd3ZJTWExSTB4anpFQzg4S2twc1JkRk5ORDY0RUdwOHlKdExVeDBFbTBzWmtVbkludjgxX2w5Z2RBUWtjTlJLZ0pYQmdDdF9IMTUySXNtNW5PSWloQXVVN2VPS01jSjBrYl94THFUTzBLZGF1N0cwSTRIbmlCamk1OHRiT2dKQzdqRW93bExEZWx4UGQzSllOWUJkWF9kZVg00gHAAUFVX3lxTFBZeHFsdGZVNDc5REFPM0J3bk5JYVMwUjNSMWFaOFhOY29lNFpJbFRhNUx0dlZ6MXZGbkc4OUZVNFllWkhHb1d5UVkydWo5bkphaEl0SHJCNWF3Qmt2TUxzeXQwbm8zeWxrWkYzQzBzczZrTHhzMF84dHVuWm5nem1BRG1sU0JXdkJ1TmNNZFZncVdUWk11RlZ1UnowdWdFcWdsVzhMSmRaQVVLSVBSWW9sbjBDTzlkellQZ01Ib2RTdA?oc=5",
    "date": "2026-11-17",
-   "target": "29,000",
+   "target": "29000",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -338,6 +424,8 @@
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcWVkV2h6aUJEUmtaMXpBSFI4RFVmc0tINHFhbjdkODM5LVN5UGQtVlNYWFdsY1RuTVk0NHlvX25wWHM2ZzdSUmp1eUxHTkZObjlqelN6UWh0N3dSbUVHT3RWalQ3aXAtMkVjQ3pTUVFoT0d4RkktdHdWanhtLVhxWkZZWkNmSkpQSXNqaktpWXhua2tqUE9Zc3lQYzFLSTBkaFd2VTJMN2MyZ25EOUJ2V0NsWXF2eU13RTlkai1LRWTSAcYBQVVfeXFMUERhQnFUTlhfN3JpVGtTaGtHMjVyVTZHaVluNjBjb0NRZ2xBLU82MklQcGs4ZGFudjdEMDVlVjZmMjJ1SEVJYW1ZdXFoTjJoX2E3TDc1UUUteHFwOENqLXZVVUJuZ0VNVXgzdEktY0t3U1h5VHJTLTgxWWFyMkxzWUN3UU1QTHA0dWt5VThkdll6N1NTbmRGdXFaMjBtNndNTXpxeUNKQ1JQaGp4X3VPbDZGNWlhcHR5Z2F3VnJHMERLVk1FZnhn?oc=5",
    "date": "2026-11-17",
    "target": "966",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -348,6 +436,8 @@
    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVDNhaFE4MTQ0NVJ1QU9BaGZNTDY2M0FxTzQ5Q2szNmZ3THBpT3lReWtLbWlhVjFhTFBTTnd2SVZISHhILWxKZ01HdENTbGJEd1oxV3N0a0pVX3kySXljamhLM2JKd3NjODlOd0FJSmE0SGlkRy04dThVT1paYlZDSHgyUG55TnVqakRGTjdjZDJNZTFENkZJNXlBVk11VUViX0JxVUwzYV9fTHNRWDNxY0h3b3pycWlRZmFtaXZweEUxOWpvcTdqZzZpU3FHWDd2SnlpaG9lTWs?oc=5",
    "date": "2026-11-17",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": [
     "ABB India"
@@ -360,6 +450,8 @@
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdFloSkVFeXMteXNxZWItb3B3UnNwbTlNN2VuZmlmYURXbUxTZ1JRT1QzcVdiQ1pIOEtIMjdnWTJnUktZSkpoNnh3Y0R1eEd4bFNwelZPU01QVU1jTTd0YzI1eWt1RW5qMWc1cTRoTmRFRlo0ems2bWV5Mm5leU9JWWQtUEx3aUNNd1l2Qm9HRUJBd0cxNGVJZWRoVkFPSWJyMDEwSUNR?oc=5",
    "date": "2026-11-17",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -370,6 +462,8 @@
    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUkEzN0gxZzR4d0d3Z0dZdFV0T3NfbE1yMy1LUmYyVVkwMHpCV3hrWi1nVUdYWTk0c29JX1lwS1E2em9uSm5tSncyMnlOYjNsdkhWUWZoTzdidEFCOXkwb1ByeEpaUlEyZk5sOU9FWnJhNnBfcE54cGgzcTZ3czRiNGlLd0p4UmJyeE5uTjA0OXlTWS1yZXNxN2o2NWZvc1hOWU9fMGlXOTBhVEtwWEl1Zkg4Y0JkUkwxX1F4TDBIaGtUODVaTVZCc2VDLW5vT0ZWaG5RNFhZNTZRRDJ4VEE1Q093a9IB4wFBVV95cUxOUkEzN0gxZzR4d0d3Z0dZdFV0T3NfbE1yMy1LUmYyVVkwMHpCV3hrWi1nVUdYWTk0c29JX1lwS1E2em9uSm5tSncyMnlOYjNsdkhWUWZoTzdidEFCOXkwb1ByeEpaUlEyZk5sOU9FWnJhNnBfcE54cGgzcTZ3czRiNGlLd0p4UmJyeE5uTjA0OXlTWS1yZXNxN2o2NWZvc1hOWU9fMGlXOTBhVEtwWEl1Zkg4Y0JkUkwxX1F4TDBIaGtUODVaTVZCc2VDLW5vT0ZWaG5RNFhZNTZRRDJ4VEE1Q093aw?oc=5",
    "date": "2026-11-17",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -380,6 +474,8 @@
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNejJqbTVmbjZCQlZxUVVXaV9IVGZ0QkN5aDh0aTNkeG9Ldjhsa283cS00RGpaTXF2Q2M4eXhycHV6T3UyOWI0VVdoS2VqVVhhMWxDYTJEZ05tdlJSMlltZEJhaXpYbUMxdk5YMmJhdnhaMS1aRC1IcVNRSlg4MXRDU0JLVUloTTZWX3NoNm9UOWcwQXdKSFdLdHI4YlNkamw3VUdVVXY3OXI1YU9ZekF1dldQeGtRZTVLY1hocVA0YTVBeHNlNUljNkxn?oc=5",
    "date": "2026-11-17",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -390,6 +486,8 @@
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVkxfWVRGT0lKcnhtQTYxN0FVWVVEdUhOb0ZBc2k0Y191WDJNdjFFbGF4cERDSWpkLWNkWVNyek9neVJmdE1WdVNZWTRvZDNIcjc3MnlpSEVTOTJ1MGh3SFBGWkFpWVpzMnF4REFobU9rLVJDd3ZHaFJCVTVMN25hZFRnMFY0T205Ym5sNFYzNWx3dTlqc1lrOFVhQkpYWjZRM0lzN05DVWRtMWxlOXRTY1RHNmdRZ0pkT1ZoQldrd0hwQkpySTY5VGZZUQ?oc=5",
    "date": "2026-11-17",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -400,6 +498,8 @@
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcDFyMkk0QW5lV0NvaWZUcjBpUkVFbHprbFkzSmZHNFZmdVdyMGJwNklOcU1IR2NzZHBMejI0c0twUExUX3BmeE5WWngxbGFYMzYyOVE1RURKeU5EVk9uLTFDZS1kYm9ZdnlqVEkzRFpJakdGR0hNYnlrelU4alQzZGpoVnM2Uk4tOFpOT2FpeFdIR1piaHpoVXU3MTZnMkdISEJMVG5TTUlYSTBNMFAxdXpWSG4yVGEtWjBFM25PbWZRUWtvQktjZHdOUQ?oc=5",
    "date": "2026-11-17",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -410,6 +510,8 @@
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaWdkQ2JRbm5jRU1Yc0FCZ2J5c0VXQUM1NE1WS2tLalBtMUpSaDR0bF91QnloamNXQU5MbkVPektBOUZlV3RiN0RaX1I3SG5IYUp4NmRaWjY5NEF5WTZNN0VlaGhqRnBja3FkRWNoZmU2cnFid1h0NHp3VV96OFVDSTBjbTlFWFJ2WjQtZ1ZvTmF0TkFkNUVVb1hPNUE?oc=5",
    "date": "2026-11-17",
    "target": "315",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -420,6 +522,8 @@
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVktJTFY4RjgxN0E0SkthS3B1eFlRMWdVRHdtS3czbFNNaXo0cmR5bWRkdHA2TURiUDRNVFdpaW83cHB5SWpHck9YQzMzS2ozaklkYVhMR2lwSkxFZGFGdDVpNmdjWVM2eHY1U0RFSUpILVdNTkh0Rjd5NUlrRXVvQ192UFlEc2NYdVo4UzJyY3VQS3FzSlQxQnRpamNYU25RVUxHQXBGdG0?oc=5",
    "date": "2026-11-17",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -430,6 +534,8 @@
    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQZjlvbEl4bmFyb1Q3aVNIck1KSENNVXREZkp6ekxXVTFmRmZCWnVidmJQdUZnQXVvNkh4c2VJRUczdkJBd2oxVHpfTV85VkR2b3p2XzZJUkFxVkZZNWc4N3ZicE1jbjNMREduUS1zUGE3ajlVRVBRRFFQRERwMm1RWlQzUnhPSXVwNVZpQ2UwNElmS2xfd1A4SDNVZUNJSVhRaXFpY01MNGx1WWpycldaS21hS0lxcUhrTEh1dW9VY2l0dWtub3MzZkotMDNqY3AzUUxLWkJaYzFWSXJMdXlVb245dE5EOGtYejN5cXFJa2ladlRCNF9kTFgxaVhGZHZiXzY3M3V0V2h1Y05n0gGSAkFVX3lxTE9oWEw2cWJTbDlubjU3OEdOVmcyWkVIeHk0Rm95c2Y4aEZqYWFEeFAtc1l6MHRJbXBDcTRjd2hNYjJYdGZHcGVqNDY1RFFLbEg1ZVRyUGk0TWdQR1FjOU9FRmEzOGdPaTYtZ2I5ak4yV0N2ZVU0MVR6WnBtaWhwbXZJWWx4S1pOSTNITlRIajhtaXB1VUpvUmJtd1dDZ2QtSDgySy15Y3FWNkxYZWowSDlZTkNmLVByVC1HelItZGhhRFJPalAydVl2bVUzMlh5OGExeDMydHZyMFFUNnRkTHhoamxsank0V3cwZ1h3WE5peGdtcUtYRnl4S25uM3pHQm1zNVNjbUNpZ0hpTTZQWEJWRXc?oc=5",
    "date": "2026-11-17",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -440,6 +546,8 @@
    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWEpMVmExMFlTNGdPQmZKMm5VVnFaWVhxNEdoRHF6V0dpanFDa3lydU53U2lCUTlsaGo1VklobUtfMEFzazFmVXJ1LVdzNUFjbTdvaEs0cUdFdERNUlRSNGdWM3ZScnI2Yl9XNUM4Y3ktdE5RSXNYaUtsQmphTlJqQjViZHZ0RlpUcVVPVG9Tb3dmTVVLYjVYVmVhQVAwbjNUaHZYcGJ1cXBkZnQxUW9KQ0pqT2JSRGJBRk9vczRqUzRXM1hGZHBmMTNXOXZNRnZTQjVOTVBIVVNQRE9YSWlBUTkzMTFjZVQzRnVPeGMzbkZ6dlp1ZUdpTDJtM2xZWnFnd2tR0gGKAkFVX3lxTE9MTHVmYlFaN2p3V3R2OENXUVBvUlBacVRHUjhPSGxXbUZkMGRVVmx3cGVucHdzWlFQMFdOYXNtQWpITEZXaVdZNkgtSUJiUlNOb1BPODJzRVJhaVdfOHJMVXVvcmNqZmpXaDh0ZEpMOW9kY2huQ3FRak9FX09FbUpNRlQ4OE1BeVRmQUlnOEUyZzM2bmJrNFVHakl6SDZ0ekhsRFNjOFlac1BpaW5fXzFycDBwY0FkMUFubVZCZFRNX3hLWGpjNUZTMGdMa3NHMEUycVFBeWZIdFdJajRXX1prbVQ0dVQycl9lNFU1c3VCb1R1aTNnT1NONktPZGFiYXdwLXRXUkpoYlVR?oc=5",
    "date": "2026-11-17",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -450,6 +558,8 @@
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbE5nUzFOektFUGFlOUQycEZRQzlaUmRHTUhobnBzMjZOa2UyQ25rZ3c0TlM1UkZsdHVTTmtqXzU5Wnd2LXBkcVVpN1BwQU9MS3BkWWNFM2g4QmlwU0dNejl5VnZMQ1ZpazE4TEhVWVdtRkNoQ05lUmc4SklXN0U1OUN6NjVyRkVfNXRDalk2YVBUeVk2d0tPRUJoX1BRV3ZOVnAxaHBxeTRneS1YWjZMT29EQ2F6RWQ5ZFlOaGhZbVdRNUJjMjUwbWNuZWxCMGvSAc8BQVVfeXFMT2xOZ1MxTnpLRVBhZTlEMnBGUUM5WlJkR01IaG5wczI2TmtlMkNua2d3NE5TNVJGbHR1U05ral81OVp3di1wZHFVaTdQcEFPTEtwZFljRTNoOEJpcFNHTXo5eVZ2TENWaWsxOExIVVlXbUZDaENOZVJnOEpJVzdFNTlDejY1ckZFXzV0Q2pZNmFQVHlZNndLT0VCaF9QUVd2TlZwMWhwcXk0Z3ktWFo2TE9vRENhekVkOWRZTmhoWW1XUTVCYzI1MG1jbmVsQjBr?oc=5",
    "date": "2026-11-17",
    "target": "708",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -460,6 +570,8 @@
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUU8wNzNSU1o3QVJydEotNURuQlRES29qMXI5N0RZWnBHaXBsZW9SQm43Q29ScGlYRmw3YkFwUlpxV3FDaEQwMXp0VGp4ZG1WNlM0SkZGTEtBWFhRSldiOTU3YzBfNk1xaDNPeGVPaG1MWjkzUzlZT1Fpa0liQ0FUdnoxSEhOMk1CS0R4T0tvUml4Y2V6NDNzekJUejdKbjJaOFQ3MTJTVDJ1aTdMUVh6bTA3c0tTY2tEbzFn0gHAAUFVX3lxTE1Sc0djSFc2WmtrU29IY3p0WXlHc1l0UFJXelNsczVkTEpubEktd0MzcVJBc1BRLUdfN3NXZUpocWVsVzUtWGlyVE42YzF0Y3FYRk5wQi13bkw1ZTNJZGFQVDQ2dWQtUE15TnRpRjRuME1fejM4cHpDOGxIckNlczNrZVBrdXhaSl9ob21rTE1zbXQxbV8tSXIwRm4xamowQUVYcjdBd2R1TnBiWXUzOHZyOC1CQlZDYTZjbVVrNlJQZA?oc=5",
    "date": "2026-11-17",
    "target": "5236",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Cummins"
@@ -472,6 +584,8 @@
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZFFXd0JjOVlmWHNIZEozYTNuYjNOU1o1LXUwVVB0REY1MlJ4bUJiaUdwb1o5OVFrYm5wVVlEQzZGV2M1MThzVndsVWk5M3gtYXlZSm9MRXN3RDVCSWIzQzA1Q3c0ZVM2Yk5xNnVFUnBNQTZBYnlfS2gzMW1SNzl2VHVVb2h6LWRHTzF4OEM3WWFUaHRULVlGM1k4Y3lNNFkxT0NOQ2dwb2pVUEhoampBYTZLR0w2OVVYYVR0UlpCQ1Y3YjV5cmVEampkUEJJUdIBzgFBVV95cUxQZFFXd0JjOVlmWHNIZEozYTNuYjNOU1o1LXUwVVB0REY1MlJ4bUJiaUdwb1o5OVFrYm5wVVlEQzZGV2M1MThzVndsVWk5M3gtYXlZSm9MRXN3RDVCSWIzQzA1Q3c0ZVM2Yk5xNnVFUnBNQTZBYnlfS2gzMW1SNzl2VHVVb2h6LWRHTzF4OEM3WWFUaHRULVlGM1k4Y3lNNFkxT0NOQ2dwb2pVUEhoampBYTZLR0w2OVVYYVR0UlpCQ1Y3YjV5cmVEampkUEJJUQ?oc=5",
    "date": "2026-11-17",
    "target": "1325",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Kaynes"
@@ -484,6 +598,8 @@
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM1JCRjJrcmIwb2NDeGM4NVZVSWtlcnU1bTNocWFUUlJsbm9pYlFqWWRtY3I2LUpFbWpsTEVJZllhVGRMX2c5ZWwzN2t5T2txRDVOaXFXeHM1ejc0Z2JOWUFCM09yQWJuX2dlN2tQQ3IzMDNzZXFkenE1Yk5PTkM0MHB6YU1MQjhXRUpRT3lsOVV2RlRBQ3NXbkZGVXB0WEt6X0xrWldBdXFsWlZTNnNHT1lDSTZHdEtI0gG-AUFVX3lxTFAwOWszQzRNVmpYTU9EaEFLSFJzUlRBMnI4OGR1dGZnNHhPZXR1aXp6Qnd6LVRkVjVxS3RBcjlzakp5MEoxSVNCQnFBcmthTmJzOXNBTlBXWXBjU1VYNFRiRXh1TUdEZnpLQW1QWEM4YmlQaGxpeU4zRndjOWVCRU1XNkM4ODI4RXg0eTRQQXp1SFBhdm0tOV8yUEg0UEYwSk9kNkE1bS1SNDRXbXBtY1h2Nl9Xc2F1NnlsZlRXa0E?oc=5",
    "date": "2026-11-17",
    "target": "171",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -494,6 +610,8 @@
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMUhHcm00UFM5ZzRkdTlkRFBacV9YNVV6eThjR3pVaUVhU25IN04zNEN0Yy1Cb2xoMXVRWlhpRVdwajE2M3dieVBiSUx0Smo1SEwzUlFabkN3T2tBOGFNdGtpaE15QklVcUNURnlaSnhhcTEzd1dIeEJzQmZxUVlyUV9Heks0NnRRcEd5eEdoRlBkMEY4NV9MWm9Pa3BvcTlQX0V2SWlST2pBXzBtNTNOTmhJMNIBuAFBVV95cUxPcGd4bzM1WEhNbmhzcWUwaFd6ZUM2Qk5XQl82S0x2MkhmQkItVVJKUzdMNW5vbVlPV0tDYmdXSlpUWGJSOTFPZ3cwQUpEZERZM0dXc2RlWV92UHRiTzMzZ1FsSzRlQVlnSUVHRXozQ3QtdWZfaURCM1VSME1TbnBJcTlqc3dsVDNkb2loNmI2UG5va2JUaVIxV0hyakhGVHdDT21HY1hIZS1qcjAyejlPemxheFlWQmdZ?oc=5",
    "date": "2026-11-16",
    "target": "300",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -504,6 +622,8 @@
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT0hhSVBFeGpqQjgwNDB3aVBXSU9JQXVPc1ZEZmJZQWRtbnZZcWtFUkpiUVlRTDZpeGtrQm90Sm1BWFMwdkNuY01uRmZQWEYxZ2NvUFhhS3MyNkwwUzlsSFRtSlRwbTZEMmlYTEVoYnpscUdBWkI0QldVNXF5d3NRcGR0dElXTXVCcjVhXzM4VXVDcHhsOFlqTW11Sl9FY21xLUF1VDc4VDhiVkXSAbABQVVfeXFMTnE4RkFSVmpxcHRldVFUdmhzeGxUVEprRkQtVC0yeVpyUTZha0o2ZkRSbENnQTNHN3ZHVjVQSkxTSHI0VktGaVVNTkVvMlRXRXhkRTJrNUc1WUEtN19ES0tKN21peWc4ZjhBMEtaRGdQUGprSXA1YXNja094R2pPaUQ4eklQT2ZDSC1YbTRKNktfc3oydlkxejB1cWJVRnBYUjhhQWR3bzRzRTJySjBSUEQ?oc=5",
    "date": "2026-11-16",
    "target": "74",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -514,6 +634,8 @@
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTWkwMTQ1blJNaVNJbHN5eVN3b1VVR3lSLS02VnB4emR0em5qMVN0Q0dZLWtrTnlzSC1EaTBuMDVFVFJuREdRNHgwMERPYjlpZGUtbWpoS3E1dHdVTnRnYVh5YTZ2aDh3NEpldzlDc05hZTJvLWJGdUs4Mk0wRTVVX1htX1Q1Vjd2TlltSGdJTHVhazJsZ2ZCWFZWS19PRGRRV3NoeFBxVnppRHNzTGfSAbMBQVVfeXFMT2RjWjVoNlljdHpDTTVIYW9SNVVZRjVNSkxKWE5xaHI2TkI1Vm1kNUlhbG5uVTB3eUs3RjVyN3VzcUY4dWZ3ZFhaMTMzT0RRZFN3VlhGQVYwOEc5MmpTYnYyN1dMQTlnTldfbGNlSVlaNHpxU0dPWGtrVWpZUGJYT3NaOVpFUTItTHVoOUx0NngzeW9zdl9MTVpubGR1V0FrVjVDUk0wZE5ueEdrWHJYTlMzYTA?oc=5",
    "date": "2026-11-16",
    "target": "8200",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "ABB India"
@@ -526,6 +648,8 @@
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaXBDc2FnQUNuRVNHVENVbFNxUVhKTjdpZG1oN2tWNWVxTnRDNm52MTg3eV9LVmFIN0F5ajBaamZ5UGdPb2J0RG1oZTlMMXE4bjN4dFRNakd0c2NsV0RnaHFHb2dvZFJJcTE2YnNPeFZyelpQMGFJQmxEM3dNWS1NQUdEVzFkX0tWVHpxVlBZOTd6NTN1Ul9UbVNITzdIakNzYkdCNjNOdG_SAa4BQVVfeXFMUHpCcTcwZWhRdXd4cXU3UmI4cmRhSFpMN2JYbWFPUFlFWXhsdUw2MkFocXhqeGd5UWRHaVItMTBOcHBYVmpELTR1RGJGXzVFZDlFVm03OHhnenZlVlNVVElwTlVjSGJ2anJQeTl6V1NxN3U2Mzg4cHlMYmZReEtxTGp4QU9fandxSUVqMlpDMkZfT1VoVmM4alhmeEhmQnNFWUhtazA2U3VmaXFmTWtB?oc=5",
    "date": "2026-11-16",
    "target": "91",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "NMDC"
@@ -538,6 +662,8 @@
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZHV6aDFrYWJ5SlM3bThEOTNMS1JVTXJycUhMbFJfUnVSUHNFTnp6aW14M0lUMUx4UldFOUxQNkhvdFBqZ2ZVdkVZYm5iM1Jzb2xDb2ZQbkhzcG53Y0I3NXlROU5ZZ25Oc0hZRGJlN21wbVg2OEI4RFdnU3lkamwwWHQ4Y3ZtLWlpblFTdjZyVXJXUndNalhxNGNwY21PNE1ZS3htUC0tVFFNSEpSM2JuZG5HUTl3M1XSAbwBQVVfeXFMTmx0STdXZFlGYlFVSTZjSGwtNDJYVlNxWklYRFkxM0d2eEh5SEwxcWJub2VOaUtIbTVORkxWZTc5VUFkamJpS0ZtcWZFek1EVDFkZ2lpeXhMQTVaVHNMcUM2cE55YWZLNThBdVU2akVuQVVSNkk4azRWX292VjJwQk5pTm5jZU9SanRMXzJ2Mm1wSXlGcFJKLUhVX2ZhOEktcHRfdWozUkdabnNGU3EzdFZFckxfdFdsQk90bm8?oc=5",
    "date": "2026-11-16",
    "target": "9000",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Eicher Motors"
@@ -550,6 +676,8 @@
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMUNPdTBFZFpsTTZtYXBXcFJBaWpkR2s3NTdPT001N2Z3NF9BTGUtS3BpTk1pV3JuMldfQXZ1ZnBIbWN6YXJjNEhjMjFTZjlEal9HQl9QVEdJM3F5NWhfcVItVWVzcW1KbkZHU0gzVnJpSXFWSTR0RDNGaTk2UXJldmljTnZZbnJ3RE1sODNQOTZWd1MwQkVTLXVOMHBkNFltSk9ZenQ0Z0I0RmNVUUVYenpjNldvN09uZlRSbGxUNEhvYS1DMnfSAcsBQVVfeXFMT1BRQ2RXa3VIbG1GZ0FBQnBucThxWmFmWjlnb0ZrZmItZlQwNC1mc0NwSVhWb1JXM3h6Wm5iS1ZzeHNERF9Jbk9fUG1jdjN5Y0dJTENiWlRYVExwWjk4aXRZR3RCcm01bGsxOTFYV05PNmpJTWp1QWY4U2hoTF82YUxqRTRnci1KQ1dJWnZMSWNPVnktR1FVLVp6djh6eTBfZzlrUkw3UlFDNjVSd1JFU0NmekpTZ1RIZ0owYm5iS3ZHa0tINUQxR0dvMjA?oc=5",
    "date": "2026-11-16",
    "target": "933",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -560,6 +688,8 @@
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV254aHVVSmxXd2lYOEllQllVSzN0b2RaUTctVHd4dGZSNWp5U0MwcmEzck1tendQTnhHb1VEYU5ZbHoxN0VxR2FTWGpubF9ueGJDOTRER3dVdnZoMTJoVENfWDhfaDVTWnhxYXluWWhwcmxOU0w4OWZUODNpZ0VwWWRNZ0s4LWh2THpoUDFxTERQcEx6RS1uSGpRYXF0ZVFZT2ktbEFxeUFlcUtGc3hLY0cwckg2VTRaR05EVdIBwgFBVV95cUxQMVJBU29mbzY4cDdzdmg0bE54VEJubjhpVWV6bkdCUThkbTFJTlgxSV9kRERoWEQ0cDBQYjNVY3E2VkZtU3MxTmNydEtfRmFqb0tocUw3LTA4OEdUVmRRdVV1U3pMUFl3UFdzMElJSFhjSTZ5XzM5VXFvNnAwYjNJa3ZZeC1KVVZRdDlJS0JQMVMzOWpDWThGNGRyb2NEM0dYNkY3SzRuREUwbmU1VXZYV0tCelVKcXpzOExOd2RZSTNXUQ?oc=5",
    "date": "2026-11-16",
    "target": "4000",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Grasim"
@@ -572,6 +702,8 @@
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSkhzb3ZyLVNITUxiNmpEN0NPYy1lUXJtcFduSS1ETE5WRzJTalFMMnBYU19NNUs3SHBhRGl3TzZzbjhkSzVsU2F2Y1ZVZ1Q2dGc2WkFNWjZsZF9qNm1IeDJ6cVowS1dGTExmRExQVWU2Uk5hVEFpUHd6WWV4YXpaLThVMmFPNnhacjNWR1l6ZlB4RnNDR3ZpRWJ4Wlp3VTk3Z2pBanhGdjBTQnMtcVNR0gG0AUFVX3lxTE1GOHVIR3p6TWQzdTAxaHFTS2R0X2RXMlZiWjZWQll6d0lUMnUwTVJxVlFXVUdVM2dSbF8zX2pqb2JpTGlPZ0RqT3dHYjR1dnBSODhaTWR2a2JrUjJLYVZFM2RPQVR2S19lQ2xFekN0a1ZsMzlIUlZlXzh6aTNwMm4tenlEbm1DT19qejFCOE5jVEhOTlNwdHdSaC16ZW5FMlBZOTl2a0FhZVFjdWIyZ0U0Qk9RYQ?oc=5",
    "date": "2026-11-16",
    "target": "85",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -582,6 +714,8 @@
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb3dkbzdDcl92N2ZjVHk2bG0tNW9EV3N5X09Nb0hWRUQ5M3BjUndHQWpYYXVkMkQ0TFh4YmZwamxBX19JbjdfdUFNNU5iUGVPWG5BMjFoWEpqVWlRaHQ2SXhMS2xraHFGVFFBQlFZNUFjb3lNRW1QZ3kwVzV0RzlHd2VvQm1VMkFXWlczeldBbkU5RVpFTUR4UlQ3MnJ1T1Y0Sjh6MGZUQXBIVFEyMWJQbU9ueGNQZlZVNkdxaVdwNU3SAcYBQVVfeXFMT2ppQWFsWmFJU3FrdlNXWVlaTmR5bm9paEQ0RzVzcjYtNGl5OVJzU3Y0bnh6SzM0djVYUldaQjIybGVFVEVPNmFLVFR0d2gyUWhqWHA2dGNtRHFReU5YWWhFc2hjR2E5Q00ya25IMUFXVnNLTVNaNndCaWVKeWVxU2NBb3NCTjM0eEQ4Z1lxeFhENzZkWnVpNWFzNkxLZHVnd3F1d0Z4UzNLQnlxME9FMFVTZ2tSWU9jYVNPTFZBTnA0djVwT3V3?oc=5",
    "date": "2026-11-16",
    "target": "6600",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -592,6 +726,8 @@
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMzQzNTFnQW40V0szSFpTU0N2eGhnOC1YWHFBS3BCME1MUWc5Q2tiWDFJajEydTRydlpyS0N5b3pPZnVnUTRlbHJ1OUlldWJMdEZka1c1S25mM3dranFRZ3FuX2s1bHJqRGF2U2docEVlQUZkOGl5UDNlaVdGcllnSFgxWTlKRU43NGxXTWZIWlhHcERhVGxQR2JCTGJ1cE5PMjREV3NQYnFzaU0wOTdBVDhKVlBpemZfblU4Wmt0UjBMd9IBxwFBVV95cUxOZFlmank2TW9hZkR6V2NCRnFRa2NfZlpoSERtbkpBV0RJVkJiYWdhazBZRHpkeGFGVWpfV3FHZS1lbTBDb0lkY2hVbTk4VTI3cThEUUNyTTVwWVMtb1E5THR1VlptMFNyRlhTd2Y3cm13b0FUZDlqakNvalRLN0k0cWRlYm1rX3d6N05CVUxISDhMNDBiU3NMUWdpT09ianQ2Q29qSDg1Rm0ycG9aSGFQNk1WUkJ2SG9qRnQ1QjFUS1RzWWxObHJB?oc=5",
    "date": "2026-11-16",
    "target": "5925",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Hindustan Aeronautics"
@@ -604,6 +740,8 @@
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObVZKWkJkNTFJRE5XbEtzcGNwM0xzZXlkX2VPby15OXlaQlo0ZExIRlNOc2luaUFYMk1hS2RyR0N5ZE5MWF9sbVFSTUZqcXZ6TnRzeExhalNYQ3Jsc3FYNzlIVGsyUDkxVUR3U2VHVVY3VHZkODA4eWpLR25sU2M1ZmhydE5VUTRhOTJMbDM1R0xsUFcwdEhXanhtWnJQUkFoUnFTRlVBNE15ZEhMcWJEd2V5T1E2d9IBuwFBVV95cUxNRWFDcG1adTY2TS1hNGVicVJwM1BLdVN0TUM2b2RWWms5dzZiZXpOZzBHOUszQ045MXY3Y2k4eGlSQ2FIVTVoV0lIc1lESXdFQ184OEttekNFc3U0ZkpEcDVsQnYwa2NBeWlFY05mSTVmc3FSUzdlM1dVMl9GRVFMN2tGNDhJaEw5OGRXZXBFTTVmODhjcDdWU09JUHdkWWNXUHREcnhENW9yOVJmSHFXbVluTHhWRzJ1aF9z?oc=5",
    "date": "2026-11-16",
    "target": "1065",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -614,6 +752,8 @@
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQTVGUHJZNVRyX1dtR1lzcXBGc1ZyRDZNRVdtdENEcm5hejVOZmtpTmstbS03RFdIZDR2b3RfODhGVjdwSHh2WEx5bzJxaE5uMFVIVnBHTzVzczBZc2NxRkctMk9zaW1tOTEzVUVNSmM0TjVpUWIyOG5NQkxqYi10NFpzYjZmR2lrdnVsRldiS3I1WlJhZGNQWXB1alRjaVpEODBwUXJnRkxzenJPcnZzTmN5aU5mam_SAbwBQVVfeXFMUGNqUXR0YUlpakdMbUxHNEowWmRRd2xZZ1RLWkQySmVNUDBuVjZFNEpJSU1NZUNUZXBfUTBHWk55SWJkZmZIa0FyVzJCc3QzUmJ3d2Y3UHFsNV83YklOZHhlMVYtdDRXUjdVTVJ2a2hlNEstOHltbTFOb1AzTndXajlYZ2xpeERlSGpvLU9ZbWVTWnBmRHhwNFdObG5SYUtueVNvWEVwMlQ5bU05X0xRRnJfRWRDbFR1enE1MUI?oc=5",
    "date": "2026-11-16",
    "target": "1350",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Bajaj Finance"
@@ -621,11 +761,13 @@
   },
   {
    "broker": "ICICI Direct",
-   "title": "Buy Star Cement: target of Rs 229: ICICI Securities",
+   "title": "Buy Hitachi Energy India: target of Rs 40,000: ICICI Securities",
    "source": "Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdGVoNzNMSVB3TUdXV3V0MWVCZjdvZVRZQlhiRlg1b2QtT0xsRllDcVhCTUppSTVKTWpZdVFyZlF5bDlOaWo2T2hyYUFkbDBaRkFKeGJtTkF5U2x6cHJvSlNBaU41bmRBcVhpYkNWWkY2Z0JpeEhKVi10MUF2YmZHdXBNYWZXREVvSzVfZlgwRy1BOHpCYVpOcDlrN1hnXzBGV3FnMlFrYmxqWktfLUhjcXRZSdIBuAFBVV95cUxNa2xVSjJmUXNHaGNwQVZWdVZUaFRaaWtHV21PVkI3WlZWb2hRaEFYV3FVVVl1OFZpRFF6NkR4dG10TlhBMWRFZ1BXWTAzb0N1b09nLVMtMDBVckNUejNqbW9vVVAxcTQ3WDY5clZZSVFMNENCQnRDM3lHbERjQlYyNFZuaTdOZW9SU2lxaHZnZnhwUS1QWjlpMENtN05nRm5MMF9FNnZzQk8xZVlzTDQ2ZXZzeXY2OXdp?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMXNSWHJvWEg3WjUtZlZBUGdiT2ZhMnpCcjhKZzN1a3RuaGRBRVJpdHA2UFBDaDJLUHktUEFMRnBEYWNIUXNSZVp4azhpVk5PZmZZd0owQnlHWHRWSUZTaEVVSzRXNFdkY3F1SnFScmdzMmtET3dkZGwzOVZjaEJ1cEJiOWJ4VWhaSllWMnFOSEtINjBPenJjTGpuMkFjcDhncVJ6bUFrb2hRQzFhYXZOZmQtZHpia1Q3cG80MUZpT2YzTmFCZ1HSAcsBQVVfeXFMUDk5TmZuQjFzTkU4dFo1aGdCYlRYcElZaC1YaUJkTnZybDVOYmZKRG5ZZkpSWWpRc3h3Z21DV1RIV3piVkkwUENvQmlqMFl5WTNmaURuRDJ3Z3dtZ2l5QzNtMTBrY2l1RXUyekdWNy1YSlBZbUxxQ1dpOGlXYUJGa3lLZTMyWW4zeVZPbkRaZ2dlLUlJSzJNME1yQThjaXlTNGZDWTlUcTZxODh3VFJuRHBXdFhLZzBoejVKdHk3ZmtxVDQyck5CN3FvdHc?oc=5",
    "date": "2026-11-16",
-   "target": "229",
+   "target": "40000",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -636,6 +778,20 @@
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM25fZ3lPdWVCSk5KWXVqc1c5TjNSWkNpY0R0a2p0R0VXZW5ULVZFM0Zqd19hYm0ycmZOVnNBYm14R3hrQmQyTnZqYmdnVEltanc0T0Z2eUN5N1h4MndTUEZoVUxyYlRmVkgtOEd6M2haSWlndnpONmdaSkdKbXQ0VDh6aTlVa0MxRDZERWk1NUFqaUpIcXFUbHQ3Q3daNkJGZHFOcUFvV2tWNWdR0gGyAUFVX3lxTFA0Ni03ZXlTdW53ZTRfczZFYjRpMWY1X0d4M2tVbm9ZRnZ6bzMwTl9mLWlaUUdLcnZwaEk2Z2RlbmlJclFyMFBtb0JnMVdSTElSRThuZmtrVTBkNHFGc1d3YnNzejlnSWF0ZlhwTVRlRVVweF9pUl9yZzlTNlBObGtLV1FaTDgtcUd3QS16dTdKa1RGT3JqeVJud2xNSzkwN3lNdmc2QmsyS2dnUy1ySGYzVFE?oc=5",
    "date": "2026-11-16",
    "target": "223",
+   "stop_loss": "",
+   "period": "",
+   "call": "BUY",
+   "stocks": []
+  },
+  {
+   "broker": "Anand Rathi",
+   "title": "Buy Star Cement; target of Rs 223: Anand Rathi",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLU4zZTd3UlJuaWY5Z184VjlETFZGQmxoTWNScWVMWHdZYTZ4UG00SzdJWkVVc25JT3lzdGxtNmdYRlZzanNXTWpUSGZvS1cxQjM3ZVFfWW5Wa2pmRHpMUW9JR2VCMTZCdGF2SWIzREYtRlZsZlRYV1RIcHRzSWtmNjZQRmFUS0JiWURiQndkclUyRkRWSlkyeFg5WHRJandSWG5HSTZ1SjZLb2c?oc=5",
+   "date": "2026-11-16",
+   "target": "223",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -646,6 +802,8 @@
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaXIxNTAxa2xXS3d0Y29nNzRrR1NjMGNhc3Fjd2NocHozOEM0YTVOWGM3eTlDa0xUR0g2cFN5WUdXS3RyUTZFYzBZWlNxYXJDdU91bXhEbWVQYzVyd3VuZkxNLUhraUN0N0ZwSVk1LWw0c05GUW4tSTZCZ05yMjZXeDhiZlRNZXZBOWNONkYwNDcxc3czNk5vdkRzUzFCRGR4VmRGLUx2aGdLS1o3bGhGN0ctONIBuAFBVV95cUxOZ055RDhDcGJKb25sWTgyenZmMkxPcFU0N0RGUDdrYzNlQk96cS1oZzc4QjFBNWdVRVFtVkNxbTVxZG5zeXcyZ0ZWNHNmZElqa3dlQW5FUnlIcWlMcTZrZUhHVVlRZ3VYMl9mYnZ2ME1BaThBbGZybnRhTzhXTXJidUU4cVA3bDdMVU9KS2NybkViRUpnTmdwcWJLRTFscU5SaGdLNFJ3LXdlVUVtdFJHWWJWb0NMVjUx?oc=5",
    "date": "2026-11-16",
    "target": "625",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -656,6 +814,8 @@
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYU9oaWJ1T0hBYnUydjA1QWo4S2tlSnBjbmc2WlB1R0RvWEFkUG9pRmNSakt1dGxPQzZDOEZPek9sTm11enEtOWpJR1pCQk9kY3FXQkJkcFdWZmZWT3czQXFNVlFvNGZma2FfN1h0RHR6Q3RMS3VRQTJuSVpXY2hsTGRhemgxeHFVdlozZzIxLUduVDJqSUpyLXBnaFNNdTVIem1PdDdSeE5OSW9POTdLRndEdWhVd9IBtgFBVV95cUxQYU9oaWJ1T0hBYnUydjA1QWo4S2tlSnBjbmc2WlB1R0RvWEFkUG9pRmNSakt1dGxPQzZDOEZPek9sTm11enEtOWpJR1pCQk9kY3FXQkJkcFdWZmZWT3czQXFNVlFvNGZma2FfN1h0RHR6Q3RMS3VRQTJuSVpXY2hsTGRhemgxeHFVdlozZzIxLUduVDJqSUpyLXBnaFNNdTVIem1PdDdSeE5OSW9POTdLRndEdWhVdw?oc=5",
    "date": "2026-11-16",
    "target": "535",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -666,6 +826,8 @@
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWmpMYzlYWGZjVU9LalBTZWRmU0FyQVdCZ3A4bFdTb1NvUlNzeVRuNjdnZkJsVjdNdEdVRDhER0VKLS1vV1dhZUVGNXRUa2FLY1VXTlZWMXhmb09OODRfZ1cyM3pndEhUcGpmNWhaek9zTE9fdHk4OVhyUlZBcGpSWlNZQWo4R2FyVE14VmJCWlVMTzNiaW1rUDF3UjVtbHIyek95QmtFSmhLanEwUDBzSWJsb1RRV1doU2lCUFdlTFJlUXZMMmc?oc=5",
    "date": "2026-11-16",
    "target": "2111",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Aurobindo Pharma"
@@ -678,6 +840,8 @@
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYi1jZi1mSFVsd1l3ell6R0taaGstN2dMWkhVQTFQNmZnNmJPUm9sclQ5UzEzQ1ZDMEhhRUJleEFLSTZEOHM0SFJSOUZTWHBUZG9rTE9ZSWFaUXg2WjBwWGNSRnI0TjQ5NXBPUlczY3VFRFdHbE9zR0VNVkItRk1DMzV4c2htNTQ1UEIzTHRHMVBrUHVPV0RpMngzQU9zWEdHN0ItRklxUHJzaEo0S2dyN191dWFucTY0R3VQeXo5S2U0TGpfbzZoRmVkSVRydGc40gHWAUFVX3lxTE9tYWE2WjJxemczenJfOWtfa1NfZHlUd3ZxeHZtMko5SXJUVVR2UFp0SVViaVpwUW94Y1NqTjdTMUhBbHZpYmxDSHhUeEEzWDVmOEJuRlZaTnl5WS1fOFZ5Y3did05KMnRtM3pGRzRyLWNvMTFWaEdOVjY2T2pzMl9CaHRCT1oxU3ozQmkxRi05SHpfV2lfRE9fUkpqM19vaGFPb0NZYU5YYVpPRjhFSHUxUkxoY29VeDJ3ZVg4cnlxeHd4OXY3WFpRTHQ4XzZIYTk0cklHWFE?oc=5",
    "date": "2026-11-16",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -688,21 +852,25 @@
    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQczUtUHdCLWRKSXN3UUVBQ29xQjVJTDFXWXFTT3dVTnpwSUV3RmVJUWU3aFQ4ZGZvbTJMQjU0SWZFeXR6WTQwRFpDc2VzbEl6SlZiY1RrYXpKQ3JGMGlBeG8wd0h3cDdDWHJLaG5hWEFsem1XVjBKam53VnA1YlRKMm56Z0dSc2pORFRDdDdXcGNkTnNjYTBqc3ZHamJicHpDakx1WFhiSlgzUUo5bHZCRTZnN0RQbFpIMW5wVVdtNmNCTDRNTTlLYVpsaEpfT2NRS1pJZmFmNUJKQWh4bUZ0WVd3d2VFSVNCTUdNUDdqTGw1b0MzV2R3Z9IB_gFBVV95cUxNYlBwLUh5QTNfa2I3SEpKbG00QjdmNzdPTlNHYXJHSTR5VHExT0M1S2xnNWNjU0ctcEhlYk5vWGVsTVVyN1NMcFV3UGtqMjFUTGR3Ny1xcmZSNmlWcTJzZThmZHBSdGNCQzZBZTMwWXdPTlJPRERFWmpvbFZZRzU0OUExb0FqZDZyeFNpQ1dzVGFKZTdzcHZ2cGhzWEh5eEVSQm9mSTR6N2oyZzFfSmRsa19nZU9lQm8tR2RMemdYSzZramg4MzdJVVVERFRGNXg3X3JOdE5TN05iZ2ZwTXBJNjdhWmQ2dkI4dldqSHYxd3laaTJ2azN5d2FsLWN1QQ?oc=5",
    "date": "2026-11-16",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": [
     "Bajaj Finance"
    ]
   },
   {
-   "broker": "Nuvama",
-   "title": "Tata Motors PV shares tumble nearly 9% intraday after Goldman Sachs, Nuvama cut target post Q2 results",
-   "source": "ET Now",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObzFuMUZjejhxdHhoRXVEaUtLOThtcEF2aVZJUE5QRUZPQnk2azk4eF9WMmVXLTBxMVpWM3QyZ2FiWDdEREdPcU1odkUyUGktVWxERHJFb1lfWUtxNUJvbmVERVdWUVZaLUJ2ZzlUVklQWkV1QlVTMV9jNFg0QWtZenFOZVZsVjk5N3NnWnJGQUZqdTBjeVdWaVR1by1IZXVGX1pRZ2ExM1h0TDlubm5zQXZaM0RpUGlseHRTUEoxdU5YTnQteS02M1EyUTROTWZjYW9mOEN0XzlRX1JEaHh3UWIyOFhMQmPSAewBQVVfeXFMTmpRWjN3Q0dWNUZGSUNrdW1DSFo0TzgtNVNtejF5Y2pNLTAta2paSVlHSFEzU0JwS3dscXd1TVlLMnRTRDk5VERqQnNTQkVMalZuZVpxTTlUNWFqbC1SUGM5SzQ2SDlSejd1c1Y5X3kyTmVSMldPXzZ4YndZWnhjbGo2YTk0UHkxZ3FqMldDTDZ1cjZpUGx1S0ZCU2pNNHB0dGh3ZDdfZ2xBeHRiV0VxVWVuNmxCVlNndl9zYUFLQVRtWF90cTVvN3U0LVVNOTNNakV3d0xQY2x5dV9NRkpZS28xaUJLZTRWc0NyQ0w?oc=5",
+   "broker": "JM Financial",
+   "title": "Hindalco Industries to host investor meeting at JM Financial conference on Nov 16",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZExMYlVWSk1HTjhNMDZmczNmNWdjYjBVX3VRR3JhNjNOQWZHNG5MNDlQVldMekFMbU52dWhRX1lQckQ1MVQxdUtTcW9TUzhIYklRdFpyZWxXYVU5Q2s5VFdLLWZKaHZYMlhJQU1fWnh3VHgwOTVFR0d4S3hVMVNPUy13Sm04VWJNZ0EzMnFESFNjOTVFTkI4N0x6cEY2cWkxcW5qNUU3ci15Q3E1QmJLMlNxY0txckJUOXFwaUo2WEZzaUJN?oc=5",
    "date": "2026-11-16",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": [
-    "Tata Motors"
+    "Hindalco"
    ]
   },
   {
@@ -712,6 +880,8 @@
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOclRBanFEM3VtTllrdVptM3hsX3d2Sld4Z0FER1U5WGhxTDc2dmh4czZxRlJsY2hhWUp3MmJnNjhhMzByNFlUd2dfR3lfdDZhTzdWTXNBX0ttYUxMRzZqZzdSc09CTEhpZEtreUJTcl9IeTNjeDZQNVB3YTRPN3RrT3h5X01tMkpXZFlOU1ZnVEdHNTRDRnFvNGVjdXI?oc=5",
    "date": "2026-11-16",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -722,6 +892,8 @@
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON1p5dHlfM3JQQkM5UlkzSl93ZlBUck9wMHFKeVdUUjhMbTJGVXVfZloteVJhUW1Vd0F3Umt5RWhiYjZsR3R3YkdoeHJ0Q3Q5WWdqVnA2emR4OUpGXzRhZzdRcGJEaG55VkwtSjhXLXpublRKdVVfQXFfeUE0d0NNLU9kMjlVOTNTVGw0UEV3WUE4b2xoZzQxSEFGZlhSQUZDdHQ4X0NxbGwxeERwZjJTQnJMdTdmWC1NV3lSatIBvAFBVV95cUxON1p5dHlfM3JQQkM5UlkzSl93ZlBUck9wMHFKeVdUUjhMbTJGVXVfZloteVJhUW1Vd0F3Umt5RWhiYjZsR3R3YkdoeHJ0Q3Q5WWdqVnA2emR4OUpGXzRhZzdRcGJEaG55VkwtSjhXLXpublRKdVVfQXFfeUE0d0NNLU9kMjlVOTNTVGw0UEV3WUE4b2xoZzQxSEFGZlhSQUZDdHQ4X0NxbGwxeERwZjJTQnJMdTdmWC1NV3lSag?oc=5",
    "date": "2026-11-16",
    "target": "596",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -732,6 +904,8 @@
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbFJ5QVlqTU1yTUJjclhLM1EwMF9YOExvOGZvTmJDQk5JNTlWTzhDT2Q5eHZENWxyY0FpdlhKMEY2NzFtVlljZFZicng5ZzZmSFB0TWJKcm1VWHpnaWRrOE50NnVMU082N3lOaWlxOVBneVVYMzM5bU9vNkZYSlBIU05xUGg4dF9Yc2w1Z0lXVTdGeU9sY1RZczFvYmtLY2NzUmR6UXBWZ3NSTTdfT0w5bDI0RmNkZG5aaWRlVTUtY3ZKcGZEeTJtdnVEa3IzQdIBzgFBVV95cUxPbFJ5QVlqTU1yTUJjclhLM1EwMF9YOExvOGZvTmJDQk5JNTlWTzhDT2Q5eHZENWxyY0FpdlhKMEY2NzFtVlljZFZicng5ZzZmSFB0TWJKcm1VWHpnaWRrOE50NnVMU082N3lOaWlxOVBneVVYMzM5bU9vNkZYSlBIU05xUGg4dF9Yc2w1Z0lXVTdGeU9sY1RZczFvYmtLY2NzUmR6UXBWZ3NSTTdfT0w5bDI0RmNkZG5aaWRlVTUtY3ZKcGZEeTJtdnVEa3IzQQ?oc=5",
    "date": "2026-11-16",
    "target": "9390",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -742,17 +916,21 @@
    "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNY1JsYmZaU2tJQ0E3NENLc2Vib0NSdi13dmYzRU4zR0hwUVJBTngzUmZQT0YwTXc1TER4amRQbXdlWEZNRVhyVFZCRHF1QkhGSzFFanVla0gyTHd4N1BwbTVhSGpKOHdxZXhtVVNBbEhUMWpiMWZqYm54bHNCODdxTjI5dWVJbFlya1U1WFdDczdEOUp4ZnVOX2oxN20tbExfX3lLQ1prcTFnZ1E1UnhFdklfV1dVRlZaRWtldkt3am1hSnhicGxOM1lubGdWNWNqWVBkTkNVVkJNdEFYc3RpU2VERDhkY3ZoOHYxcUljelZCV0NRemFDU0ZEZVl3OGtWTndMc0xzakhuaVRfRVhNQS1R0gGXAkFVX3lxTE5rS1Nxei1WZEVqbTVxc0ZmSmUzU1NQbmlUR19LdWkzUV9HS3ZFaGxpQzZleG9TaTJRT1pMcFJjMTRWYVVJX0lVSmYwMm5XeDhqRXVhOXpTc1o3TUFMSU51eXRWUXZOTU51UHhrc2J0NndnUVpKZTF3S2oxTVR0OUtJbWF6enlqZXpKMU5tQVdmaUJ3amxnOGFnaHhKdFpxTTlSQXZ0RnFvdGdpR2N2c2tXeVBJT2NvY0ZQQ0hEd254QWxPbWZ2SUFHbm4wSEF4U2o3Q1k0ODdPUmFrN0FmT2FKTXBxRTV6eWw4dkM4ZUpCbE5od09xeEExcDJYWnZudzRpbWFna2NsMFp6Wlc3ZGVNYW52aDkybw?oc=5",
    "date": "2026-11-15",
    "target": "",
+   "stop_loss": "",
+   "period": "1 year",
    "call": "",
    "stocks": []
   },
   {
-   "broker": "Nuvama",
-   "title": "Dividend king PSU stock: Down 23% in 6 months! Nuvama sees 42% upside; target price, rationale",
-   "source": "Livemint",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbjI5Z2MtYm53cFZiUHhxYWNISkVCUURSaVZCemE0a0hZS2Q3MFhZMHBqNW1NQ0tZUWZJYWlBaURZeWdlMEtmTG5HUUdKVmhwR2FtOWV0cVY2S3FtQTJRdXVLSnZETEVZZGd0TXBTZmRZVUx0RHd5SDNEb0NwT0wwTnRXeE5ELTFmT3pUbWlMYnVRUEFBSUVfOXNjTTI4Um1wT3djXy1GNGtiV2tLSF9ULVpLTkJuTUVZdDdfNkoyU0lzdkoxaUpXaDFCbG12M2wxTVR2SGJoWk4tTTkweTEtT3UxYVVlaHpxcTlxVjc3TdIB9AFBVV95cUxQa3B4S0dvb3h2cTFYLW9sblpEOEI5ZmVyY184LWFMUWxIQ3VKVEU4c2luQzhiNGhDMzM0YnpiaTR4RU94WkEtM2xfZXRfR3ZQMDY2N0J6c1lZNDJNRVRRRXZxS0t4SGw3YkVCcTBmQ2o2SDBjblB2YWFPSVFpRzVod1V3cS1vcFZVVnlaRHYtRUR1MTRseDhySXZSWjg3UFptR3ZZc2Frbkk2bXk5ZWlCX1QyMkF6SDZ2a01Sd0lPbTJoV0I2emlaRGFHOXM5cDBvQlRkV1ZtRTNjdVg5dDBKT3RfRmY4V2xvWTVOcFlDcVMtT3Fm?oc=5",
+   "broker": "Motilal Oswal",
+   "title": "Small-cap stock rallies 70% in a year: Motilal Oswal sees another 47% upside | Should you buy? Check target price",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOa000TXUtaXpHM1NWNXhuMEQ5N3RidkhiUE5uRnQ4NlN4QUJLLWJlZVlsUGdVUW1qZjExMjJDaEZnY2RXQW92OGRNTy1FRnhFd3dMeDdNZnR6TS1uTmtUazZYaHl2ZnQ2eEYxRTVUX3JKN3hsRWFIYy05LWtpUzNwWl9lOXVKb04tRnU2UnZUbFVWRENpQnM2dVhHS3dkTlVEVkRyUm81QzJWXzRVcHdmM0ExZGFTVFpEck9MNFM2QXgtckx3OWxnUjg4eC1lTHNWc2R1VDBCT2NJd1dzSkx4aE8xcUM1NDE5Rm9kQ2lDbkZyemRiTm93?oc=5",
    "date": "2026-11-14",
    "target": "",
-   "call": "",
+   "stop_loss": "",
+   "period": "",
+   "call": "BUY",
    "stocks": []
   },
   {
@@ -761,7 +939,9 @@
    "source": "Moneycontrol.com",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZHRkdmpUWXRHdllFelllelhsaElyeHFKMjM4VzVHMXZ4TDFLd3JrSEFXNjd3aVpRYkdHcW52Vk0tTjhLRDhsa0xQNnY1dHN3R29kRVQ3UlVLN2otdDI3angxWWdHM0FxSWNtNUhGeVZQeXpDWWpDbnB5Q3Q1MnJVbXBXVnl6TkZ2VjBFcXd2Yno4SjZ0SzR2eVA1Z2lLRm9pZ0RHRk5Sd2VLYlVlYmhCMVlXWE00dzRi0gG-AUFVX3lxTE43QTEtUkJuRXk5T2RXVkhRRWcxMHdNS0FidmRXNlFBVDBBMkNHTF9HaFRscHhKeU5OQS04WmZrb3FtaXBJb3JxYllYUXVaMENTQy1EUHdwcjlIOEZRa1BZMXY4cC1penRnV3JSQmpFeXprWXBTeXhRTlJ3NmtGRHhCU2lqaXhjeUQ4OFd6SEhXcjRTUllDdVRGdFlBdmotbUN2MXhpbW1oTEhZXzc1REs0cWpkZ28zZVM0bUpZdlE?oc=5",
    "date": "2026-11-13",
-   "target": "40,000",
+   "target": "40000",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Page Industries"
@@ -773,7 +953,9 @@
    "source": "TradingView",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONERRYjBGM2s4R2tEUjhoajZFYTYwMUdWNnBCcFdoWFhvRHV4N2JZNlhnaWtkWlNCaTFZRTV1c3htZkZMb1A0akJ1V0I2VEFOYkVmYzQ0MFZBeXdvOUJXVUdXUTNkbm1ydnJnSnI4MENRd3NiY1dGNC1LT0NrS2phQzR2bnZWYzdxc3hUY2FRbW1RbmFfbjJ5ampVSVdBOGpqM2dUN2hSVFZTRDFEajYzdGhNUGNtQQ?oc=5",
    "date": "2026-11-13",
-   "target": "35,800",
+   "target": "35800",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -784,6 +966,8 @@
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYTNJQWRwS2I3TTJKSnBPZFRlLXUtejdLb1h6VjRZa3A1N2kzQWU5LUgzaXlLSGFNRks0MVYwZnB2ZG53ZVg1M2Q2dk5TVWxtSUgwdmZ1NE9EMjFmSlRRcEN2WFNDLV9Oc09XVzZEdXFrM0l2aDhCMms2dGFJa2t2TTdVOWNFMEpNY2QxWm5ULXNiV1RKN05TdS03aEtDeV93aWlTdjRVWW5oLXBJ0gGyAUFVX3lxTFBZLVNoYmRmV2ZQM09MaHRFdkt4c2JlOE1zMlZ5eHpqbUtnMVNhNFJ2QVM1amVMNmQ4ZjBZczZqZTJWSzdCem1yOUxZSGF2TG9ndE01RXlKUXQ4NFdwX2ZRVWN0bjFYaEpFdVNGNnRKNHgta212TnR3YmZsekkzRGVHMml3ekJhZDlTOFZZT0Z4MDhXdlZzSXVQOU5PVl9TckcyUzVKZGpJWWg1Vy1WN0FDNlE?oc=5",
    "date": "2026-11-13",
    "target": "75",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -794,6 +978,8 @@
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYjUtWFB3eTZZREMydFg1LTFLM3RvTElfa1pudUduZEJUcDdHZkJqNm1wM0tlbUlxbXBQeWhTVlB6QTFoeWpfVUVyU1hMQ1FqVndGbzA3WTdqZFRMMlc0cFRBS24tcWVuMDdLdmxPRTBUdU8xeHR3MkNBajRIcVBnYk9HdUpodk9KM1FLcnJuY09SSTBCVjVvZnZCY3JOSy1wVEx4OdIBqgFBVV95cUxPWEdUaFdUOUIyQnFleldocklTcmNHQ3JDU2xjM2ZRQWEyZ3preUplSVFxUXdSZGNuaXM2dWw4TW9YNWJIYXRNdTkxalQ1cGVnSHJMLTBLOHlKcHJ6Z3owSHVEbllsWVFKdy1DcVpVNjl4eERuZkdlQUgyYnhKdkZFQ0Ryb2JLd1pBb3pTcmFSM0ExcV9wX0l1Z19yaTZiU3o3MXQtSXlJSGVJZw?oc=5",
    "date": "2026-11-13",
    "target": "85",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "NMDC"
@@ -806,6 +992,8 @@
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTy1JMWdYZHgtSDZhb3FnaGVRcDZGZi11Wkl1cmtrSnRPRGNWZGZUa3lCZTVGZlZGYkVlZTQzeUhLZTJPYTFsNmNjU1NFaEdnaEpjUVVYXzNUX3lpektZSlE2Z0tIVFVZZ0g2anVSdF83SUtCellCczdfZ0VlTDVlN2pFQ0VLbVpmbndoVldmY1VIbkd3dllqM3JpdWt6cUNOMUg2dmp2REhocGZGUU8yWmUzaEPSAboBQVVfeXFMTm5kRWctNmdOXzVWR1NVbUk2MGs2MmR1YzVGVHFNa3RZYW9vUkpjNFJFVzN4ajF6UzZpcmhGQWNMRW5wcjFmYkt1T0R5OE1TWTl6alphTmVwWl9JQkRsNUQxcHM3VUVjdGozUmw1OFluZGhMeUE5OHkzVEdodXRrRlh1bU1FeW83SGZCZmdMQU4xV2ZfcGdsTmV2TkpDWlNlNUpCeG1ocWgzeUJEVUxYd05DYXZMNmdydmNR?oc=5",
    "date": "2026-11-13",
    "target": "610",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -816,6 +1004,8 @@
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWlUwX3FaSVEwcFkwSkZjYllLUlhacThXdXJYS0xSa3pkVTNzcGotdnNPbW5wbHdrZXZsUmh3TEZ1eHBCSXFYUXQyX3NBTG9ZM2IyZEF3M19iWi1kSEZBcDFiRkswanc5NExySERqTUdQckFpM0c3WU1tMTVhdmZyTXRacWJFT29PSmV2VlYyVHlhM2JZX1ZfdHpITEdyVmtCbGlVMm9na2VtSTJCQXl4MlRWekfSAboBQVVfeXFMTzFtRzd5SzdXSDdyMnhpdWhyXy10UVdYYTRKemU4MDRZQ09aMW50bWp0a3RsUUpZQk82bWZXWExLZjdSdENYaFpZTWVnNlItMGV3cUZvS0Z4X1dGTl9tdUZCNFBBRUNUODRtUHppMUJlV05adURtZnlSMHU3WWRmRVJPNGJYSmRHUGU2XzZXNlMyb0kyMUlhUm12Qjk3Ml9ZOWs0RkswMEJxZE5sWndGdHA4azNnMmlHMkRn?oc=5",
    "date": "2026-11-13",
    "target": "840",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -826,6 +1016,8 @@
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOb2VNeExBV0hyU0o5TU52WDhMTjVMS1V5cF9penRwanRieXkyX0xoTjJFdm0wMWFtVGxkaEloUUp2QklhcnlteXhDRDBaeWo2OWRSNHhOaEhQU01DRlY5ZHhzTmt6V0VFeWRiSThKc1R2Q24tYVUzYW9vazlxSTFPMFN4LXdmNEVmWHJkRHhUNmQ4dlNsdmF0eGlYNWlGRzFmWF93WW9hQVZpV1BsZkhucHdLZ3hUS2k1emxUc3NNQXBMUdIBxwFBVV95cUxNYUQzT0ZreFhhMkxadGs5WVRtd0xvVWhHVXBDUFBYVnFsWlR3V1Y1d1h5NDNCc0JpSWRid3VvNVBNaGdxc1pOREdHSV96RWkwZjFteUVERmRIWVF1TGFYTnlwd3R2WXV5NU1ZVFNUQWkwVHBpWEJ1WW1wTTNybnFwTi1lM2hyVWExazR1RDVaQTlUWVFYTTQtUFh5clpSSnYzbDdKUjZyUEZwdzQ4SHpCSE5Oa0JSTG55Z1JxOXBGclZUWEdxbjdv?oc=5",
    "date": "2026-11-13",
    "target": "2400",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -836,6 +1028,8 @@
    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxON25nd05CMXViMmNPbVdzYjVWeFQtNl9wSzIwd1lOQjFqNzd3Y3k5VVFUNTRPTHhjLUJGUXFpWklsUGxaZVJfamo1RlNZbjJ5enFCNkdHUXVsVFNPVWowOWtkS1RxUUxHR2NtcXdwcGEzV1U4NFNkaXpEX3MyX3A5dGFRSklXbU9vNXphTjhPeEVQSVlPTXpmZmQ0OTBmU3F1bElEX0JVb1htOXBoWlJiYWczYzVFallOR1FfcjhfdkQtZE9FdUNnaEdpcDgzeXFFMnBSdjdRZ3dMQnZFb0VhX0xReVAtRklGd1F0bHlqeFZFOGkwTkRsd3BSNzYtWEdhTzNBdDhkTUtHQnJ1cDJlY3g5LUJGd9IBmwJBVV95cUxPZ3FZXzlFaTBRV1FyUl9McGZyM0dtNFctTEQ0U0F0ZC1zTTl5Qm91VlVIU00xVUFvM3FTNl9pVHNDMWJ6NG5ZRHRGWEFMR052NmJvSWZyQW04NnZJcXZKWU5MWVhwRkl3b0J0UkpDd3MxaXJsc1NwUW1PSHg1ZFUtNHdtZk1aUWJDcTJpbWluOXBWTjYwZWJfQlg0YlgxTkFHbDNTMVFGV0w1cjlNQ21JakFWbndxSGZGR0gwWF9DYTVxNTFyTGpNemptRjVtUTRDTlZ4bHVKN0JaRGEzQmJNUEoxNkl5ZzN5ZkVKV3Q5TlVoN3FhWXd0UjRJVE9ibTJQNVhNRWN2cjF2cjYyTFMzTzdrOGZTZWJPNV84?oc=5",
    "date": "2026-11-13",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -845,21 +1039,13 @@
    "source": "Trade Brains",
    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU2NPS0tpd1ZxLVg0U3YxMlZ3NFd1Yy1ENnhaTFc3ajVybVFSOXhuVi0wd3JUaE9YbFFvekFPU2JwOW9UVlFNWlduNmNITEpSRE40TzN4MUp0S3dEWHcyZ0p3WjE0MlpKNDR1WENlQWZUWEtiMGhJUWQ5dVdPeEtXWFdSam9lczN2eERsYUJqdWFKMVN4dzJMUXgycDliTDhGeGcxWlFCNkcwRGJseTdFTkxFTXZ0VEdXMG1td2g4VnJtem9RaFRfUURSOFdBUE5meHMwLUFhVnVPakRKVXc?oc=5",
    "date": "2026-11-13",
-   "target": "",
+   "target": "855",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Tata Steel"
    ]
-  },
-  {
-   "broker": "HDFC Securities",
-   "title": "Stocks To Buy Today: Nagaraj Shetti Of HDFC Securities Picks These Two Shares For Short-Term",
-   "source": "NDTV Profit",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMlBIS0ZtSEZHZWF0Q3VWVXZRZERkUXV2cFlhb3hFRGpISkZIelQ0S2w5bUFvTWFJV0xtbmYtVHBDMThXV2tSV3RjM1gxQWxvb2E5V1ZGOEgwWDk5SDl1TVoyMVFtVVIycVRWVnpjM1J6ZnVJQ0tuRjM0MEJZakE2aW1ENjRMUWZQd2xJVVRObVBNWFpaQnBiUjluNDRfMzloN0ZWYUdCekppbzhWdnZJVDZXZDNMNkdERHg4cTJUMDFYaVVoaDVGVnhjTzd1X1At0gHYAUFVX3lxTE42SUo2S0lEVmp1ZktfZGZka096eW9nRjljMk01eG13c0JNN0tlMXRTOENnR0xxb0ZDYUJIRmxMdWxEME10XzM0MDJPSkR2ZzdUYVB0M1d0am5xRG9rNHZ1TnR2dXl3NG9PYk0xWG1BVkFrRU03Y05RYktHRUplVEQ1M1ltdFdLWjJfcFI1Zkt3ZWxvUk1sSzM2ZG1JQWZWS0ZEeU9CeFVrNjQzdkJOVjVxNFp2ZlJMYmk0R3hYYWhzQk1ERFdjRHZkLUpPYW1SMFhZSHVRX0w0Vw?oc=5",
-   "date": "2026-11-13",
-   "target": "",
-   "call": "BUY",
-   "stocks": []
   },
   {
    "broker": "Sharekhan",
@@ -868,6 +1054,8 @@
    "link": "https://news.google.com/rss/articles/CBMirAVBVV95cUxOZ2RqNnBGNDVvNGxBcFZfNWMtVkpsd1V0TDJLUzFDOE5wZHdxNlRyUEF3NkVNSU8taUwtTEE4aDlGWG9oczhlVW5XRXRIMzA2SzhoRjFUMDhLaUdjb3RNMVVDdkZmSU1pNUZkWGdweHJka0E2YXk3WlpISUJYcTVEbUZxZUZWUkZnN0IzMXo5dkF3b2M3UDFWcDVmbVRzaWFMeGpJdmRtU3VqNk1wMnRtY2VZLTlIWEs4a3BhWVVTenVHWk5jSXdVN0ZlN3FXS1dxLWd1ajVCbnNyMHI1SE9zcmd1OFVzLVllUlJSVTRJUEVKMmdSQWJYbmhGVVppU0ZGZEozelZEUGhmTHJDU0ROaGFjSnoxbi1YRmNwTnZKeVBjQVBUck5YbWFaU0xxT2tnTVp4ZVRCbHVKR3FjVjlfSVk0cjFhaHlaby13UEhUTTVtTFp2anF0LU1hM2VlOG9pU1VPbGl6NDVud2EtRU1tWENkTlo5eVlfaE93WGo2bTY4WTVvN3lnWjN4T2lNc2NVdWV0UVRTaEVkMVg4eThwcTd4OTl0TzJiQUhwYWt3NXotSVdoM1ZUYXYwQ1FmTklVWUNuOGIzWFFZaV9aOThVb2dlZHBHWnJwQk5EbzRlTjB4VUVfeVpiS2IzUGZDY3U5aExGd1FfOXNOdmcxZElMT3A4S0p1MHlpUkNQMHNhWHR4R3lQM2duYVFlSWYyVmltV0ppSUNyTEM4UVFNdGRpNnVNTG9qd3BRd0h1cTh2a3FaaTBsQnhSV3huOWNVVnZnaGtXUC1FOGw0ZFNkQlBRWDZONkhiYkRsVXAtcXpwVWJ3b0Q0MjJ1OUxhaFdwaDFSX2JOUnRKXy1WakpmOHVlZ0hvVzVxM3AybWd3ZXdSN2NlblBkbzV1NWdJdlA?oc=5",
    "date": "2026-11-13",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": [
     "Siemens",
@@ -881,6 +1069,8 @@
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYzZ1SjdPQm5rSnlQU0toZFo5d2tENDRHS1VlLW82VTdENk9KT0dSUW83cGRHM2lwZVNGUjZxYlM5V19DOG1RZ2pybkl1dFZKTVoxSklPTUF6YkRrUWV4SDlPbDBmRmM5YWVHVDlva3VKN3ZFa0djcEJsN3ZDUlBlTDZqb2JaS1pJNzNRYThncW1HU1NRd2ZkMWpIaF8ySzZtZnBaUC0zQVJ6aFA4bmJwcjlHeGhOMGhGVkJGZk9PRGM4LWNHVW9YWjBwZUFtODZVYkFpMHoyWQ?oc=5",
    "date": "2026-11-13",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": []
   },
@@ -891,6 +1081,8 @@
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wdzZoZ2xYaUg3Uk9hSVdSRnhtdWtuUVlId1g2dkM2ZGw3RXF2UTFNcU9QR3cyenNxcnFBOEU2Nk9SRWFpOWgxa3J2djJULXRoVGFwSm5zZWpFbXQzNWtQSThzNzMydjVlMWUwcmpB?oc=5",
    "date": "2026-11-13",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -901,6 +1093,8 @@
    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZDBIR0prX2FWZEttZzBBTDFOMXg0a1ZZYWpYaFhGbjh6UFB0V2NIdnRZeDFmT3I4Zk54d21yTUVtR285TU9lWWhLUDAzNDdxODZFS25sYjkwVTZ4akdJcFNZbngyNE5VaXpESjRySzJpYW9Qd0hBNUFyZTdxODRmbTlYSE5XZktpd0gyX2ltX3pRaURwY1hRam1tLVh0Y2dyUEZwb1U5Z0x4dlIxaGFfdWJiUEZBYi13MFUyRmlha1lEbUJFXzVDTTdRT2U2dVBPM21BQ2VzZEVmRkRCcVg5cDZEbGI?oc=5",
    "date": "2026-11-13",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   },
@@ -911,6 +1105,8 @@
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSXp0MWY1WDNKRkhnc2pRczZwcUpUU1l0Q3YwTWhodEF3YXpMa0hCSllWbUx4VS1xMFMwd0dlOGlRanVsQXpoZE5oZW0wQmVKRVpfNlcyQlFZSW5SS0JjdzdUT2pYYm0xTUxTMm1haldzMjRVcndVREVyV25VX21GUVVOVG9QVzRDeEx2S0FaZFg2SkJDRk9ITm4wRHFTTC1jQTMwaklLU0tYWUFNdkN5dGdYdXpjVzNUb0hpZVFmZVhzQTdPWUR1Q9IBzgFBVV95cUxQTEpWS0VvRU5PX3BkZ1JJaUN0elZOa3I3dmlJM0p5bTM3dGJuNVBWVjBmNkQyb3F6WkttLWE4YlN2Y2Y2cEp6NVRuMTJfWlNkZEFkRkVTY3p4dXFwZHFDb0E1WWFIVVRiU0RCX2FHaXA0MzJoa3BfSDBFckd2YjIwVkc0b3IwSTRjV2JPelBRUUxMQmpzMzF6ZHFDWjJ1ODduZXFHY2F6VmtxbTNSSFFCRXRJRlJUYTgyellBMXBUSXo1dWF0TExWM3NUUnkydw?oc=5",
    "date": "2026-11-13",
    "target": "5943",
+   "stop_loss": "",
+   "period": "",
    "call": "BUY",
    "stocks": [
     "Hindustan Aeronautics"
@@ -923,6 +1119,8 @@
    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvREtGQWlGbHdHbEhaSUhZSEt5VkJ4NWFkUkdhZ2VOQzlLd09DTkFOQVZHeGxaVzQtNmxjVUZGajMxdlN6QlE4RzgwZjdHLVJwY0JiRlNzN05zdw?oc=5",
    "date": "2026-11-13",
    "target": "",
+   "stop_loss": "",
+   "period": "",
    "call": "",
    "stocks": []
   }
