@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T02:47:20.767685+00:00",
+  "updated": "2026-11-20T03:37:16.577596+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -35,30 +35,6 @@
       "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
-    "BALKRISIND": {
-      "name": "Balkrishna",
-      "cmp": 2330.0,
-      "change": 43.6,
-      "change_percent": 1.91,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 93796,
-      "timestamp": "2026-11-19 16:00:28",
-      "status": "success"
-    },
-    "CDSL": {
-      "name": "CDSL",
-      "cmp": 1423.4,
-      "change": 6.8,
-      "change_percent": 0.48,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 1110118,
-      "timestamp": "2026-11-19 16:00:28",
-      "status": "success"
-    },
     "CUMMINS": {
       "name": "Cummins",
       "status": "unavailable",
@@ -78,11 +54,6 @@
     },
     "EICHER MOTORS": {
       "name": "Eicher Motors",
-      "status": "unavailable",
-      "error": "CMP unavailable"
-    },
-    "FEDERAL BANK": {
-      "name": "Federal Bank",
       "status": "unavailable",
       "error": "CMP unavailable"
     },
@@ -110,6 +81,18 @@
       "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
+    "IRCTC": {
+      "name": "IRCTC",
+      "cmp": 450.0,
+      "change": 5.65,
+      "change_percent": 1.27,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 697722,
+      "timestamp": "2026-11-19 16:00:28",
+      "status": "success"
+    },
     "KAYNES": {
       "name": "Kaynes",
       "cmp": 2890.0,
@@ -119,6 +102,18 @@
       "high": null,
       "low": null,
       "volume": 902091,
+      "timestamp": "2026-11-19 16:00:28",
+      "status": "success"
+    },
+    "MOTHERSON": {
+      "name": "Motherson",
+      "cmp": 0.0,
+      "change": 0.0,
+      "change_percent": 0.0,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 0,
       "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
@@ -134,6 +129,18 @@
       "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
+    "NTPC": {
+      "name": "NTPC",
+      "cmp": 325.0,
+      "change": 4.6,
+      "change_percent": 1.44,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 8112591,
+      "timestamp": "2026-11-19 16:00:28",
+      "status": "success"
+    },
     "PAGEIND": {
       "name": "Page Industries",
       "cmp": 31065.0,
@@ -146,34 +153,10 @@
       "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
-    "PRESTIGE": {
-      "name": "Prestige Estates",
-      "cmp": 1655.0,
-      "change": -2.4,
-      "change_percent": -0.14,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 319044,
-      "timestamp": "2026-11-19 16:00:28",
-      "status": "success"
-    },
-    "SBI LIFE": {
-      "name": "SBI Life",
-      "status": "unavailable",
-      "error": "CMP unavailable"
-    },
     "SIEMENS": {
       "name": "Siemens",
-      "cmp": 3610.0,
-      "change": 90.0,
-      "change_percent": 2.56,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 153995,
-      "timestamp": "2026-11-19 16:00:28",
-      "status": "success"
+      "status": "unavailable",
+      "error": "Server returned an error response"
     },
     "TMPV": {
       "name": "Tata Motors",
@@ -187,18 +170,6 @@
       "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     },
-    "TATAPOWER": {
-      "name": "Tata Power",
-      "cmp": 340.0,
-      "change": 2.0,
-      "change_percent": 0.59,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 18924224,
-      "timestamp": "2026-11-19 16:00:28",
-      "status": "success"
-    },
     "TATASTEEL": {
       "name": "Tata Steel",
       "cmp": 180.89,
@@ -208,18 +179,6 @@
       "high": null,
       "low": null,
       "volume": 13367958,
-      "timestamp": "2026-11-19 16:00:28",
-      "status": "success"
-    },
-    "VOLTAS": {
-      "name": "Voltas",
-      "cmp": 1237.0,
-      "change": 102.4,
-      "change_percent": 9.03,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 6235827,
       "timestamp": "2026-11-19 16:00:28",
       "status": "success"
     }
