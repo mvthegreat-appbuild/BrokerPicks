@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T16:25:34.593235+00:00",
+  "updated": "2026-11-20T17:21:44.091369+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -189,8 +189,15 @@
     },
     "TMPV": {
       "name": "Tata Motors",
-      "status": "unavailable",
-      "error": "Server returned an error response"
+      "cmp": 266.35,
+      "change": 2.85,
+      "change_percent": 1.08,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 13667727,
+      "timestamp": "2026-11-20 16:00:28",
+      "status": "success"
     },
     "TATASTEEL": {
       "name": "Tata Steel",
