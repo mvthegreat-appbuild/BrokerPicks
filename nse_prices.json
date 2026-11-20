@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T12:27:03.456631+00:00",
+  "updated": "2026-11-20T13:43:01.679741+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -112,8 +112,15 @@
     },
     "KAYNES": {
       "name": "Kaynes",
-      "status": "unavailable",
-      "error": "Server returned an error response"
+      "cmp": 2910.0,
+      "change": 20.0,
+      "change_percent": 0.69,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 716407,
+      "timestamp": "2026-11-20 16:00:28",
+      "status": "success"
     },
     "MARUTI SUZUKI": {
       "name": "Maruti Suzuki",
