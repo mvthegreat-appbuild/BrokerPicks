@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-20T15:47:37.266842+00:00",
+  "updated": "2026-11-20T16:49:52.770746+00:00",
   "sources": [
     "Moneycontrol"
   ],
   "source_counts": {
-    "Moneycontrol": 11
+    "Moneycontrol": 6
   },
   "collection_window_days": 10,
   "errors": {},
@@ -14,56 +14,11 @@
     "decoded_moneycontrol_urls": 16,
     "unresolved_google_links": 0,
     "article_fetch_failures": 0,
-    "excluded_old": 96,
+    "excluded_old": 95,
     "excluded_undated": 0,
     "excluded_future": 0
   },
   "items": [
-    {
-      "source": "Moneycontrol",
-      "stock": "Mankind Pharma",
-      "title": "Trade Spotlight: How should you trade TVS Motor, Quess Corp, Avenue Supermarts, Gujarat Fluorochemicals,... - Moneycontrol.com",
-      "published_at": "2026-11-20T02:45:28+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-tvs-motor-quess-corp-avenue-supermarts-gujarat-fluorochemicals-pidilite-industries-and-others-on-november-20-14085294.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-tvs-motor-quess-corp-avenue-supermarts-gujarat-fluorochemicals-pidilite-industries-and-others-on-november-20-14085294.html",
-      "entry": "",
-      "target": "430",
-      "stop_loss": "387",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "State Bank of India",
-      "title": "Bombay HC seeks BoB's assurance on preservation of records in B R Shetty suit - Moneycontrol.com",
-      "published_at": "2026-11-19T08:23:11+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/banks/bombay-high-court-declines-immediate-document-disclosure-in-br-shetty-s-15-billion-suit-against-bank-of-baroda-14084565.html",
-      "link": "https://www.moneycontrol.com/news/business/banks/bombay-high-court-declines-immediate-document-disclosure-in-br-shetty-s-15-billion-suit-against-bank-of-baroda-14084565.html",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Godrej Consumer Products",
-      "title": "Trade Spotlight: How should you trade State Bank of India, Indraprastha Gas, Bank of Baroda, Vijaya... - Moneycontrol.com",
-      "published_at": "2026-11-19T02:34:26+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
-      "entry": "",
-      "target": "940",
-      "stop_loss": "874",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
     {
       "source": "Moneycontrol",
       "stock": "State Bank of India",
@@ -126,21 +81,6 @@
     },
     {
       "source": "Moneycontrol",
-      "stock": "Canara Bank",
-      "title": "Trade Spotlight: How should you trade Devyani International, FACT, Federal Bank, MCX India, Samvardhana... - Moneycontrol.com",
-      "published_at": "2026-11-12T02:46:37+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-devyani-international-fact-federal-bank-mcx-india-samvardhana-motherson-and-others-on-november-12-14077767.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-devyani-international-fact-federal-bank-mcx-india-samvardhana-motherson-and-others-on-november-12-14077767.html",
-      "entry": "",
-      "target": "139",
-      "stop_loss": "129",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
       "stock": "Federal Bank",
       "title": "Trade Spotlight: How should you trade Devyani International, FACT, Federal Bank, MCX India, Samvardhana... - Moneycontrol.com",
       "published_at": "2026-11-12T02:46:37+00:00",
@@ -164,21 +104,6 @@
       "entry": "",
       "target": "",
       "stop_loss": "",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "State Bank of India",
-      "title": "Trade Spotlight: How should you trade Devyani International, FACT, Federal Bank, MCX India, Samvardhana... - Moneycontrol.com",
-      "published_at": "2026-11-12T02:46:37+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-devyani-international-fact-federal-bank-mcx-india-samvardhana-motherson-and-others-on-november-12-14077767.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-devyani-international-fact-federal-bank-mcx-india-samvardhana-motherson-and-others-on-november-12-14077767.html",
-      "entry": "",
-      "target": "385",
-      "stop_loss": "352",
       "holding_period": "",
       "recommendation_status": "Trade section detected - verify holding period",
       "section_verified": true,
