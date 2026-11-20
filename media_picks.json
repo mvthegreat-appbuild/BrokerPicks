@@ -1,20 +1,22 @@
 {
-  "updated": "2026-11-20T12:25:08.571456+00:00",
+  "updated": "2026-11-20T14:47:08.515573+00:00",
   "sources": [
     "Moneycontrol"
   ],
   "source_counts": {
-    "Moneycontrol": 16
+    "Moneycontrol": 11
   },
   "collection_window_days": 10,
-  "errors": {},
+  "errors": {
+    "site:moneycontrol.com \"swing trade\"": "HTTP Error 429: Too Many Requests"
+  },
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
-    "rss_unique_recent_articles": 18,
-    "decoded_moneycontrol_urls": 18,
+    "rss_unique_recent_articles": 16,
+    "decoded_moneycontrol_urls": 16,
     "unresolved_google_links": 0,
     "article_fetch_failures": 0,
-    "excluded_old": 94,
+    "excluded_old": 85,
     "excluded_undated": 0,
     "excluded_future": 0
   },
@@ -179,81 +181,6 @@
       "entry": "",
       "target": "385",
       "stop_loss": "352",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Amara Raja Energy",
-      "title": "Trade Spotlight: How should you trade Canara Bank, Mankind Pharma, Amara Raja Energy, Bharat Dynamics,... - Moneycontrol.com",
-      "published_at": "2026-11-11T02:50:47+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Bharat Dynamics",
-      "title": "Trade Spotlight: How should you trade Canara Bank, Mankind Pharma, Amara Raja Energy, Bharat Dynamics,... - Moneycontrol.com",
-      "published_at": "2026-11-11T02:50:47+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Canara Bank",
-      "title": "Trade Spotlight: How should you trade Canara Bank, Mankind Pharma, Amara Raja Energy, Bharat Dynamics,... - Moneycontrol.com",
-      "published_at": "2026-11-11T02:50:47+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Larsen & Toubro",
-      "title": "Trade Spotlight: How should you trade Canara Bank, Mankind Pharma, Amara Raja Energy, Bharat Dynamics,... - Moneycontrol.com",
-      "published_at": "2026-11-11T02:50:47+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html",
-      "entry": "",
-      "target": "4,570",
-      "stop_loss": "4,020",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Mankind Pharma",
-      "title": "Trade Spotlight: How should you trade Canara Bank, Mankind Pharma, Amara Raja Energy, Bharat Dynamics,... - Moneycontrol.com",
-      "published_at": "2026-11-11T02:50:47+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-canara-bank-mankind-pharma-amara-raja-energy-bharat-dynamics-havells-and-others-on-november-11-14076725.html",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
       "holding_period": "",
       "recommendation_status": "Trade section detected - verify holding period",
       "section_verified": true,
