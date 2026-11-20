@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T21:40:34.331401+00:00",
+  "updated": "2026-11-20T22:26:16.869443+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -165,8 +165,15 @@
     },
     "PAGEIND": {
       "name": "Page Industries",
-      "status": "unavailable",
-      "error": "Server returned an error response"
+      "cmp": 31020.0,
+      "change": -45.0,
+      "change_percent": -0.14,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 47626,
+      "timestamp": "2026-11-20 16:00:28",
+      "status": "success"
     },
     "SIEMENS": {
       "name": "Siemens",
