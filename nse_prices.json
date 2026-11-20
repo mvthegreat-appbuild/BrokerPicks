@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T15:30:08.058147+00:00",
+  "updated": "2026-11-20T16:25:34.593235+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -129,13 +129,13 @@
     },
     "MOTHERSON": {
       "name": "Motherson",
-      "cmp": 166.53,
-      "change": 1.09,
-      "change_percent": 0.66,
+      "cmp": 0.0,
+      "change": 0.0,
+      "change_percent": 0.0,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 16767823,
+      "volume": 0,
       "timestamp": "2026-11-20 16:00:28",
       "status": "success"
     },
@@ -189,15 +189,8 @@
     },
     "TMPV": {
       "name": "Tata Motors",
-      "cmp": 266.35,
-      "change": 2.85,
-      "change_percent": 1.08,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 13667727,
-      "timestamp": "2026-11-20 16:00:28",
-      "status": "success"
+      "status": "unavailable",
+      "error": "Server returned an error response"
     },
     "TATASTEEL": {
       "name": "Tata Steel",
