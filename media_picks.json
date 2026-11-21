@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T02:00:28.605537+00:00",
+  "updated": "2026-11-21T03:12:22.010037+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -10,11 +10,11 @@
   "errors": {},
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
-    "rss_unique_recent_articles": 13,
-    "decoded_moneycontrol_urls": 13,
+    "rss_unique_recent_articles": 14,
+    "decoded_moneycontrol_urls": 14,
     "unresolved_google_links": 0,
     "article_fetch_failures": 0,
-    "excluded_old": 97,
+    "excluded_old": 96,
     "excluded_undated": 0,
     "excluded_future": 0
   },
