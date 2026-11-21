@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-21T03:12:22.010037+00:00",
+  "updated": "2026-11-21T06:21:23.364736+00:00",
   "sources": [
     "Moneycontrol"
   ],
   "source_counts": {
-    "Moneycontrol": 8
+    "Moneycontrol": 5
   },
   "collection_window_days": 10,
   "errors": {},
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
-    "rss_unique_recent_articles": 14,
-    "decoded_moneycontrol_urls": 14,
+    "rss_unique_recent_articles": 13,
+    "decoded_moneycontrol_urls": 13,
     "unresolved_google_links": 0,
     "article_fetch_failures": 0,
-    "excluded_old": 96,
+    "excluded_old": 95,
     "excluded_undated": 0,
     "excluded_future": 0
   },
@@ -86,51 +86,6 @@
       "published_at": "2026-11-19T02:34:26+00:00",
       "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
       "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Aditya Birla Real Estate",
-      "title": "Trade Spotlight: How should you trade General Insurance Corp, Aditya Birla Real Estate, Godrej Consumer,... - Moneycontrol.com",
-      "published_at": "2026-11-17T02:46:23+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-general-insurance-corp-aditya-birla-real-estate-godrej-consumer-fortis-healthcare-kpr-mill-and-others-on-november-17-14081798.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-general-insurance-corp-aditya-birla-real-estate-godrej-consumer-fortis-healthcare-kpr-mill-and-others-on-november-17-14081798.html",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "General Insurance Corporation",
-      "title": "Trade Spotlight: How should you trade General Insurance Corp, Aditya Birla Real Estate, Godrej Consumer,... - Moneycontrol.com",
-      "published_at": "2026-11-17T02:46:23+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-general-insurance-corp-aditya-birla-real-estate-godrej-consumer-fortis-healthcare-kpr-mill-and-others-on-november-17-14081798.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-general-insurance-corp-aditya-birla-real-estate-godrej-consumer-fortis-healthcare-kpr-mill-and-others-on-november-17-14081798.html",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "holding_period": "",
-      "recommendation_status": "Trade section detected - verify holding period",
-      "section_verified": true,
-      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Godrej Consumer Products",
-      "title": "Trade Spotlight: How should you trade General Insurance Corp, Aditya Birla Real Estate, Godrej Consumer,... - Moneycontrol.com",
-      "published_at": "2026-11-17T02:46:23+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-general-insurance-corp-aditya-birla-real-estate-godrej-consumer-fortis-healthcare-kpr-mill-and-others-on-november-17-14081798.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-general-insurance-corp-aditya-birla-real-estate-godrej-consumer-fortis-healthcare-kpr-mill-and-others-on-november-17-14081798.html",
       "entry": "",
       "target": "",
       "stop_loss": "",
