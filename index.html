@@ -2,235 +2,343 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#080f1e">
 <title>Broker Picks Pro</title>
 <style>
-:root{--bg:#080f1e;--panel:#142139;--panel2:#0e192c;--line:#293b56;--text:#edf4ff;--muted:#91a2bb;--green:#35dda2;--cyan:#55c8f5;--red:#ff7186}
+:root{--bg:#080f1e;--panel:#142139;--panel2:#0e192c;--line:#293b56;--text:#edf4ff;--muted:#91a2bb;--green:#35dda2;--cyan:#70d3ff;--red:#ff7186;--amber:#ffd17d}
 *{box-sizing:border-box}
-body{margin:0;background:radial-gradient(ellipse at 80% -10%,#173b60,transparent 45%),var(--bg);color:var(--text);font-family:system-ui,"Noto Sans Tamil",sans-serif;padding-bottom:75px}
-header{padding:22px 17px;background:linear-gradient(135deg,#142b48,#101a2d);border-bottom:1px solid var(--line)}
+body{margin:0;padding-top:env(safe-area-inset-top,0px);background:radial-gradient(ellipse at 80% -10%,#173b60,transparent 45%),var(--bg);color:var(--text);font-family:system-ui,"Noto Sans Tamil",-apple-system,Roboto,sans-serif;padding-bottom:30px}
+header{padding:20px 17px;background:linear-gradient(135deg,#142b48,#101a2d);border-bottom:1px solid var(--line)}
 .brand{display:flex;align-items:center;gap:12px}
 .logo{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,#29d79b,#25a9e8);color:#06231e;font-size:25px;font-weight:900}
-h1{font-size:20px;margin:0}.subtitle{font-size:10px;color:#a8bad2;letter-spacing:1px;margin-top:4px}#upd{font-size:11px;color:var(--muted);margin-top:13px;line-height:1.7}#upd b{color:#d6e4f7}
-main{max-width:850px;margin:auto;padding:14px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
-.stat{background:var(--panel);border:1px solid var(--line);padding:13px 10px;border-radius:14px}.stat b{display:block;font-size:21px}.stat span{font-size:10px;color:var(--muted);text-transform:uppercase}
-input{width:100%;background:var(--panel2);color:white;border:1px solid var(--line);border-radius:11px;padding:12px;margin:14px 0;font-size:14px}
-#tabs{display:flex;gap:7px;overflow-x:auto;padding-bottom:12px}.tab,.pill{white-space:nowrap;border:1px solid var(--line);border-radius:20px;padding:9px 13px;background:var(--panel);color:#b7c5d8;font-size:12px}
+h1{font-size:20px;margin:0}.subtitle{font-size:10px;color:#a8bad2;letter-spacing:1px;margin-top:4px}
+#upd{font-size:11px;color:var(--muted);margin-top:12px;line-height:1.7}#upd b{color:#d6e4f7}
+main{max-width:850px;margin:auto;padding:14px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.stat{background:var(--panel);border:1px solid var(--line);padding:12px 10px;border-radius:14px}
+.stat b{display:block;font-size:21px}.stat span{font-size:10px;color:var(--muted);text-transform:uppercase}
+.stat.g b{color:var(--green)}.stat.r b{color:var(--red)}
+input{width:100%;background:var(--panel2);color:#fff;border:1px solid var(--line);border-radius:11px;padding:12px;margin:14px 0 10px;font-size:14px;font-family:inherit;-webkit-appearance:none;appearance:none}
+.hs{display:flex;gap:7px;overflow-x:auto;padding-bottom:9px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.hs::-webkit-scrollbar{display:none}
+.tab,.pill{flex:0 0 auto;white-space:nowrap;border:1px solid var(--line);border-radius:20px;padding:9px 13px;background:var(--panel);color:#b7c5d8;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit}
+.pill{padding:7px 12px;font-size:11px;background:#0e192c}
 .tab.on,.pill.on{background:#174c43;color:#68f0bd;border-color:#238c70}
-.sectionhead{display:flex;justify-content:space-between;align-items:center;margin:10px 2px}.sectionhead h2{font-size:14px}.hint{font-size:10px;color:var(--muted)}
+.tab small{opacity:.7;margin-left:2px}
+.lbl{font-size:10px;color:var(--muted);letter-spacing:.8px;margin:4px 2px 6px;text-transform:uppercase}
+.sectionhead{display:flex;justify-content:space-between;align-items:center;margin:12px 2px 4px}
+.sectionhead h2{font-size:14px;margin:0}.hint{font-size:10px;color:var(--muted)}
 .card{background:linear-gradient(150deg,#172740,#101a2b);border:1px solid #293d59;border-radius:16px;margin:10px 0;padding:14px}
-.cardtop{display:flex;justify-content:space-between;gap:8px}.symbol{font-size:17px;font-weight:800}.brokerline{font-size:11px;color:var(--muted);margin-top:4px}
-.tag{display:inline-block;padding:5px 9px;border-radius:7px;font-size:10px;font-weight:800;margin:3px}
-.BUY{background:#124c3a;color:#65e8b4}.SELL{background:#542637;color:#ff91a1}.HOLD{background:#57431f;color:#ffd17d}.neutral{background:#263851;color:#b8c9df}
-.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:13px}.price{background:#0c1729;border:1px solid #263750;padding:10px 7px;border-radius:11px;min-width:0}
-.price label{display:block;font-size:9px;color:var(--muted);margin-bottom:6px}.price strong{font-size:15px;overflow-wrap:anywhere}.cmp strong{color:white}.target strong{color:var(--green)}.sl strong{color:var(--red)}
-.metrics{display:flex;gap:13px;flex-wrap:wrap;margin-top:11px;font-size:11px;color:var(--muted)}.metrics b{color:white}
-.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.btn{border:1px solid #35506e;background:#1b304b;color:#dceaff;border-radius:9px;padding:9px 12px;font-size:11px;font-weight:700}
+.card.hit-target{border-color:#238c70;box-shadow:0 0 0 1px #238c7055}
+.card.hit-sl{border-color:#96384b;box-shadow:0 0 0 1px #96384b55}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.name{font-size:18px;font-weight:800;letter-spacing:.2px;overflow-wrap:anywhere}
+.meta{font-size:11px;color:var(--muted);margin-top:4px;line-height:1.45}
+.badges{display:flex;flex-direction:column;align-items:flex-end;gap:6px;flex-shrink:0}
+.tag{display:inline-block;padding:5px 10px;border-radius:7px;font-size:10px;font-weight:800;letter-spacing:.3px;text-transform:uppercase}
+.BUY{background:#124c3a;color:#65e8b4}.SELL{background:#542637;color:#ff91a1}.HOLD{background:#57431f;color:#ffd17d}.VIEW{background:#263851;color:#b8c9df}
+.st-target{background:#124c3a;color:#35dda2;border:1px solid #238c70}
+.st-sl{background:#542637;color:#ff7186;border:1px solid #96384b}
+.st-active{background:#2d2616;color:#ffd17d;border:1px solid #6b5626}
+.st-unknown{background:#16243d;color:#91a2bb;border:1px solid #293b56}
+.chips{margin-top:9px;display:flex;flex-wrap:wrap;gap:5px}
+.chip{display:inline-block;padding:4px 9px;border-radius:7px;font-size:10px;font-weight:700;background:#263851;color:#b8c9df}
+.chip.hz{background:#1c3550;color:#8fd0ff}
+.row{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}
+.box{background:#0c1729;border:1px solid #263750;padding:10px 9px;border-radius:11px;min-width:0;overflow:hidden}
+.box label{display:block;font-size:10px;color:var(--muted);margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.box strong{display:block;font-size:17px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cmp-box{border-color:#2a486e}.cmp-box strong{color:var(--cyan)}
+.tgt-box strong{color:var(--green)}.sl-box strong{color:var(--red)}
+.metrics{display:flex;gap:13px;flex-wrap:wrap;margin-top:12px;font-size:11px;color:var(--muted);line-height:1.5}.metrics b{color:#fff}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.btn{border:1px solid #35506e;background:#1b304b;color:#dceaff;border-radius:9px;padding:9px 12px;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit}
 .btn.primary{background:#12624d;border-color:#168565;color:#8af4c9}
-details{margin-top:12px;border-top:1px solid #293b56;padding-top:10px}summary{font-size:11px;color:#91cfff;cursor:pointer}
-.detailitem{border-top:1px solid #293b56;padding:11px 0;font-size:12px;line-height:1.5}.detailmeta{font-size:10px;color:var(--muted)}.detailtitle{margin:6px 0}
-a{color:#70d3ff;text-decoration:none}.empty{padding:25px;text-align:center;color:var(--muted);background:var(--panel);border-radius:14px}
-#sub{display:flex;gap:8px;margin:5px 0}.foot{max-width:850px;margin:auto;padding:14px;color:#71839c;font-size:10px;line-height:1.6}
-.bottom{position:fixed;bottom:0;left:0;right:0;background:#0c1729ee;border-top:1px solid #293a52;display:flex;justify-content:space-around;padding:10px;z-index:5}
-.nav{font-size:11px;color:#91a2bb;text-align:center;padding:4px}.nav span{display:block;font-size:18px;margin-bottom:3px}.nav.on{color:var(--green)}
-@media(min-width:600px){main{padding:20px}.card{padding:18px}}
+details{margin-top:12px;border-top:1px solid #293b56;padding-top:10px}
+summary{font-size:11px;color:#91cfff;cursor:pointer}
+.detailitem{border-top:1px solid #293b56;padding:11px 0;font-size:12px;line-height:1.5}
+.detailmeta{font-size:10px;color:var(--muted)}.detailtitle{margin:6px 0}
+.tag.neutral{background:#263851;color:#b8c9df;margin:2px 3px 2px 0}
+a{color:var(--cyan);text-decoration:none;font-size:11px}
+.empty{padding:25px;text-align:center;color:var(--muted);background:var(--panel);border-radius:14px;line-height:1.6;font-size:13px}
+.foot{max-width:850px;margin:auto;padding:6px 14px 0;color:#71839c;font-size:10px;line-height:1.6}
 </style>
 </head>
 <body>
 <header>
- <div class="brand"><div class="logo">↗</div><div><h1>Broker Picks Pro</h1><div class="subtitle">INDIAN EQUITY RESEARCH · WEEKLY BROKER VIEWS</div></div></div>
+ <div class="brand"><div class="logo">↗</div><div><h1>Broker Picks Pro</h1><div class="subtitle">24 BROKERS · TARGET &amp; STOP-LOSS TRACKER</div></div></div>
  <div id="upd">Loading broker and NSE data...</div>
 </header>
 <main>
  <div class="stats">
-  <div class="stat"><b id="stockCount">—</b><span>Stocks covered</span></div>
-  <div class="stat"><b id="buyCount">—</b><span>Buy calls</span></div>
-  <div class="stat"><b id="brokerCount">—</b><span>Broker houses</span></div>
+  <div class="stat"><b id="stockCount">—</b><span>Stocks</span></div>
+  <div class="stat g"><b id="hitT">—</b><span>Target hit</span></div>
+  <div class="stat r"><b id="hitS">—</b><span>Stop loss hit</span></div>
  </div>
- <input id="search" placeholder="Search stock or broker...">
- <div id="tabs"></div><div id="sub"></div>
- <div class="sectionhead"><h2 id="listTitle">Common stock ideas</h2><span class="hint">Tap for details</span></div>
+ <input id="search" type="search" placeholder="Search stock or broker..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+
+ <div class="lbl">View (scroll →)</div>
+ <div class="hs" id="tabs"></div>
+
+ <div class="lbl">Period</div>
+ <div class="hs" id="hzRow"></div>
+
+ <div class="lbl">Status</div>
+ <div class="hs" id="stRow"></div>
+ <div class="hs" id="sub"></div>
+
+ <div class="sectionhead"><h2 id="listTitle">Common stock ideas</h2><span class="hint" id="countHint"></span></div>
  <div id="list"><div class="empty">Loading...</div></div>
- <div class="actions"><button class="btn primary" id="ref">↻ Refresh data</button></div>
+ <div class="actions"><button class="btn primary" id="ref" type="button">↻ Refresh data</button></div>
 </main>
 <div class="foot">
- CMP is fetched from NSE market data when available; NSE data may be delayed and is not guaranteed real-time.
- Broker targets are displayed when available in the source. Stop Loss and period are shown only when stated in the broker article; otherwise you can enter your own.
- Always verify prices and original reports before trading.
+ CMP is the latest NSE price in the price file (it may be a day-end price and delayed). Target / Stop-loss hit is judged from that latest price only, so a touch during the day may be missed.
+ Entry is "tracked" = the CMP when this app first saw the pick, unless the article gave one or you typed your own. Period is estimated from target distance when the article does not state it.
+ Always verify with the original report before trading.
 </div>
-<nav class="bottom">
- <div class="nav on" data-nav="common"><span>⌂</span>Overview</div>
- <div class="nav" data-nav="all"><span>▤</span>All Stocks</div>
- <div class="nav" data-nav="brokers"><span>♧</span>Brokers</div>
-</nav>
 <script>
 const DATA_URL="https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/picks.json";
 const NSE_URL="https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/nse_prices.json";
-const REFRESH_MS=5*60*1000; // auto-refresh every 5 minutes
-let data=null, prices=null, tab="common", min=2, query="";
+const REFRESH_MS=5*60*1000;
+
+let data=null,prices=null,priceMap={},ENTRIES=[],GROUPS=[];
+let view="common",hzSel="all",stSel="all",min=2,query="";
 
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-function cash(n){
- const x=Number(String(n??"").replace(/,/g,""));
- return Number.isFinite(x)&&x>0?"₹"+x.toLocaleString("en-IN",{maximumFractionDigits:2}):"—";
+const n=x=>{const v=Number(String(x??"").replace(/[,₹\s]/g,""));return Number.isFinite(v)&&v>0?v:null;};
+const cash=x=>x!=null&&x>0?"₹"+Number(x).toLocaleString("en-IN",{maximumFractionDigits:2}):"—";
+const STOPW=new Set(["ltd","limited","india","industries","industry","technologies","technology","tech","corporation","corp","company","co","enterprises","the","and"]);
+function nkey(s){return String(s||"").toLowerCase().replace(/[&.,'’()\-]/g," ").split(/\s+/).filter(w=>w&&!STOPW.has(w)).join("");}
+function cleanName(s){return String(s||"").replace(/\s+(ltd\.?|limited)$/i,"").trim();}
+function fmtDate(d){
+ const t=new Date(d);
+ return isNaN(t)?String(d||""):t.toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric"});
 }
-function manual(){
- try{return JSON.parse(localStorage.getItem("brokerpicks_manual")||"{}");}
- catch(e){return {};}
+function store(k){try{return JSON.parse(localStorage.getItem(k)||"{}");}catch(e){return {};}}
+function save(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+
+/* ---------- prices ---------- */
+function buildPriceMap(){
+ priceMap={};
+ if(!prices||!prices.stocks)return;
+ Object.entries(prices.stocks).forEach(([t,x])=>{
+  if(!x||x.status!=="success"||!(Number(x.cmp)>0))return;
+  priceMap[nkey(t)]=x;priceMap[nkey(x.name)]=x;
+ });
 }
-function saveManual(symbol,values){
- const m=manual();m[symbol]=values;
- localStorage.setItem("brokerpicks_manual",JSON.stringify(m));
+function priceOf(name){
+ const k=nkey(name);
+ if(!k)return null;
+ if(priceMap[k])return priceMap[k];
+ if(k.length>=5){for(const pk in priceMap){if(pk.length>=5&&(pk.startsWith(k)||k.startsWith(pk)))return priceMap[pk];}}
+ return null;
 }
-function getNsePrice(symbol){
- if(!prices||!prices.stocks)return null;
- const key=String(symbol||"").trim().toLowerCase();
- const entries=Object.entries(prices.stocks);
- const found=entries.find(([ticker,x])=>
-  String(ticker).trim().toLowerCase()===key ||
-  String((x&&x.name)||"").trim().toLowerCase()===key
- );
- return found&&found[1]&&found[1].status==="success"?found[1]:null;
+
+/* ---------- build entries from picks.json ---------- */
+function namesFor(i){
+ if(Array.isArray(i.stocks)&&i.stocks.length)return i.stocks.slice();
+ const t=String(i.title||"");
+ let m=t.match(/^(?:Buy|Sell|Hold|Accumulate|Add|Reduce)\s+(.+?)\s*(?:[:;,|]|\bfor\s+target\b|\btarget\b|\bby\b|$)/i)
+  ||t.match(/^(.+?)\s+share\s+price\s+target\b/i)
+  ||t.match(/^(.+?)\s+rated\s+(?:new\s+)?['"‘’]?(?:buy|sell|hold)/i);
+ if(!m)return [];
+ const nm=m[1].trim();
+ if(nm.length<2||nm.length>40||nm.split(/\s+/).length>6)return [];
+ if(/^(?:the|a|an|these|top|best|stocks?|\d+)\b/i.test(nm))return [];
+ return [nm];
 }
-function calc(cmp,target,sl){
- cmp=Number(cmp);target=Number(target);sl=Number(sl);
- if(!(cmp>0))return {up:"—",risk:"—",rr:"—"};
- const up=target>0?(target-cmp)/cmp*100:null;
- const risk=sl>0?(cmp-sl)/cmp*100:null;
- const rr=target>cmp&&sl<cmp?(target-cmp)/(cmp-sl):null;
- return {up:up===null?"—":up.toFixed(2)+"%",risk:risk===null?"—":risk.toFixed(2)+"%",rr:rr===null?"—":"1 : "+rr.toFixed(2)};
-}
-function pool(){
- const m={};
+function buildEntries(){
+ const raw=[];
  (data.items||[]).forEach(i=>{
-  (i.stocks||[]).forEach(s=>{
-   const o=m[s]=m[s]||{s,b:{},items:[]};o.items.push(i);
-   const x=o.b[i.broker]=o.b[i.broker]||{buy:0,sell:0};
-   if(i.call==="BUY")x.buy=1;if(i.call==="SELL")x.sell=1;
+  const tg=n(i.target),call=String(i.call||"").toUpperCase();
+  const bk=nkey(i.broker);
+  const names=namesFor(i).filter(nm=>{const k=nkey(nm);return k&&!(bk&&k.includes(bk));});
+  if(!names.length||(!tg&&!call))return;
+  names.forEach(nm=>{
+   raw.push({key:nkey(nm),name:cleanName(nm),broker:i.broker,title:i.title,source:i.source,link:i.link,
+    date:i.date||"",call:call,target:names.length===1?tg:null,sl:names.length===1?n(i.stop_loss):null,
+    entry:n(i.entry||i.entry_price||i.buy_price),periodTxt:String(i.period||"")});
   });
  });
- return Object.values(m).map(o=>{
-  o.bs=Object.keys(o.b);o.n=o.bs.length;
-  o.buy=o.bs.filter(k=>o.b[k].buy).length;o.sell=o.bs.filter(k=>o.b[k].sell).length;
-  o.targets=[...new Set(o.items.map(i=>Number(String(i.target||"").replace(/,/g,""))).filter(n=>n>0))].sort((a,b)=>a-b);
-  const slItem=o.items.find(i=>Number(String(i.stop_loss||"").replace(/,/g,""))>0);
-  o.sl=slItem?slItem.stop_loss:"";
-  const perItem=o.items.find(i=>i.period);
-  o.period=perItem?perItem.period:"";
-  return o;
- }).sort((a,b)=>b.n-a.n);
+ const best={};
+ raw.forEach(e=>{
+  const k=e.broker+"|"+e.key,o=best[k];
+  if(!o||(!o.target&&e.target)||(!!o.target===!!e.target&&e.date>o.date))best[k]=e;
+ });
+ ENTRIES=Object.values(best);
+ const m={};
+ ENTRIES.forEach(e=>{const g=m[e.key]=m[e.key]||{key:e.key,names:[],entries:[]};g.names.push(e.name);g.entries.push(e);});
+ GROUPS=Object.values(m).map(g=>{g.name=g.names.slice().sort((a,b)=>a.length-b.length)[0];return g;});
 }
-function priceCard(symbol,targets,autoSl,period){
- const m=manual()[symbol]||{},nse=getNsePrice(symbol);
- const cmp=nse?nse.cmp:(m.cmp||"");
- const target=m.target||targets[0]||"",sl=m.sl||autoSl||"";
- const target2=m.target2||targets[1]||"",target3=m.target3||targets[2]||"";
- const v=calc(cmp,target,sl);
- return `
- <div class="prices">
-  <div class="price cmp"><label>${nse?"CMP · NSE":"CMP · Manual / unavailable"}</label><strong>${cash(cmp)}</strong></div>
-  <div class="price target"><label>Target 1</label><strong>${cash(target)}</strong></div>
-  <div class="price sl"><label>${m.sl?"Stop Loss · yours":(autoSl?"Stop Loss · broker":"Stop Loss")}</label><strong>${cash(sl)}</strong></div>
- </div>
- <div class="metrics"><span>Upside <b style="color:var(--green)">${v.up}</b></span><span>Downside <b style="color:var(--red)">${v.risk}</b></span><span>Risk / Reward <b>${v.rr}</b></span>${period?`<span>Period <b>${esc(period)}</b></span>`:""}</div>
- <div class="actions"><button class="btn primary" data-edit="${esc(symbol)}">✎ Enter / Edit Prices</button></div>
- <details><summary>Additional targets</summary><div class="prices">
-  <div class="price target"><label>Target 2</label><strong>${cash(target2)}</strong></div>
-  <div class="price target"><label>Target 3</label><strong>${cash(target3)}</strong></div>
-  <div class="price"><label>Price entry</label><strong style="font-size:11px">Manual</strong></div>
- </div></details>`;
+function updateTracking(){
+ const t=store("bp_track");let ch=false;
+ GROUPS.forEach(g=>{
+  if(!t[g.key]){const px=priceOf(g.name);if(px){t[g.key]={entry:Number(px.cmp),date:new Date().toISOString().slice(0,10)};ch=true;}}
+ });
+ if(ch)save("bp_track",t);
 }
-function brokerDetails(items){
- return `<details><summary>Broker recommendations (${items.length})</summary>${items.map(i=>`
- <div class="detailitem"><div class="detailmeta">${esc(i.broker)} · ${esc(i.date||"")} · ${esc(i.source||"")}</div>
- <div class="detailtitle">${esc(i.title)}</div>${i.call?`<span class="tag ${esc(i.call)}">${esc(i.call)}</span>`:""}
- ${i.target?`<span class="tag neutral">Target ${cash(i.target)}</span>`:""}${i.stop_loss?`<span class="tag neutral">SL ${cash(i.stop_loss)}</span>`:""}${i.period?`<span class="tag neutral">${esc(i.period)}</span>`:""}
- <div style="margin-top:7px"><a href="${esc(i.link||"#")}" target="_blank" rel="noopener">Open original report ↗</a></div></div>`).join("")}</details>`;
+
+/* ---------- view model ---------- */
+function horizonOf(entries,entry,cmp,target){
+ const txt=entries.map(e=>e.periodTxt+" "+e.title).join(" ").toLowerCase();
+ if(/swing|intraday|btst|\b1-2 weeks?\b|\b2 weeks?\b|few days|this week|next week|weekly/.test(txt))return {h:"swing",est:false};
+ if(/long[\s-]?term|\b(?:12|18|24)[\s-]?months?\b|multibagger/.test(txt))return {h:"long",est:false};
+ if(/short[\s-]?term|positional|\b[1-3][\s-]?months?\b/.test(txt))return {h:"short",est:false};
+ const ref=entry||cmp;
+ if(!target||!ref)return {h:"short",est:true};
+ const u=Math.abs(target-ref)/ref*100;
+ return {h:u<=8?"swing":u<=20?"short":"long",est:true};
 }
-function stockCard(o){
- const action=o.buy>o.sell?"BUY":o.sell>o.buy?"SELL":"HOLD";
- return `<article class="card"><div class="cardtop"><div><div class="symbol">${esc(o.s)}</div><div class="brokerline">${o.n} broker firms · ${o.items.length} articles</div></div><span class="tag ${action}">${action}</span></div>
- <div style="margin-top:9px">${o.bs.map(b=>`<span class="tag neutral">${esc(b)}</span>`).join("")}</div>
- ${priceCard(o.s,o.targets,o.sl,o.period)}${brokerDetails(o.items)}</article>`;
+const HZ_LABEL={swing:"Swing",short:"Short term",long:"Long term"};
+function vm(name,key,entries){
+ const man=store("bp_manual")[key]||{};
+ const px=priceOf(name);
+ const cmp=n(man.cmp)||(px?Number(px.cmp):null);
+ const cmpSrc=n(man.cmp)?"yours":(px?"nse":"");
+ const avg=a=>a.length?Math.round(a.reduce((x,y)=>x+y,0)/a.length*100)/100:null;
+ const tgs=entries.map(e=>e.target).filter(Boolean),sls=entries.map(e=>e.sl).filter(Boolean);
+ const target=n(man.target)||avg(tgs),sl=n(man.sl)||avg(sls);
+ const tr=store("bp_track")[key];
+ const artEntry=entries.map(e=>e.entry).find(Boolean)||null;
+ let entry=n(man.entry),entrySrc=entry?"yours":"";
+ if(!entry&&artEntry){entry=artEntry;entrySrc="article";}
+ if(!entry&&tr){entry=tr.entry;entrySrc="tracked";}
+ const buy=entries.filter(e=>e.call==="BUY").length,sell=entries.filter(e=>e.call==="SELL").length;
+ const side=sell>buy?"SELL":"BUY";
+ const callTag=buy>sell?"BUY":sell>buy?"SELL":(entries.some(e=>e.call==="HOLD")?"HOLD":"VIEW");
+ let status="unknown";
+ if(cmp){
+  status="active";
+  if(side==="BUY"){if(sl&&cmp<=sl)status="sl";else if(target&&cmp>=target)status="target";}
+  else{if(sl&&cmp>=sl)status="sl";else if(target&&cmp<=target)status="target";}
+ }
+ const h=horizonOf(entries,entry,cmp,target);
+ const brokers=[...new Set(entries.map(e=>e.broker))];
+ const date=entries.map(e=>e.date).sort().slice(-1)[0]||"";
+ return {name,key,entries,brokers,nb:brokers.length,cmp,cmpSrc,target,sl,entry,entrySrc,side,callTag,status,hz:h.h,hzEst:h.est,nT:tgs.length,date,slYours:!!n(man.sl)};
 }
-function articleCard(i){
- const symbol=(i.stocks||[])[0]||"Stock not extracted",target=Number(String(i.target||"").replace(/,/g,"")),targets=target>0?[target]:[];
- return `<article class="card"><div class="cardtop"><div><div class="symbol">${esc(symbol)}</div><div class="brokerline">${esc(i.broker)} · ${esc(i.date||"")}</div></div><span class="tag ${esc(i.call||"neutral")}">${esc(i.call||"NEWS")}</span></div>
- <div class="detailtitle">${esc(i.title)}</div>${priceCard(symbol,targets,i.stop_loss,i.period)}<a href="${esc(i.link||"#")}" target="_blank" rel="noopener">Read source ↗</a></article>`;
+
+/* ---------- cards ---------- */
+function card(v){
+ const ref=v.cmp||v.entry;
+ const up=(v.target&&ref)?Math.abs(v.target-ref)/ref*100:null;
+ const risk=(v.sl&&ref)?Math.abs(ref-v.sl)/ref*100:null;
+ const rr=(up&&risk)?up/risk:null;
+ let mv=null;
+ if(v.cmp&&v.entry){mv=(v.side==="SELL"?(v.entry-v.cmp):(v.cmp-v.entry))/v.entry*100;}
+ const mvCol=mv==null?"var(--muted)":(mv>=0?"var(--green)":"var(--red)");
+ const stLabel={target:"TARGET HIT ✓",sl:"STOP LOSS HIT ✗",active:"OPEN",unknown:"NO CMP"}[v.status];
+ const entryLbl="Entry"+(v.entrySrc==="tracked"?" · tracked":v.entrySrc==="yours"?" · yours":"");
+ const cmpLbl=v.cmp?("CMP"+(v.cmpSrc==="yours"?" · yours":" · NSE")):"CMP · not available";
+ const tLbl=v.nT>1?"Target · avg of "+v.nT:"Target";
+ const hzTxt=(v.hzEst?"~":"")+HZ_LABEL[v.hz];
+ const chips=v.brokers.map(b=>`<span class="chip">${esc(b)}</span>`).join("")+`<span class="chip hz">${esc(hzTxt)}</span>`;
+ const meta=v.nb>1?`${v.nb} brokers · latest ${esc(fmtDate(v.date))}`:`${esc(v.brokers[0])} · ${esc(fmtDate(v.date))}${v.entries[0].source?" · "+esc(v.entries[0].source):""}`;
+ const det=v.entries.map(e=>`
+  <div class="detailitem"><div class="detailmeta">${esc(e.broker)} · ${esc(fmtDate(e.date))} · ${esc(e.source||"")}</div>
+  <div class="detailtitle">${esc(e.title)}</div>
+  ${e.call?`<span class="tag ${esc(e.call)}">${esc(e.call)}</span>`:""}
+  ${e.target?`<span class="tag neutral">Target ${cash(e.target)}</span>`:""}
+  ${e.sl?`<span class="tag neutral">SL ${cash(e.sl)}</span>`:""}
+  <div style="margin-top:7px"><a href="${esc(e.link||"#")}" target="_blank" rel="noopener">Open original report ↗</a></div></div>`).join("");
+ return `<article class="card ${v.status==="target"?"hit-target":v.status==="sl"?"hit-sl":""}">
+  <div class="top">
+   <div><div class="name">${esc(v.name)}</div><div class="meta">${meta}</div></div>
+   <div class="badges"><span class="tag st-${v.status}">${stLabel}</span><span class="tag ${v.callTag}">${v.callTag}</span></div>
+  </div>
+  <div class="chips">${chips}</div>
+  <div class="row">
+   <div class="box"><label>${entryLbl}</label><strong>${cash(v.entry)}</strong></div>
+   <div class="box cmp-box"><label>${cmpLbl}</label><strong>${cash(v.cmp)}</strong></div>
+   <div class="box tgt-box"><label>${tLbl}</label><strong>${cash(v.target)}</strong></div>
+   <div class="box sl-box"><label>Stop Loss${v.slYours?" · yours":""}</label><strong>${cash(v.sl)}</strong></div>
+  </div>
+  <div class="metrics">
+   <span>Move <b style="color:${mvCol}">${mv==null?"—":(mv>=0?"+":"")+mv.toFixed(2)+"%"}</b></span>
+   ${up!=null?`<span>Upside <b style="color:var(--green)">${up.toFixed(2)}%</b></span>`:""}
+   ${risk!=null?`<span>Risk <b style="color:var(--red)">${risk.toFixed(2)}%</b></span>`:""}
+   ${rr!=null?`<span>R:R <b>1 : ${rr.toFixed(2)}</b></span>`:""}
+  </div>
+  <div class="actions"><button class="btn primary" type="button" data-edit="${esc(v.key)}" data-nm="${esc(v.name)}">✎ Enter / Edit Prices</button></div>
+  <details><summary>Broker recommendations (${v.entries.length})</summary>${det}</details>
+ </article>`;
 }
+
+/* ---------- render ---------- */
 function render(){
  if(!data)return;
- const P=pool(),cnt={};
- (data.items||[]).forEach(i=>{cnt[i.broker]=(cnt[i.broker]||0)+1;});
- document.getElementById("stockCount").textContent=P.length;
- document.getElementById("buyCount").textContent=(data.items||[]).filter(i=>i.call==="BUY").length;
- document.getElementById("brokerCount").textContent=(data.brokers||[]).length;
- const tabs=[["common","⭐ Common",P.filter(o=>o.n>=2).length],["all","All Stocks",P.length],...(data.brokers||[]).map(b=>[b,b,cnt[b]||0])];
- document.getElementById("tabs").innerHTML=tabs.map(t=>`<button class="tab ${t[0]===tab?"on":""}" data-t="${esc(t[0])}">${esc(t[1])} <small>${t[2]}</small></button>`).join("");
- const L=document.getElementById("list"),q=query.toLowerCase();
- if(tab==="common"||tab==="all"){
-  document.getElementById("listTitle").textContent=tab==="common"?"Common Stock Ideas":"All Extracted Stocks";
-  document.getElementById("sub").innerHTML=tab==="common"?`<button class="pill ${min===2?"on":""}" data-m="2">2+ Firms</button><button class="pill ${min===1?"on":""}" data-m="1">All Stocks</button>`:"";
-  const R=P.filter(o=>(tab==="all"||o.n>=min)&&(!q||(o.s+" "+o.bs.join(" ")+" "+o.items.map(i=>i.title).join(" ")).toLowerCase().includes(q)));
-  L.innerHTML=R.length?R.map(stockCard).join(""):'<div class="empty">No matching stocks found.</div>';
+ const q=query.toLowerCase().trim();
+ const GV=GROUPS.map(g=>vm(g.name,g.key,g.entries));
+ document.getElementById("stockCount").textContent=GV.length;
+ document.getElementById("hitT").textContent=GV.filter(v=>v.status==="target").length;
+ document.getElementById("hitS").textContent=GV.filter(v=>v.status==="sl").length;
+
+ const cnt={};ENTRIES.forEach(e=>{cnt[e.broker]=(cnt[e.broker]||0)+1;});
+ const tabs=[["common","⭐ Common",GV.filter(v=>v.nb>=2).length],["all","All Stocks",GV.length]]
+  .concat((data.brokers||[]).map(b=>[b,b,cnt[b]||0]));
+ document.getElementById("tabs").innerHTML=tabs.map(t=>`<button class="tab ${t[0]===view?"on":""}" data-t="${esc(t[0])}" type="button">${esc(t[1])} <small>${t[2]}</small></button>`).join("");
+ document.getElementById("hzRow").innerHTML=[["all","All"],["swing","Swing"],["short","Short term"],["long","Long term"]]
+  .map(p=>`<button class="pill ${p[0]===hzSel?"on":""}" data-hz="${p[0]}" type="button">${p[1]}</button>`).join("");
+ document.getElementById("stRow").innerHTML=[["all","All"],["active","Open"],["target","🎯 Target hit"],["sl","⛔ Stop loss hit"],["unknown","No CMP"]]
+  .map(p=>`<button class="pill ${p[0]===stSel?"on":""}" data-st="${p[0]}" type="button">${p[1]}</button>`).join("");
+ document.getElementById("sub").innerHTML=view==="common"
+  ?`<button class="pill ${min===2?"on":""}" data-m="2" type="button">2+ brokers</button><button class="pill ${min===1?"on":""}" data-m="1" type="button">All stocks</button>`:"";
+
+ let list;
+ if(view==="common"||view==="all"){
+  list=GV.filter(v=>view==="all"||v.nb>=min).sort((a,b)=>b.nb-a.nb||(b.date||"").localeCompare(a.date||""));
+  document.getElementById("listTitle").textContent=view==="common"?"Common Stock Ideas":"All Stocks";
  }else{
-  document.getElementById("listTitle").textContent=tab+" Recommendations";document.getElementById("sub").innerHTML="";
-  const R=(data.items||[]).filter(i=>i.broker===tab&&(!q||((i.title||"")+" "+(i.stocks||[]).join(" ")).toLowerCase().includes(q)));
-  L.innerHTML=R.length?R.map(articleCard).join(""):'<div class="empty">No recommendations found.</div>';
+  list=ENTRIES.filter(e=>e.broker===view).sort((a,b)=>(b.date||"").localeCompare(a.date||"")).map(e=>vm(e.name,e.key,[e]));
+  document.getElementById("listTitle").textContent=view;
  }
+ list=list.filter(v=>(hzSel==="all"||v.hz===hzSel)&&(stSel==="all"||v.status===stSel)&&(!q||(v.name+" "+v.brokers.join(" ")).toLowerCase().includes(q)));
+ document.getElementById("countHint").textContent=list.length+" shown";
+ document.getElementById("list").innerHTML=list.length?list.map(card).join(""):'<div class="empty">No matching stocks.<br>Try another tab, period or status.</div>';
 }
+
+/* ---------- load ---------- */
 async function load(){
  const u=document.getElementById("upd");
  let brokerOK=false,nseOK=false;
  try{
-  const r=await fetch(DATA_URL+"?t="+Date.now());if(!r.ok)throw Error("Broker data unavailable");
-  data=await r.json();localStorage.setItem("brokerpicks_cache",JSON.stringify(data));brokerOK=true;
- }catch(e){
-  try{data=JSON.parse(localStorage.getItem("brokerpicks_cache")||"null");}catch(x){data=null;}
- }
+  const r=await fetch(DATA_URL+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error("x");
+  data=await r.json();save("bp_cache",data);brokerOK=true;
+ }catch(e){const c=store("bp_cache");data=c&&c.items?c:null;}
  try{
-  const nr=await fetch(NSE_URL+"?t="+Date.now());if(!nr.ok)throw Error("NSE data unavailable");
-  prices=await nr.json();localStorage.setItem("nse_prices_cache",JSON.stringify(prices));nseOK=true;
- }catch(e){
-  try{prices=JSON.parse(localStorage.getItem("nse_prices_cache")||"null");}catch(x){prices=null;}
- }
- if(data){
-  render();
-  const stamp=prices&&prices.updated?new Date(prices.updated).toLocaleString("en-IN"):"not available";
-  const now=new Date().toLocaleTimeString("en-IN");
-  u.innerHTML=
-   (brokerOK?"Broker data refreshed":"Broker data: saved copy")+" · NSE prices "+(nseOK?"refreshed":"cached / unavailable")+
-   "<br>Price data time: <b>"+esc(stamp)+"</b>"+
-   "<br>App checked at: <b>"+esc(now)+"</b>";
- }else{
+  const nr=await fetch(NSE_URL+"?t="+Date.now(),{cache:"no-store"});if(!nr.ok)throw Error("x");
+  prices=await nr.json();save("bp_prices",prices);nseOK=true;
+ }catch(e){const c=store("bp_prices");prices=c&&c.stocks?c:null;}
+ if(!data){
   u.textContent="Unable to load broker data. Check internet and tap Refresh.";
   document.getElementById("list").innerHTML='<div class="empty">Check your internet and tap Refresh.</div>';
+  return;
  }
+ buildPriceMap();buildEntries();updateTracking();render();
+ const stamp=prices&&prices.updated?new Date(prices.updated).toLocaleString("en-IN"):"not available";
+ u.innerHTML=(brokerOK?"Broker data refreshed":"Broker data: saved copy")+" · NSE prices "+(nseOK?"refreshed":"saved copy")
+  +"<br>Picks updated: <b>"+esc(data.updated||"—")+"</b>"
+  +"<br>Price data time: <b>"+esc(stamp)+"</b> · App checked: <b>"+esc(new Date().toLocaleTimeString("en-IN"))+"</b>";
 }
-document.getElementById("tabs").addEventListener("click",e=>{const b=e.target.closest("[data-t]");if(b){tab=b.dataset.t;render();window.scrollTo(0,0);}});
+
+/* ---------- events ---------- */
+document.getElementById("tabs").addEventListener("click",e=>{const b=e.target.closest("[data-t]");if(b){view=b.dataset.t;render();}});
+document.getElementById("hzRow").addEventListener("click",e=>{const b=e.target.closest("[data-hz]");if(b){hzSel=b.dataset.hz;render();}});
+document.getElementById("stRow").addEventListener("click",e=>{const b=e.target.closest("[data-st]");if(b){stSel=b.dataset.st;render();}});
 document.getElementById("sub").addEventListener("click",e=>{const b=e.target.closest("[data-m]");if(b){min=Number(b.dataset.m);render();}});
 document.getElementById("search").addEventListener("input",e=>{query=e.target.value;render();});
 document.getElementById("ref").addEventListener("click",load);
 document.getElementById("list").addEventListener("click",e=>{
  const b=e.target.closest("[data-edit]");if(!b)return;
- const symbol=b.dataset.edit,old=manual()[symbol]||{};
- const ask=(label,value)=>{const v=prompt(label,value||"");return v===null?null:v.trim();};
- const cmp=ask("Enter manual fallback CMP for "+symbol+" (₹)",old.cmp);if(cmp===null)return;
- const target=ask("Target 1 (₹)",old.target);if(target===null)return;
+ const key=b.dataset.edit,nm=b.dataset.nm,all=store("bp_manual"),old=all[key]||{};
+ const ask=(label,val)=>{const v=prompt(label,val||"");return v===null?null:v.trim();};
+ const entry=ask("Entry price for "+nm+" (₹) — leave empty for automatic",old.entry);if(entry===null)return;
+ const cmp=ask("CMP (₹) — leave empty to use NSE",old.cmp);if(cmp===null)return;
+ const target=ask("Target (₹) — leave empty for broker target",old.target);if(target===null)return;
  const sl=ask("Stop Loss (₹)",old.sl);if(sl===null)return;
- const target2=ask("Target 2 (₹)",old.target2);if(target2===null)return;
- const target3=ask("Target 3 (₹)",old.target3);if(target3===null)return;
- saveManual(symbol,{cmp,target,sl,target2,target3});render();
+ all[key]={entry,cmp,target,sl};save("bp_manual",all);render();
 });
-document.querySelector(".bottom").addEventListener("click",e=>{
- const n=e.target.closest("[data-nav]");if(!n)return;
- document.querySelectorAll(".nav").forEach(x=>x.classList.toggle("on",x===n));
- if(n.dataset.nav==="brokers")tab=(data&&data.brokers||[])[0]||"common";else tab=n.dataset.nav;
- render();window.scrollTo(0,0);
-});
-
-// Start + auto-refresh every 5 minutes (only while app is visible)
 load();
 setInterval(()=>{if(!document.hidden)load();},REFRESH_MS);
 document.addEventListener("visibilitychange",()=>{if(!document.hidden)load();});
