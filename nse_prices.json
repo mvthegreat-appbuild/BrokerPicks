@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T02:37:48.100476+00:00",
+  "updated": "2026-11-21T03:25:59.914484+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -35,22 +35,15 @@
       "timestamp": "2026-11-20 16:00:28",
       "status": "success"
     },
+    "CANARA BANK": {
+      "name": "Canara Bank",
+      "status": "unavailable",
+      "error": "CMP unavailable"
+    },
     "CUMMINS": {
       "name": "Cummins",
       "status": "unavailable",
       "error": "CMP unavailable"
-    },
-    "DLF": {
-      "name": "DLF",
-      "cmp": 785.0,
-      "change": 17.0,
-      "change_percent": 2.21,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 4590590,
-      "timestamp": "2026-11-20 16:00:28",
-      "status": "success"
     },
     "EICHER MOTORS": {
       "name": "Eicher Motors",
@@ -163,27 +156,15 @@
       "timestamp": "2026-11-20 16:00:28",
       "status": "success"
     },
-    "PAGEIND": {
-      "name": "Page Industries",
-      "cmp": 31020.0,
-      "change": -45.0,
-      "change_percent": -0.14,
+    "POLYCAB": {
+      "name": "Polycab",
+      "cmp": 7570.0,
+      "change": 20.0,
+      "change_percent": 0.26,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 47626,
-      "timestamp": "2026-11-20 16:00:28",
-      "status": "success"
-    },
-    "SIEMENS": {
-      "name": "Siemens",
-      "cmp": 3582.6,
-      "change": -27.4,
-      "change_percent": -0.76,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 177766,
+      "volume": 639287,
       "timestamp": "2026-11-20 16:00:28",
       "status": "success"
     },
@@ -196,18 +177,6 @@
       "high": null,
       "low": null,
       "volume": 13667727,
-      "timestamp": "2026-11-20 16:00:28",
-      "status": "success"
-    },
-    "TATASTEEL": {
-      "name": "Tata Steel",
-      "cmp": 178.0,
-      "change": -2.89,
-      "change_percent": -1.6,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 46172019,
       "timestamp": "2026-11-20 16:00:28",
       "status": "success"
     }
