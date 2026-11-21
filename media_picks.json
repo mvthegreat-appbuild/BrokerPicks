@@ -1,24 +1,86 @@
 {
-  "updated": "2026-11-21T13:49:21.725113+00:00",
+  "updated": "2026-11-21T14:40:40.335464+00:00",
   "sources": [
     "Moneycontrol"
   ],
   "source_counts": {
-    "Moneycontrol": 1
+    "Moneycontrol": 6
   },
   "collection_window_days": 10,
-  "errors": {},
+  "errors": {
+    "site:moneycontrol.com \"short-term trade\"": "HTTP Error 429: Too Many Requests"
+  },
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
     "rss_unique_recent_articles": 13,
     "decoded_moneycontrol_urls": 13,
     "unresolved_google_links": 0,
     "article_fetch_failures": 0,
-    "excluded_old": 95,
+    "excluded_old": 78,
     "excluded_undated": 0,
     "excluded_future": 0
   },
   "items": [
+    {
+      "source": "Moneycontrol",
+      "stock": "Bajaj Finance",
+      "title": "IndusInd Bank terminates former CEO Sumant Kathpalia after disciplinary inquiry, invokes clawback - Moneycontrol.com",
+      "published_at": "2026-11-20T18:10:09+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/banks/indusind-bank-dismisses-former-ceo-sumant-kathpalia-after-disciplinary-inquiry-14085907.html",
+      "link": "https://www.moneycontrol.com/news/business/banks/indusind-bank-dismisses-former-ceo-sumant-kathpalia-after-disciplinary-inquiry-14085907.html",
+      "entry": "",
+      "target": "",
+      "stop_loss": "",
+      "holding_period": "",
+      "recommendation_status": "Trade section detected - verify holding period",
+      "section_verified": true,
+      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
+    },
+    {
+      "source": "Moneycontrol",
+      "stock": "Mankind Pharma",
+      "title": "Trade Spotlight: How should you trade TVS Motor, Quess Corp, Avenue Supermarts, Gujarat Fluorochemicals,... - Moneycontrol.com",
+      "published_at": "2026-11-20T02:45:28+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-tvs-motor-quess-corp-avenue-supermarts-gujarat-fluorochemicals-pidilite-industries-and-others-on-november-20-14085294.html",
+      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-tvs-motor-quess-corp-avenue-supermarts-gujarat-fluorochemicals-pidilite-industries-and-others-on-november-20-14085294.html",
+      "entry": "",
+      "target": "430",
+      "stop_loss": "387",
+      "holding_period": "",
+      "recommendation_status": "Trade section detected - verify holding period",
+      "section_verified": true,
+      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
+    },
+    {
+      "source": "Moneycontrol",
+      "stock": "State Bank of India",
+      "title": "Bombay HC seeks BoB's assurance on preservation of records in B R Shetty suit - Moneycontrol.com",
+      "published_at": "2026-11-19T08:23:11+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/banks/bombay-high-court-declines-immediate-document-disclosure-in-br-shetty-s-15-billion-suit-against-bank-of-baroda-14084565.html",
+      "link": "https://www.moneycontrol.com/news/business/banks/bombay-high-court-declines-immediate-document-disclosure-in-br-shetty-s-15-billion-suit-against-bank-of-baroda-14084565.html",
+      "entry": "",
+      "target": "",
+      "stop_loss": "",
+      "holding_period": "",
+      "recommendation_status": "Trade section detected - verify holding period",
+      "section_verified": true,
+      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
+    },
+    {
+      "source": "Moneycontrol",
+      "stock": "Godrej Consumer Products",
+      "title": "Trade Spotlight: How should you trade State Bank of India, Indraprastha Gas, Bank of Baroda, Vijaya... - Moneycontrol.com",
+      "published_at": "2026-11-19T02:34:26+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
+      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
+      "entry": "",
+      "target": "940",
+      "stop_loss": "874",
+      "holding_period": "",
+      "recommendation_status": "Trade section detected - verify holding period",
+      "section_verified": true,
+      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
+    },
     {
       "source": "Moneycontrol",
       "stock": "State Bank of India",
@@ -29,6 +91,21 @@
       "entry": "",
       "target": "",
       "stop_loss": "",
+      "holding_period": "",
+      "recommendation_status": "Trade section detected - verify holding period",
+      "section_verified": true,
+      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
+    },
+    {
+      "source": "Moneycontrol",
+      "stock": "Canara Bank",
+      "title": "Trade Spotlight: How should you trade Deepak Fertilisers, Adani Energy, Honasa Consumer, International... - Moneycontrol.com",
+      "published_at": "2026-11-18T02:49:39+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-deepak-fertilisers-adani-energy-honasa-consumer-international-gemological-institute-hyundai-motor-and-others-on-november-18-14082995.html",
+      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-deepak-fertilisers-adani-energy-honasa-consumer-international-gemological-institute-hyundai-motor-and-others-on-november-18-14082995.html",
+      "entry": "",
+      "target": "144",
+      "stop_loss": "130",
       "holding_period": "",
       "recommendation_status": "Trade section detected - verify holding period",
       "section_verified": true,
