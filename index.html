@@ -5,343 +5,887 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#080f1e">
 <title>Broker Picks Pro</title>
+
 <style>
-:root{--bg:#080f1e;--panel:#142139;--panel2:#0e192c;--line:#293b56;--text:#edf4ff;--muted:#91a2bb;--green:#35dda2;--cyan:#70d3ff;--red:#ff7186;--amber:#ffd17d}
+:root{
+ --bg:#080f1e;--panel:#142139;--panel2:#0e192c;
+ --line:#293b56;--text:#edf4ff;--muted:#91a2bb;
+ --green:#35dda2;--cyan:#55c8f5;--red:#ff7186;
+ --amber:#ffd17d;
+}
 *{box-sizing:border-box}
-body{margin:0;padding-top:env(safe-area-inset-top,0px);background:radial-gradient(ellipse at 80% -10%,#173b60,transparent 45%),var(--bg);color:var(--text);font-family:system-ui,"Noto Sans Tamil",-apple-system,Roboto,sans-serif;padding-bottom:30px}
-header{padding:20px 17px;background:linear-gradient(135deg,#142b48,#101a2d);border-bottom:1px solid var(--line)}
+body{
+ margin:0;padding-bottom:30px;
+ background:radial-gradient(ellipse at 80% -10%,#173b60,transparent 45%),var(--bg);
+ color:var(--text);
+ font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+header{
+ padding:21px 16px;background:linear-gradient(135deg,#142b48,#101a2d);
+ border-bottom:1px solid var(--line);
+}
 .brand{display:flex;align-items:center;gap:12px}
-.logo{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,#29d79b,#25a9e8);color:#06231e;font-size:25px;font-weight:900}
-h1{font-size:20px;margin:0}.subtitle{font-size:10px;color:#a8bad2;letter-spacing:1px;margin-top:4px}
-#upd{font-size:11px;color:var(--muted);margin-top:12px;line-height:1.7}#upd b{color:#d6e4f7}
-main{max-width:850px;margin:auto;padding:14px}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
-.stat{background:var(--panel);border:1px solid var(--line);padding:12px 10px;border-radius:14px}
-.stat b{display:block;font-size:21px}.stat span{font-size:10px;color:var(--muted);text-transform:uppercase}
-.stat.g b{color:var(--green)}.stat.r b{color:var(--red)}
-input{width:100%;background:var(--panel2);color:#fff;border:1px solid var(--line);border-radius:11px;padding:12px;margin:14px 0 10px;font-size:14px;font-family:inherit;-webkit-appearance:none;appearance:none}
-.hs{display:flex;gap:7px;overflow-x:auto;padding-bottom:9px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
-.hs::-webkit-scrollbar{display:none}
-.tab,.pill{flex:0 0 auto;white-space:nowrap;border:1px solid var(--line);border-radius:20px;padding:9px 13px;background:var(--panel);color:#b7c5d8;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit}
-.pill{padding:7px 12px;font-size:11px;background:#0e192c}
-.tab.on,.pill.on{background:#174c43;color:#68f0bd;border-color:#238c70}
-.tab small{opacity:.7;margin-left:2px}
-.lbl{font-size:10px;color:var(--muted);letter-spacing:.8px;margin:4px 2px 6px;text-transform:uppercase}
-.sectionhead{display:flex;justify-content:space-between;align-items:center;margin:12px 2px 4px}
-.sectionhead h2{font-size:14px;margin:0}.hint{font-size:10px;color:var(--muted)}
-.card{background:linear-gradient(150deg,#172740,#101a2b);border:1px solid #293d59;border-radius:16px;margin:10px 0;padding:14px}
-.card.hit-target{border-color:#238c70;box-shadow:0 0 0 1px #238c7055}
-.card.hit-sl{border-color:#96384b;box-shadow:0 0 0 1px #96384b55}
-.top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
-.name{font-size:18px;font-weight:800;letter-spacing:.2px;overflow-wrap:anywhere}
-.meta{font-size:11px;color:var(--muted);margin-top:4px;line-height:1.45}
-.badges{display:flex;flex-direction:column;align-items:flex-end;gap:6px;flex-shrink:0}
-.tag{display:inline-block;padding:5px 10px;border-radius:7px;font-size:10px;font-weight:800;letter-spacing:.3px;text-transform:uppercase}
-.BUY{background:#124c3a;color:#65e8b4}.SELL{background:#542637;color:#ff91a1}.HOLD{background:#57431f;color:#ffd17d}.VIEW{background:#263851;color:#b8c9df}
-.st-target{background:#124c3a;color:#35dda2;border:1px solid #238c70}
-.st-sl{background:#542637;color:#ff7186;border:1px solid #96384b}
-.st-active{background:#2d2616;color:#ffd17d;border:1px solid #6b5626}
-.st-unknown{background:#16243d;color:#91a2bb;border:1px solid #293b56}
-.chips{margin-top:9px;display:flex;flex-wrap:wrap;gap:5px}
-.chip{display:inline-block;padding:4px 9px;border-radius:7px;font-size:10px;font-weight:700;background:#263851;color:#b8c9df}
-.chip.hz{background:#1c3550;color:#8fd0ff}
-.row{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}
-.box{background:#0c1729;border:1px solid #263750;padding:10px 9px;border-radius:11px;min-width:0;overflow:hidden}
-.box label{display:block;font-size:10px;color:var(--muted);margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.box strong{display:block;font-size:17px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.cmp-box{border-color:#2a486e}.cmp-box strong{color:var(--cyan)}
-.tgt-box strong{color:var(--green)}.sl-box strong{color:var(--red)}
-.metrics{display:flex;gap:13px;flex-wrap:wrap;margin-top:12px;font-size:11px;color:var(--muted);line-height:1.5}.metrics b{color:#fff}
-.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
-.btn{border:1px solid #35506e;background:#1b304b;color:#dceaff;border-radius:9px;padding:9px 12px;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit}
+.logo{
+ width:44px;height:44px;border-radius:14px;display:grid;place-items:center;
+ background:linear-gradient(135deg,#29d79b,#25a9e8);
+ color:#06231e;font-size:25px;font-weight:900;
+}
+h1{font-size:20px;margin:0}
+.subtitle{font-size:10px;color:#a8bad2;letter-spacing:1px;margin-top:4px}
+#upd{font-size:11px;color:var(--muted);margin-top:13px;line-height:1.7}
+#upd b{color:#edf4ff}
+main{max-width:900px;margin:auto;padding:14px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stat{
+ background:var(--panel);border:1px solid var(--line);
+ padding:12px 9px;border-radius:13px;min-width:0;
+}
+.stat b{display:block;font-size:21px}
+.stat span{font-size:9px;color:var(--muted);text-transform:uppercase}
+input{
+ width:100%;background:var(--panel2);color:white;
+ border:1px solid var(--line);border-radius:11px;
+ padding:12px;margin:13px 0 10px;font-size:14px;
+}
+input::placeholder{color:#71839c}
+.section-title{
+ font-size:12px;color:#a9bbd3;font-weight:800;
+ letter-spacing:.6px;margin:17px 2px 8px;
+}
+.horizontal{
+ display:flex;gap:7px;overflow-x:auto;white-space:nowrap;
+ padding:2px 1px 11px;scrollbar-width:thin;
+ -webkit-overflow-scrolling:touch;
+}
+.tab,.pill{
+ flex-shrink:0;border:1px solid var(--line);border-radius:20px;
+ padding:9px 13px;background:var(--panel);
+ color:#b7c5d8;font-size:11px;font-weight:700;
+ cursor:pointer;
+}
+.tab.on,.pill.on{
+ background:#174c43;color:#68f0bd;border-color:#238c70;
+}
+.tab small{opacity:.8;margin-left:3px}
+.periodbar{display:flex;gap:7px;overflow-x:auto;padding-bottom:9px}
+.period{
+ flex-shrink:0;border:1px solid var(--line);border-radius:9px;
+ background:#0e192c;color:#aebdd1;padding:8px 11px;
+ font-size:11px;font-weight:700;
+}
+.period.on{background:#174c43;color:#68f0bd;border-color:#238c70}
+.filters{display:flex;gap:7px;flex-wrap:wrap;margin:5px 0 12px}
+.fbtn{
+ border:1px solid var(--line);background:#0e192c;
+ color:var(--muted);border-radius:9px;padding:7px 10px;
+ font-size:10px;font-weight:700;
+}
+.fbtn.on{background:#124c3a;border-color:#238c70;color:#65e8b4}
+.sectionhead{
+ display:flex;justify-content:space-between;align-items:center;
+ margin:12px 2px 7px;gap:8px;
+}
+.sectionhead h2{font-size:14px;margin:0}
+.hint{font-size:10px;color:var(--muted)}
+.card{
+ background:linear-gradient(150deg,#172740,#101a2b);
+ border:1px solid #293d59;border-radius:16px;
+ margin:10px 0;padding:14px;
+}
+.cardtop{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.symbol{font-size:18px;font-weight:850;overflow-wrap:anywhere}
+.brokerline{font-size:10px;color:var(--muted);margin-top:4px;line-height:1.5}
+.badges{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0}
+.tag{
+ display:inline-block;padding:5px 9px;border-radius:7px;
+ font-size:9px;font-weight:800;letter-spacing:.3px;
+}
+.BUY{background:#124c3a;color:#65e8b4}
+.SELL{background:#542637;color:#ff91a1}
+.HOLD{background:#57431f;color:#ffd17d}
+.neutral{background:#263851;color:#b8c9df}
+.st-target{background:#124c3a;color:#65e8b4}
+.st-sl{background:#542637;color:#ff91a1}
+.st-active{background:#2d2616;color:#ffd17d}
+.st-waiting{background:#263851;color:#b8c9df}
+.st-unclassified{background:#263851;color:#b8c9df}
+.prices{
+ display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+ gap:8px;margin-top:13px;
+}
+.price{
+ background:#0c1729;border:1px solid #263750;
+ padding:10px 9px;border-radius:11px;min-width:0;
+}
+.price label{
+ display:block;font-size:9px;color:var(--muted);
+ margin-bottom:6px;white-space:nowrap;
+}
+.price strong{font-size:15px;overflow-wrap:anywhere}
+.entry strong{color:#dceaff}
+.cmp strong{color:var(--cyan)}
+.target strong{color:var(--green)}
+.sl strong{color:var(--red)}
+.metrics{
+ display:flex;gap:12px;flex-wrap:wrap;margin-top:11px;
+ font-size:10px;color:var(--muted);line-height:1.5;
+}
+.metrics b{color:white}
+.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.btn{
+ border:1px solid #35506e;background:#1b304b;color:#dceaff;
+ border-radius:9px;padding:9px 12px;font-size:10px;font-weight:750;
+ cursor:pointer;
+}
 .btn.primary{background:#12624d;border-color:#168565;color:#8af4c9}
-details{margin-top:12px;border-top:1px solid #293b56;padding-top:10px}
-summary{font-size:11px;color:#91cfff;cursor:pointer}
-.detailitem{border-top:1px solid #293b56;padding:11px 0;font-size:12px;line-height:1.5}
-.detailmeta{font-size:10px;color:var(--muted)}.detailtitle{margin:6px 0}
-.tag.neutral{background:#263851;color:#b8c9df;margin:2px 3px 2px 0}
-a{color:var(--cyan);text-decoration:none;font-size:11px}
-.empty{padding:25px;text-align:center;color:var(--muted);background:var(--panel);border-radius:14px;line-height:1.6;font-size:13px}
-.foot{max-width:850px;margin:auto;padding:6px 14px 0;color:#71839c;font-size:10px;line-height:1.6}
+.details{
+ margin-top:12px;border-top:1px solid var(--line);padding-top:10px;
+}
+details summary{font-size:11px;color:#91cfff;cursor:pointer}
+.detailitem{
+ border-top:1px solid var(--line);padding:11px 0;
+ font-size:11px;line-height:1.5;
+}
+.detailmeta{font-size:10px;color:var(--muted)}
+.detailtitle{margin:5px 0}
+a{color:#70d3ff;text-decoration:none}
+.empty{
+ padding:25px;text-align:center;color:var(--muted);
+ background:var(--panel);border-radius:14px;font-size:12px;
+}
+.foot{
+ max-width:900px;margin:auto;padding:12px 15px;
+ color:#71839c;font-size:10px;line-height:1.6;
+}
+@media(min-width:600px){
+ main{padding:20px}.card{padding:17px}
+ .prices{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
 </style>
 </head>
+
 <body>
 <header>
- <div class="brand"><div class="logo">↗</div><div><h1>Broker Picks Pro</h1><div class="subtitle">24 BROKERS · TARGET &amp; STOP-LOSS TRACKER</div></div></div>
+ <div class="brand">
+  <div class="logo">↗</div>
+  <div>
+   <h1>Broker Picks Pro</h1>
+   <div class="subtitle">INDIAN EQUITY RESEARCH · BROKER TRACKING</div>
+  </div>
+ </div>
  <div id="upd">Loading broker and NSE data...</div>
 </header>
+
 <main>
  <div class="stats">
-  <div class="stat"><b id="stockCount">—</b><span>Stocks</span></div>
-  <div class="stat g"><b id="hitT">—</b><span>Target hit</span></div>
-  <div class="stat r"><b id="hitS">—</b><span>Stop loss hit</span></div>
+  <div class="stat"><b id="stockCount">—</b><span>Stocks covered</span></div>
+  <div class="stat"><b id="buyCount">—</b><span>Buy calls</span></div>
+  <div class="stat"><b id="brokerCount">—</b><span>Broker houses</span></div>
  </div>
- <input id="search" type="search" placeholder="Search stock or broker..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
 
- <div class="lbl">View (scroll →)</div>
- <div class="hs" id="tabs"></div>
+ <input id="search" type="search"
+  placeholder="Search stock, company or brokerage..."
+  autocomplete="off" autocorrect="off"
+  autocapitalize="off" spellcheck="false">
 
- <div class="lbl">Period</div>
- <div class="hs" id="hzRow"></div>
+ <div class="section-title">MAIN CATEGORIES</div>
+ <div class="horizontal" id="mainTabs"></div>
 
- <div class="lbl">Status</div>
- <div class="hs" id="stRow"></div>
- <div class="hs" id="sub"></div>
+ <div class="section-title">INVESTMENT PERIOD</div>
+ <div class="periodbar" id="periodTabs"></div>
 
- <div class="sectionhead"><h2 id="listTitle">Common stock ideas</h2><span class="hint" id="countHint"></span></div>
+ <div class="section-title">BROKERAGE FIRMS · SCROLL HORIZONTALLY</div>
+ <div class="horizontal" id="brokerTabs"></div>
+
+ <div class="sectionhead">
+  <h2 id="listTitle">Common Stock Ideas</h2>
+  <span class="hint" id="resultCount"></span>
+ </div>
+
+ <div class="filters" id="statusFilters">
+  <button class="fbtn on" data-status="all">All Calls</button>
+  <button class="fbtn" data-status="active">Active</button>
+  <button class="fbtn" data-status="target">Target Hit</button>
+  <button class="fbtn" data-status="sl">Stop Loss Hit</button>
+  <button class="fbtn" data-status="waiting">Waiting CMP</button>
+ </div>
+
  <div id="list"><div class="empty">Loading...</div></div>
- <div class="actions"><button class="btn primary" id="ref" type="button">↻ Refresh data</button></div>
+
+ <div class="actions">
+  <button class="btn primary" id="ref">↻ Refresh Broker & CMP Data</button>
+ </div>
 </main>
+
 <div class="foot">
- CMP is the latest NSE price in the price file (it may be a day-end price and delayed). Target / Stop-loss hit is judged from that latest price only, so a touch during the day may be missed.
- Entry is "tracked" = the CMP when this app first saw the pick, unless the article gave one or you typed your own. Period is estimated from target distance when the article does not state it.
- Always verify with the original report before trading.
+ CMP is obtained from the configured NSE price feed when available.
+ The price feed may be delayed. Entry, target and stop-loss values are
+ taken from broker data or entered manually. Missing values are not invented.
+ Period classification uses only the broker's stated investment period.
+ Verify prices and original broker reports before trading.
 </div>
+
 <script>
-const DATA_URL="https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/picks.json";
-const NSE_URL="https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/nse_prices.json";
-const REFRESH_MS=5*60*1000;
+"use strict";
 
-let data=null,prices=null,priceMap={},ENTRIES=[],GROUPS=[];
-let view="common",hzSel="all",stSel="all",min=2,query="";
+/* DATA SOURCES */
+const DATA_URL =
+ "https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/picks.json";
 
-const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const n=x=>{const v=Number(String(x??"").replace(/[,₹\s]/g,""));return Number.isFinite(v)&&v>0?v:null;};
-const cash=x=>x!=null&&x>0?"₹"+Number(x).toLocaleString("en-IN",{maximumFractionDigits:2}):"—";
-const STOPW=new Set(["ltd","limited","india","industries","industry","technologies","technology","tech","corporation","corp","company","co","enterprises","the","and"]);
-function nkey(s){return String(s||"").toLowerCase().replace(/[&.,'’()\-]/g," ").split(/\s+/).filter(w=>w&&!STOPW.has(w)).join("");}
-function cleanName(s){return String(s||"").replace(/\s+(ltd\.?|limited)$/i,"").trim();}
-function fmtDate(d){
- const t=new Date(d);
- return isNaN(t)?String(d||""):t.toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric"});
+const NSE_URL =
+ "https://raw.githubusercontent.com/mvthegreat-appbuild/BrokerPicks/main/nse_prices.json";
+
+const REFRESH_MS = 5 * 60 * 1000;
+
+const MANUAL_KEY = "brokerpicks_manual_v2";
+const CACHE_KEY = "brokerpicks_cache";
+const PRICE_CACHE_KEY = "nse_prices_cache";
+
+/* APPLICATION STATE */
+let data = null;
+let prices = null;
+let mainTab = "common";
+let periodTab = "all";
+let selectedBroker = "";
+let statusFilter = "all";
+let query = "";
+
+const $ = id => document.getElementById(id);
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({
+ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+}[c]));
+
+function number(v){
+ if(v===null||v===undefined||v==="")return null;
+ const n=Number(String(v).replace(/[₹,\s]/g,""));
+ return Number.isFinite(n)&&n>0?n:null;
 }
-function store(k){try{return JSON.parse(localStorage.getItem(k)||"{}");}catch(e){return {};}}
-function save(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
 
-/* ---------- prices ---------- */
-function buildPriceMap(){
- priceMap={};
- if(!prices||!prices.stocks)return;
- Object.entries(prices.stocks).forEach(([t,x])=>{
-  if(!x||x.status!=="success"||!(Number(x.cmp)>0))return;
-  priceMap[nkey(t)]=x;priceMap[nkey(x.name)]=x;
+function cash(v){
+ const n=number(v);
+ return n===null?"—":"₹"+n.toLocaleString("en-IN",{
+  maximumFractionDigits:2
  });
 }
-function priceOf(name){
- const k=nkey(name);
- if(!k)return null;
- if(priceMap[k])return priceMap[k];
- if(k.length>=5){for(const pk in priceMap){if(pk.length>=5&&(pk.startsWith(k)||k.startsWith(pk)))return priceMap[pk];}}
- return null;
+
+function manual(){
+ try{
+  return JSON.parse(localStorage.getItem(MANUAL_KEY)||"{}");
+ }catch(e){return {};}
 }
 
-/* ---------- build entries from picks.json ---------- */
-function namesFor(i){
- if(Array.isArray(i.stocks)&&i.stocks.length)return i.stocks.slice();
- const t=String(i.title||"");
- let m=t.match(/^(?:Buy|Sell|Hold|Accumulate|Add|Reduce)\s+(.+?)\s*(?:[:;,|]|\bfor\s+target\b|\btarget\b|\bby\b|$)/i)
-  ||t.match(/^(.+?)\s+share\s+price\s+target\b/i)
-  ||t.match(/^(.+?)\s+rated\s+(?:new\s+)?['"‘’]?(?:buy|sell|hold)/i);
- if(!m)return [];
- const nm=m[1].trim();
- if(nm.length<2||nm.length>40||nm.split(/\s+/).length>6)return [];
- if(/^(?:the|a|an|these|top|best|stocks?|\d+)\b/i.test(nm))return [];
- return [nm];
+function saveManual(symbol,values){
+ const m=manual();
+ m[symbol]=values;
+ localStorage.setItem(MANUAL_KEY,JSON.stringify(m));
 }
-function buildEntries(){
- const raw=[];
+
+/* PERIOD CLASSIFICATION
+   No period is automatically assumed.
+   Only the broker's explicit period is used.
+*/
+function classifyPeriod(value){
+ const p=String(value||"").toLowerCase().trim();
+
+ if(!p)return "unclassified";
+
+ if(/\bswing\b/.test(p))return "swing";
+
+ if(/\bshort[\s-]*term\b/.test(p))return "short";
+
+ if(/\blong[\s-]*term\b/.test(p))return "long";
+
+ return "unclassified";
+}
+
+function periodLabel(p){
+ return ({
+  swing:"Swing",
+  short:"Short Term",
+  long:"Long Term",
+  unclassified:"Unclassified"
+ })[p]||"Unclassified";
+}
+
+/* PRICE FEED */
+function getNsePrice(symbol){
+ if(!prices||!prices.stocks)return null;
+
+ const key=String(symbol||"").trim().toLowerCase();
+
+ const found=Object.entries(prices.stocks).find(([ticker,x])=>
+  String(ticker).trim().toLowerCase()===key ||
+  String((x&&x.name)||"").trim().toLowerCase()===key
+ );
+
+ if(!found||!found[1])return null;
+
+ const p=found[1];
+
+ if(p.status && p.status!=="success")return null;
+
+ return number(p.cmp||p.price||p.last_price);
+}
+
+/* ARTICLE PRICE FIELDS
+   Accepts commonly used field names without inventing values.
+*/
+function getEntry(i){
+ return number(
+  i.entry ??
+  i.entry_price ??
+  i.buy_price ??
+  i.recommended_entry ??
+  i.recommended_price
+ );
+}
+
+function getTarget(i){
+ return number(
+  i.target ??
+  i.target_price ??
+  i.target1 ??
+  i.target_1
+ );
+}
+
+function getSL(i){
+ return number(
+  i.stop_loss ??
+  i.sl ??
+  i.stoploss
+ );
+}
+
+function getSide(i){
+ const s=String(i.call||i.side||"").toUpperCase();
+ if(s==="BUY")return "BUY";
+ if(s==="SELL")return "SELL";
+ return "HOLD";
+}
+
+/* PRICE CALCULATIONS */
+function calculate(entry,cmp,target,sl,side){
+ const sell=side==="SELL";
+
+ const move=(entry&&cmp)?
+  (sell?(entry-cmp)/entry*100:(cmp-entry)/entry*100):null;
+
+ const upside=(cmp&&target)?
+  (sell?(cmp-target)/cmp*100:(target-cmp)/cmp*100):null;
+
+ const downside=(cmp&&sl)?
+  (sell?(sl-cmp)/cmp*100:(cmp-sl)/cmp*100):null;
+
+ const risk=(entry&&sl)?Math.abs(entry-sl)/entry*100:null;
+ const reward=(entry&&target)?Math.abs(target-entry)/entry*100:null;
+
+ const rr=(risk>0&&reward>0)?reward/risk:null;
+
+ return {move,upside,downside,rr};
+}
+
+function getStatus(cmp,target,sl,side){
+ if(cmp===null)return "waiting";
+
+ const sell=side==="SELL";
+
+ if(sl!==null && (sell?cmp>=sl:cmp<=sl))return "sl";
+
+ if(target!==null && (sell?cmp<=target:cmp>=target))return "target";
+
+ return "active";
+}
+
+function statusLabel(s){
+ return ({
+  target:"TARGET HIT",
+  sl:"STOP LOSS HIT",
+  active:"ACTIVE",
+  waiting:"WAITING FOR CMP"
+ })[s]||"WAITING FOR CMP";
+}
+
+function formatPct(v){
+ if(v===null||!Number.isFinite(v))return "—";
+ return (v>0?"+":"")+v.toFixed(2)+"%";
+}
+
+/* GET ALL STOCKS AND PRESERVE BROKER DATA */
+function pool(){
+ const map={};
+
  (data.items||[]).forEach(i=>{
-  const tg=n(i.target),call=String(i.call||"").toUpperCase();
-  const bk=nkey(i.broker);
-  const names=namesFor(i).filter(nm=>{const k=nkey(nm);return k&&!(bk&&k.includes(bk));});
-  if(!names.length||(!tg&&!call))return;
-  names.forEach(nm=>{
-   raw.push({key:nkey(nm),name:cleanName(nm),broker:i.broker,title:i.title,source:i.source,link:i.link,
-    date:i.date||"",call:call,target:names.length===1?tg:null,sl:names.length===1?n(i.stop_loss):null,
-    entry:n(i.entry||i.entry_price||i.buy_price),periodTxt:String(i.period||"")});
+  (i.stocks||[]).forEach(symbol=>{
+   const s=String(symbol||"").trim();
+   if(!s)return;
+
+   if(!map[s]){
+    map[s]={s,brokers:{},items:[]};
+   }
+
+   map[s].items.push(i);
+   map[s].brokers[i.broker]=1;
   });
  });
- const best={};
- raw.forEach(e=>{
-  const k=e.broker+"|"+e.key,o=best[k];
-  if(!o||(!o.target&&e.target)||(!!o.target===!!e.target&&e.date>o.date))best[k]=e;
- });
- ENTRIES=Object.values(best);
- const m={};
- ENTRIES.forEach(e=>{const g=m[e.key]=m[e.key]||{key:e.key,names:[],entries:[]};g.names.push(e.name);g.entries.push(e);});
- GROUPS=Object.values(m).map(g=>{g.name=g.names.slice().sort((a,b)=>a.length-b.length)[0];return g;});
-}
-function updateTracking(){
- const t=store("bp_track");let ch=false;
- GROUPS.forEach(g=>{
-  if(!t[g.key]){const px=priceOf(g.name);if(px){t[g.key]={entry:Number(px.cmp),date:new Date().toISOString().slice(0,10)};ch=true;}}
- });
- if(ch)save("bp_track",t);
+
+ return Object.values(map).map(o=>{
+  o.bs=Object.keys(o.brokers);
+  o.n=o.bs.length;
+
+  o.buy=o.items.filter(i=>getSide(i)==="BUY").length;
+  o.sell=o.items.filter(i=>getSide(i)==="SELL").length;
+
+  o.periods=[...new Set(o.items.map(i=>
+   classifyPeriod(i.period)
+  ))];
+
+  o.periods=o.periods.filter(p=>p!=="unclassified");
+
+  if(!o.periods.length)o.periods=["unclassified"];
+
+  /* Use an actual broker recommendation for displayed levels.
+     Manual entries take priority over source values.
+  */
+  const m=manual()[o.s]||{};
+
+  const withEntry=o.items.find(i=>getEntry(i)!==null);
+  const withTarget=o.items.find(i=>getTarget(i)!==null);
+  const withSL=o.items.find(i=>getSL(i)!==null);
+
+  o.entry=number(m.entry)??(withEntry?getEntry(withEntry):null);
+  o.target=number(m.target)??(withTarget?getTarget(withTarget):null);
+  o.sl=number(m.sl)??(withSL?getSL(withSL):null);
+
+  o.target2=number(m.target2);
+  o.target3=number(m.target3);
+
+  o.cmp=getNsePrice(o.s)??number(m.cmp);
+
+  o.cmpSource=getNsePrice(o.s)!==null?"NSE":"Manual / unavailable";
+
+  o.side=o.buy>o.sell?"BUY":o.sell>o.buy?"SELL":"HOLD";
+
+  o.status=getStatus(o.cmp,o.target,o.sl,o.side);
+
+  return o;
+ }).sort((a,b)=>b.n-a.n);
 }
 
-/* ---------- view model ---------- */
-function horizonOf(entries,entry,cmp,target){
- const txt=entries.map(e=>e.periodTxt+" "+e.title).join(" ").toLowerCase();
- if(/swing|intraday|btst|\b1-2 weeks?\b|\b2 weeks?\b|few days|this week|next week|weekly/.test(txt))return {h:"swing",est:false};
- if(/long[\s-]?term|\b(?:12|18|24)[\s-]?months?\b|multibagger/.test(txt))return {h:"long",est:false};
- if(/short[\s-]?term|positional|\b[1-3][\s-]?months?\b/.test(txt))return {h:"short",est:false};
- const ref=entry||cmp;
- if(!target||!ref)return {h:"short",est:true};
- const u=Math.abs(target-ref)/ref*100;
- return {h:u<=8?"swing":u<=20?"short":"long",est:true};
-}
-const HZ_LABEL={swing:"Swing",short:"Short term",long:"Long term"};
-function vm(name,key,entries){
- const man=store("bp_manual")[key]||{};
- const px=priceOf(name);
- const cmp=n(man.cmp)||(px?Number(px.cmp):null);
- const cmpSrc=n(man.cmp)?"yours":(px?"nse":"");
- const avg=a=>a.length?Math.round(a.reduce((x,y)=>x+y,0)/a.length*100)/100:null;
- const tgs=entries.map(e=>e.target).filter(Boolean),sls=entries.map(e=>e.sl).filter(Boolean);
- const target=n(man.target)||avg(tgs),sl=n(man.sl)||avg(sls);
- const tr=store("bp_track")[key];
- const artEntry=entries.map(e=>e.entry).find(Boolean)||null;
- let entry=n(man.entry),entrySrc=entry?"yours":"";
- if(!entry&&artEntry){entry=artEntry;entrySrc="article";}
- if(!entry&&tr){entry=tr.entry;entrySrc="tracked";}
- const buy=entries.filter(e=>e.call==="BUY").length,sell=entries.filter(e=>e.call==="SELL").length;
- const side=sell>buy?"SELL":"BUY";
- const callTag=buy>sell?"BUY":sell>buy?"SELL":(entries.some(e=>e.call==="HOLD")?"HOLD":"VIEW");
- let status="unknown";
- if(cmp){
-  status="active";
-  if(side==="BUY"){if(sl&&cmp<=sl)status="sl";else if(target&&cmp>=target)status="target";}
-  else{if(sl&&cmp>=sl)status="sl";else if(target&&cmp<=target)status="target";}
- }
- const h=horizonOf(entries,entry,cmp,target);
- const brokers=[...new Set(entries.map(e=>e.broker))];
- const date=entries.map(e=>e.date).sort().slice(-1)[0]||"";
- return {name,key,entries,brokers,nb:brokers.length,cmp,cmpSrc,target,sl,entry,entrySrc,side,callTag,status,hz:h.h,hzEst:h.est,nT:tgs.length,date,slYours:!!n(man.sl)};
-}
+/* INDIVIDUAL STOCK CARD */
+function stockCard(o){
+ const c=calculate(o.entry,o.cmp,o.target,o.sl,o.side);
 
-/* ---------- cards ---------- */
-function card(v){
- const ref=v.cmp||v.entry;
- const up=(v.target&&ref)?Math.abs(v.target-ref)/ref*100:null;
- const risk=(v.sl&&ref)?Math.abs(ref-v.sl)/ref*100:null;
- const rr=(up&&risk)?up/risk:null;
- let mv=null;
- if(v.cmp&&v.entry){mv=(v.side==="SELL"?(v.entry-v.cmp):(v.cmp-v.entry))/v.entry*100;}
- const mvCol=mv==null?"var(--muted)":(mv>=0?"var(--green)":"var(--red)");
- const stLabel={target:"TARGET HIT ✓",sl:"STOP LOSS HIT ✗",active:"OPEN",unknown:"NO CMP"}[v.status];
- const entryLbl="Entry"+(v.entrySrc==="tracked"?" · tracked":v.entrySrc==="yours"?" · yours":"");
- const cmpLbl=v.cmp?("CMP"+(v.cmpSrc==="yours"?" · yours":" · NSE")):"CMP · not available";
- const tLbl=v.nT>1?"Target · avg of "+v.nT:"Target";
- const hzTxt=(v.hzEst?"~":"")+HZ_LABEL[v.hz];
- const chips=v.brokers.map(b=>`<span class="chip">${esc(b)}</span>`).join("")+`<span class="chip hz">${esc(hzTxt)}</span>`;
- const meta=v.nb>1?`${v.nb} brokers · latest ${esc(fmtDate(v.date))}`:`${esc(v.brokers[0])} · ${esc(fmtDate(v.date))}${v.entries[0].source?" · "+esc(v.entries[0].source):""}`;
- const det=v.entries.map(e=>`
-  <div class="detailitem"><div class="detailmeta">${esc(e.broker)} · ${esc(fmtDate(e.date))} · ${esc(e.source||"")}</div>
-  <div class="detailtitle">${esc(e.title)}</div>
-  ${e.call?`<span class="tag ${esc(e.call)}">${esc(e.call)}</span>`:""}
-  ${e.target?`<span class="tag neutral">Target ${cash(e.target)}</span>`:""}
-  ${e.sl?`<span class="tag neutral">SL ${cash(e.sl)}</span>`:""}
-  <div style="margin-top:7px"><a href="${esc(e.link||"#")}" target="_blank" rel="noopener">Open original report ↗</a></div></div>`).join("");
- return `<article class="card ${v.status==="target"?"hit-target":v.status==="sl"?"hit-sl":""}">
-  <div class="top">
-   <div><div class="name">${esc(v.name)}</div><div class="meta">${meta}</div></div>
-   <div class="badges"><span class="tag st-${v.status}">${stLabel}</span><span class="tag ${v.callTag}">${v.callTag}</span></div>
+ const periods=o.periods.map(p=>
+  `<span class="tag neutral">${esc(periodLabel(p))}</span>`
+ ).join("");
+
+ return `
+ <article class="card">
+  <div class="cardtop">
+   <div>
+    <div class="symbol">${esc(o.s)}</div>
+    <div class="brokerline">
+     ${o.n} brokerage firms · ${o.items.length} recommendations
+    </div>
+   </div>
+   <div class="badges">
+    <span class="tag ${o.side}">${o.side}</span>
+    <span class="tag st-${o.status}">${statusLabel(o.status)}</span>
+   </div>
   </div>
-  <div class="chips">${chips}</div>
-  <div class="row">
-   <div class="box"><label>${entryLbl}</label><strong>${cash(v.entry)}</strong></div>
-   <div class="box cmp-box"><label>${cmpLbl}</label><strong>${cash(v.cmp)}</strong></div>
-   <div class="box tgt-box"><label>${tLbl}</label><strong>${cash(v.target)}</strong></div>
-   <div class="box sl-box"><label>Stop Loss${v.slYours?" · yours":""}</label><strong>${cash(v.sl)}</strong></div>
+
+  <div style="margin-top:9px">${periods}</div>
+
+  <div class="prices">
+   <div class="price entry">
+    <label>Entry Price</label>
+    <strong>${cash(o.entry)}</strong>
+   </div>
+   <div class="price cmp">
+    <label>CMP · ${esc(o.cmpSource)}</label>
+    <strong>${cash(o.cmp)}</strong>
+   </div>
+   <div class="price target">
+    <label>Target Price</label>
+    <strong>${cash(o.target)}</strong>
+   </div>
+   <div class="price sl">
+    <label>Stop Loss</label>
+    <strong>${cash(o.sl)}</strong>
+   </div>
   </div>
+
   <div class="metrics">
-   <span>Move <b style="color:${mvCol}">${mv==null?"—":(mv>=0?"+":"")+mv.toFixed(2)+"%"}</b></span>
-   ${up!=null?`<span>Upside <b style="color:var(--green)">${up.toFixed(2)}%</b></span>`:""}
-   ${risk!=null?`<span>Risk <b style="color:var(--red)">${risk.toFixed(2)}%</b></span>`:""}
-   ${rr!=null?`<span>R:R <b>1 : ${rr.toFixed(2)}</b></span>`:""}
+   <span>Move from entry <b style="color:${c.move===null?"white":c.move>=0?"var(--green)":"var(--red)"}">${formatPct(c.move)}</b></span>
+   <span>Potential upside <b style="color:var(--green)">${formatPct(c.upside)}</b></span>
+   <span>Downside to SL <b style="color:var(--red)">${formatPct(c.downside)}</b></span>
+   <span>Risk / Reward <b>${c.rr===null?"—":"1 : "+c.rr.toFixed(2)}</b></span>
   </div>
-  <div class="actions"><button class="btn primary" type="button" data-edit="${esc(v.key)}" data-nm="${esc(v.name)}">✎ Enter / Edit Prices</button></div>
-  <details><summary>Broker recommendations (${v.entries.length})</summary>${det}</details>
+
+  <div class="actions">
+   <button class="btn primary" data-edit="${esc(o.s)}">✎ Enter / Edit Prices</button>
+  </div>
+
+  <details class="details">
+   <summary>Broker recommendations (${o.items.length})</summary>
+   ${o.items.map(i=>`
+    <div class="detailitem">
+     <div class="detailmeta">
+      ${esc(i.broker)} · ${esc(i.date||"Date unavailable")}
+     </div>
+     <div class="detailtitle">${esc(i.title||"")}</div>
+     ${i.call?`<span class="tag ${esc(getSide(i))}">${esc(getSide(i))}</span>`:""}
+     ${i.period?`<span class="tag neutral">${esc(i.period)}</span>`:""}
+     ${getEntry(i)!==null?`<span class="tag neutral">Entry ${cash(getEntry(i))}</span>`:""}
+     ${getTarget(i)!==null?`<span class="tag neutral">Target ${cash(getTarget(i))}</span>`:""}
+     ${getSL(i)!==null?`<span class="tag neutral">SL ${cash(getSL(i))}</span>`:""}
+     ${i.link?`<div style="margin-top:7px"><a href="${esc(i.link)}" target="_blank" rel="noopener">Open original report ↗</a></div>`:""}
+    </div>
+   `).join("")}
+  </details>
  </article>`;
 }
 
-/* ---------- render ---------- */
+/* BROKER ARTICLE CARD */
+function articleCard(i){
+ const symbol=(i.stocks||[])[0]||"Stock not extracted";
+ const m=manual()[symbol]||{};
+
+ const entry=number(m.entry)??getEntry(i);
+ const target=number(m.target)??getTarget(i);
+ const sl=number(m.sl)??getSL(i);
+ const cmp=getNsePrice(symbol)??number(m.cmp);
+ const side=getSide(i);
+
+ const status=getStatus(cmp,target,sl,side);
+ const c=calculate(entry,cmp,target,sl,side);
+
+ const period=classifyPeriod(i.period);
+
+ return `
+ <article class="card">
+  <div class="cardtop">
+   <div>
+    <div class="symbol">${esc(symbol)}</div>
+    <div class="brokerline">
+     ${esc(i.broker)} · ${esc(i.date||"")}
+    </div>
+   </div>
+   <div class="badges">
+    <span class="tag ${side}">${side}</span>
+    <span class="tag st-${status}">${statusLabel(status)}</span>
+   </div>
+  </div>
+
+  <div class="detailtitle">${esc(i.title||"")}</div>
+
+  <div class="prices">
+   <div class="price entry"><label>Entry Price</label><strong>${cash(entry)}</strong></div>
+   <div class="price cmp"><label>CMP</label><strong>${cash(cmp)}</strong></div>
+   <div class="price target"><label>Target</label><strong>${cash(target)}</strong></div>
+   <div class="price sl"><label>Stop Loss</label><strong>${cash(sl)}</strong></div>
+  </div>
+
+  <div class="metrics">
+   <span>Move <b>${formatPct(c.move)}</b></span>
+   <span>Upside <b style="color:var(--green)">${formatPct(c.upside)}</b></span>
+   <span>Downside <b style="color:var(--red)">${formatPct(c.downside)}</b></span>
+   <span>Period <b>${esc(periodLabel(period))}</b></span>
+  </div>
+
+  <div class="actions">
+   <button class="btn primary" data-edit="${esc(symbol)}">✎ Enter / Edit Prices</button>
+  </div>
+
+  ${i.link?`<div style="margin-top:9px"><a href="${esc(i.link)}" target="_blank" rel="noopener">Open original report ↗</a></div>`:""}
+ </article>`;
+}
+
+/* TABS */
+function renderTabs(){
+ const P=pool();
+
+ const main=[
+  ["common","⭐ Common",P.filter(o=>o.n>=2).length],
+  ["all","All Stocks",P.length]
+ ];
+
+ $("mainTabs").innerHTML=main.map(t=>`
+  <button class="tab ${mainTab===t[0]?"on":""}" data-main="${t[0]}">
+   ${t[1]} <small>${t[2]}</small>
+  </button>
+ `).join("");
+
+ const periods=[
+  ["all","All Periods"],
+  ["swing","Swing"],
+  ["short","Short Term"],
+  ["long","Long Term"],
+  ["unclassified","Unclassified"]
+ ];
+
+ $("periodTabs").innerHTML=periods.map(p=>`
+  <button class="period ${periodTab===p[0]?"on":""}" data-period="${p[0]}">
+   ${p[1]}
+  </button>
+ `).join("");
+
+ /* Use the original broker list.
+    Also include any broker found in the recommendations.
+    No fixed list or replacement of the 24 firms.
+ */
+ const brokers=[...new Set([
+  ...(data.brokers||[]),
+  ...(data.items||[]).map(i=>i.broker).filter(Boolean)
+ ])];
+
+ $("brokerTabs").innerHTML=`
+  <button class="tab ${mainTab!=="broker"?"on":""}" data-broker="">
+   All Brokers
+  </button>
+  ${brokers.map(b=>`
+   <button class="tab ${mainTab==="broker"&&selectedBroker===b?"on":""}"
+    data-broker="${esc(b)}">${esc(b)}</button>
+  `).join("")}
+ `;
+}
+
+/* MAIN RENDER */
 function render(){
  if(!data)return;
+
+ const P=pool();
+
+ $("stockCount").textContent=P.length;
+ $("buyCount").textContent=(data.items||[]).filter(i=>getSide(i)==="BUY").length;
+ $("brokerCount").textContent=(data.brokers||[]).length;
+
+ renderTabs();
+
  const q=query.toLowerCase().trim();
- const GV=GROUPS.map(g=>vm(g.name,g.key,g.entries));
- document.getElementById("stockCount").textContent=GV.length;
- document.getElementById("hitT").textContent=GV.filter(v=>v.status==="target").length;
- document.getElementById("hitS").textContent=GV.filter(v=>v.status==="sl").length;
+ let results=[];
 
- const cnt={};ENTRIES.forEach(e=>{cnt[e.broker]=(cnt[e.broker]||0)+1;});
- const tabs=[["common","⭐ Common",GV.filter(v=>v.nb>=2).length],["all","All Stocks",GV.length]]
-  .concat((data.brokers||[]).map(b=>[b,b,cnt[b]||0]));
- document.getElementById("tabs").innerHTML=tabs.map(t=>`<button class="tab ${t[0]===view?"on":""}" data-t="${esc(t[0])}" type="button">${esc(t[1])} <small>${t[2]}</small></button>`).join("");
- document.getElementById("hzRow").innerHTML=[["all","All"],["swing","Swing"],["short","Short term"],["long","Long term"]]
-  .map(p=>`<button class="pill ${p[0]===hzSel?"on":""}" data-hz="${p[0]}" type="button">${p[1]}</button>`).join("");
- document.getElementById("stRow").innerHTML=[["all","All"],["active","Open"],["target","🎯 Target hit"],["sl","⛔ Stop loss hit"],["unknown","No CMP"]]
-  .map(p=>`<button class="pill ${p[0]===stSel?"on":""}" data-st="${p[0]}" type="button">${p[1]}</button>`).join("");
- document.getElementById("sub").innerHTML=view==="common"
-  ?`<button class="pill ${min===2?"on":""}" data-m="2" type="button">2+ brokers</button><button class="pill ${min===1?"on":""}" data-m="1" type="button">All stocks</button>`:"";
+ if(mainTab==="broker"){
+  $("listTitle").textContent=selectedBroker+" Recommendations";
 
- let list;
- if(view==="common"||view==="all"){
-  list=GV.filter(v=>view==="all"||v.nb>=min).sort((a,b)=>b.nb-a.nb||(b.date||"").localeCompare(a.date||""));
-  document.getElementById("listTitle").textContent=view==="common"?"Common Stock Ideas":"All Stocks";
+  results=(data.items||[]).filter(i=>
+   i.broker===selectedBroker &&
+   (!q||(
+    (i.title||"")+" "+(i.stocks||[]).join(" ")
+   ).toLowerCase().includes(q))
+  );
+
+  results=results.filter(i=>
+   periodTab==="all"||classifyPeriod(i.period)===periodTab
+  );
+
+  results=results.map(i=>{
+   const symbol=(i.stocks||[])[0]||"";
+   const m=manual()[symbol]||{};
+   const cmp=getNsePrice(symbol)??number(m.cmp);
+   return {
+    type:"article",item:i,
+    status:getStatus(cmp,number(m.target)??getTarget(i),number(m.sl)??getSL(i),getSide(i))
+   };
+  });
+
  }else{
-  list=ENTRIES.filter(e=>e.broker===view).sort((a,b)=>(b.date||"").localeCompare(a.date||"")).map(e=>vm(e.name,e.key,[e]));
-  document.getElementById("listTitle").textContent=view;
+  $("listTitle").textContent=mainTab==="common"?
+   "Common Stock Ideas":"All Extracted Stocks";
+
+  results=P.filter(o=>{
+   if(mainTab==="common"&&o.n<2)return false;
+
+   if(periodTab!=="all"&&!o.periods.includes(periodTab))return false;
+
+   if(q&&!(
+    (o.s+" "+o.bs.join(" ")+" "+
+    o.items.map(i=>i.title||"").join(" ")).toLowerCase().includes(q)
+   ))return false;
+
+   return true;
+  }).map(o=>({type:"stock",item:o,status:o.status}));
  }
- list=list.filter(v=>(hzSel==="all"||v.hz===hzSel)&&(stSel==="all"||v.status===stSel)&&(!q||(v.name+" "+v.brokers.join(" ")).toLowerCase().includes(q)));
- document.getElementById("countHint").textContent=list.length+" shown";
- document.getElementById("list").innerHTML=list.length?list.map(card).join(""):'<div class="empty">No matching stocks.<br>Try another tab, period or status.</div>';
+
+ if(statusFilter!=="all"){
+  results=results.filter(x=>x.status===statusFilter);
+ }
+
+ $("resultCount").textContent=results.length+" results";
+
+ $("list").innerHTML=results.length?
+  results.map(x=>x.type==="stock"?stockCard(x.item):articleCard(x.item)).join("")
+  :'<div class="empty">No matching stocks or recommendations found.</div>';
 }
 
-/* ---------- load ---------- */
+/* EDIT PRICES */
+function editPrices(symbol){
+ const old=manual()[symbol]||{};
+
+ const ask=(label,value)=>{
+  const v=prompt(label,value??"");
+  if(v===null)return null;
+  if(v.trim()!==""&&!Number.isFinite(Number(v.replace(/,/g,"")))){
+   alert("Please enter a valid number.");
+   return null;
+  }
+  return v.trim();
+ };
+
+ const entry=ask("Entry price for "+symbol+" (₹)",old.entry??"");
+ if(entry===null)return;
+
+ const cmp=ask("Manual fallback CMP for "+symbol+" (₹)",old.cmp??"");
+ if(cmp===null)return;
+
+ const target=ask("Target price (₹)",old.target??"");
+ if(target===null)return;
+
+ const sl=ask("Stop Loss (₹)",old.sl??"");
+ if(sl===null)return;
+
+ saveManual(symbol,{
+  entry,target,sl,cmp,
+  target2:old.target2||"",
+  target3:old.target3||""
+ });
+
+ render();
+}
+
+/* DATA LOADING */
 async function load(){
- const u=document.getElementById("upd");
+ const u=$("upd");
+ u.textContent="Refreshing broker and NSE data...";
+
  let brokerOK=false,nseOK=false;
+
  try{
-  const r=await fetch(DATA_URL+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error("x");
-  data=await r.json();save("bp_cache",data);brokerOK=true;
- }catch(e){const c=store("bp_cache");data=c&&c.items?c:null;}
- try{
-  const nr=await fetch(NSE_URL+"?t="+Date.now(),{cache:"no-store"});if(!nr.ok)throw Error("x");
-  prices=await nr.json();save("bp_prices",prices);nseOK=true;
- }catch(e){const c=store("bp_prices");prices=c&&c.stocks?c:null;}
- if(!data){
-  u.textContent="Unable to load broker data. Check internet and tap Refresh.";
-  document.getElementById("list").innerHTML='<div class="empty">Check your internet and tap Refresh.</div>';
-  return;
+  const r=await fetch(DATA_URL+"?t="+Date.now(),{cache:"no-store"});
+  if(!r.ok)throw Error("Broker data unavailable");
+
+  const incoming=await r.json();
+
+  if(!incoming||!Array.isArray(incoming.items))
+   throw Error("Invalid broker data");
+
+  data=incoming;
+  localStorage.setItem(CACHE_KEY,JSON.stringify(data));
+  brokerOK=true;
+
+ }catch(e){
+  try{
+   data=JSON.parse(localStorage.getItem(CACHE_KEY)||"null");
+  }catch(x){data=null;}
  }
- buildPriceMap();buildEntries();updateTracking();render();
- const stamp=prices&&prices.updated?new Date(prices.updated).toLocaleString("en-IN"):"not available";
- u.innerHTML=(brokerOK?"Broker data refreshed":"Broker data: saved copy")+" · NSE prices "+(nseOK?"refreshed":"saved copy")
-  +"<br>Picks updated: <b>"+esc(data.updated||"—")+"</b>"
-  +"<br>Price data time: <b>"+esc(stamp)+"</b> · App checked: <b>"+esc(new Date().toLocaleTimeString("en-IN"))+"</b>";
+
+ try{
+  const r=await fetch(NSE_URL+"?t="+Date.now(),{cache:"no-store"});
+  if(!r.ok)throw Error("NSE data unavailable");
+
+  const incoming=await r.json();
+  if(!incoming||!incoming.stocks)throw Error("Invalid NSE data");
+
+  prices=incoming;
+  localStorage.setItem(PRICE_CACHE_KEY,JSON.stringify(prices));
+  nseOK=true;
+
+ }catch(e){
+  try{
+   prices=JSON.parse(localStorage.getItem(PRICE_CACHE_KEY)||"null");
+  }catch(x){prices=null;}
+ }
+
+ if(data){
+  render();
+
+  const stamp=prices&&prices.updated?
+   new Date(prices.updated).toLocaleString("en-IN"):"Not available";
+
+  u.innerHTML=
+   "Broker data: <b>"+(brokerOK?"Refreshed":"Saved copy")+"</b>"+
+   " · NSE: <b>"+(nseOK?"Refreshed":"Cached / unavailable")+"</b>"+
+   "<br>Price data time: <b>"+esc(stamp)+"</b>"+
+   "<br>Last app check: <b>"+new Date().toLocaleTimeString("en-IN")+"</b>";
+
+ }else{
+  u.textContent="Unable to load broker data. Check your internet connection.";
+  $("list").innerHTML='<div class="empty">Broker data unavailable. Please refresh.</div>';
+ }
 }
 
-/* ---------- events ---------- */
-document.getElementById("tabs").addEventListener("click",e=>{const b=e.target.closest("[data-t]");if(b){view=b.dataset.t;render();}});
-document.getElementById("hzRow").addEventListener("click",e=>{const b=e.target.closest("[data-hz]");if(b){hzSel=b.dataset.hz;render();}});
-document.getElementById("stRow").addEventListener("click",e=>{const b=e.target.closest("[data-st]");if(b){stSel=b.dataset.st;render();}});
-document.getElementById("sub").addEventListener("click",e=>{const b=e.target.closest("[data-m]");if(b){min=Number(b.dataset.m);render();}});
-document.getElementById("search").addEventListener("input",e=>{query=e.target.value;render();});
-document.getElementById("ref").addEventListener("click",load);
-document.getElementById("list").addEventListener("click",e=>{
- const b=e.target.closest("[data-edit]");if(!b)return;
- const key=b.dataset.edit,nm=b.dataset.nm,all=store("bp_manual"),old=all[key]||{};
- const ask=(label,val)=>{const v=prompt(label,val||"");return v===null?null:v.trim();};
- const entry=ask("Entry price for "+nm+" (₹) — leave empty for automatic",old.entry);if(entry===null)return;
- const cmp=ask("CMP (₹) — leave empty to use NSE",old.cmp);if(cmp===null)return;
- const target=ask("Target (₹) — leave empty for broker target",old.target);if(target===null)return;
- const sl=ask("Stop Loss (₹)",old.sl);if(sl===null)return;
- all[key]={entry,cmp,target,sl};save("bp_manual",all);render();
+/* EVENTS */
+$("mainTabs").addEventListener("click",e=>{
+ const b=e.target.closest("[data-main]");
+ if(!b)return;
+
+ mainTab=b.dataset.main;
+ selectedBroker="";
+ render();
+ window.scrollTo(0,0);
 });
+
+$("periodTabs").addEventListener("click",e=>{
+ const b=e.target.closest("[data-period]");
+ if(!b)return;
+
+ periodTab=b.dataset.period;
+ render();
+});
+
+$("brokerTabs").addEventListener("click",e=>{
+ const b=e.target.closest("[data-broker]");
+ if(!b)return;
+
+ if(!b.dataset.broker){
+  mainTab="all";
+  selectedBroker="";
+ }else{
+  mainTab="broker";
+  selectedBroker=b.dataset.broker;
+ }
+
+ render();
+ window.scrollTo(0,0);
+});
+
+$("statusFilters").addEventListener("click",e=>{
+ const b=e.target.closest("[data-status]");
+ if(!b)return;
+
+ statusFilter=b.dataset.status;
+
+ document.querySelectorAll(".fbtn").forEach(x=>
+  x.classList.toggle("on",x===b)
+ );
+
+ render();
+});
+
+$("search").addEventListener("input",e=>{
+ query=e.target.value;
+ render();
+});
+
+$("list").addEventListener("click",e=>{
+ const b=e.target.closest("[data-edit]");
+ if(b)editPrices(b.dataset.edit);
+});
+
+$("ref").addEventListener("click",load);
+
+/* START AND AUTO REFRESH */
 load();
-setInterval(()=>{if(!document.hidden)load();},REFRESH_MS);
-document.addEventListener("visibilitychange",()=>{if(!document.hidden)load();});
+
+setInterval(()=>{
+ if(!document.hidden)load();
+},REFRESH_MS);
+
+document.addEventListener("visibilitychange",()=>{
+ if(!document.hidden)load();
+});
 </script>
 </body>
 </html>
