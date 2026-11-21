@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T11:58:02.022193+00:00",
+  "updated": "2026-11-21T12:42:36.364894+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -11,7 +11,7 @@
     "AMARA RAJA": {
       "name": "Amara Raja",
       "status": "unavailable",
-      "error": "Server returned an error response"
+      "error": "CMP unavailable"
     },
     "ASHOK LEYLAND": {
       "name": "Ashok Leyland",
@@ -122,13 +122,13 @@
     },
     "MOTHERSON": {
       "name": "Motherson",
-      "cmp": 166.53,
-      "change": 1.09,
-      "change_percent": 0.66,
+      "cmp": 0.0,
+      "change": 0.0,
+      "change_percent": 0.0,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 16767823,
+      "volume": 0,
       "timestamp": "2026-11-20 16:00:28",
       "status": "success"
     },
