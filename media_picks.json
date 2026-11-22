@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T19:21:24.197538+00:00",
+  "updated": "2026-11-22T20:12:44.199417+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -16,15 +16,16 @@
     "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-extend-gains-nifty-ends-near-25-400-sensex-jumps-427-pts-14082389.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/adani-energy-solutions-bags-1-750-mw-renewable-power-supply-project-from-bengal-discom-14086186.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/apl-apollo-tubes-promoter-family-explores-stake-sale-deal-size-could-top-rs-32-000-crore-with-open-offer-14084693.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/banks/bombay-high-court-declines-immediate-document-disclosure-in-br-shetty-s-15-billion-suit-against-bank-of-baroda-14084565.html": "Article fetch failed: HTTP Error 403: Forbidden"
+    "https://www.moneycontrol.com/news/business/banks/bombay-high-court-declines-immediate-document-disclosure-in-br-shetty-s-15-billion-suit-against-bank-of-baroda-14084565.html": "Article fetch failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/tvs-family-feud-venu-srinivasan-readies-reply-to-daughter-lakshmi-venu-s-partition-notice-likely-to-cite-past-family-pacts-reports-cnbc-tv18-14084709.html": "Article fetch failed: HTTP Error 403: Forbidden"
   },
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
-    "rss_unique_recent_articles": 9,
-    "decoded_moneycontrol_urls": 9,
+    "rss_unique_recent_articles": 10,
+    "decoded_moneycontrol_urls": 10,
     "unresolved_google_links": 0,
-    "article_fetch_failures": 9,
-    "excluded_old": 97,
+    "article_fetch_failures": 10,
+    "excluded_old": 96,
     "excluded_undated": 0,
     "excluded_future": 0
   },
