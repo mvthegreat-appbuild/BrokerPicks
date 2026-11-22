@@ -1,36 +1,38 @@
 {
-  "updated": "2026-11-22T00:01:54.798507+00:00",
+  "updated": "2026-11-22T01:42:04.295393+00:00",
   "sources": [
     "Moneycontrol"
   ],
   "source_counts": {
-    "Moneycontrol": 0
+    "Moneycontrol": 1
   },
   "collection_window_days": 10,
-  "errors": {
-    "site:moneycontrol.com \"short-term trade\"": "HTTP Error 429: Too Many Requests",
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-tvs-motor-quess-corp-avenue-supermarts-gujarat-fluorochemicals-pidilite-industries-and-others-on-november-20-14085294.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-deepak-fertilisers-adani-energy-honasa-consumer-international-gemological-institute-hyundai-motor-and-others-on-november-18-14082995.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-alicon-castalloy-ramkrishna-forgings-kwality-walls-indus-towers-ge-vernova-t-d-and-others-on-november-16-14080744.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/banks/indusind-bank-dismisses-former-ceo-sumant-kathpalia-after-disciplinary-inquiry-14085907.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-extend-gains-nifty-ends-near-25-400-sensex-jumps-427-pts-14082389.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/india-s-consumption-story-now-rests-on-urban-top-cohorts-and-platforms-as-rural-influence-fades-14082770.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/adani-energy-solutions-bags-1-750-mw-renewable-power-supply-project-from-bengal-discom-14086186.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/banks/bombay-high-court-declines-immediate-document-disclosure-in-br-shetty-s-15-billion-suit-against-bank-of-baroda-14084565.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/apl-apollo-tubes-promoter-family-explores-stake-sale-deal-size-could-top-rs-32-000-crore-with-open-offer-14084693.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/india-doesn-t-need-its-own-avengers-it-needs-the-world-to-want-its-ramayana-bernstein-on-prime-focus-14082007.html": "Article fetch failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/technical-view-sustained-move-above-25-500-key-to-further-nifty-50-upside-consolidation-likely-as-momentum-indicators-near-overbought-zone-14082501.html": "Article fetch failed: HTTP Error 403: Forbidden"
-  },
+  "errors": {},
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
     "rss_unique_recent_articles": 12,
     "decoded_moneycontrol_urls": 12,
     "unresolved_google_links": 0,
-    "article_fetch_failures": 12,
-    "excluded_old": 79,
+    "article_fetch_failures": 0,
+    "excluded_old": 96,
     "excluded_undated": 0,
     "excluded_future": 0
   },
-  "items": []
+  "items": [
+    {
+      "source": "Moneycontrol",
+      "stock": "State Bank of India",
+      "title": "Trade Spotlight: How should you trade State Bank of India, Indraprastha Gas, Bank of Baroda, Vijaya... - Moneycontrol.com",
+      "published_at": "2026-11-19T02:34:26+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
+      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
+      "entry": "",
+      "target": "",
+      "stop_loss": "",
+      "holding_period": "",
+      "recommendation_status": "Trade section detected - verify holding period",
+      "section_verified": true,
+      "extraction_note": "Values extracted only when explicitly labelled. Blank fields mean the article section did not provide a clearly labelled value."
+    }
+  ]
 }
