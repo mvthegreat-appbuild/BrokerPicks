@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T10:32:25.027357+00:00",
+  "updated": "2026-11-22T11:16:39.558913+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -93,8 +93,15 @@
     },
     "IRCTC": {
       "name": "IRCTC",
-      "status": "unavailable",
-      "error": "Server returned an error response"
+      "cmp": 448.8,
+      "change": -1.1,
+      "change_percent": -0.24,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 534653,
+      "timestamp": "2026-11-20 16:00:28",
+      "status": "success"
     },
     "KAYNES": {
       "name": "Kaynes",
