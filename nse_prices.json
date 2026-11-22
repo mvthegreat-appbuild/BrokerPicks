@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T02:33:41.551320+00:00",
+  "updated": "2026-11-22T03:23:42.498968+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -35,8 +35,8 @@
       "timestamp": "2026-11-20 16:00:28",
       "status": "success"
     },
-    "CANARA BANK": {
-      "name": "Canara Bank",
+    "BHARAT ELECTRONICS": {
+      "name": "Bharat Electronics",
       "status": "unavailable",
       "error": "CMP unavailable"
     },
@@ -115,6 +115,18 @@
       "timestamp": "2026-11-20 16:00:28",
       "status": "success"
     },
+    "M&M": {
+      "name": "Mahindra & Mahindra",
+      "cmp": 3545.0,
+      "change": 36.0,
+      "change_percent": 1.03,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 3534774,
+      "timestamp": "2026-11-20 16:00:28",
+      "status": "success"
+    },
     "MARUTI SUZUKI": {
       "name": "Maruti Suzuki",
       "status": "unavailable",
@@ -122,13 +134,13 @@
     },
     "MOTHERSON": {
       "name": "Motherson",
-      "cmp": 0.0,
-      "change": 0.0,
-      "change_percent": 0.0,
+      "cmp": 166.53,
+      "change": 1.09,
+      "change_percent": 0.66,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 0,
+      "volume": 16767823,
       "timestamp": "2026-11-20 16:00:28",
       "status": "success"
     },
