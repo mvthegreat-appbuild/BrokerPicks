@@ -1,10 +1,15 @@
 {
-  "updated": "2026-11-23T06:48:25.861314+00:00",
+  "updated": "2026-11-23T08:14:38.244122+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
     "ABB INDIA": {
       "name": "ABB India",
+      "status": "unavailable",
+      "error": "CMP unavailable"
+    },
+    "ADANI PORTS": {
+      "name": "Adani Ports",
       "status": "unavailable",
       "error": "CMP unavailable"
     },
@@ -18,21 +23,16 @@
       "status": "unavailable",
       "error": "CMP unavailable"
     },
-    "AUROBINDO PHARMA": {
-      "name": "Aurobindo Pharma",
-      "status": "unavailable",
-      "error": "CMP unavailable"
-    },
     "BAJFINANCE": {
       "name": "Bajaj Finance",
-      "cmp": 1107.3,
-      "change": -14.0,
-      "change_percent": -1.25,
+      "cmp": 1101.5,
+      "change": -19.95,
+      "change_percent": -1.78,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 6038266,
-      "timestamp": "2026-11-23 12:17:43",
+      "volume": 7114174,
+      "timestamp": "2026-11-23 13:44:11",
       "status": "success"
     },
     "BHARAT ELECTRONICS": {
@@ -45,35 +45,6 @@
       "status": "unavailable",
       "error": "CMP unavailable"
     },
-    "EICHER MOTORS": {
-      "name": "Eicher Motors",
-      "status": "unavailable",
-      "error": "CMP unavailable"
-    },
-    "GRASIM": {
-      "name": "Grasim",
-      "cmp": 3092.2,
-      "change": -16.8,
-      "change_percent": -0.54,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 242238,
-      "timestamp": "2026-11-23 12:17:43",
-      "status": "success"
-    },
-    "HAL": {
-      "name": "Hindustan Aeronautics",
-      "cmp": 4781.4,
-      "change": -28.3,
-      "change_percent": -0.59,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 203773,
-      "timestamp": "2026-11-23 12:17:43",
-      "status": "success"
-    },
     "HINDUSTAN UNILEVER": {
       "name": "Hindustan Unilever",
       "status": "unavailable",
@@ -81,50 +52,43 @@
     },
     "ICICIBANK": {
       "name": "ICICI Bank",
-      "cmp": 1608.8,
-      "change": -31.6,
-      "change_percent": -1.93,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 8413243,
-      "timestamp": "2026-11-23 12:17:43",
-      "status": "success"
+      "status": "unavailable",
+      "error": "Server returned an error response"
     },
     "IRCTC": {
       "name": "IRCTC",
-      "cmp": 447.9,
-      "change": -0.2,
-      "change_percent": -0.04,
+      "cmp": 445.2,
+      "change": -2.65,
+      "change_percent": -0.59,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 333661,
-      "timestamp": "2026-11-23 12:17:43",
+      "volume": 454799,
+      "timestamp": "2026-11-23 13:44:11",
       "status": "success"
     },
     "KAYNES": {
       "name": "Kaynes",
-      "cmp": 2853.0,
-      "change": -56.7,
-      "change_percent": -1.95,
+      "cmp": 2816.9,
+      "change": -91.9,
+      "change_percent": -3.16,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 992241,
-      "timestamp": "2026-11-23 12:17:43",
+      "volume": 1262039,
+      "timestamp": "2026-11-23 13:44:11",
       "status": "success"
     },
     "M&M": {
       "name": "Mahindra & Mahindra",
-      "cmp": 3508.9,
-      "change": -35.0,
-      "change_percent": -0.99,
+      "cmp": 3503.2,
+      "change": -42.8,
+      "change_percent": -1.21,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 1427953,
-      "timestamp": "2026-11-23 12:17:43",
+      "volume": 1865631,
+      "timestamp": "2026-11-23 13:44:11",
       "status": "success"
     },
     "MARUTI SUZUKI": {
@@ -134,62 +98,50 @@
     },
     "MOTHERSON": {
       "name": "Motherson",
-      "cmp": 165.41,
-      "change": -1.12,
-      "change_percent": -0.67,
+      "cmp": 164.9,
+      "change": -1.63,
+      "change_percent": -0.98,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 5574812,
-      "timestamp": "2026-11-23 12:17:43",
-      "status": "success"
-    },
-    "NMDC": {
-      "name": "NMDC",
-      "cmp": 67.34,
-      "change": -1.56,
-      "change_percent": -2.26,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 15698062,
-      "timestamp": "2026-11-23 12:17:43",
+      "volume": 6867282,
+      "timestamp": "2026-11-23 13:44:11",
       "status": "success"
     },
     "NTPC": {
       "name": "NTPC",
-      "cmp": 318.8,
-      "change": -2.6,
-      "change_percent": -0.81,
+      "cmp": 315.65,
+      "change": -5.9,
+      "change_percent": -1.84,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 5512598,
-      "timestamp": "2026-11-23 12:17:43",
+      "volume": 6521605,
+      "timestamp": "2026-11-23 13:44:11",
       "status": "success"
     },
     "POLYCAB": {
       "name": "Polycab",
-      "cmp": 7483.5,
-      "change": -80.0,
-      "change_percent": -1.06,
+      "cmp": 7406.5,
+      "change": -168.0,
+      "change_percent": -2.22,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 201656,
-      "timestamp": "2026-11-23 12:17:43",
+      "volume": 337885,
+      "timestamp": "2026-11-23 13:44:11",
       "status": "success"
     },
-    "TMPV": {
-      "name": "Tata Motors",
-      "cmp": 260.8,
-      "change": -5.4,
-      "change_percent": -2.03,
+    "SWIGGY": {
+      "name": "Swiggy",
+      "cmp": 177.32,
+      "change": -1.05,
+      "change_percent": -0.59,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 5054458,
-      "timestamp": "2026-11-23 12:17:43",
+      "volume": 8163016,
+      "timestamp": "2026-11-23 13:44:11",
       "status": "success"
     }
   }
