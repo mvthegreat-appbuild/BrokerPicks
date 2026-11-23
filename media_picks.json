@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T22:41:52.470333+00:00",
+  "updated": "2026-11-23T23:40:34.639204+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -23,7 +23,7 @@
     "decoded_moneycontrol_urls": 8,
     "unresolved_google_links": 0,
     "article_fetch_failures": 8,
-    "excluded_rss_old": 101,
+    "excluded_rss_old": 100,
     "excluded_rss_undated": 0,
     "excluded_rss_future": 0,
     "excluded_original_old": 0,
