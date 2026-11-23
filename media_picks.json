@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T23:09:44.209469+00:00",
+  "updated": "2026-11-23T00:08:29.012351+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -11,6 +11,7 @@
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-tvs-motor-quess-corp-avenue-supermarts-gujarat-fluorochemicals-pidilite-industries-and-others-on-november-20-14085294.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-deepak-fertilisers-adani-energy-honasa-consumer-international-gemological-institute-hyundai-motor-and-others-on-november-18-14082995.html": "Article fetch failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-general-insurance-corp-aditya-birla-real-estate-godrej-consumer-fortis-healthcare-kpr-mill-and-others-on-november-17-14081798.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-alicon-castalloy-ramkrishna-forgings-kwality-walls-indus-towers-ge-vernova-t-d-and-others-on-november-16-14080744.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/banks/indusind-bank-dismisses-former-ceo-sumant-kathpalia-after-disciplinary-inquiry-14085907.html": "Article fetch failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/stocks/taking-stock-markets-extend-gains-nifty-ends-near-25-400-sensex-jumps-427-pts-14082389.html": "Article fetch failed: HTTP Error 403: Forbidden",
@@ -21,11 +22,11 @@
   },
   "method_note": "Moneycontrol-only pilot. Articles are filtered using Google News RSS publication dates within the rolling last 10 days. Undated, old and future-dated items are excluded. Google News links are decoded to original Moneycontrol URLs. Only trade-related articles are considered. Stock mentions are not automatically treated as confirmed recommendations. Entry, target, stop-loss and holding period are extracted only when explicitly labelled in the article text. Missing values remain blank. Publisher pages may block automated access or change their layout.",
   "diagnostics": {
-    "rss_unique_recent_articles": 10,
-    "decoded_moneycontrol_urls": 10,
+    "rss_unique_recent_articles": 11,
+    "decoded_moneycontrol_urls": 11,
     "unresolved_google_links": 0,
-    "article_fetch_failures": 10,
-    "excluded_old": 96,
+    "article_fetch_failures": 11,
+    "excluded_old": 95,
     "excluded_undated": 0,
     "excluded_future": 0
   },
