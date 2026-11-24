@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T23:02:31.041291+00:00",
+  "updated": "2026-11-24T23:48:51.996458+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -98,13 +98,13 @@
     },
     "MOTHERSON": {
       "name": "Motherson",
-      "cmp": 165.76,
-      "change": -0.77,
-      "change_percent": -0.46,
+      "cmp": 0.0,
+      "change": 0.0,
+      "change_percent": 0.0,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 10332285,
+      "volume": 0,
       "timestamp": "2026-11-23 16:00:27",
       "status": "success"
     },
