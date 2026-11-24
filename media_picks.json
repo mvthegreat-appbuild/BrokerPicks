@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T18:46:23.211358+00:00",
+  "updated": "2026-11-24T19:54:05.865850+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -10,18 +10,19 @@
   "errors": {
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-power-grid-corporation-federal-bank-eih-bajaj-holdings-indian-hotels-and-others-on-november-23-14086788.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-tvs-motor-quess-corp-avenue-supermarts-gujarat-fluorochemicals-pidilite-industries-and-others-on-november-20-14085294.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-deepak-fertilisers-adani-energy-honasa-consumer-international-gemological-institute-hyundai-motor-and-others-on-november-18-14082995.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/markets-turn-green-sensex-recovers-550-pts-from-day-s-low-nifty-near-25-300-key-factors-behind-market-rebound-14084220.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/india-s-best-earnings-quarter-in-nearly-three-years-already-prices-in-a-slower-h2fy27-hsbc-14087179.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/banks/indusind-bank-dismisses-former-ceo-sumant-kathpalia-after-disciplinary-inquiry-14085907.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/nsel-releases-rs-1-950-crore-pay-out-seeks-to-close-13-year-payment-default-14087334.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/tvs-family-feud-venu-srinivasan-readies-reply-to-daughter-lakshmi-venu-s-partition-notice-likely-to-cite-past-family-pacts-reports-cnbc-tv18-14084709.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/india/stockpricequote/oil-drillingexploration/petronetlng/PLN": "Article fetch/date verification failed: HTTP Error 403: Forbidden"
   },
   "method_note": "Moneycontrol-only strict collector. Google News RSS is used for discovery only. Every article must have a publication date verified from the original Moneycontrol page and be within the rolling last 10 days. A stock is accepted only from an explicit stock heading containing CMP; related stories, navigation, chart labels and arbitrary article mentions are not treated as picks. Confirmed items require Strategy, CMP/entry, target and stop-loss from the same stock section. Incomplete stock sections are stored separately in watchlist_items. Old, undated and future-dated pages are excluded. Missing values are never invented. This is automated extraction, not investment advice.",
   "diagnostics": {
-    "rss_unique_recent_articles": 7,
-    "decoded_moneycontrol_urls": 7,
+    "rss_unique_recent_articles": 8,
+    "decoded_moneycontrol_urls": 8,
     "unresolved_google_links": 0,
-    "article_fetch_failures": 7,
+    "article_fetch_failures": 8,
     "excluded_rss_old": 101,
     "excluded_rss_undated": 0,
     "excluded_rss_future": 0,
