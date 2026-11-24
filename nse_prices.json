@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T01:40:48.912475+00:00",
+  "updated": "2026-11-24T02:38:31.947885+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -23,20 +23,8 @@
       "status": "unavailable",
       "error": "CMP unavailable"
     },
-    "BAJFINANCE": {
-      "name": "Bajaj Finance",
-      "cmp": 1095.5,
-      "change": -26.5,
-      "change_percent": -2.36,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 9622884,
-      "timestamp": "2026-11-23 16:00:27",
-      "status": "success"
-    },
-    "BHARAT ELECTRONICS": {
-      "name": "Bharat Electronics",
+    "CANARA BANK": {
+      "name": "Canara Bank",
       "status": "unavailable",
       "error": "CMP unavailable"
     },
@@ -44,6 +32,18 @@
       "name": "Cummins",
       "status": "unavailable",
       "error": "CMP unavailable"
+    },
+    "GRASIM": {
+      "name": "Grasim",
+      "cmp": 3075.2,
+      "change": -28.5,
+      "change_percent": -0.92,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 492568,
+      "timestamp": "2026-11-23 16:00:27",
+      "status": "success"
     },
     "HINDUSTAN UNILEVER": {
       "name": "Hindustan Unilever",
@@ -86,17 +86,10 @@
       "timestamp": "2026-11-23 16:00:27",
       "status": "success"
     },
-    "M&M": {
-      "name": "Mahindra & Mahindra",
-      "cmp": 3487.4,
-      "change": -57.6,
-      "change_percent": -1.62,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 2693707,
-      "timestamp": "2026-11-23 16:00:27",
-      "status": "success"
+    "LARSEN & TOUBRO": {
+      "name": "Larsen & Toubro",
+      "status": "unavailable",
+      "error": "CMP unavailable"
     },
     "MARUTI SUZUKI": {
       "name": "Maruti Suzuki",
@@ -136,6 +129,18 @@
       "high": null,
       "low": null,
       "volume": 513154,
+      "timestamp": "2026-11-23 16:00:27",
+      "status": "success"
+    },
+    "RVNL": {
+      "name": "RVNL",
+      "cmp": 185.1,
+      "change": -5.9,
+      "change_percent": -3.09,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 11664878,
       "timestamp": "2026-11-23 16:00:27",
       "status": "success"
     },
