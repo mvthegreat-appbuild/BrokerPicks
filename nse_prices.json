@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T15:39:41.230372+00:00",
+  "updated": "2026-11-25T16:42:37.414592+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -11,7 +11,7 @@
     "AMARA RAJA": {
       "name": "Amara Raja",
       "status": "unavailable",
-      "error": "CMP unavailable"
+      "error": "Server returned an error response"
     },
     "ASHOK LEYLAND": {
       "name": "Ashok Leyland",
@@ -59,13 +59,13 @@
     },
     "MOTHERSON": {
       "name": "Motherson",
-      "cmp": 0.0,
-      "change": 0.0,
-      "change_percent": 0.0,
+      "cmp": 166.26,
+      "change": 0.5,
+      "change_percent": 0.3,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 0,
+      "volume": 27287019,
       "timestamp": "2026-11-25 16:00:29",
       "status": "success"
     },
@@ -112,8 +112,15 @@
     },
     "SWIGGY": {
       "name": "Swiggy",
-      "status": "unavailable",
-      "error": "Server returned an error response"
+      "cmp": 177.07,
+      "change": 0.1,
+      "change_percent": 0.06,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 17703508,
+      "timestamp": "2026-11-25 16:00:29",
+      "status": "success"
     },
     "TATA CONSUMER": {
       "name": "Tata Consumer",
