@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T16:42:37.414592+00:00",
+  "updated": "2026-11-25T17:29:02.984501+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -11,7 +11,7 @@
     "AMARA RAJA": {
       "name": "Amara Raja",
       "status": "unavailable",
-      "error": "Server returned an error response"
+      "error": "CMP unavailable"
     },
     "ASHOK LEYLAND": {
       "name": "Ashok Leyland",
