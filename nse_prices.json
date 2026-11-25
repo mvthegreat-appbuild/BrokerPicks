@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T14:40:00.295181+00:00",
+  "updated": "2026-11-25T15:39:41.230372+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -59,13 +59,13 @@
     },
     "MOTHERSON": {
       "name": "Motherson",
-      "cmp": 166.26,
-      "change": 0.5,
-      "change_percent": 0.3,
+      "cmp": 0.0,
+      "change": 0.0,
+      "change_percent": 0.0,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 27287019,
+      "volume": 0,
       "timestamp": "2026-11-25 16:00:29",
       "status": "success"
     },
@@ -112,15 +112,8 @@
     },
     "SWIGGY": {
       "name": "Swiggy",
-      "cmp": 177.07,
-      "change": 0.1,
-      "change_percent": 0.06,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 17703508,
-      "timestamp": "2026-11-25 16:00:29",
-      "status": "success"
+      "status": "unavailable",
+      "error": "Server returned an error response"
     },
     "TATA CONSUMER": {
       "name": "Tata Consumer",
