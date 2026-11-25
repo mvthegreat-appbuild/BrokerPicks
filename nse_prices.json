@@ -1,13 +1,8 @@
 {
-  "updated": "2026-11-25T02:49:32.099424+00:00",
+  "updated": "2026-11-25T03:46:17.394336+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
-    "ABB INDIA": {
-      "name": "ABB India",
-      "status": "unavailable",
-      "error": "CMP unavailable"
-    },
     "ADANI PORTS": {
       "name": "Adani Ports",
       "status": "unavailable",
@@ -23,71 +18,30 @@
       "status": "unavailable",
       "error": "CMP unavailable"
     },
-    "CANARA BANK": {
-      "name": "Canara Bank",
-      "status": "unavailable",
-      "error": "CMP unavailable"
-    },
-    "CUMMINS": {
-      "name": "Cummins",
-      "status": "unavailable",
-      "error": "CMP unavailable"
-    },
-    "GRASIM": {
-      "name": "Grasim",
-      "cmp": 3075.2,
-      "change": -28.5,
-      "change_percent": -0.92,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 492568,
-      "timestamp": "2026-11-23 16:00:27",
-      "status": "success"
-    },
     "HINDUSTAN UNILEVER": {
       "name": "Hindustan Unilever",
       "status": "unavailable",
       "error": "CMP unavailable"
     },
+    "HINDUSTAN ZINC": {
+      "name": "Hindustan Zinc",
+      "status": "unavailable",
+      "error": "CMP unavailable"
+    },
     "ICICIBANK": {
       "name": "ICICI Bank",
-      "cmp": 1585.5,
-      "change": -54.5,
-      "change_percent": -3.32,
+      "cmp": 1617.0,
+      "change": 31.5,
+      "change_percent": 1.99,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 22243169,
+      "volume": 1170325,
       "timestamp": "2026-11-23 16:00:27",
       "status": "success"
     },
     "IRCTC": {
       "name": "IRCTC",
-      "cmp": 448.0,
-      "change": -0.05,
-      "change_percent": -0.01,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 608804,
-      "timestamp": "2026-11-23 16:00:27",
-      "status": "success"
-    },
-    "KAYNES": {
-      "name": "Kaynes",
-      "cmp": 2809.0,
-      "change": -101.0,
-      "change_percent": -3.47,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 1603217,
-      "timestamp": "2026-11-23 16:00:27",
-      "status": "success"
-    },
-    "LARSEN & TOUBRO": {
-      "name": "Larsen & Toubro",
       "status": "unavailable",
       "error": "CMP unavailable"
     },
@@ -98,63 +52,73 @@
     },
     "MOTHERSON": {
       "name": "Motherson",
-      "cmp": 0.0,
+      "cmp": 165.67,
+      "change": 0.5,
+      "change_percent": 0.3,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 612514,
+      "timestamp": "2026-11-25 09:16:27",
+      "status": "success"
+    },
+    "NTPC": {
+      "name": "NTPC",
+      "cmp": 315.75,
       "change": 0.0,
       "change_percent": 0.0,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 0,
-      "timestamp": "2026-11-23 16:00:27",
+      "volume": 210710,
+      "timestamp": "2026-11-25 09:16:26",
       "status": "success"
     },
-    "NTPC": {
-      "name": "NTPC",
-      "cmp": 315.45,
-      "change": -6.05,
-      "change_percent": -1.88,
+    "ONGC": {
+      "name": "ONGC",
+      "cmp": 222.65,
+      "change": -0.63,
+      "change_percent": -0.28,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 10087220,
-      "timestamp": "2026-11-23 16:00:27",
+      "volume": 302781,
+      "timestamp": "2026-11-25 09:16:27",
       "status": "success"
     },
     "POLYCAB": {
       "name": "Polycab",
-      "cmp": 7430.0,
+      "cmp": 7339.5,
       "change": -140.0,
-      "change_percent": -1.85,
+      "change_percent": -1.88,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 513154,
-      "timestamp": "2026-11-23 16:00:27",
+      "volume": 28877,
+      "timestamp": "2026-11-25 09:16:26",
       "status": "success"
     },
-    "RVNL": {
-      "name": "RVNL",
-      "cmp": 185.1,
-      "change": -5.9,
-      "change_percent": -3.09,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 11664878,
-      "timestamp": "2026-11-23 16:00:27",
-      "status": "success"
+    "STATE BANK OF INDIA": {
+      "name": "State Bank of India",
+      "status": "unavailable",
+      "error": "CMP unavailable"
     },
     "SWIGGY": {
       "name": "Swiggy",
-      "cmp": 176.97,
-      "change": -1.23,
-      "change_percent": -0.69,
+      "cmp": 180.0,
+      "change": 3.02,
+      "change_percent": 1.71,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 11736214,
-      "timestamp": "2026-11-23 16:00:27",
+      "volume": 343649,
+      "timestamp": "2026-11-25 09:16:26",
       "status": "success"
+    },
+    "TATA CONSUMER": {
+      "name": "Tata Consumer",
+      "status": "unavailable",
+      "error": "CMP unavailable"
     }
   }
 }
