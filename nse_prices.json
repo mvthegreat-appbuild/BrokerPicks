@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T01:19:13.747922+00:00",
+  "updated": "2026-11-26T02:27:44.472493+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -55,7 +55,7 @@
     "MARUTI SUZUKI": {
       "name": "Maruti Suzuki",
       "status": "unavailable",
-      "error": "Server returned an error response"
+      "error": "CMP unavailable"
     },
     "MOTHERSON": {
       "name": "Motherson",
