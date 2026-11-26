@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T02:12:44.077514+00:00",
+  "updated": "2026-11-26T03:25:54.199226+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -10,21 +10,37 @@
   "errors": {},
   "method_note": "Moneycontrol-only strict collector. Google News RSS is used for discovery only. Every article must have a publication date verified from the original Moneycontrol page and be within the rolling last 10 days. A stock is accepted only from an explicit stock heading containing CMP; related stories, navigation, chart labels and arbitrary article mentions are not treated as picks. Confirmed items require Strategy, CMP/entry, target and stop-loss from the same stock section. Incomplete stock sections are stored separately in watchlist_items. Old, undated and future-dated pages are excluded. Missing values are never invented. This is automated extraction, not investment advice.",
   "diagnostics": {
-    "rss_unique_recent_articles": 9,
-    "decoded_moneycontrol_urls": 9,
+    "rss_unique_recent_articles": 8,
+    "decoded_moneycontrol_urls": 8,
     "unresolved_google_links": 0,
     "article_fetch_failures": 0,
-    "excluded_rss_old": 98,
+    "excluded_rss_old": 99,
     "excluded_rss_undated": 0,
     "excluded_rss_future": 0,
     "excluded_original_old": 0,
     "excluded_original_undated": 1,
     "excluded_original_future": 0,
     "confirmed_recommendations": 12,
-    "unverified_trade_candidates": 6,
-    "explicit_stock_sections_detected": 18
+    "unverified_trade_candidates": 5,
+    "explicit_stock_sections_detected": 17
   },
   "items": [
+    {
+      "source": "Moneycontrol",
+      "stock": "EIH",
+      "title": "Trade Spotlight: How should you trade Hero MotoCorp, InterGlobe Aviation, Eternal, Belrise Industries,... - Moneycontrol.com",
+      "published_at": "2026-11-26T03:20:51+00:00",
+      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-hero-motocorp-interglobe-aviation-eternal-belrise-industries-endurance-technologies-and-others-on-november-26-14089244.html",
+      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-hero-motocorp-interglobe-aviation-eternal-belrise-industries-endurance-technologies-and-others-on-november-26-14089244.html",
+      "entry": "340.25",
+      "target": "360",
+      "stop_loss": "435.10",
+      "holding_period": "",
+      "recommendation_status": "Confirmed recommendation - verify before trading",
+      "section_verified": true,
+      "date_verified": true,
+      "extraction_note": "Original Moneycontrol publication date verified within 10 days. Stock is accepted only from an explicit stock heading containing CMP; values are extracted only from that stock's section. Confirmed records require Strategy, CMP/entry, target and stop-loss. Missing values are never estimated."
+    },
     {
       "source": "Moneycontrol",
       "stock": "EIH",
@@ -200,22 +216,6 @@
       "section_verified": true,
       "date_verified": true,
       "extraction_note": "Original Moneycontrol publication date verified within 10 days. Stock is accepted only from an explicit stock heading containing CMP; values are extracted only from that stock's section. Confirmed records require Strategy, CMP/entry, target and stop-loss. Missing values are never estimated."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "Godrej Consumer Products",
-      "title": "Trade Spotlight: How should you trade State Bank of India, Indraprastha Gas, Bank of Baroda, Vijaya... - Moneycontrol.com",
-      "published_at": "2026-11-19T02:34:26+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
-      "entry": "896.45",
-      "target": "940",
-      "stop_loss": "874",
-      "holding_period": "",
-      "recommendation_status": "Confirmed recommendation - verify before trading",
-      "section_verified": true,
-      "date_verified": true,
-      "extraction_note": "Original Moneycontrol publication date verified within 10 days. Stock is accepted only from an explicit stock heading containing CMP; values are extracted only from that stock's section. Confirmed records require Strategy, CMP/entry, target and stop-loss. Missing values are never estimated."
     }
   ],
   "watchlist_items": [
@@ -290,22 +290,6 @@
       "published_at": "2026-11-20T02:45:28+00:00",
       "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-tvs-motor-quess-corp-avenue-supermarts-gujarat-fluorochemicals-pidilite-industries-and-others-on-november-20-14085294.html",
       "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-tvs-motor-quess-corp-avenue-supermarts-gujarat-fluorochemicals-pidilite-industries-and-others-on-november-20-14085294.html",
-      "entry": "",
-      "target": "",
-      "stop_loss": "",
-      "holding_period": "",
-      "recommendation_status": "Unverified article - not a confirmed recommendation",
-      "section_verified": true,
-      "date_verified": true,
-      "extraction_note": "Original Moneycontrol publication date verified within 10 days. Stock is accepted only from an explicit stock heading containing CMP; values are extracted only from that stock's section. Confirmed records require Strategy, CMP/entry, target and stop-loss. Missing values are never estimated."
-    },
-    {
-      "source": "Moneycontrol",
-      "stock": "State Bank of India",
-      "title": "Trade Spotlight: How should you trade State Bank of India, Indraprastha Gas, Bank of Baroda, Vijaya... - Moneycontrol.com",
-      "published_at": "2026-11-19T02:34:26+00:00",
-      "article_url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
-      "link": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-state-bank-of-india-indraprastha-gas-bank-of-baroda-vijaya-diagnostic-centre-prestige-estates-and-others-on-november-19-14084108.html",
       "entry": "",
       "target": "",
       "stop_loss": "",
