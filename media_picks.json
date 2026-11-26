@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T04:35:48.275058+00:00",
+  "updated": "2026-11-26T05:51:14.530730+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -10,15 +10,15 @@
   "errors": {},
   "method_note": "Moneycontrol-only strict collector. Google News RSS is used for discovery only. Every article must have a publication date verified from the original Moneycontrol page and be within the rolling last 10 days. A stock is accepted only from an explicit stock heading containing CMP; related stories, navigation, chart labels and arbitrary article mentions are not treated as picks. Confirmed items require Strategy, CMP/entry, target and stop-loss from the same stock section. Incomplete stock sections are stored separately in watchlist_items. Old, undated and future-dated pages are excluded. Missing values are never invented. This is automated extraction, not investment advice.",
   "diagnostics": {
-    "rss_unique_recent_articles": 8,
-    "decoded_moneycontrol_urls": 8,
+    "rss_unique_recent_articles": 9,
+    "decoded_moneycontrol_urls": 9,
     "unresolved_google_links": 0,
     "article_fetch_failures": 0,
-    "excluded_rss_old": 99,
+    "excluded_rss_old": 98,
     "excluded_rss_undated": 0,
     "excluded_rss_future": 0,
     "excluded_original_old": 1,
-    "excluded_original_undated": 0,
+    "excluded_original_undated": 1,
     "excluded_original_future": 0,
     "confirmed_recommendations": 12,
     "unverified_trade_candidates": 5,
