@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T18:45:06.174520+00:00",
+  "updated": "2026-11-26T19:54:39.844933+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -8,27 +8,26 @@
   },
   "collection_window_days": 10,
   "errors": {
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-coforge-torrent-pharma-siemens-energy-union-bank-of-india-motilal-oswal-and-others-on-november-25-14088338.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-hero-motocorp-interglobe-aviation-eternal-belrise-industries-endurance-technologies-and-others-on-november-26-14089244.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-power-grid-corporation-federal-bank-eih-bajaj-holdings-indian-hotels-and-others-on-november-23-14086788.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-hero-motocorp-interglobe-aviation-eternal-belrise-industries-endurance-technologies-and-others-on-november-26-14089244.html/amp": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-coforge-torrent-pharma-siemens-energy-union-bank-of-india-motilal-oswal-and-others-on-november-25-14088338.html/amp": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-tvs-motor-quess-corp-avenue-supermarts-gujarat-fluorochemicals-pidilite-industries-and-others-on-november-20-14085294.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-26-top-15-things-to-know-before-the-opening-bell-14089120.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-power-grid-corporation-federal-bank-eih-bajaj-holdings-indian-hotels-and-others-on-november-23-14086788.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/author/duhita-thapliyal-PTI/": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/trade-setup-for-november-26-top-15-things-to-know-before-the-opening-bell-14089120.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/company-article/pine-labs/news/PLL01": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/action-construction-shares-rise-7-as-cabinet-approves-rs-11-000-cr-scheme-to-boost-cie-manufacturing-ecosystem-in-india-14089491.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/markets/sensex-gains-1-500-pts-nifty-near-25-800-lower-crude-prices-among-key-factors-behind-market-rise-14088394.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/sensex-falls-300-pts-from-day-s-high-nifty-below-25-900-key-reasons-behind-market-paring-gains-14089444.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/sensex-rises-400-pts-from-day-s-low-nifty-near-25-850-persistent-fii-buying-among-key-factors-behind-market-gain-14089278.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/action-construction-shares-rise-7-as-cabinet-approves-rs-11-000-cr-scheme-to-boost-cie-manufacturing-ecosystem-in-india-14089491.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
     "https://www.moneycontrol.com/news/business/india-s-best-earnings-quarter-in-nearly-three-years-already-prices-in-a-slower-h2fy27-hsbc-14087179.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
-    "https://www.moneycontrol.com/news/business/markets/technical-view-bulls-charge-towards-26-000-on-nifty-50-after-decisive-breakout-bank-nifty-eyes-65-000-next-week-as-record-rally-continues-14085729.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden"
+    "https://www.moneycontrol.com/news/business/markets/sensex-falls-300-pts-from-day-s-high-nifty-below-25-900-key-reasons-behind-market-paring-gains-14089444.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden",
+    "https://www.moneycontrol.com/news/business/markets/sensex-rises-400-pts-from-day-s-low-nifty-near-25-850-persistent-fii-buying-among-key-factors-behind-market-gain-14089278.html": "Article fetch/date verification failed: HTTP Error 403: Forbidden"
   },
   "method_note": "Moneycontrol-only strict collector. Google News RSS is used for discovery only. Every article must have a publication date verified from the original Moneycontrol page and be within the rolling last 10 days. A stock is accepted only from an explicit stock heading containing CMP; related stories, navigation, chart labels and arbitrary article mentions are not treated as picks. Confirmed items require Strategy, CMP/entry, target and stop-loss from the same stock section. Incomplete stock sections are stored separately in watchlist_items. Old, undated and future-dated pages are excluded. Missing values are never invented. This is automated extraction, not investment advice.",
   "diagnostics": {
-    "rss_unique_recent_articles": 13,
-    "decoded_moneycontrol_urls": 13,
+    "rss_unique_recent_articles": 12,
+    "decoded_moneycontrol_urls": 12,
     "unresolved_google_links": 0,
-    "article_fetch_failures": 13,
-    "excluded_rss_old": 94,
+    "article_fetch_failures": 12,
+    "excluded_rss_old": 95,
     "excluded_rss_undated": 0,
     "excluded_rss_future": 0,
     "excluded_original_old": 0,
