@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T22:45:37.638861+00:00",
+  "updated": "2026-11-26T23:45:00.235764+00:00",
   "sources": [
     "Moneycontrol"
   ],
@@ -13,7 +13,7 @@
     "site:moneycontrol.com \"swing trading\"": "HTTP Error 503: Service Unavailable",
     "site:moneycontrol.com \"positional trade\"": "HTTP Error 503: Service Unavailable",
     "site:moneycontrol.com \"positional call\"": "HTTP Error 503: Service Unavailable",
-    "site:moneycontrol.com \"short-term trade\"": "HTTP Error 429: Too Many Requests"
+    "site:moneycontrol.com \"short-term trade\"": "HTTP Error 503: Service Unavailable"
   },
   "method_note": "Moneycontrol-only strict collector. Google News RSS is used for discovery only. Every article must have a publication date verified from the original Moneycontrol page and be within the rolling last 10 days. A stock is accepted only from an explicit stock heading containing CMP; related stories, navigation, chart labels and arbitrary article mentions are not treated as picks. Confirmed items require Strategy, CMP/entry, target and stop-loss from the same stock section. Incomplete stock sections are stored separately in watchlist_items. Old, undated and future-dated pages are excluded. Missing values are never invented. This is automated extraction, not investment advice.",
   "diagnostics": {
