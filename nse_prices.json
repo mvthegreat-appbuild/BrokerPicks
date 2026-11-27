@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T03:15:54.539678+00:00",
+  "updated": "2026-11-27T04:22:27.748276+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -8,13 +8,30 @@
       "status": "unavailable",
       "error": "CMP unavailable"
     },
-    "AMARA RAJA": {
-      "name": "Amara Raja",
+    "AUROBINDO PHARMA": {
+      "name": "Aurobindo Pharma",
       "status": "unavailable",
       "error": "CMP unavailable"
     },
-    "ASHOK LEYLAND": {
-      "name": "Ashok Leyland",
+    "CDSL": {
+      "name": "CDSL",
+      "cmp": 1455.6,
+      "change": 14.0,
+      "change_percent": 0.97,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 507484,
+      "timestamp": "2026-11-27 09:51:26",
+      "status": "success"
+    },
+    "CEAT": {
+      "name": "CEAT",
+      "status": "unavailable",
+      "error": "CMP unavailable"
+    },
+    "CANARA BANK": {
+      "name": "Canara Bank",
       "status": "unavailable",
       "error": "CMP unavailable"
     },
@@ -23,33 +40,28 @@
       "status": "unavailable",
       "error": "CMP unavailable"
     },
-    "HINDUSTAN ZINC": {
-      "name": "Hindustan Zinc",
-      "status": "unavailable",
-      "error": "CMP unavailable"
-    },
     "ICICIBANK": {
       "name": "ICICI Bank",
-      "cmp": 1611.0,
-      "change": -29.0,
-      "change_percent": -1.77,
+      "cmp": 1614.7,
+      "change": 3.5,
+      "change_percent": 0.22,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 15390377,
-      "timestamp": "2026-11-26 16:00:28",
+      "volume": 1159659,
+      "timestamp": "2026-11-27 09:51:26",
       "status": "success"
     },
-    "IRCTC": {
-      "name": "IRCTC",
-      "cmp": 454.0,
-      "change": 12.15,
-      "change_percent": 2.75,
+    "INDIGO": {
+      "name": "IndiGo",
+      "cmp": 5697.0,
+      "change": 68.9,
+      "change_percent": 1.22,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 988543,
-      "timestamp": "2026-11-26 16:00:28",
+      "volume": 120985,
+      "timestamp": "2026-11-27 09:51:26",
       "status": "success"
     },
     "MARUTI SUZUKI": {
@@ -57,52 +69,28 @@
       "status": "unavailable",
       "error": "CMP unavailable"
     },
-    "MOTHERSON": {
-      "name": "Motherson",
-      "cmp": 164.61,
-      "change": -1.65,
-      "change_percent": -0.99,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 17876797,
-      "timestamp": "2026-11-26 16:00:28",
-      "status": "success"
-    },
-    "NTPC": {
-      "name": "NTPC",
-      "cmp": 320.25,
-      "change": 2.25,
-      "change_percent": 0.71,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 8883265,
-      "timestamp": "2026-11-26 16:00:28",
-      "status": "success"
-    },
-    "ONGC": {
-      "name": "ONGC",
-      "cmp": 222.88,
-      "change": 0.88,
-      "change_percent": 0.4,
-      "open": null,
-      "high": null,
-      "low": null,
-      "volume": 10172670,
-      "timestamp": "2026-11-26 16:00:28",
-      "status": "success"
-    },
     "POLYCAB": {
       "name": "Polycab",
-      "cmp": 7350.0,
-      "change": -29.0,
-      "change_percent": -0.39,
+      "cmp": 7494.5,
+      "change": 146.5,
+      "change_percent": 1.99,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 594715,
-      "timestamp": "2026-11-26 16:00:28",
+      "volume": 137485,
+      "timestamp": "2026-11-27 09:51:26",
+      "status": "success"
+    },
+    "PRESTIGE": {
+      "name": "Prestige Estates",
+      "cmp": 1833.1,
+      "change": 1.0,
+      "change_percent": 0.05,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 322214,
+      "timestamp": "2026-11-27 09:51:26",
       "status": "success"
     },
     "STATE BANK OF INDIA": {
@@ -112,18 +100,30 @@
     },
     "SWIGGY": {
       "name": "Swiggy",
-      "cmp": 182.93,
-      "change": 5.86,
-      "change_percent": 3.31,
+      "cmp": 184.79,
+      "change": 1.87,
+      "change_percent": 1.02,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 17947510,
-      "timestamp": "2026-11-26 16:00:28",
+      "volume": 2402656,
+      "timestamp": "2026-11-27 09:51:26",
       "status": "success"
     },
-    "TATA CONSUMER": {
-      "name": "Tata Consumer",
+    "TATASTEEL": {
+      "name": "Tata Steel",
+      "cmp": 165.95,
+      "change": 2.35,
+      "change_percent": 1.44,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": 12525102,
+      "timestamp": "2026-11-27 09:51:26",
+      "status": "success"
+    },
+    "TECH MAHINDRA": {
+      "name": "Tech Mahindra",
       "status": "unavailable",
       "error": "CMP unavailable"
     }
