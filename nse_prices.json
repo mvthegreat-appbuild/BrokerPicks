@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T09:50:32.333126+00:00",
+  "updated": "2026-11-27T10:39:47.353468+00:00",
   "source": "NSE CM Market MCP",
   "delay_note": "NSE data may be delayed. Informational use only.",
   "stocks": {
@@ -15,14 +15,14 @@
     },
     "CDSL": {
       "name": "CDSL",
-      "cmp": 1452.9,
-      "change": 11.9,
+      "cmp": 1453.0,
+      "change": 12.0,
       "change_percent": 0.83,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 3399481,
-      "timestamp": "2026-11-27 15:19:26",
+      "volume": 3413886,
+      "timestamp": "2026-11-27 16:00:28",
       "status": "success"
     },
     "CEAT": {
@@ -42,26 +42,26 @@
     },
     "ICICIBANK": {
       "name": "ICICI Bank",
-      "cmp": 1593.8,
-      "change": -17.2,
-      "change_percent": -1.07,
+      "cmp": 1593.4,
+      "change": -17.6,
+      "change_percent": -1.09,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 8447041,
-      "timestamp": "2026-11-27 15:19:26",
+      "volume": 8937833,
+      "timestamp": "2026-11-27 16:00:28",
       "status": "success"
     },
     "INDIGO": {
       "name": "IndiGo",
-      "cmp": 5645.0,
-      "change": 20.0,
-      "change_percent": 0.36,
+      "cmp": 5659.6,
+      "change": 34.6,
+      "change_percent": 0.62,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 850732,
-      "timestamp": "2026-11-27 15:19:26",
+      "volume": 863174,
+      "timestamp": "2026-11-27 16:00:28",
       "status": "success"
     },
     "MARUTI SUZUKI": {
@@ -71,26 +71,26 @@
     },
     "POLYCAB": {
       "name": "Polycab",
-      "cmp": 7445.0,
-      "change": 95.0,
-      "change_percent": 1.29,
+      "cmp": 7429.0,
+      "change": 79.0,
+      "change_percent": 1.07,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 479454,
-      "timestamp": "2026-11-27 15:19:26",
+      "volume": 507320,
+      "timestamp": "2026-11-27 16:00:28",
       "status": "success"
     },
     "PRESTIGE": {
       "name": "Prestige Estates",
-      "cmp": 1795.8,
-      "change": -36.3,
-      "change_percent": -1.98,
+      "cmp": 1796.7,
+      "change": -35.4,
+      "change_percent": -1.93,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 1429038,
-      "timestamp": "2026-11-27 15:19:26",
+      "volume": 1436449,
+      "timestamp": "2026-11-27 16:00:28",
       "status": "success"
     },
     "STATE BANK OF INDIA": {
@@ -100,14 +100,14 @@
     },
     "SWIGGY": {
       "name": "Swiggy",
-      "cmp": 180.45,
-      "change": -2.48,
-      "change_percent": -1.36,
+      "cmp": 180.0,
+      "change": -2.93,
+      "change_percent": -1.6,
       "open": null,
       "high": null,
       "low": null,
-      "volume": 10481076,
-      "timestamp": "2026-11-27 15:19:26",
+      "volume": 10598800,
+      "timestamp": "2026-11-27 16:00:28",
       "status": "success"
     },
     "TATASTEEL": {
@@ -118,8 +118,8 @@
       "open": null,
       "high": null,
       "low": null,
-      "volume": 43203837,
-      "timestamp": "2026-11-27 15:19:26",
+      "volume": 43802173,
+      "timestamp": "2026-11-27 16:00:28",
       "status": "success"
     },
     "TECH MAHINDRA": {
