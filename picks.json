@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 03:30 UTC",
+ "updated": "2026-11-28 03:22 UTC",
  "brokers": [
   "Motilal Oswal",
   "ICICI Direct",
@@ -28,10 +28,84 @@
  ],
  "items": [
   {
+   "broker": "Motilal Oswal",
+   "title": "Buy Tenneco Clean Air Ltd For Target Rs.655 by Motilal Oswal Financial Services Ltd",
+   "source": "Investment Guru India",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOb293RHQ3NUUzVXcxZ2hSUHZ4N3lFaGd5OXBLMlhjMGJFaXNkWFNMTEdDWmpMLUZibVJ6aDIzR2dXUTNVcGRRNEtzVk9jdndvMThGNk8zd05JTmNkNWhtWWFRZk9TbVJ1MkVHV1l0VHI2TEtEeUh3WmN5aWticEVucTJUT2d4SExLemk5aGxMek9JamUxNEJSbmZOVHZnU1VTY0lERUllZ1lBWXdXX21kekt0N2RWV25nVzJwdXFJbzNBdmlPUVBHZHlUMUY?oc=5",
+   "date": "2026-11-27",
+   "target": "655",
+   "stop_loss": "",
+   "period": "",
+   "call": "BUY",
+   "stocks": []
+  },
+  {
+   "broker": "Motilal Oswal",
+   "title": "Dixon Technologies and 4 Other Stocks to Buy Now for an Upside of Up to 72%; Recommended by Motilal Oswal Financial Services",
+   "source": "Trade Brains",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQdEY0NmNfNThXRTNvZHVtUUxqby1aN0J5MXl3MWFoMG9Nc0RFWnhBRmJoV2NQRGlyZ0NNbGJxeV9VWkJzemFGMXVSTzI2d2hqN3dJczRMdElMTTJGblRCUHg3UklQbHZKMTUtZThmekUyTlA2VFExd3lVV2ZCNXg3MGZiVHBycUlZX1k1Mk53U1BnN2lIWFJqSmRVQ202ZlQwbmlTQW5XQTJJbENUWERycTBTbVdibHJQdVQxMlZtWkxFenpCTU1jT3BmdnBtWG5IWkF4N09YUDdFMGZRanBYSXp6S1NLTXFQNm1zY2Rkek9taTRHRDlDWTdxM1ZzQQ?oc=5",
+   "date": "2026-11-27",
+   "target": "2700",
+   "stop_loss": "",
+   "period": "",
+   "call": "BUY",
+   "stocks": [
+    "Dixon"
+   ]
+  },
+  {
    "broker": "HDFC Securities",
    "title": "Stocks To Buy: Nagaraj Shetti Of HDFC Securities Picks These Two Shares For Short-Term",
    "source": "NDTV Profit",
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYTZMS1JsdTluejhGeUduSk9jby1NSXVhSml2bkxVZGxySTFNdUFscngyNTZfbnZ1VWg3R0NLV20wbnFMTEFnRmtfYW91ckkzTkZZcXc2NVd2Zmd4cmNDOXJfT0lWVWtENzJabTlDRGtCaFotbmdRb2dhTE9TeWt0U2NyTTJ2XzlwUzU2dG9QblVFbE1tT0QwRjUzNURyS2UzWTlPT1I4b1NXZnVXWGdzNzNpdm9pZFBMeWUydVZnYkFfb1lJVjRidtIB0AFBVV95cUxQTHU3VEcybXktZWFDY05QTWIzN0c3UWFtbC1PN1hxd0dEb3FpMzAwRzdLSVJkdUZsYVNDdHNTOHgtMU5JczZ0aXp3SHlNeHpJQTU2TC1yOWMtMjNaQ1pqejc4aU9KdlJhWi1mVHFKUXJmWGF5V29DOHhDeExqclN3cDR5OFluTnBzM2FuY3B6SGF5UnZKU3Y2QXFBMXRURTJodDlJYWZYYVNwVkU3eVFsOTlldjVxQVdEbnFsOTVacDJjdFg4LURvYUJuc1JDVDdw?oc=5",
+   "date": "2026-11-27",
+   "target": "",
+   "stop_loss": "",
+   "period": "",
+   "call": "BUY",
+   "stocks": []
+  },
+  {
+   "broker": "Sharekhan",
+   "title": "Brent to test $100 in coming days, says Mirae Asset Sharekhan; here's why",
+   "source": "Business Standard",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQkRyZTFGcFlTaDc5T1JDSDNfdWVTbFpWV3FlVThCWlJhc2N1SHBXN0tVOTBTcE1CX09lWDZaTEdPRlZBa2lDNEpCV0o3b1BOS3M0cDJjUmR3NVRjUHJXSHQ3OWZqRXJyVFZlbUJRSnVncUZNbnluS3B6cWZpZWVod0VEUEx0dWNueW9ZTGtEdERyTjJQVno5Z0ZtdjdFRHk3Z3RqMjNueDlGMmhkUGpGby1iaHpxOXNzNkppcTh1YUE2ajlPbE5hNnphY1BuQ0dNWUMw0gHYAUFVX3lxTE53aFRHZXVPelYwNzJaYlEyZGktbk5Bd1JNQUxDanJKaFZpcVJzb3lpMXBwVktOeTIyZW42THBvRVY3c1V3YUdXN1BlNEJZWDFPWTJnRVZxZUJ2bzd3YTlVUjhGUUJaa3NGMkJmczVtZ1hoX2JnYzJ6N2pmcHctUFdlV3pjaU1uUGRzV3NHaVpQeEMway1aeGlEd0J0NGhKSTJMUkN5aTJxVGFOUGkzRUpSbmktcnVBdTRheklBRVFIVmo4ODRtVUZGY2VxMDJaSElmTGUweGRYag?oc=5",
+   "date": "2026-11-27",
+   "target": "",
+   "stop_loss": "",
+   "period": "",
+   "call": "",
+   "stocks": []
+  },
+  {
+   "broker": "Sharekhan",
+   "title": "Zee Business. . शॉर्ट टर्म, पोजीशनल और लॉन्ग टर्म के लिए Mirae Asset Sharekhan Ltd के कुणाल शाह की 3 बेहतरीन मिडकैप Picks       \n\nShort Term - Meesho Ltd\n\nPositional Term - Data Patterns (India) Ltd\n\nLong Term - Welspun Corp Ltd\n\n#SPLMidcapStocks #MidcapStocks",
+   "source": "Facebook",
+   "link": "https://news.google.com/rss/articles/CBMirAVBVV95cUxNTXRoYzFGU2x2b2FsOF9aSnA0c2tLVWZaUG9nUTZMV3Q5Z0dGc0puSzN5WTVueElUOVlMcGdKMkt1T0tab1V6NENKNjJLS0tDOEh0bHdxTHl1cjFxUDMtRFczT0xUTUJ1LWx2Nmx1Y3hwNGx2UEFpMVR3cDBrckk5STBpT2dWT1FwRER0eXhsNzJRN1ZPcWM2a3BnTmxDRFJDYVI5ckNFUTJIVk0zQ1o2cjhNb2IwOXZ6aFpjby1BQktqazc2eTFGZlpsYlM1TF9EbXRnZGp6TFd5ZzFEcHc0SmkyelBFNVhVMi12WGhCejRwdzdHSnRNUnB6LUxjNFpwZGt5ZUhvNm9qM1pSZlQxSzMzSnBkZFNkSUh3M0RmZVdabzV1d2VsVVFOVG83UmNBSk14Tzh0VE9YdXZJMXMtWDNLS2g0MFZFcGc0ZmZLUEtLRzZ0TXByaFlxUlZyeFJrT18tWGhFdDBQUmdUMk55T2tTNXF4bU90UkoxTDFhTTVoWVhhWjR4NWx5OXhUS0s2eS1zMExJVzBXV3cwX3cyS0dSazIxMVppeTJSNENUVnIxSURTZHB3c3VYX0hkU2VfWk4zUjNwOW9PbjNpMlhGc01iQkJPeHlJd3RRb0hBVEotNGR1SUstaGxFQXFaNjJxaVpWMXJhRkhjRlVlbmtRQlpXQ213Zy1hSWRteVJwWnFHZFFzZ1lxTnNpQTEzLUlzLWF1SGViWGxhQi1iOVdWdHI3OElCN0dzNlRGUHR5bjhNc2FPTEN2YTRHWGlnYmV5Vk40Qm4wMjJoZGtXaWJCYUFWb19PRDIyQk9uZHpPYkhBZVE3MDgwLS1kVTlnQTQxdk5sUzA1WC10MzRQNHItZk1OUVZDNklKX1ViSTlhOG9BVGtzb0c3Z2c4NjI?oc=5",
+   "date": "2026-11-27",
+   "target": "",
+   "stop_loss": "",
+   "period": "",
+   "call": "",
+   "stocks": []
+  },
+  {
+   "broker": "IIFL Capital",
+   "title": "eClerx to hold virtual investor meeting with IIFL Capital on Nov 27",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYWpyR0huVGpKRFNneTludHpQNXRnU2dDRHVrSmJCUVQxZFY5NGZucmJ6T0IxSUtQb1JlZ2RiM2Z3Y1RERDlYY3VXSVd5S1JKRER4UEZzbk1hMEx6elhiNWJxOFF1UFltRDRJSkJWQnRYS0JrS003Zzl2MWJiOVlyZV92ZFpSX2JnNlZHVGZ5bkZuOHZEVnM5Sk9BMDRWSUZTRnUxQXRLSGhkMERYd29Mel9DNA?oc=5",
+   "date": "2026-11-27",
+   "target": "",
+   "stop_loss": "",
+   "period": "",
+   "call": "",
+   "stocks": []
+  },
+  {
+   "broker": "Anand Rathi",
+   "title": "Mahanadi Coalfields gets Buy rating from Anand Rathi on listing day. Check target price",
+   "source": "The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPM2p5RGp1a2xKVGYwSjBYRXU3c0ZpTHRkbEN6andtOE52eVVUTWFMeVNhbGUtSGxaWHZRV3B3OWlUUDRsT24yczRiVzYwWnN3endEMnhUZXBwTW1CMmRIMWZ1a0VpdlU3TkoxY0J6YU1jTm8xcU1JczJBbDlscGdLb29jSHk5UVdnX3NSaVR4cFZZT09oU2ZOT2x1eUVtd1dLR0tvT3NJZFI3RW1LSnZKQVVjZlUyRmU3TDlEUXhpOV81YzQ0RFcySVFKS3pnVEYwS2xhYV9qejhZNW1FQUloSDUzWFJpMnRpYUllX3hwbVhud9IB9wFBVV95cUxQUzg2RzR4YkxkRk9aRHBiM3ZjQ2lpb01EZ2MtQm9vVFU1N25qNlB2bW1oZ08xM2FwLS1sTTJocnpKZ1RKeUZDa2NHNkJTcTVWdjZEcW53VHZCN1hHNUs1S3luV0xTN3QxWXF3Q3JKSEl1TENMUm1MUFdtX21YOUpxT2liX29MSnNERk55X3NSdjRmOVUtMXpfcEo1aWV1WXJoSDhNM3lpSFp1OU5LUkFwTHpCblRiazdiQk1MRmxKRkhLbmxKamZpOFZLWnNtelFTRVJQZUJITno2bXZYSDgteDUzaElheF8zbmV4WTdEVzMyVVgzWEkw?oc=5",
    "date": "2026-11-27",
    "target": "",
    "stop_loss": "",
@@ -54,10 +128,62 @@
    ]
   },
   {
+   "broker": "Geojit",
+   "title": "Best 3 stocks to buy under ₹200: NCC, Geojit Financial, Patel Engineering shares by Mehul Kothari of Anand Rathi",
+   "source": "Livemint",
+   "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOYldBZmpoQTRpNFd5YU01ZkZSWVV2MXpOZThFRUhJdExRQzNNYTItS0Z5Y1ViSXdxQldrT2dqdzRTSnR2dUhndFVobjVMSTJXZU1wX1UzZjc4bEU3VF9EX2VNc0Q3Mmw0T0dHbXl0R2YxNi12WWQxSThYWk12dlVNS3RWYzJlMnhVakI3eVFlbThKQjRxWDJCbDVxQzExUkFnSnVzWVRJSU1fOEVFS0htVWpRcVpKbG1RSjFpNFZ3MEZhblc2N05HR2pQbUNvYXFRV1pVanBLM0dMWURKejg3TFppWDQ3LWpoZEJCdVpZOWxEZFlYN0Zqc1d1VmZ2Mll3ZnRvTF9LY2VQM1RJNmfSAZMCQVVfeXFMUFFwX3VFNVlqUjJ2NjZ5eUdaVm9uZmx6bHB6WlZ5cC0xd0txUnlJNUtVbVZkdlhUS2ROTTVkY19CQndFeHJPdk9ZdEx5R2YySGhsVVR4WnN0Z3FCZ3dNOFZYS1VKWHh6UnU2V0IyeUZGUFliVmZud1ZBeHdHZ2djcS1SdDN5SGZOUkVpMS1JbVdzMm1CbVNuUG4tMld5aUxoOFkxT1ItaHFmeUFHdERrMVBpLVhrVGJNMW9TSk9aQWhzSU5uQVJsdm1FZk0zc3o0eFVxVzlWNVVoX1JJYmtzeC1yOWVYWEloMmVLSVhaQy1MelZBaTY1TmtmRnp1VXZFbkRVX3l3Sk5ldkp6UGp1U1Rodk0?oc=5",
+   "date": "2026-11-27",
+   "target": "200",
+   "stop_loss": "",
+   "period": "",
+   "call": "BUY",
+   "stocks": []
+  },
+  {
+   "broker": "Prabhudas Lilladher",
+   "title": "PL Capital High Conviction Stocks: HUL, Astral, Grindwell",
+   "source": "Univest",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSVlPWGdIdGxtTUJocS11Zmt4V2VteHZLdkkyZkhaWE9SYkNpbE1nSW9mTFFmb2xWZjhIZjd0VU9RWldZTWZ3VllGN3NwQUFLdGJ0cDFORmlCdEI4anpaQTNZQVp0UEd4UnYwNWJFNVJEMTlxcjd2eWJvbU5xZnY4ZXJiVUkyUzdyanYxTkdvSDFKdkxuQjFnZUlvdDcwVTBWTVowTXFXOEdTZVMyd0V6TnNTdFdlQ1dsaTRUakVmTW9RdEl3?oc=5",
+   "date": "2026-11-27",
+   "target": "",
+   "stop_loss": "",
+   "period": "12 to 15 months",
+   "call": "",
+   "stocks": [
+    "Hindustan Unilever"
+   ]
+  },
+  {
+   "broker": "Ventura",
+   "title": "Lenskart Solutions Share Price Target at Rs 941: Ventura Securities",
+   "source": "TopNews",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdDhQMUpZbDVVeWN3Z3RxWDNnZnppNVh6enlPbElWRlpEcm91QTFGVF9mZ1Vsc0N4aUt1ZlhUSDNKLVYxdWlaeHhiOV9DSFBycE5NOV9RWUcxMzhxc1M1VHFwaDJIU1lTM3hmcTdSNGxNTF8wMy05OWF1cGpScGJZWHQxMW8wUzdjOUgzb1E1MWttRWZo?oc=5",
+   "date": "2026-11-27",
+   "target": "941",
+   "stop_loss": "",
+   "period": "24 months",
+   "call": "",
+   "stocks": [
+    "Lenskart"
+   ]
+  },
+  {
+   "broker": "Motilal Oswal",
+   "title": "Ventive Hospitality Share Price Target at Rs 700: Motilal Oswal Financial Services",
+   "source": "TopNews",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNDdLN01UR1RJdlB6LVV0dGZEbzk0Ujg1YzEyOWotenJtU0FtUFhoejhQcEZNSzhmcVVOWU1PVFhrUWdjVkRwNktRaDVqRnMzQ2hmN2dmVENVdG1VaURzMThXeG5pS1g5ZmVfVnFxR0ZzaUppQk1oQm9BWnluOEoxNG9XUmp4Y3UtVnJzRU5XUXM4WkN4Z0VRVUpNY1JpblVqcmRRTXUyZ0c?oc=5",
+   "date": "2026-11-26",
+   "target": "700",
+   "stop_loss": "",
+   "period": "",
+   "call": "",
+   "stocks": []
+  },
+  {
    "broker": "ICICI Direct",
-   "title": "ICICI Securities upgrades Garden Reach Shipbuilders & Engineers Ltd. (GRSE) to a Buy",
-   "source": "The Globe and Mail",
-   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOekxBR2hjM0RfaTZFb3R1T25fN2E5TVZQR25mQWdFSXVQd3JTLWE5THdWcmdyTS1RYzdnbVctT196VF96bXNTdjluOHUxWWdBRFVlYm5zTWNqYk82TWZ5Nm1sbF96a3I5N3pjZXoySk9meWZfS25DWnV3N0tmQlNUNDUzRXFjejE2QTFOMWg5aVVBbEkydVRJNmdlbGM0Znc2Ul9MX2hJTXpZd1M1UjUwZ2NTeG9zVGE2ZFo4LUJHaWZmUEpjTWM5V0FPaER1aE5lLUZEUjdXS0xrRHdjVEVfdm90VkRHbllHWGlody01RmhCZw?oc=5",
+   "title": "NSE Share Price Record High: ICICI Securities Buy, Targets",
+   "source": "Univest",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWXV2Mjgzd1hackNyTWp6bUxTUTEzTDRrcnZjRGh6Skljc2lKOEtzaUVmRHV5QldsNnRqNk51LVNBQkFjRkczUERhSWdhak40MzNYcmFlc255MzNiQXNIWGhtRVhZZEJDVDU5b0F0X0RPa0Y4QU9sT3Z4WnBBOUNhUlpDMzdKb2NWVXRRaWNRYVJIS3Z4VHFNUHVYMmNLbk5pd3BJQVpPM2JDTHVPZGxNQkRsRWJjSkxlbjFyRnI0Uk9acjJwU1VyMUlQUXZVaV9o?oc=5",
    "date": "2026-11-26",
    "target": "",
    "stop_loss": "",
@@ -67,9 +193,9 @@
   },
   {
    "broker": "ICICI Direct",
-   "title": "NSE Share Price Record High: ICICI Securities Buy, Targets",
-   "source": "Univest",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWXV2Mjgzd1hackNyTWp6bUxTUTEzTDRrcnZjRGh6Skljc2lKOEtzaUVmRHV5QldsNnRqNk51LVNBQkFjRkczUERhSWdhak40MzNYcmFlc255MzNiQXNIWGhtRVhZZEJDVDU5b0F0X0RPa0Y4QU9sT3Z4WnBBOUNhUlpDMzdKb2NWVXRRaWNRYVJIS3Z4VHFNUHVYMmNLbk5pd3BJQVpPM2JDTHVPZGxNQkRsRWJjSkxlbjFyRnI0Uk9acjJwU1VyMUlQUXZVaV9o?oc=5",
+   "title": "ICICI Securities upgrades Garden Reach Shipbuilders & Engineers Ltd. (GRSE) to a Buy",
+   "source": "The Globe and Mail",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOekxBR2hjM0RfaTZFb3R1T25fN2E5TVZQR25mQWdFSXVQd3JTLWE5THdWcmdyTS1RYzdnbVctT196VF96bXNTdjluOHUxWWdBRFVlYm5zTWNqYk82TWZ5Nm1sbF96a3I5N3pjZXoySk9meWZfS25DWnV3N0tmQlNUNDUzRXFjejE2QTFOMWg5aVVBbEkydVRJNmdlbGM0Znc2Ul9MX2hJTXpZd1M1UjUwZ2NTeG9zVGE2ZFo4LUJHaWZmUEpjTWM5V0FPaER1aE5lLUZEUjdXS0xrRHdjVEVfdm90VkRHbllHWGlody01RmhCZw?oc=5",
    "date": "2026-11-26",
    "target": "",
    "stop_loss": "",
@@ -96,18 +222,6 @@
    "title": "BSE shares gain 3%, hit 4-month high on HDFC Securities' upgrade to 'Buy'",
    "source": "Business Standard",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZDRncXRLLVFtTmRsWUhLWnFqQnlLa0g3MUUtNG5VakpWLTZNYUV1SUpETzdQNnJ0dmI1VUIzMC1nOTZvS0RDLTVDajR5R2FweGxQVVlfTHhIalFLOVJTZE5FY1I1c1JhamJLNk1pVVVQY1J3MjJBQ1k4ZGROX3d2dVdSM18td2NVWnZBZUNIckRPOG5zYUZKeGhaTmcxZ0xjN2lSTmV0REl5NDEyT1NYMXFKWFI5Rmk0MUQ3QWRheS1oN1ZkLUI5eHIxamxwX3pQ0gHWAUFVX3lxTE9KaERqNUxpcjFuZVJ3cUdkWWhCZmhiZkpJQU5zeEJ3a1VvVEU0LS1NaFJIaERLT29sLWNEV05HYzRCOTBEc1FhWjFMSWozcjlkMVZ0TW9ZQW1ieTgwTGU2WXFkb0I2UHpoUUFIaXRxay1MSEFKXzVPeFhkX2lTTllDaGdkWDJ1aFBNMWY0U0RJbkpudGVQUkstLVhKNUliYXczU3RiLVBpY3QyajkwTVhiUDExRUpENmJrbElaWGZVai00TDM5d3dlOFZNQTkzaE5JUGhlVmc?oc=5",
-   "date": "2026-11-26",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "BUY",
-   "stocks": []
-  },
-  {
-   "broker": "HDFC Securities",
-   "title": "BSE Share Price Rises 4% as HDFC Securities Upgrades Stock to Buy",
-   "source": "Equitypandit",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQVlVeGxoTzRKeHg0dDVNZ3pqNzRIMjVCQ3lXbmhrNE1LeUJvUENoUV91OWVXbnFBNXo4cUVzVEk1bC1sYmtybHMwT0xHSXRZWmhoS3I5eDZwdTJ5M3dhejB4YWd2SXF5eW1Jdk45VUNoSHhSZGdaM2ZoWnE3c25WZ01XVVE4cnhoZGJRSDh3SnRnMVM5UllhaVRB?oc=5",
    "date": "2026-11-26",
    "target": "",
    "stop_loss": "",
@@ -186,18 +300,6 @@
    "target": "1750",
    "stop_loss": "",
    "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "HDFC Securities",
-   "title": "APL Apollo Tubes shares extend losses, down 31% in 3 days as HDFC Securities delivers latest downgrade. Wh",
-   "source": "The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPRVE2aTdfbFpsNUF2ZGo4d0E0LTVZbUdkdGFhMHF6S2lCcTh2eUx0Y2ZIOTJlTGpPODl2c29JdjhFemRQV0RsNTIxY3lqUXFfOFlYbVhrdXJNUnFIaGJSLXVXN043MWdaMDVpWVVYQm9Ga1o3VUkwQnliNTN0V2tUVDhuUGRkV25Zc2gzcDQydFUxQXpqZDN6emZ0OHRRS1NnZzZ2NWtGS0Jkdjl5dzdzNW00dHVpMkZhbGI5bnFud1gtV2RDNUt6UE9JdVRGZ25idUdNdy1WaTRyaW1venVyWDdXRHdlbk5hLU1fUXphLXFRb2d4SVQwenZMSGNBX2VXSzhqdE1JeVRhc0RtcWc2VtIBlgJBVV95cUxOa2dqeVJKdWd6UGd6b3VJTDNLM0ZxNnFTTG9WX29uaWZPNEZkRndoMWx1N192ZmQtVm45dVp1MzNuNVFkSmNfWXZFMDNLUlVRY3F3YjZLMUNFMXgzMTU5UzN0SFU0Qm5MR19iLWc0LXFHcllheHk5a09hYko0T0tnbWRIeUJWbE91VXJYaGxvenpEdGdWUVUzaUdHd1A0YnVFTkxWRC1uYXdLNURKWWNlbXV5TzUyM1pQZy1Zc3hRTG5MQVJlaE8yaGtsMVVHdzJBQUpHZG83MTRYZmF3NWF6ZjlJS2hPVHVhSElBaDlVOUh2SVJ6N2NjVWU3NmNudXFoRVB6S1UyU0NIZmREOExsSFQ3WjBvdw?oc=5",
-   "date": "2026-11-26",
-   "target": "",
-   "stop_loss": "",
-   "period": "3 days",
    "call": "",
    "stocks": []
   },
@@ -296,20 +398,6 @@
    "stocks": []
   },
   {
-   "broker": "Religare Broking",
-   "title": "Trade Idea of The Day - Aurobindo Pharma Ltd Target Rs.5 - Religare Broking Ltd",
-   "source": "Investment Guru India",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOW5QaDR5QVMxalZRSTJQZVVFZzZHZHB6U2FfMkk0Z2dBd1hOWFZwSHVOZXdtSzBYNEhjOFZaSVMtdXJzTnZMLURDMnJ5VVhybU81NE5Oc2J4UEUtLXktYmsxeVJfQnV0ZzVkR3dyVGtYZDhCVmVSYW5qSWgtelp1aVRFS3JpbUtJbWpxaHMyRkt4VlUxZWl4RllXSG9GV2hNaDhoRERCU0lNcXd4RXllTjhIYTZQUkc1N1NaTjEtQXlxcl83UDI0?oc=5",
-   "date": "2026-11-26",
-   "target": "5",
-   "stop_loss": "42",
-   "period": "",
-   "call": "",
-   "stocks": [
-    "Aurobindo Pharma"
-   ]
-  },
-  {
    "broker": "Prabhudas Lilladher",
    "title": "Check Nifty target, Top Stocks to Buy: PL Capital adds HUL, Astral, Grindwell to high-conviction list | Full List",
    "source": "Livemint",
@@ -337,6 +425,18 @@
   },
   {
    "broker": "Motilal Oswal",
+   "title": "Buy APL Apollo Tubes; target of Rs 2,220: Motilal Oswal",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVXVBeG43Z0poODBoRXVCekl4Y0tNLXFjX3A2c1JDNHA3S001NlRSMDRrVHJ6SFdvajRPN09kR3poRVRlTDJudmtxLVdsNDlzWWlVTnFjRVAwcTNteEpBeFJhdmtBUTRwTnpjRmlUcE4yNmFydlBjaWx2VWliY1ltU1I1M20tTld4V09vSExqQThiUlRKTGE5U1FjRHM5enk3UnBMWUg2U2UxVldWN3I5MDNRZXlYR0U?oc=5",
+   "date": "2026-11-25",
+   "target": "2220",
+   "stop_loss": "",
+   "period": "",
+   "call": "BUY",
+   "stocks": []
+  },
+  {
+   "broker": "Motilal Oswal",
    "title": "Buy TATA Steel; target of Rs 190: Motilal Oswal",
    "source": "Moneycontrol.com",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX2V6M3JjV205d1YxZjE2U1NQbmNhM3ZyWHBzZ21WVF9HYmFBQk5XME8xODBaMHdUV0x6ZEhLOEkwM0NIcWVuVjRMbEoyQUliQ3pkemdnRWg1b3lzSjFDNTJEVTdsNy00R2NKSFd4V1VZcGZ4U3dOcHZieko2TDFDd1F0M3VpV2JFdjRBZ2o3QlpGM2ZHcl9tVWRwLXRZMHdDd3B5NVJOd21YUTduVnlCalB6MW1PbjTSAbwBQVVfeXFMTThiSHlHR3B4TnRUSGdOem8zQ3RjUmx5MlJZbGJLdV9RRXZaZTBaRmg2NTlUQ05SV0tJYVBsTkpyNUhEaFZMZXEyTzdEN3ZBTXNIeW5IdDcwYnRUMGxCaGdrSGQ4TU01aGVHZEJpTF9obnc1N0M5LTU0X3BnVl9pV09QejNPMS1vN1A2ZEtoVDBuX1ZnQ1NqU1Q1VV9WTnY4T1BjMExBeWF0eXl5ZERLbFE3OUJSOVVGWW9qQWc?oc=5",
@@ -351,47 +451,40 @@
   },
   {
    "broker": "Motilal Oswal",
-   "title": "Buy APL Apollo Tubes; target of Rs 2,220: Motilal Oswal",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVXVBeG43Z0poODBoRXVCekl4Y0tNLXFjX3A2c1JDNHA3S001NlRSMDRrVHJ6SFdvajRPN09kR3poRVRlTDJudmtxLVdsNDlzWWlVTnFjRVAwcTNteEpBeFJhdmtBUTRwTnpjRmlUcE4yNmFydlBjaWx2VWliY1ltU1I1M20tTld4V09vSExqQThiUlRKTGE5U1FjRHM5enk3UnBMWUg2U2UxVldWN3I5MDNRZXlYR0U?oc=5",
-   "date": "2026-11-25",
-   "target": "2220",
-   "stop_loss": "",
-   "period": "",
-   "call": "BUY",
-   "stocks": []
-  },
-  {
-   "broker": "Motilal Oswal",
-   "title": "Buy Welspun Living Ltd For Target Rs.320 by Motilal Oswal Financial Services Ltd",
-   "source": "Investment Guru India",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLVpjeVRBQ2IyMS1jVGh5U0xQdURrb1E0YncwaGZ0MWxuc1V3MDdFVk1qbEtoVl9UbFhvdTJKMGJ2RldXTWZaTnVSQXJWYVBCNFJJMVMtVG9lbVFyRTdiN1lYVUp5SDJCanY1aHZHZVNHY25VOUllT0VNZDdrX1UxS2xBRElrbVAzaHZCSDVfenZKTmE0ZnkwS0ZjUkMxNkRSbEswaXFaV1dqRWpiSnl0ejBTRWVxeFNKZGRhVkNhZ01wdkJWQWZ0Tw?oc=5",
-   "date": "2026-11-25",
-   "target": "320",
-   "stop_loss": "",
-   "period": "",
-   "call": "BUY",
-   "stocks": []
-  },
-  {
-   "broker": "Motilal Oswal",
-   "title": "Buy Welspun Living; target of Rs 320: Motilal Oswal",
-   "source": "Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWHNKbGJVZG1hVXNLSzZfVnVBZnpDMEhQdnBTazRLYjNOQ2tKenFFc293bXpsMXEyZkk4MXZKclY3OVNVOFg2ZlBxTkZLak8wbC1GQWxOLXJ4ZWlvWVRmOGZvb0dXR0RCamI5a09IcEpBaERqeDU5d20taTZhdDJRb1AtelpseUFnVEltazVjU0RLVHRMTnMtM05CdXFjZk5mbHVFMWtNOUw5Z9IBrwFBVV95cUxQOXBCRzdORkNjdGdDUVAtZGhOeTFLTzZpUFNkZU1EdGg3bFpDU1hSQ21GYkstTGRUUzBjeWNlOTFMcTkxZUplMnFZSWpFNmpBeEVvTWdhRVE4cFFBd2hyclNLbnJxd1ZmUFl1TzFmTVR6cnAtTHFpcVpodDVzNTJjRDFmaGNFRzRpdmZfdmI1N2NnWW9lTWhZR2loR0JERExKejFiMjRqQkJqYXFvOFZn?oc=5",
-   "date": "2026-11-25",
-   "target": "320",
-   "stop_loss": "",
-   "period": "",
-   "call": "BUY",
-   "stocks": []
-  },
-  {
-   "broker": "Motilal Oswal",
    "title": "Buy APL Apollo Tubes Ltd For Target Rs.2,220 by Motilal Oswal Financial Services Ltd",
    "source": "Investment Guru India",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblB4WjBMaDRmamtKLUtGZ2IxY19HaUd2U2ItNzA1WnZRVWNJZm1INXVPSk1CLURsU2hHc2RCWS1hNWwxbm1ncWxsNGtCSzRiN0dHNkRWdTI2NVJwaWRIUjNiOHo5VjBEVVhqQnJRVWNHTWNINjA3VkRncnE4Sm9GSWp5TkE5U0k4VnZWV2gxYXQtRGxTWTZHaGlZbDhSU2Exa1pZLWIwSS15d0hrcTdWai1kWFBTSG53UkZ3aGcwQVBfNnFpaXh4RmExRTZPZw?oc=5",
    "date": "2026-11-25",
    "target": "2220",
+   "stop_loss": "",
+   "period": "",
+   "call": "BUY",
+   "stocks": []
+  },
+  {
+   "broker": "Motilal Oswal",
+   "title": "Trade Spotlight: How should you trade Coforge, Torrent Pharma, Siemens Energy, Union Bank of India, Motilal Oswal, and others on November 25?",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNeHhMdjZPWEZzRnZBUkcycXZvNlF5OWd4bHJYWnlYQ0pnRFBOMTBnUm1YaG1jZXVLN3BVMERkNnFGVXZlSjNLdEhyTk8xV1RxWDZxUWFhd3o2N0lnSUFpTHFxWDlSajBCb0RqVnNZVzNFNENVZS1RenV2aEFVR2o5N2hGYnA1WVNBU2ZFTm5YQ1RfMXJiN2pSSGRVbGFndUxha3VXWGVlN1N0bmtyNjd1UWY4WHVpSEwtOTEySmZRSW82UXEwUzJMZlBuMHpPRlJyQUg5bURhcDdhTENXQ1o3Tk0zRU40TGhLLXIwY2FvcTZTSUVqd1A5ZE1kLTZGUmpoajczeVVOM2dCSjAyVTRKYm4wYzZ4ZGVIaThsdnlFbnF1VW8?oc=5",
+   "date": "2026-11-25",
+   "target": "",
+   "stop_loss": "",
+   "period": "",
+   "call": "",
+   "stocks": [
+    "Torrent Pharma",
+    "Union Bank",
+    "Coforge",
+    "Siemens"
+   ]
+  },
+  {
+   "broker": "Motilal Oswal",
+   "title": "Buy Ventive Hospitality Ltd For Target Rs.700 by Motilal Oswal Financial Services Ltd",
+   "source": "Investment Guru India",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORjI1NGNqWmZHaUUtajREanRhb05QdUhHOTJyZldQZmotb2drUjRtUHc2Z1pDbVduVTY4azFaYWRXTVFpaURCUzV0LVJPLVVFLU9fZVRoRVR6eFFGRDJ1MUxqNXVFWEhqdkUwU2lZTGgxSGlpQUY3U2tBUE9pYmttTHAyTUl5cEU1bm53amdLQ0U5NW52OG5GWC1fOVZhT19lUTJQRlNaWGpXaV9aSUtZX3BTVTRvWENQSjF1a0FyN0UxWXh4NkhhMF8zQTlwN2s?oc=5",
+   "date": "2026-11-25",
+   "target": "700",
    "stop_loss": "",
    "period": "",
    "call": "BUY",
@@ -410,10 +503,36 @@
    "stocks": []
   },
   {
-   "broker": "ICICI Direct",
-   "title": "NSE shares hits record high after ICICI Securities initiates covergare with 'BUY' rating",
-   "source": "India Infoline",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdzVXSmJlY25ERTV4c1NlUW5MaUFlTVI1OHNSaDg5dGx6SzdGeElZa2pmWkxLSmltZ0tBSmtTZjJBTFd4T0pjOE4zMGtFQXBkd0ZYSXZxTzlvYk82YXRBSTlEaHlwMTB5MDFfQ1luT1E3VVp4aUZfakdoMm9uQ01iUVZ6b0lsMVJOaHJUSmZoNVNsMlVHcWthbnItQXZIOW1VMjBYbXNfel9rM0tpTXFyMlZ4Qjd1WVFfb25uM2dHRGxqMUxfSFY0SlVuWQ?oc=5",
+   "broker": "Motilal Oswal",
+   "title": "3 ‘Buy’ recommendations by Motilal Oswal with 17% to 33% upside",
+   "source": "The Financial Express",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdExsa1Q5LWltRUJhUW9GQ1Y1QWp5Rmd3RUU1VWlaNU5FOC10SHdDX2ItOGNoZ2NCSXBPZ2FDSV9kdnFTeWR3bThrWTJtMUJfZG9ZUDdJLTR1UzZLNmhHdTlWYVVCeHAxeWZ4MW9WWUF2bGhaQXZaUk5SZjI4OG5KN1BrNDIzNEpHNjBQdTRyYTlFUXNPQzMzQ2Y0ZElTZXBvU3JUdThObHpTdWdnN0lmX1F3NjNRZC1OSFpNdkV1M1JOQjNjSzFZWjhQZ080UGdDMlRXNjFxOWlzNE5ycHZPb3B2dkzSAesBQVVfeXFMTjQ1QW5GYTJhQngzUU1xQkF1RWVTWU5OMGg2QnhTTVBKT0x1VEwzMlJ0UzczZXBFV0xMRy1pRUlSNm5jV202UVdzWERsenJrSEhiOW9HQXVKY0xod0FmdHR2cGtBcGJuTXk5Um1Fc0lPaTRJS0pLVndVaFNwNFNFQkVmNnFkMEtYdUtWYmhLd3Vad1dDY000b2E4OGtPd3pVU2xtd0RDd1hZUlNfQ3ZTM2NPbFV3Mkx2U1FWeGdoSWpiOGdQMjB4UFdjNjd3NUZrWWotQWtFVUxRc3JVTGV5TEpZSVFsQVllMTl2MA?oc=5",
+   "date": "2026-11-25",
+   "target": "",
+   "stop_loss": "",
+   "period": "",
+   "call": "BUY",
+   "stocks": []
+  },
+  {
+   "broker": "Motilal Oswal",
+   "title": "Tata Steel Share Price Target at Rs 190: Motilal Oswal Research; Steel Shares Decline Today",
+   "source": "TopNews",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc2Y0QmdZYnN0bl9Ed0VqZ2YzREJOMk0zQjZrZUQzR2FTWDBhekxUZ0RaUHRHV1N0bVY4SGNLYW8xY3FKZld3TW80NHR1OGVUbjkyZkpIVzdkNkw2MkthVTY2YkdVVlh4bnRvMHFXRWM2clE0TDh6QnZCT3ZWbG5DUzdqc2gxTHg5eFR1WGEtQ1FjaS0xemsyRm03OVZJaE1iTndNWlRBbkpCWDJNWl9QbW9RYw?oc=5",
+   "date": "2026-11-25",
+   "target": "190",
+   "stop_loss": "",
+   "period": "",
+   "call": "",
+   "stocks": [
+    "Tata Steel"
+   ]
+  },
+  {
+   "broker": "Motilal Oswal",
+   "title": "Ventive Hospitality shares: Motilal Oswal reiterates Buy on India's first Ritz-Carlton Reserve",
+   "source": "Business Upturn",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTjdmRHNucDhER1N0X2YyalE2OWx5VHljZnJxanJWd2FhVGtDTEkxWVlNYm5INkJkSzFhLWFBUjhTSERPMnpJNzlvdVU4QVpMREJHUkdvcFN4U0RzOFdfelE3LXA1QkR6eXRzM1NzamlVU3Q1VS1GU2R3bU9Sb1V0Z2xTTWdGbnBYeXBHXzlUMy1zZS0tQ2Z6Rzh1bk16M29zY1ZDbFo2R0RqdjhWcDJYSWdhcmxPY2hXMzdIbEhod1kyRWlMcHdPak5DaDlYejI1d09WWWpVUjVHeFNLcjdpb0pnenUtVmM?oc=5",
    "date": "2026-11-25",
    "target": "",
    "stop_loss": "",
@@ -423,9 +542,9 @@
   },
   {
    "broker": "ICICI Direct",
-   "title": "NSE shares rise 4.5% after ICICI Securities sets highest-ever Street target, sees 20% upside – should investors buy?",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOSVhjMWNQdkI5Q3doS0JPVTVrOVZGQ0ZVWjhGcTJEcG1GWWNTdXZtdld5UVFvUklLcXM5aksxNk1jM1Q5S29DM2ZZNk1fYWNhRTl1Mlg2aUczcm4xS2JZc3RLemdZY1YzbFRNSTdNUG5icFBRa3RhRlBiajZfSENkd1g4dUZLSGtmN2ZlVjZBV0lzZXJQWGVsUWlLT1NabGlNN3NZd2ZyX0c2Ujd6QVE3VTJEa0NTOGFLLUo1cFNORmkzb0w4UGljZnpSSld4OFdZN0ZrU1hkM2pxMEgtMVRleU5kN3BXRWlOQVNrbXR5Y0VySDNGN2xoWkI4LVo4TlpKaDFv?oc=5",
+   "title": "NSE shares hits record high after ICICI Securities initiates covergare with 'BUY' rating",
+   "source": "India Infoline",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdzVXSmJlY25ERTV4c1NlUW5MaUFlTVI1OHNSaDg5dGx6SzdGeElZa2pmWkxLSmltZ0tBSmtTZjJBTFd4T0pjOE4zMGtFQXBkd0ZYSXZxTzlvYk82YXRBSTlEaHlwMTB5MDFfQ1luT1E3VVp4aUZfakdoMm9uQ01iUVZ6b0lsMVJOaHJUSmZoNVNsMlVHcWthbnItQXZIOW1VMjBYbXNfel9rM0tpTXFyMlZ4Qjd1WVFfb25uM2dHRGxqMUxfSFY0SlVuWQ?oc=5",
    "date": "2026-11-25",
    "target": "",
    "stop_loss": "",
@@ -450,6 +569,18 @@
    "title": "NSE shares get their highest target price on the Street from ICICI Securities; how high can the stock go?",
    "source": "CNBC TV18",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeG82ZnZWOUtGcGJOcXZGYXFmbTZlRVBTN0loWEM0bjloYl8wYy03LWoxXy01MzdKVVpUMzNPQUpLTEdrU1VTU0ItOWNWamZEZFlydm5Pck9EN3oxTDJpeHFnOEVkQ0Y4ajFGM3YyZDdkSktvbHVRT1I0dUJZMXNwOEFhVVNaek9HU2VSN1lBckY3S1pBV0N6NmRtTEVpeDJPRmtYY3dRUzMtX2lkWlhrNkFEeklpRF91SUJWWGdESkN1ODRzNVd0bWNLN0FYWDVsTldOdtIB2gFBVV95cUxQWExIbk90czRsVDRVS2ZEU1NCOWNNT0FMTWE1RGJFM3oyVVVNa1dsaEpsUVRsbjBoSjNSSDVkNVYzMkxlWng3cWswdEp0bTdmT0FmdTNpak1ZbFVpNjJMbzdwelRfZUhpbTlUZTUzMmJ0MFpMZjJvdGJ6Ykt3YnluVk0xOXd6ODBpQjVRRExtX3Z6MXp0Wjh6S3BzMnFvVXY5bEo0TmxfSDFoSzFGOHJVWXNzV05WWThjUHFRNTdRNExTUHJzUUJ6ZjVJNUVqUFN0S3BYYmtvVHdPQQ?oc=5",
+   "date": "2026-11-25",
+   "target": "",
+   "stop_loss": "",
+   "period": "",
+   "call": "",
+   "stocks": []
+  },
+  {
+   "broker": "ICICI Direct",
+   "title": "NSE shares rise 4.5% after ICICI Securities sets highest-ever Street target, sees 20% upside – should...",
+   "source": "Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPTTR2andaTWNzMTR2UTdNdklWenJVcjdBbG9WZnY4end6dUFXWVdIblQyMFlNX1pjUnFGMUl6cG8yYS1GaFdxY09hWXlOMGhhZHEwQy14ZjRoZHNIcWd5NFNzR3NxZmx0TE9UTGZkN0F0cTM4WXhWdEtwM1lINU9RekRCYm82bmJlcUFuS2JVWUFiT0cwOWtXbjYtRTVlcl9rTjFXVzlfaFJLdEtGRC1fM2ozR2xXLXJCcnpKeUZ1blc1NjJxaldzcHdwMk9rd2pjbGZlWGJoMFkwNG5Rc0Qydzg3LXZlTmcybjJmdlIxUW1tclp6N1hNOTgxT3VaYW10YUJxeFNR0gGLAkFVX3lxTFA5SlhmYUtZdHQ2V1p4b0hOdVNtc2ItanVWQ0NTZE5ydjVZN2N1UXZ5ZFJNR0p5aW1IWEM0Z1JrUkNhbll2MS0tN2tNM3lQVE41OHRvbTEyS1ctZFBkY0JCZ3kzVmVXS0tNTDNzcjhLTHloUnFveFg3M0pUTy1VYjczWHo4X3dJQmMwc1J5OE1VSXBsbGJ0V2J4ZjB1eXZCU3ZTYkZHN1FwTDl1N1B4WEYzU0Qwb1Z6cTdtSHhfRjN2VEw4TTFVSVdhSnZBWk44dVQyWUlrenlVMGo0QkRvYXNhblVaMWVWNnVNV0RtS0NNbVZjcEVreFo3TXo2SjlzUUN1SmZKZk0xWG4yVQ?oc=5",
    "date": "2026-11-25",
    "target": "",
    "stop_loss": "",
@@ -494,8 +625,20 @@
    "stocks": []
   },
   {
+   "broker": "ICICI Direct",
+   "title": "NSE shares rise nearly 2% after ICICI Securities buy call",
+   "source": "NewsBytes",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcWVVU0ttYXZUMjRHR0o4ZFJvOE1BYks0QmtqVGphTjJqbndmNkFINDhLZjR6Q282NG5HbGRUWEJMSlZ3UHZ1X1ZBZFZwZmtIWnB2dFMweXJ2TzBKX215WEFiamRxTE9CTW9DR1pNTHhfRlBZeURTUzFFYk1hem5lVElxeTRXWGNhLVBDelF4TWFrVVJwZ2o5UjVPTDltdV83R1p5bjBzYw?oc=5",
+   "date": "2026-11-25",
+   "target": "",
+   "stop_loss": "",
+   "period": "",
+   "call": "BUY",
+   "stocks": []
+  },
+  {
    "broker": "Sharekhan",
-   "title": "Zee Business. . शॉर्ट टर्म, पोजीशनल और लॉन्ग टर्म के लिए Mirae Asset Sharekhan के Head - Alternate Research सोमिल मेहता, की 3 बेहतरीन मिडकैप Picks Short Term - JSW Infrastructure Ltd Positional Term - CEAT Ltd Long Term - Ajant",
+   "title": "Zee Business. . शॉर्ट टर्म, पोजीशनल और लॉन्ग टर्म के लिए Mirae Asset Sharekhan के Head - Alternate Research सोमिल मेहता, की 3 बेहतरीन मिडकैप Picks       \n\nShort Term - JSW Infrastructure Ltd\n\nPositional Term - CEAT Ltd\n\nLong Term - Ajanta Pharma Limited \n\n#SPLMidcapStocks #MidcapStocks",
    "source": "Facebook",
    "link": "https://news.google.com/rss/articles/CBMiywRBVV95cUxNV2FCTV9UVm41WHhqTG54eDEyOEpNUUlCSjRWUnc2RU94QXJGajFWY292T0xPSVNKSlRTZkg3aFU1RGJ2QlN6a3YzWnR1em5HLVZudFpJYkdORmVGVVItOFlkN0tOaWktSVc2NW1DUk45TTVzMUVmeHVNcVRVaUd5QWV6b3RBZXdyYWpaZDRjZ0U0Q010NHBoTGYtQXZtc3NGc3ZMZmdRVkc3TDNDSlAzanY0X3FqVWhYLXQ1X3EtREkycFl5bkI0Z3ozQ095dFhsWkdfZUt5cm5sZDZ6c2thZ2hZQUx0eUY0YTJNSVVwTE5LT3JvbkpyQUl6d3RsRVUyWG1FWURka3ZHRkxPU1lUX3ktREFXVjhoQ18tLWJXMjNSTVNXbTlGVjh0ZF9GLXFUNVBsV3RpTkZxWDU5MkJCNEZwdVBiS21FYlFYQzZCRHF0UzFLa2hOOWNyNXVZMk9oTTI4Q3hPNFY2LUlrM25HV0UxdzBwMGZjLVhjQ3N0XzZZZGdIV2MtZDV2Nk1EVWlUZ1FjNE9uMXV0d29RdW9wY3ZjR2xpbFptel9jNDVnNmhlV1ZJZWlBWTNTT2RaaVFPdjU2eTJBaWxVMWhEajl3RGh2cGZSQ2hrR2stSVNOQm93SmV4S0Zjd2d2UEE0YzlUX0tRMEJfQTdVLTZ2djlPa1hkeDItSEVWSWo2VzY3MUxwR0t6UXRIZWxwbUctNzJGb3NkNWdGVTd3S2ZReERVaTRsYnQyQWdETGdNS0ZpWFgwZnk2MFlELXdHUQ?oc=5",
    "date": "2026-11-25",
@@ -506,30 +649,6 @@
    "stocks": [
     "CEAT"
    ]
-  },
-  {
-   "broker": "Angel One",
-   "title": "Angel One CBO Arief Mohamad resigns, cessation set for Dec 31",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPblRJSEx3TUcyeFJoM19nYkNPSThNTjhiMFpTeGpPQ0xBVmJSTXZ3OV9WeENjYTdOdWxxZnZMTG10VEVMZVg4NEF2X3EyWTlPUnBkNThBWHd5clhmQ2FpUkp6R2F4WWo1NWh5eXFhUnp0LU9LMGVhaXFReVpJcXdHTXZKLThEUG9MLWVxSzdVYjVzU0xiVXN3T2dwTVJJMEJ3Nmh0UXBNb3dPdWhISXdIM2xrYw?oc=5",
-   "date": "2026-11-25",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "IIFL Capital",
-   "title": "This drugmaker is a 'consensus buy' among all analysts tracking it; IIFL Capital sees 25% upside",
-   "source": "CNBC TV18",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVXJ6TlU3NFM2UEFjNFBqbDB5SjZ5SVl4OTN6ZnhiQnMxZ2RlOFNULW9PUVlTTkp3Tll6LWMxeENzTnRCWkVSdHBJTHlPdWVyTUE3M20wQjhRSVB6bnczZ1plYWlXdkxFZzR0UVpDVlZ1OUFYVkFMQkxXa0VDRGVRUUJQUlJPNk9Pa2NtOFJPOWZkOE4yREpqQ1VLYWwzZmhTMENyQ1pOaC1lNFR2ODM5dXVFZ3Z1bU5teG1KcGpXTnE4NGoyYUZKZnhwemtTWjFLNDZsVkNWRE45RkI0U3pPRHQxV0nSAeoBQVVfeXFMTVdBVEV1SEdLTTNONnFZbE9ELUE3cWFta28zRXlCVjM4YV9COExSalJRenRFbkY2TU9mWWEyczB5UkdOclVocDZEUTZ3eS0za2YwejJjUTlDXzhYNW5nUnY2ZGlUck5XM3BOcERyQjd3Tm9kaWR4WTIyeGxabGpLV1R5NEwxZ0RmeURsRmdqNlpBdEdVeHh3TkZUaG0yTmNHc19ockgyNjdndWwtZ3lyZ0RXaWRCb3N1LVUxNVQySVhuMlFOcXhjZ1F4YWRtLTVBWWY0S1RPZXlxQUw3UGRJeC1GdHlLa1FCMU93?oc=5",
-   "date": "2026-11-25",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "BUY",
-   "stocks": []
   },
   {
    "broker": "IIFL Capital",
@@ -607,14 +726,14 @@
   },
   {
    "broker": "Prabhudas Lilladher",
-   "title": "PL Capital Raises Nifty Target to 28,561, Names 18 Stocks for Growth",
-   "source": "Udaipur Kiran",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeDNCUGFxN0ZaUmZ6Q2FlUVktN29sSmF6ZEVUZV9MUXhJQUdmX0k4a1lIYzZJd29xWGJJdXpWZXJjVlVEVm5ldWc0blR2SUtFTkxSZXd6b1ZZSGppUkl0TU1tVDlJdnJpWExoRHRoRDlrakM1dzBMZUdvM2M5R2drZVJfa2tIUHAzLTJpNU0wV1Q2MHQ5ZHNB?oc=5",
+   "title": "PL Capital turns bullish on Indian equities, raises 12-month Nifty target to 28,561",
+   "source": "The Hans India",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTkxRaWYtUHcwRmNGT2xxRE50VjFSX1h2VUdQYXRiZG1ESlh6Z3JCZ0JLcW5vdFdHMWNWWktUN1BINmgyc3o4Q0QtZDhMenBWeEVld3l0NWJSRjNqbnE2SjJvT1FtY0IxNTM5MDlzeVNlZHVrdEU5S2J5eFBLS3E2QnJrdG1ZOGFvSEtPTFlvV0J1ZWFwMVE0Z1FYeTJIV09udDNNQXR3ejZSZVZWb0ZVV3c0bVZLWVM3Njk0ZFhCdVV5em91M1HSAcsBQVVfeXFMTzA3NjNFT2tmSURtdEdyWklnaHhVZDctTUpBZ3lmOVhRQTZCeno5NThDTThiWmZmU3EyVEVRaUpJalBIUF85WlpUWXpGOGNBb1VaZzRZQjdwcnFGN1FxcnBLMzROMzFFTEJVMzhxZzFKd3NQWUhlNlo4TkRxVkRqeTltVUdmamh5U1VEYlBTYTdIb0FlYW0wWkpjd085bGpaMVEwLW9HRzRuckMxRjFNYWFBaGhXcW5mYnptUmJRalVJNHBoTU5KREhTYnM?oc=5",
    "date": "2026-11-25",
    "target": "",
    "stop_loss": "",
    "period": "",
-   "call": "",
+   "call": "BUY",
    "stocks": []
   },
   {
@@ -642,22 +761,10 @@
    "stocks": []
   },
   {
-   "broker": "Motilal Oswal",
-   "title": "Buy Piramal Finance Ltd For Target Rs.2,470 by Motilal Oswal Financial Services Ltd",
-   "source": "Investment Guru India",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWjNTU2ItSzBVOG1xTlNUblB6NWZ2TzdNNGZqek43YWEwMzlWVlpRSGpJdjhTQ0kyQ2l2TlYzRWxtdmdwOW12cWFzTHJscmRQMDVMd19DczA5c29rQTZ3Y0p2NmZfbkRMRFduM3gxLTVpUnByUjB4R19qd0JCcGVUMThWeWZZZkVfSW0zYzRDZDRoMTJwWFpNS20zb05maHkyMExyVndmM3p0NmtNOWFBRWl0TTQ2Y0hXbGFFQmRIc04zSjA0dUFLQXFkZnQ?oc=5",
-   "date": "2026-11-24",
-   "target": "2470",
-   "stop_loss": "",
-   "period": "",
-   "call": "BUY",
-   "stocks": []
-  },
-  {
    "broker": "Axis Direct",
    "title": "SBI to VA Tech Wabag: Axis Securities’ 7 top conviction picks with 12.6% to 48% upside",
    "source": "The Financial Express",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSDEya3RwcFZtd0luNll2dFQtMWJ3UGxGeE9HU1RKdThtaWhsRE1iUzk1ZklueEVkVFgyaVZvM3FrYjlDSnhfSDdlNWxaWXJmTVpoWW1lZUMzWFFRejhtYURZTDB1MHNvOHk5M0F1bzFiR0pkVGctVENpTWhkMk9yV1cxZkZ3RVQ5LXd4WDNDR2xUNlJwSlJFOTlVMEltMmREMkpHazlRLXEtV0d3MkxQTERNYW9UUnRTanYtWUFEYllaMVVKcFdYNVN5UU5MMHZJY2fSAdIBQVVfeXFMTkgxMmt0cHBWbXdJbjZZdnRULTFid1BsRnhPR1NUSnU4bWlobERNYlM5NWZJbnhFZFRYMmlWbzNxa2I5Q0p4X0g3ZTVsWllyZk1aaFltZWVDM1hRUXo4bWFEWUwwdTBzbzh5OTNBdW8xYkdKZFRnLVRDaU1oZDJPcldXMWZGd0VUOS13eFgzQ0dsVDZScEpSRTk5VTBJbTJkRDJKR2s5US1xLVdHdzJMUExETWFvVFJ0U2p2LVlBRGJZWjFVSnBXWDVTeVFOTDB2SWNn?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNTlzRTQ3eXE3WDBKd1laY3hVV2plQ0dKRnJnTDlmVFFhUHZ4SFBvWW04Rmx4MUtubHppcGF0T3ZoeUlkVXRjMHlZbEVfSkV0a2RTV2xDVFFQUVVaX1pOSEppbEVrY290ZkQ5NlRNMVFweWV5VVBRb0QxcS1vRDI3SDlzMVBjNlI1aVhWV1drWXg0Ym5MYnJLX3p0aXppMDI5RnR6bTRnM3lEbkJTNUVfSS1vanctd05fUlAwLU1UdTljcnNhU3ZiWnB5c9IB0gFBVV95cUxOSDEya3RwcFZtd0luNll2dFQtMWJ3UGxGeE9HU1RKdThtaWhsRE1iUzk1ZklueEVkVFgyaVZvM3FrYjlDSnhfSDdlNWxaWXJmTVpoWW1lZUMzWFFRejhtYURZTDB1MHNvOHk5M0F1bzFiR0pkVGctVENpTWhkMk9yV1cxZkZ3RVQ5LXd4WDNDR2xUNlJwSlJFOTlVMEltMmREMkpHazlRLXEtV0d3MkxQTERNYW9UUnRTanYtWUFEYllaMVVKcFdYNVN5UU5MMHZJY2c?oc=5",
    "date": "2026-11-24",
    "target": "",
    "stop_loss": "",
@@ -683,7 +790,7 @@
    "broker": "JM Financial",
    "title": "3 ‘Buy’ recommendations by JM Financial with 23% to 47% upside",
    "source": "The Financial Express",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQN09DVURRV3JwUmxzZThtUXRpLU5OaVJaaDN0SHlJalhTUktSc2NuXzNMa29hX0hDbld6WW9EcnVsdjRPdWgzNTliQ0E3TEh0eU4wazhOaEtON1pKZDFlZWpOTGJjcnNNRXF6aVZyV0ZGdFRXb3o4cHl4V0R0aUtKTzcyOFNVaFNtNVpkSHJXakcxQkVZczZ2WUlwVTM0ZVNhUGNueS1vclpCcXFhY0E5YkpaZmdOUVQ0bV8yS2UtV0NTdTZvbEtUNDFOSlJfSFlVU05n0gHaAUFVX3lxTFBTMkpyN05KUG5fTFlNalJITjk2b0xZcHl1WVZZcGNXMXdQZXp2MElBNjZuZ1ZKVmRiZ0R0d0JxREMyQkNOR1habkkwdkI1ZVJMdkJmTTNIOENERzZ0U21aV3hGYkwxcTNYRmVkaG8wLUNlVmJ1N05jWjFXcjg1OURZT1ZkOUszWVN5emdvc2plOGp3eGVzaWI2Yy1uQmNmemZOOVVmY0MwQVRLSFA3emZkMHdxVzdNa1ZDR0R6Q3VPV2RyVEVTSUZCeFZ4eGs5TGRVemE0eDdDQkZB?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUzJKcjdOSlBuX0xZTWpSSE45Nm9MWXB5dVlWWXBjVzF3UGV6djBJQTY2bmdWSlZkYmdEdHdCcURDMkJDTkdYWm5JMHZCNWVSTHZCZk0zSDhDREc2dFNtWld4RmJMMXEzWEZlZGhvMC1DZVZidTdOY1oxV3I4NTlEWU9WZDlLM1lTeXpnb3NqZThqd3hlc2liNmMtbkJjZnpmTjlVZmNDMEFUS0hQN3pmZDB3cVc3TWtWQ0dEekN1T1dkclRFU0lGQnhWeHhrOUxkVXphNHg3Q0JGQdIB2gFBVV95cUxQUzJKcjdOSlBuX0xZTWpSSE45Nm9MWXB5dVlWWXBjVzF3UGV6djBJQTY2bmdWSlZkYmdEdHdCcURDMkJDTkdYWm5JMHZCNWVSTHZCZk0zSDhDREc2dFNtWld4RmJMMXEzWEZlZGhvMC1DZVZidTdOY1oxV3I4NTlEWU9WZDlLM1lTeXpnb3NqZThqd3hlc2liNmMtbkJjZnpmTjlVZmNDMEFUS0hQN3pmZDB3cVc3TWtWQ0dEekN1T1dkclRFU0lGQnhWeHhrOUxkVXphNHg3Q0JGQQ?oc=5",
    "date": "2026-11-24",
    "target": "",
    "stop_loss": "",
@@ -695,7 +802,7 @@
    "broker": "Prabhudas Lilladher",
    "title": "Buy Anthem Biosciences; target of Rs 1050: Prabhudas Lilladher",
    "source": "Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZGRYMjVxd0FJZ2Qxa3ZnelF2T2pmOUdzZ3MxbEs2ekRJNkxvbVZsdU9XNE1oVWhzMzlST0JiTGtkTTdLM1B5UWhoR3B2cFY1WVRGTlNHWWlDd0ViY2NXcXFZOVJna1pwa2FBejQ3SExNX3F6Z2w3VGFrc0ZfQTFEd3FTN3NTWlV4SVcxWS1SLXdBZWxxYmVJWFRZNlM0Z0tlLVh3QjBWN3FwOWR1ZnhBVkVNTDBPeUJsMm9yTVphcnZJaHctT19B0gHHAUFVX3lxTFBkZFgyNXF3QUlnZDFrdmd6UXZPamY5R3NnczFsSzZ6REk2TG9tVmx1T1c0TWhVaHMzOVJPQmJMa2RNN0szUHlRaGhHcHZwVjVZVEZOU0dZaUN3RWJjY1dxcVk5UmdrWnBrYUF6NDdITE1fcXpnbDdUYWtzRl9BMUR3cVM3c1NaVXhJVzFZLVItd0FlbHFiZUlYVFk2UzRnS2UtWHdCMFY3cXA5ZHVmeEFWRU1MME95Qmwyb3JNWmFydklody1PX0E?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY0ZvRXgyeEZtVWpad2ZOYTVNUHRiMm1EUW1iRGZ3NEpGQ2FaSXZWckJXOVhJOWVlNmhYY2V6alZTek1BeUtXblUzaGUxTEdxUlF3Smwyb21KQ3NMNnZuZ3BpUEdQbUJNZkZWei05XzE0QTdJLVM0MUM0N3ItTkUwMFNRUXhlUGljcEhnQWtmUjc5MEttVzVvWkxJbUJEQXFsalBldXJMMWdYWThlTTE3U1JGUXBVdFJtdkVYaHowQzBhUQ?oc=5",
    "date": "2026-11-24",
    "target": "1050",
    "stop_loss": "",
@@ -718,30 +825,6 @@
   {
    "broker": "Motilal Oswal",
    "title": "Buy Piramal Finance; target of Rs 2470: Motilal Oswal",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaVQ1ODJJYjJpdS1mM09XaEN2TkJZVzRxWmROeXgtT2J0V2JDbEpBTE1qOEJOYjFwd3gtS1RKcmVjRVJicXVBVnFsWW15a1g1ZWVLUVBJS3lxcmNZcnZuQ1FfSGFOTXhjc192RGRJSkNuV2J5QzVCNkFyQmpxaTFDRjRfYVB2WGc4Mko3MGxNSHZrbDVaRlpTRlFzbzRjNGRHdVpOcnV5Sy12V2xxN3h6bXBXUVQ?oc=5",
-   "date": "2026-11-23",
-   "target": "2470",
-   "stop_loss": "",
-   "period": "",
-   "call": "BUY",
-   "stocks": []
-  },
-  {
-   "broker": "Motilal Oswal",
-   "title": "Motilal Oswal picks 3 stocks to buy with 17%-35% upside potential",
-   "source": "FlipItMoney",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLXpoZ1V6Y0VNY1cwN3daemJhYnR2V1dzMzNVT2RNekxKbzk2S0lyTUE5RW5TelhRRXh6QnVxaVlrbWpCRU81UzBEeWRSSzRmeWNmT0xEZzVvc002UDY0ZlR6eGEta3F6RFpIRExmUGxQRDN3M05wZEpaSFZmY0kxYVZzTTc3c1c5TFpHcnk2eEEzak1o?oc=5",
-   "date": "2026-11-23",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "BUY",
-   "stocks": []
-  },
-  {
-   "broker": "Motilal Oswal",
-   "title": "Buy Piramal Finance; target of Rs 2470: Motilal Oswal",
    "source": "Moneycontrol.com",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdTRBTDE4aGp5ZUZjN1BqTVQ0NlZHVW9heUIyb25XV2QwY3EyMVdia1g2dDRFeTdaM1dTM2ZBODlucnEyQjFBRXY1cnhwYWhkSVNqbUg5V0RIa1JPZ2ZvVlkxeFhqMXJrTEZFaXYzTElYYUY3MjgwMXRGWm1PMktfNzVManJIa2ZEeE1JMVJVN2hsRUVkLWdHN3FxQjZ2YmJMeThkNlU3SGdheGdoemdEVEFlQ052Z9IBuwFBVV95cUxQNWFIWkdFSjNwWHkzYXpjNXhIVEJYVzBFZ1NYZHlZQnBuajZhNlI4WmVPTW50a21IR1BLV2xud0xHV3dpUklaWWprTm03bjZST1FSckJiNDlqSkV6V1pfcVltNjZRUFctYmtSSjVLU1hxamFBMVMzX2lzQ0NqMl9nLW5MeGd2S3R3Tk9CWlVkWW5jSDdHdEZ2bUoyRnk2dWZhNW5BajNsU3l5Uk82RThWRHQyWnhxUXhOYzVV?oc=5",
    "date": "2026-11-23",
@@ -753,15 +836,17 @@
   },
   {
    "broker": "Motilal Oswal",
-   "title": "Motilal Oswal recommends buying Piramal Finance with a target price of Rs 2470",
-   "source": "FlipItMoney",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOT2ZTNVhBTHNTaG10eU1LNjZqT0xnY3NFWXpERGh2TXJHdUhuUVBwV2tpTGROYWFNcWRpNERGZEYxTWRfdVhMOXZoTnJTM1V0TjYxdUVZZEVvbFlKdVk4c0VtVG5vcmZSQVFodjJOVmlQUjRNRGFxU0xrdjhFcHNiU0J2TnhJMzUxMHBVeWJIdHlxRjRESjE5aWpBbjhEcmV2cEJ5d05ReEo?oc=5",
+   "title": "Tata Consumer Products: Motilal Oswal Remains Bullish On Multiple Growth Triggers; Check Target Price",
+   "source": "NDTV Profit",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQV0Vlb1oyX3RxTUV5NWlkRm9BUnBwaExTYUpiZGl5bHJnU2cwRk9jVEdHMWxhU0x2czczVFNJeFZHM2dOUG5nT0l2NkVMbnFfbHZTa1VfR04zNUcxUFE4bXY2YWU4dEszLXFnbTEwSGhzM1c2TU53VGRTY1hxeHREVl9oTG5CLXFoaERqS3pNUkdKaEp5clV5Y1dlWmljWjJZZXdxWXFRLW5vY0hST1Buc3FlMlJ1ODEzdTFQTzlpS0lBOURqU25RY2JvanZSbVEzZXdwdHBONkx0V2M?oc=5",
    "date": "2026-11-23",
-   "target": "2470",
+   "target": "",
    "stop_loss": "",
    "period": "",
-   "call": "",
-   "stocks": []
+   "call": "BUY",
+   "stocks": [
+    "Tata Consumer"
+   ]
   },
   {
    "broker": "ICICI Direct",
@@ -792,15 +877,27 @@
    ]
   },
   {
-   "broker": "ICICI Direct",
-   "title": "Chalet Hotels Share Price Target at Rs 1,000: ICICI Securities",
-   "source": "TopNews",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLUtBRWtzR1pzRlpBUnZRa1RTMndtZkVQNmRHLU1zeEFRSTR5cm5vSk1HbjlWMnB2ak03eTZKNS1QbzYyR1Y4a01JY1RtbjBmNTJWUjlKTkp1ZmFPQ1hiSEdDM3hUeVpOZk92X05zMkJQN1NWYTlSTldReWRJUU1NeDljRTNPTnh3OE5nVQ?oc=5",
+   "broker": "Kotak Securities",
+   "title": "DCB Bank to participate in Kotak Institutional Equities Midcap Conference",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTV9LSnNBcE9NRUFYckhsOXdOeDRwRTZRWjR2cDZBWUFGdEJCSnJsN1JXaGd1bERoU3F5c2VvSVB1VUNRV0tTY2dWQjNSTmlZSVN5V2tOcGlHVXh0TVF1WllfeFdnQ01UaVJOUzRPeWNJYW1UaVhNVldmTlFxN1ZXRTZIVFFCTFpSenhkaTdZaXFKM3pMZGpQMkJGaG4tT3JIUlVzc3JubzNueWJScWI5Y0J3X1NLY2dfUkNHRUswaEtPdw?oc=5",
    "date": "2026-11-23",
-   "target": "1000",
+   "target": "",
    "stop_loss": "",
    "period": "",
    "call": "",
+   "stocks": []
+  },
+  {
+   "broker": "Axis Direct",
+   "title": "Zee Business. . Gold Price Crash: ₹1.18 लाख तक गिरेगा सोना? Axis Securities का Bearish Alert | Meenu Sharma Gold Price Outlook: Axis Securities' Bearish Call, MCX Targets at ₹1.20 Lakh and ₹1.18 Lakh क्या Gold में गिरावट अभी और बढ़ स",
+   "source": "Facebook",
+   "link": "https://news.google.com/rss/articles/CBMilwNBVV95cUxPVndVQlVjQlhGeU04cnJ2dDRlU2hKa2p6RjFTbDRoYnNacTBhQ3hlVTNheHBkMGNFWlg5RnFMQmZPaGdPOElHbnVxOExZU25CWUc2MDBJaFA0cEExRV9Wem5rQ1VGNXF2NHB5ZlJyUi1XZDd4UVVpQjV1a2tSM2ZXZ0xvTU1fRVBtMXUxUTBZakIzbE5FeWZTbzlNc1YxdmF2ZVdzN2c5SUtRaE5mYm9BQmUwZE1JdXNPUDc0bXl6MnVhSVZKdHpjSjhTeE8yOHl1TTRMcnd2QjBORlRhV1lFYkUtcjhSU1lqRU40emlFR3ptUkhWc1RUQXpaZ29Wem9LdkpTZTVVcEJBSy1SU3RzSUIxVUtBN19vbk5jcFdtS2toQTNZSEpEanBkV2Z3NWJzbWF3RXp4LWVuRGJDMW1yVW5rNTZ1QzF3aE5mNGxvd25rSk56N0lUUmtsbzlpLTNXaEowVHdGVVYySlkwbWxtOWFkMVZGTktkN25HUVFaU25nNzJBWGthSDFCcmVCZ2FuOWlSZnQtbw?oc=5",
+   "date": "2026-11-23",
+   "target": "1.18",
+   "stop_loss": "",
+   "period": "",
+   "call": "SELL",
    "stocks": []
   },
   {
@@ -961,18 +1058,6 @@
   },
   {
    "broker": "Anand Rathi",
-   "title": "J Kumar Infraprojects Share Price Target at Rs 699: Anand Rathi Stock Research",
-   "source": "TopNews",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWXZSeVJwaFhDQVlpbW9wemZuRUN1OWNNZm1Ec3JIQktYOTlVRzBKbFNzMEY3OHRpMGk0ejJodnkyVUpPVi00ajY4SWUta0E0WTNDdHNvYTJvcFlEdkZLRXdmXzM1eFlkQTM5ZjY3YjhpeEVsQmp4NThmTERuNWlnX0RRcmhlTHAtbFMxeldJbUY3N29KMzVBOUJ3bjNPRjhpd1Q0?oc=5",
-   "date": "2026-11-22",
-   "target": "699",
-   "stop_loss": "",
-   "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "Anand Rathi",
    "title": "Top 3 stocks to buy: Swiggy, Tata Chemicals, Amber Enterprises by Ganesh Dongre of Anand Rathi | Targets, stop-loss",
    "source": "Livemint",
    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQbGt5ZW5IbHhwZm1xYml4VzhoVTM5NERtQ09sZ0hMM0g2SXVNWVJuZTkxWE9mMDF3QUtGdmV0bzVrUndNS2pCd0lQRnlBYjcxWVlGTjI2OUpONkkxLXFFLVpsQ3dKZjNURzVZd2c2QWdQRXhVRk9jSDRIN2gxWmxDN05SbUpfVVVkYmNyYnFyb2s3YTFMajNrTEVHVmdBQzl4OFVLd3NXUU5IWE1CWlBUSm52c2dKNnR2X2kwWmdlQTJLN08xYjdtVWZDWHRFTm1ITnFzOHd0UDlwUl9EUURFVjBpRmhPYmh6ODBrTVVaZ0xRUUdFbVVhWVU4WldHWTBUNlB3U3RUcmVPZ9IBjwJBVV95cUxNZEs3c2R2NXo3QU9UaEdVMGc3NFoyY1ZMR2s3TnpFZEFZekxRY0ROazNFOXdJSUs4X09xU0VBVV8xdUpFcmh1WFQyZlhfSmJscm9Sc0gydlQ2MDNnamdEanVIQ0R6OG1vbm9HMVNWQ0F2am9vNXE1TDJDSjA5VFBfdUE3dmpsc0N0RnBnWDRvRHQ5ZXRoSGxtTnFFZDEwVzBLZ0kzNTJRN05JTmlmdnVabEFXbGN6MEo3aldOZDAxSlM2cUVDZGhwSks3RWR1VHJiWFpoQXJHUVAwT0xGVTl5T3dtTWFPYVljdmJYMzBfYklmaTBiQXo0Y2M0MjBrYUhqU0tMWFpvMXpURW5EVU40?oc=5",
@@ -998,20 +1083,6 @@
    "stocks": []
   },
   {
-   "broker": "Anand Rathi",
-   "title": "Best 3 stocks to buy under ₹200: Jammu and Kashmir Bank, Canara Bank, Bank of India by Mehul Kothari of Anand Rathi",
-   "source": "Livemint",
-   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOczZxZDkwdEZrYkxuVmZFaWN6WDAzakFXTnd2MDJiU29DQkViSmE2WnlCV2ZIckZTN3h3THF6UTU2eWplbE5feUFfMi1oVzJYTjNBZVpWUnlzU3kwTFZSaTQyT3UzYzExLXR6TjFIa0szLVJNbVhoTnllRkV5ZDdTc283VWpnc2Zza1lFRTBLY041WFNUT194bEpTV1lfaXBrZzR6SW5pWlZOYlZhX05zWkpUN09Wa1U1a2RvUDVyOEh6cnkzd2hTVG1lem5wR1Zpei1tQWNKejQ0Y1ZwZ3Z5empicDV4UW9fbWpORC1OZmhQdjVNZ3EwZXN6YjN2elp5a2NGTFlxSURGVzBGLV9WSld30gGXAkFVX3lxTE1CV2I2NG54MnRha3E2d3JiQkd4b2NMOC00T3JsRlJGRGo1YVZDZXBXSWx6Y2JmSGl2d0tfV0xRcGgzaG9hSTFQc0Z4TUxydmpjaGJxRmNDaEROTGsyRldHM1dKQmp2WEUxa080MURWR0tWUG5fVlExcEFGSmROQVQ3UkwzS01uSmlGMmhxTElnVnM0dXRscmlsUXdxVmxyVkkxeTl5Wm02SDFXcG9qdUlVQUdKclU3QkE4dGw3MGstbFdlWmR3QTlfQURNc3paMS13ejZSVGlnOXBjWlZZT3M4RXlUV3BVWTU5NFAyTUNrN3g4dEtrdlR4aGRHYXZsZ3N5ZVptdTFjQ1Q3bnFXeTh2MUxmMUZRWQ?oc=5",
-   "date": "2026-11-21",
-   "target": "200",
-   "stop_loss": "143",
-   "period": "",
-   "call": "BUY",
-   "stocks": [
-    "Canara Bank"
-   ]
-  },
-  {
    "broker": "BOBCAPS",
    "title": "Thangamayil Jewellery Share Price Target at Rs 5,697: BOB Capital Markets",
    "source": "TopNews",
@@ -1033,180 +1104,6 @@
    "stop_loss": "",
    "period": "",
    "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "Motilal Oswal",
-   "title": "Five banking stocks that Motilal Oswal recommends buying for up to 30% upside",
-   "source": "CNBC TV18",
-   "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOZVhjVUkteHpybDJVbl9RclNpV0dYajMtN0lfV2RMR2ROM0ZDQ0swa1pCTHNfRU5xdzd6a3FyZTczN1VGZ18wc1VSTjhrWEFBWU45cjQzTGt0NElRbl9GajlsRUxrY29BNlhTV2NQU0lES3BLOERWUEwtakFvUlZQTmlxV2hKMzVVMl9ndmRFN2J4bUY5OVBpZ3ZieEJ3THVjY0NFQ1VvTXY4YTFYZThibEZiMVZqM0FzRExhN2tMeWdwZVlWbm9DRW1qamZSNVIzQWRiQ3p4WGxacTNhT0hqMnQ4el92WFhPcnRFRTRuNmR1dVI4bmZFbC1uam9nMjNRal8zNVZ5NEhqM1NXVHJTZUFRWnpfT01maGFfT1o4cDZOd9IBpwJBVV95cUxPMWMyWVZ6aUJ5QkNocTI3cG40RUZsWGpWRnFCQWV0WUE2a0RjcUcyNFZyQmg2Z0FMTHB1U3Z3RzA5b0pua0s4OWN1eTI5VzhyZGRuSnZ5c3JjQ000QWk0eHAyNzQ3dEx2ZThjSEhUMWtxdU5waUxoaUtTQjRUQ0VhQlNvTF80TEVIZGZVWm1jS0ZJSDdaelkwTU1KVm1tbzBwb1RRMlJqd0lEejc2YmJEVk1DaUJJRkJjV3FidWNhUllQUDNSOS10NTR2OEFkbWlZcW9rYl9jTFJ1c3ZpZHNNZTdIdlRXTlFiYjVQYjAzWTlTU1ZyQVBld2RwNFZSbmI5c0diS01JWkYzblJ5ZGZMSWRCenFhSWJCVlhzZFFwTElXb1Z5ZjRJ?oc=5",
-   "date": "2026-11-20",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "Motilal Oswal",
-   "title": "Buy Polycab India Ltd For Target Rs.10,000 by Motilal Oswal Financial Services Ltd",
-   "source": "Investment Guru India",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLU0tMDI5QWJJS2xxQUM5Uno0c2REQ044ejk3LUd1d1hScHlUUTN0OThWUHBZZGcyOHpuYnkwZGlGWjJvNVdqOFpsSkVydE16SktyOC1MaDlqeFQxazQtM2NXa0tzMkhHTVlHUU96U0NFTFlqNzYyNVhqaC1haWFwR3g4VHhkcEUwaExUUkZLM2NrMGFpbmVrWXR3NXEyQzdOWC1jRFV0UlpWeERfUnlIMjU4UGlQMTVzeWYtX2FaZU9qXzB5b0lfMk41bw?oc=5",
-   "date": "2026-11-20",
-   "target": "10000",
-   "stop_loss": "",
-   "period": "",
-   "call": "BUY",
-   "stocks": [
-    "Polycab"
-   ]
-  },
-  {
-   "broker": "Motilal Oswal",
-   "title": "Fujiyama Power Systems Shares: Motilal Oswal Rs 500 Target",
-   "source": "Univest",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeFZyMGdfOGZrWDRKdUtNY3lsUmRyQkVTZkFVV3ZMbEFwU2ZVZy1FVWdSWndVZGpBMkJnWGtRaXBZLVFWcWs1ZVZZMkNQNURCdHVKMm5MQWhwUVhFcERPdnZOTkhHVXR4RjU2eWg0Znp1b0dscExpdzkzZGZyVXh0RFBUUnJ3RDAwQTdraGE3M0pOWnZ5UU8wQ05vR3FJWFNZSndMWUJPV012U3RFemFLNFRxX19XalV4SEg3VUFfSjRLeTR6MDFtSWRqV3ZfZjFhdVdXYm95VjNmYWVKSW8tNGJzaFU?oc=5",
-   "date": "2026-11-20",
-   "target": "500",
-   "stop_loss": "",
-   "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "Angel One",
-   "title": "Angel One Dividend 2026: Record Date 22 Oct, History, Yield",
-   "source": "Univest",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQeVRNWXJRaXo2b3hvU0EwN09Ja3ZwVnFyMDIxZjQwU2RGenNXb0dranJkUnYtSGRJRTVZZ3ZVaVVIRFdPQkZ3M2tyMTVlTkFiUTRmTWdzZkNOMlVpUkpMWnhtd0pycmpKLTljWWszeFhWQkIzR1VqTi04c2NXdTlBbXVkOGRGRTNiMGdnS09RQjhnNjc1R0Naa0hvczAtSEVURE9JMTNna055THpWSmpYT0xzRUhHN0RDT21JV2FfZHB3eWRyV2NxM3R4d0oxVVdFdWl0NzlobnhwMUdzQmlXRzRESTJReDZXVDFZRm5zYUU1ZUFDbmc?oc=5",
-   "date": "2026-11-20",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "Angel One",
-   "title": "Angel One vs Groww: Why Kotak sees limited hit from potential MTF curbs",
-   "source": "The Financial Express",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObW1EV0F0T0lPQ0NfaDdmNUdmenJoWDh4b201ZWsyV0tCSUphazBZZGw5bVVFb016anBpLURNRmxNSk56ZldMcjI3cGw4TC1jZDlvVW1MTUMwUTRWX2lBLXZ1SmVKcGE4RUhaZEVlNm9DLWVoZEw5bGRPcFhTOGdkZHBjeXQ5MHpmNDJ5b2N5UVE5LWM3VXZGNXBYVkNYX281TTltRm80TU1ndVgzT3c3bkdKZ2lNNFFhdWVn0gHCAUFVX3lxTE5NM3NTbkRVQ2FuTUtERm1COFJkbGFMMUMyUVV2LTg1anRBOUNtTGYxRmRfQzZid3l2dDlaR014bHl3c2RWaVZJN1NnQXNFTlAzSmFod2NibGRDSWRHMENhV1ZGTjN4b2hNdGQ3NWQtYmlrMTZJOF91V0VxdVp5RzlrREtxQWhwR1VmMUFGdlNBeWNobEFUQUVFLWxadzRaWkFrMlJheXNuZ25KVHpfdU45Z0tXX1hNcmlTbnJITWxJY2xn?oc=5",
-   "date": "2026-11-20",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "Axis Direct",
-   "title": "Axis Direct names 35 top stocks to buy; ICICI Bank, HUL and Maruti Suzuki feature in list - Add to cart",
-   "source": "The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUVRGMWwtbEtna2EtZmNSV01XOEdPYnRGRFRxNm5jZTdVOU83OHFWWVF1M21XakZkQk1yRlRaVFVoQ3gtYWtqbHlPYnp2Wnh4dVJzVnBVTmc2R1VEcFJDNmFxcEtIZGdsaG9qVUZuSG5yN0NnaG5pTXBwMzBwZkJCZ01JWnROcHhvRVJLS3ZjTmVJLWNwM3FydDJGTkxLTko1ZzdpYThNRnhLZENXMk10Q0YyYWc5YTY4b3JHQzZGQS1FMktHbnVBdEg1dVgzM29WamhUM2dDVm81b2pvN0xaWEJMNGh2ank3WHd4N25neEZ6NmJremthM2lvaWhrX2N5?oc=5",
-   "date": "2026-11-20",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "BUY",
-   "stocks": [
-    "Maruti Suzuki",
-    "ICICI Bank",
-    "Hindustan Unilever"
-   ]
-  },
-  {
-   "broker": "IIFL Capital",
-   "title": "FIH Mauritius reaches 51.22% diluted stake in IIFL Capital",
-   "source": "Multibagg AI",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOUltdGZMOE13WE5ob0RzVDdjZnlSWlE2YXNnU0ZQQVptRUJIMEJ4NEFqdlVscXRFU3VYa1FsOHp1bmJxRWR0b0tXLUJtOGdENHU4emFuTGhrclFGWGZtMEZFY1hDcnFreDhPcEdiMUxteXZ2bmpGQVV1dG94R1RsazZTUDI4dnhNVVBVM28zNzlUaGZhYnFZMGgybS1ualliZC1hTmlfXzRTR01jOV9tbk1leVJfSk1JSGFYcWlfQQ?oc=5",
-   "date": "2026-11-20",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "IIFL Capital",
-   "title": "FIH Mauritius Raises IIFL Capital Holding Above Majority Mark Through Block Deal",
-   "source": "Dalal Street Investment Journal",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUzYyWGZ3aEsxbFRfSU5HaHAxZGUyeFItQnZ4QXNoU0owOEZkQjgzX2VCSXNadHNTLXpNZFN0dGtqVDdWMnZVdHdQV3lwYmNuN3lOYk93bk1Fb3RYamI5TTU4Q3I5MFJMZXN4OXRqZmo1VVQyNzFXUGI2MVFUcF9YdjZDdndoQjBtSHhkbTVaWV9BMWF5TzZrSlVOZ18yNmx5Tk1XRHl5VmdFbjBMMUJJRWJoMDd4enFkcllub3l3UEE?oc=5",
-   "date": "2026-11-20",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "Anand Rathi",
-   "title": "Anand Rathi Share Broker Share Price Target 2027",
-   "source": "Univest",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTkhHU0oyWnZ3dkpEeHZMNExvUzlCLTNMd1IwUUZONVg5YWY4d2RFdTRZWkowaXJydUV0STl4YktQYjJ1UGhTdHZ0TzlUTmVaSnZzU295S2JQOVdndGl5a0Y4N0x6dUdTYzlZX1ZuNFo5Mi0xbHJrX294ZF9peWlhSA?oc=5",
-   "date": "2026-11-20",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "Anand Rathi",
-   "title": "NSE share price target: Up 37% from low, stock hits record high! Anand Rathi sees further upside, initiates with 'buy'",
-   "source": "Livemint",
-   "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNZ3R6SDdETmxOV2pGQWtfNTJWN0lfQkRJRnpxZ0xyVkZaWXo1U0ZUYU9aM1JxRFJ4TDVxWHJtSGw0LVlVbThCR1Rhby1DM1B5aFdrSWV3NkotUHpZdHVNR3JZVkY2QmdYNS1MR2FHdkY5M1ZtaEt4UnVkdkdaa3BhNXNpakhNS245cE40ZVRTLW03MnhmdlRzaVBiSDFrbWV4Zm5VSWVDd29fbVYxSlgyQklBcjhFUlN6MDFuWHJaX3lEU2cyenlPOC1JX2hIeTBFUXl2T01xcWMwRHZ6NnJSakRhclA0c0lnMGY0R2pxdm9Nc3FfejREanNjSm5rVnBQeXR3ekNLXzgwSW9SYnfSAZMCQVVfeXFMT0JsRE5mWkNsT1N5bUd3bTJ6bk8wUlYzQlRkb1dMQ09aczgtUjByazduVGxreUV2VWVmdzVGU0lxQzFOd1Zsa3poOGRfanpBZ3VmTWQ0NDd0Q21JM1FGME5hTjgxWmdscEJJTlpfQ1lkZ0VkNDRuUjQ4RENMUFBSalRscE5DQXpPYktyV2NQalpoSUJhTzVEOTJTNUtWWFIwMWNfbW1kNkNHanpELUp4ajNqOHhiTHRnTUJJNFJwUkdlOG03X0NlNUFCZXd6S09SOWRvV0ViX05JcTlTbUx1b24zSjRtY1h4YXRIODdjVWlXRDBnWngzeGJzdldUZFhXbzlYMFFIbGx0M1o5SHV0SkptMEU?oc=5",
-   "date": "2026-11-20",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "BUY",
-   "stocks": []
-  },
-  {
-   "broker": "Geojit",
-   "title": "Geojit Diwali Picks 2026: 10 Muhurat Stock Picks Named",
-   "source": "Univest",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV0p4ZFg5bDVtS2h3NkRZUzVRQ3BzZWRNQk9hRGgxWHljMVVxNTllWXR3NUk2WHREYnF3S09kUDVjT3lUbWdaUzJuc0w5ZUUycmo0Wm1lNm90Y3V4ZWdwWnd6c1Z1eDRWdTIyVF9MaUZmUUVzX0JFQkJVcDZqZG43aG1zYld2NUlnZVI2ZGIxWnhNVFhCNVdPeHZuYzI3b0VKWFJxM2o4dUlmYWFOWWpaZU5xR18xUS03a2FxeGJnb3BmczJBTXJKTFBra0FudUdyd1RHSTEwM3R2SkJs?oc=5",
-   "date": "2026-11-20",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "JM Financial",
-   "title": "JM Financial hikes target price of Poonawalla Fincorp; sees 24% upside",
-   "source": "The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPelM4eXV2WDUwbjMtdE43TC1IbUVQSWQ1UXotMndWN1k4bUJ0dEloTHFrWkdEQ0R1OVpjOFJUV2Q0UEtuYmRPUnh2NVVuOTV3YzlvMk5jNk1lQ0tPSldEYmRmLUZZSHFsempKb1VUZEhURzA2Y04tWS1tTnRUSC1odlJOTmlHV0M1aGY4SjRoS1VCWUR3VWI0S1pRalVmOE44Q2VYSXUzSEhXbERxNFhaQmxvMVZZRjljTVVlcGtlMUtZc29RSDVxZ0lhSVdDcWtrcFY5M0JxXzhTQdIB3wFBVV95cUxOUXJ3WkhvcDFiYzRIejlTOGNqcXVjMTJRdU5XeVl6VEVmd19neERJbExlRklOX3dETUJKZ0VtOTV2SXI4M2VhVk1VU2xELThLZ2d6SXNlajBUdWhIV0tBZDBIeWdwXzBsNFhpeDZqVnhQVWtBU2pnUjlOclNzZHppNmhKbG1fMkhOcmUtQ0tRWlVHdjBfa2poOXc1SFpGQ2p2T01fZy1aUEZaOGphZzZEdUduSHVud0VBOTlQd2VzdmpDSm9qcE5IRDY2Zkd1eEpuV0RHU18tYlBYR2Z5U25V?oc=5",
-   "date": "2026-11-20",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "Edelweiss",
-   "title": "Edelweiss Financial Services Share Price Target 2027",
-   "source": "Univest",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT01QZTQtUDRBVm43R2pvbi03RWFJNWFiT3k0T1dSSVRRLW90NGF4czU3WFRNWkpOelE1WlNRTDJrZjlOOUZQUHFFTkc5dDlZQU15ajEtaHgwZXYwLWZROTJJMGdEbDdPeVc4TXFzR1hraXRqODR0WXVIdkZvTlNEMmJhNA?oc=5",
-   "date": "2026-11-20",
-   "target": "",
-   "stop_loss": "",
-   "period": "",
-   "call": "",
-   "stocks": []
-  },
-  {
-   "broker": "Prabhudas Lilladher",
-   "title": "Buy Apeejay Surrendra Park Hotels; target of Rs 160: Prabhudas Lilladher",
-   "source": "Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOEhmeW1VTEVaR0lJenV6OVZtWFRaY1V6V1ZRbnU3QkNKb1VkUFBZVHJWcmV0Y2xPUWtZaVR0aC1NZzRybXB0NkxHSE9kdzNsQnZjdnM0OVhTUTJrNWFQdm5wN0o0QW9OYjNZWDFpeXNfSjQ0blBtanI5RXluUHNOSkN6amRGX0huN21UQ0RyRXF2czlqODJkLVdZdXVPRTRxSzhuOWI0cDJHMGVtWE9YRm9tdEZBRUNPT28xYmZIRktkb0tuTVZxcmhiZVVkaFnSAdQBQVVfeXFMTjVGbmdtaGJwYlN2ZV91SnJOTy1VdnZuOGhWMjZKRFdyYmplWjFMZ3FDNmp4Ql9SNlhxVklKV0pOTUo1VFEydGYzTENobE9yOU9wMVgwSGRXOTdQWlFUelNFb0hhUDNZR2ptb3lMUl9DTXZiQ2I5VzVOOERIWXhzRXZQWmVyWktmYW5YdzRkNXhYdDhfeVZDcG94d2k5bVJDTXJMTDBLcmhkbHpnYVFBUE1uTFFWRVVDUHBybkJBbG9CVVVRaVlqMGRETVFlYk1rTm9JSlk?oc=5",
-   "date": "2026-11-20",
-   "target": "160",
-   "stop_loss": "",
-   "period": "",
-   "call": "BUY",
    "stocks": []
   }
  ]
